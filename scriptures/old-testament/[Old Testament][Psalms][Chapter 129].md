@@ -1,0 +1,25 @@
+Collection: Old Testament
+Book: Psalms
+Chapter: 129
+Title: 
+URL: https://www.churchofjesuschrist.org/study/scriptures/ot/ps/129?lang=eng
+
+---
+
+The Lord is righteousâLet those be confounded who hate Zion.
+
+1 Many a time have they afflicted me from my youth, may Israel now say:
+
+2 Many a time have they afflicted me from my youth: yet they have not prevailed against me.
+
+3 The plowers plowed upon my back: they made long their furrows.
+
+4 The Lord is righteous: he hath cut asunder the cords of the wicked.
+
+5 Let them all be confounded and turned back that hate Zion.
+
+6 Let them be as the grass upon the housetops, which withereth afore it groweth up:
+
+7 Wherewith the mower filleth not his hand; nor he that bindeth sheaves his bosom.
+
+8 Neither do they which go by say, The blessing of the Lord be upon you: we bless you in the name of the Lord.

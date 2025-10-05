@@ -1,0 +1,29 @@
+Collection: Old Testament
+Book: Psalms
+Chapter: 112
+Title: 
+URL: https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng
+
+---
+
+Blessed is the man who fears the LordâThe righteous will be remembered always.
+
+1 Praise ye the Lord. Blessed is the man that feareth the Lord, that delighteth greatly in his commandments.
+
+2 His seed shall be mighty upon earth: the generation of the upright shall be blessed.
+
+3 Wealth and riches shall be in his house: and his righteousness endureth for ever.
+
+4 Unto the upright there ariseth light in the darkness: he is gracious, and full of compassion, and righteous.
+
+5 A good man sheweth favour, and lendeth: he will guide his affairs with discretion.
+
+6 Surely he shall not be moved for ever: the righteous shall be in everlasting remembrance.
+
+7 He shall not be afraid of evil tidings: his heart is fixed, trusting in the Lord.
+
+8 His heart is established, he shall not be afraid, until he see his desire upon his enemies.
+
+9 He hath dispersed, he hath given to the poor; his righteousness endureth for ever; his horn shall be exalted with honour.
+
+10 The wicked shall see it, and be grieved; he shall gnash with his teeth, and melt away: the desire of the wicked shall perish.
