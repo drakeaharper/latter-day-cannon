@@ -1,0 +1,346 @@
+/* Mind Map Specific Styles */
+
+.mind-map-page {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+    background-color: var(--light-bg);
+}
+
+.toolbar {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.toolbar-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.toolbar button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.toolbar button span {
+    margin-right: 0.25rem;
+}
+
+.toolbar label {
+    font-size: 0.9rem;
+    color: var(--dark-text);
+    margin-left: 1rem;
+}
+
+.toolbar input[type="color"] {
+    width: 40px;
+    height: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.toolbar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.current-map-title {
+    margin-left: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+/* Map Sidebar */
+.map-sidebar {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 280px;
+    height: calc(100vh - 150px);
+    background-color: var(--white);
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    overflow-y: auto;
+    z-index: 50;
+    transition: transform 0.3s ease;
+}
+
+.map-sidebar.hidden {
+    transform: translateX(-100%);
+}
+
+.map-sidebar h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.map-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.no-maps {
+    color: var(--light-text);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.map-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: var(--light-bg);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.map-list-item:hover {
+    background-color: #d5dbdb;
+}
+
+.map-list-item.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.map-name {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.delete-map-btn {
+    background: none;
+    border: none;
+    color: var(--danger-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 1;
+    transition: transform 0.2s;
+}
+
+.map-list-item.active .delete-map-btn {
+    color: var(--white);
+}
+
+.delete-map-btn:hover {
+    transform: scale(1.2);
+}
+
+.canvas-container {
+    flex: 1;
+    background-color: #fafafa;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#mind-map-canvas {
+    display: block;
+    cursor: crosshair;
+}
+
+/* SVG Node Styles */
+.mind-map-node {
+    cursor: move;
+    transition: filter 0.2s;
+}
+
+.mind-map-node:hover {
+    filter: brightness(1.1);
+}
+
+.mind-map-node.selected {
+    filter: drop-shadow(0 0 8px rgba(52, 152, 219, 0.8));
+}
+
+.node-shape {
+    stroke: rgba(0,0,0,0.2);
+    stroke-width: 2;
+}
+
+.node-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-size: 14px;
+    fill: var(--white);
+    text-anchor: middle;
+    dominant-baseline: middle;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Connection Lines */
+.connection-line {
+    stroke: #666;
+    stroke-width: 2;
+    fill: none;
+    marker-end: url(#arrowhead);
+}
+
+.connection-line.selected {
+    stroke: var(--primary-color);
+    stroke-width: 3;
+}
+
+/* Panels */
+.panel {
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 1.5rem;
+    z-index: 100;
+}
+
+#node-editor {
+    top: 100px;
+    right: 20px;
+    width: 300px;
+}
+
+#info-panel {
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+}
+
+.panel h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--dark-text);
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.button-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.button-group .btn {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Instructions */
+#info-panel ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+#info-panel li {
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--dark-text);
+}
+
+#info-panel strong {
+    color: var(--secondary-color);
+}
+
+.node-type-legend {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.node-type-legend h4 {
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+    color: var(--secondary-color);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+/* Node Type Colors */
+.node-type-topic { fill: #3498db; }
+.node-type-scripture { fill: #2ecc71; }
+.node-type-insight { fill: #f39c12; }
+.node-type-question { fill: #e74c3c; }
+.node-type-note { fill: #9b59b6; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .toolbar {
+        padding: 0.75rem 1rem;
+        gap: 1rem;
+    }
+
+    .toolbar-section {
+        gap: 0.5rem;
+    }
+
+    #node-editor,
+    #info-panel {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+
+    #node-editor {
+        top: 80px;
+    }
+
+    #info-panel {
+        bottom: 10px;
+    }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Map - Scripture Study Helper</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/mind-map.css">
+</head>
+<body>
+    <header id="app-header">
+        <div class="header-content">
+            <h1 class="logo">Scripture Study Helper</h1>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="mind-map.html" class="nav-link active">Mind Map</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="mind-map-page">
+        <div class="toolbar">
+            <div class="toolbar-section">
+                <button id="toggle-map-list-btn" class="btn btn-secondary">
+                    <span>📋</span> Maps
+                </button>
+                <button id="new-map-btn" class="btn btn-primary">
+                    <span>📄</span> New
+                </button>
+                <button id="save-map-btn" class="btn btn-primary">
+                    <span>💾</span> Save
+                </button>
+                <button id="save-as-btn" class="btn btn-secondary">
+                    <span>💾</span> Save As
+                </button>
+                <span id="current-map-title" class="current-map-title">Untitled Map</span>
+            </div>
+
+            <div class="toolbar-section">
+                <button id="add-node-btn" class="btn btn-primary">
+                    <span>➕</span> Add Node
+                </button>
+                <button id="add-connection-btn" class="btn btn-secondary">
+                    <span>🔗</span> Add Connection
+                </button>
+            </div>
+
+            <div class="toolbar-section">
+                <button id="clear-map-btn" class="btn btn-danger">
+                    <span>🗑️</span> Clear Map
+                </button>
+                <button id="export-btn" class="btn btn-secondary">
+                    <span>📤</span> Export
+                </button>
+                <button id="import-btn" class="btn btn-secondary">
+                    <span>📂</span> Import
+                </button>
+            </div>
+
+            <div class="toolbar-section">
+                <label for="node-color">Node Color:</label>
+                <input type="color" id="node-color" value="#3498db">
+
+                <label for="node-shape">Shape:</label>
+                <select id="node-shape">
+                    <option value="circle">Circle</option>
+                    <option value="rectangle">Rectangle</option>
+                    <option value="rounded" selected>Rounded</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="map-sidebar" class="map-sidebar hidden">
+            <h3>Saved Mind Maps</h3>
+            <div id="map-list" class="map-list"></div>
+        </div>
+
+        <div class="canvas-container">
+            <svg id="mind-map-canvas" width="100%" height="100%">
+                <defs>
+                    <marker id="arrowhead" markerWidth="10" markerHeight="10"
+                            refX="9" refY="3" orient="auto">
+                        <polygon points="0 0, 10 3, 0 6" fill="#666" />
+                    </marker>
+                </defs>
+                <g id="connections-layer"></g>
+                <g id="nodes-layer"></g>
+            </svg>
+        </div>
+
+        <div id="node-editor" class="panel hidden">
+            <h3>Edit Node</h3>
+            <div class="form-group">
+                <label for="node-title">Title:</label>
+                <input type="text" id="node-title" placeholder="Enter node title">
+            </div>
+            <div class="form-group">
+                <label for="node-description">Description:</label>
+                <textarea id="node-description" rows="3" placeholder="Add details or scripture references"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="node-type">Type:</label>
+                <select id="node-type">
+                    <option value="topic">Topic</option>
+                    <option value="scripture">Scripture</option>
+                    <option value="insight">Insight</option>
+                    <option value="question">Question</option>
+                    <option value="note">Note</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button id="save-node-btn" class="btn btn-primary">Save</button>
+                <button id="delete-node-btn" class="btn btn-danger">Delete</button>
+                <button id="cancel-edit-btn" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+
+        <div id="info-panel" class="panel">
+            <h3>Instructions</h3>
+            <ul>
+                <li><strong>Add Node:</strong> Click "Add Node" button, then click on canvas</li>
+                <li><strong>Edit Node:</strong> Double-click on any node</li>
+                <li><strong>Move Node:</strong> Drag nodes to reposition</li>
+                <li><strong>Connect Nodes:</strong> Click "Add Connection", then click two nodes</li>
+                <li><strong>Delete:</strong> Select a node and click "Delete" in the editor</li>
+            </ul>
+            <div class="node-type-legend">
+                <h4>Node Types:</h4>
+                <div class="legend-item"><span class="color-box" style="background: #3498db;"></span> Topic</div>
+                <div class="legend-item"><span class="color-box" style="background: #2ecc71;"></span> Scripture</div>
+                <div class="legend-item"><span class="color-box" style="background: #f39c12;"></span> Insight</div>
+                <div class="legend-item"><span class="color-box" style="background: #e74c3c;"></span> Question</div>
+                <div class="legend-item"><span class="color-box" style="background: #9b59b6;"></span> Note</div>
+            </div>
+        </div>
+    </main>
+
+    <input type="file" id="import-file-input" accept=".json" style="display: none;">
+
+    <script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/sql-wasm.js"></script>
+    <script src="../js/database.js"></script>
+    <script src="../js/mind-map.js"></script>
+</body>
+</html>
