@@ -1,0 +1,11 @@
+Topic: Shape
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/shape?lang=eng
+
+---
+
+## New Testament
+
+- Holy Ghost descended in a bodily shape like a dove, Luke 3:22.
+- Ye have neither heard his voice â¦ nor seen his shape, John 5:37.
+- shapes of the locusts were like unto horses, Rev. 9:7.
+

@@ -1,0 +1,23 @@
+Topic: Darken
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/darken?lang=eng
+
+---
+
+## Old Testament
+
+- covered the face of the whole earth, so that the land was darkened, Ex. 10:15.
+- darkeneth counsel by words without knowledge, Job 38:2.
+- Through the wrath of the Lord of hosts is the land darkened, Isa. 9:19 (2Â Ne. 19:19).
+- sun and the moon shall be darkened, Joel 3:15.
+- darken the earth in the clear day, Amos 8:9.
+
+## New Testament
+
+- Let their eyes be darkened, Ps. 69:23 (Rom. 11:10).
+- sun shall be darkened, Isa. 13:10 (Matt. 24:29; Mark 13:24; 2Â Ne. 23:10; D&C 29:14; 45:42; JSâM 1:33).
+- sun was darkened, and the veil of the temple, Luke 23:45.
+- their foolish heart was darkened, Rom. 1:21.
+- understanding darkened, being alienated, Eph. 4:18.
+- third part of them was darkened, Rev. 8:12.
+- sun and the air were darkened, Rev. 9:2.
+

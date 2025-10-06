@@ -1,0 +1,17 @@
+Topic: Tare [noun]
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/tare-noun?lang=eng
+
+---
+
+## New Testament
+
+- enemy came and sowed tares among the wheat, Matt. 13:25.
+- Declare unto us the parable of the tares, Matt. 13:36 (D&C 86:1â7).
+- the tares are the children of the wicked one, Matt. 13:38.
+
+## Doctrine and Covenants
+
+- angels are waiting â¦ to gather the tares, D&C 38:12.
+- That great church â¦ is the tares of the earth, D&C 88:94.
+- gather together my people, according to the parable of the wheat and the tares, D&C 101:65.
+

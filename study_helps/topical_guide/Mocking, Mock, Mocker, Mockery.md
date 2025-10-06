@@ -1,0 +1,59 @@
+Topic: Mocking, Mock, Mocker, Mockery
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/mocking?lang=eng
+
+---
+
+## See Also
+
+Persecution; Profanity
+
+---
+
+## Old Testament
+
+- he seemed as one that mocked unto his sons in law, Gen. 19:14.
+- Sarah saw the son of Hagar â¦ mocking, Gen. 21:9.
+- he hath brought in an Hebrew unto us to mock us, Gen. 39:14.
+- said unto the ass, Because thou hast mocked me, Num. 22:29.
+- thou hast mocked me, and told me lies, Judg. 16:10.
+- With hypocritical mockers in feasts, Ps. 35:16.
+- Fools make a mock at sin, Prov. 14:9.
+- Whoso mocketh the poor reproacheth his Maker, Prov. 17:5.
+- Wine is a mocker, Prov. 20:1.
+- adversaries saw her, and did mock at her sabbaths, Lam. 1:7.
+
+## New Testament
+
+- he saw that he was mocked of the wise men, Matt. 2:16.
+- to mock, and to scourge, Matt. 20:19 (Mark 10:34; Luke 18:32).
+- mocked him, saying, Hail, King of the Jews, Matt. 27:29.
+- the chief priests mocking him, Matt. 27:41 (Mark 15:31).
+- they shall mock him, Mark 10:34 (Luke 18:32; 1Â Ne. 1:19).
+- they had mocked him â¦ and led him out to crucify him, Mark 15:20.
+- Lest â¦ all that behold it begin to mock him, Luke 14:29.
+- men that held Jesus mocked him, Luke 22:63.
+- Herod with his men of war â¦ mocked him, Luke 23:11.
+- soldiers also mocked him, Luke 23:36.
+- Others mocking said, These men are full of new wine, Acts 2:13.
+- heard of the resurrection of the dead, some mocked, Acts 17:32.
+- Be not deceived; God is not mocked, Gal. 6:7.
+- others had trial of cruel mockings, Heb. 11:36.
+- should be mockers in the last time, Jude 1:18.
+
+## Book of Mormon
+
+- make a mock of the great plan of redemption, Jacob 6:8.
+- suffereth himself to be mocked, and scourged, Mosiah 15:5.
+- one among you that doth make a mock of his brother, Alma 5:30.
+- making a mock of that which was sacred, Hel. 4:12.
+- people did revile against the prophets, and did mock them, Ether 7:24.
+- I fear lest the Gentiles shall mock at our words, Ether 12:25.
+- Fools mock, but they shall mourn, Ether 12:26.
+- solemn mockery before God, that ye should baptize little children, Moro. 8:9.
+
+## Doctrine and Covenants
+
+- calamity shall cover the mocker, D&C 45:50.
+- Lord, am not to be mocked in the last days, D&C 63:58 (104:6).
+- Lord â¦ cannot be mocked in any of these things, D&C 124:71.
+

@@ -1,0 +1,33 @@
+Topic: Grow, Grew, Grown
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/grow?lang=eng
+
+---
+
+## See Also
+
+Enlarge; Flourish; Increase
+
+---
+
+## Old Testament
+
+- hair of his head began to grow again, Judg. 16:22.
+- he shall grow up before him as a tender plant, Isa. 53:2 (Mosiah 14:2).
+
+## New Testament
+
+- Let both grow together until the harvest, Matt. 13:30.
+- word of God grew and multiplied, Acts 12:24.
+- mightily grew the word of God and prevailed, Acts 19:20.
+
+## Book of Mormon
+
+- seed â¦ beginneth to grow, Alma 32:30 (32:32â41).
+
+## Doctrine and Covenants
+
+- children shall grow up without sin, D&C 45:58.
+- light groweth brighter and brighter, D&C 50:24.
+- ye must grow in grace, D&C 50:40.
+- wheat and the tares grow together, D&C 86:7.
+

@@ -1,0 +1,14 @@
+Topic: Nobleman
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/nobleman?lang=eng
+
+---
+
+## New Testament
+
+- certain nobleman went into a far country, Luke 19:12.
+- certain nobleman, whose son was sick at Capernaum, John 4:46.
+
+## Doctrine and Covenants
+
+- certain nobleman had a spot of land, D&C 101:44.
+

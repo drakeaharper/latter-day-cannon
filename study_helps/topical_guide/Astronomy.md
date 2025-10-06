@@ -1,0 +1,55 @@
+Topic: Astronomy
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/astronomy?lang=eng
+
+---
+
+## See Also
+
+Moon; Star; Sun
+
+---
+
+## Old Testament
+
+- God created the heaven and the earth, Gen. 1:1.
+- Let there be lights in the firmament, Gen. 1:14 (Moses 2:18).
+- all the host of heaven â¦ which the Lord â¦ hath divided, Deut. 4:19.
+- sun stood still, and the moon stayed, Josh. 10:13.
+- maketh Arcturus, Orion, and Pleiades, Job 9:9.
+- loose the bands of Orion, Job 38:31.
+- thy heavens â¦ the moon and the stars, which thou hast ordained, Ps. 8:3.
+- sun to rule by day, Ps. 136:8.
+- telleth the number of the stars â¦ by their names, Ps. 147:4.
+- giveth the sun for a light by day, Jer. 31:35.
+- shew wonders in the heavens, Joel 2:30.
+- See also 1Â Sam. 20:5; Amos 5:8; Hel. 14:3; Abr. 5:13.
+
+## New Testament
+
+- we have seen his star in the east, Matt. 2:2.
+- sun be darkened, and the moon shall not, Matt. 24:29 (Mark 13:25; Luke 21:25; 2Â Ne. 23:10; Hel. 14:20; D&C 45:42; 88:87; JSâM 1:33).
+- Son â¦ by whom also he made the worlds, Heb. 1:2.
+- wandering stars, to whom is reserved the blackness, Jude 1:13.
+
+## Book of Mormon
+
+- all the planets which move, Alma 30:44.
+- earth that moveth and not the sun, Hel. 12:15.
+- a new star arise, Hel. 14:5 (3Â Ne. 1:21).
+
+## Doctrine and Covenants
+
+- worlds are and were created, D&C 76:24.
+- no space in the which there is no kingdom, D&C 88:37.
+- reside in the presence of God, on a globe like a sea, D&C 130:7.
+
+## Pearl of Great Price
+
+- worlds without number have I created, Moses 1:33.
+- millions of earths like this, Moses 7:30.
+- knowledge â¦ of the planets, and of the stars, Abr. 1:31.
+- great one is Kolob, Abr. 3:3.
+- revolution was a day unto the Lord, Abr. 3:4.
+- reckoning of the time of one planet, Abr. 3:9.
+- Kokaubeam, which signifies stars, Abr. 3:13.
+

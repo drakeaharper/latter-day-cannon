@@ -1,0 +1,47 @@
+Topic: Weary
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/weary?lang=eng
+
+---
+
+## See Also
+
+Unwearyingness; Weariness
+
+---
+
+## Old Testament
+
+- Rebekah said to Isaac, I am weary of my life, Gen. 27:46.
+- neither be weary of his correction, Prov. 3:11.
+- labour of the foolish wearieth every one, Eccl. 10:15.
+- new moons and your appointed feasts â¦ I am weary to bear them, Isa. 1:14.
+- None shall be weary nor stumble, Isa. 5:27 (2Â Ne. 15:26).
+- will ye weary my God also, Isa. 7:13 (2Â Ne. 17:13).
+- rest wherewith ye may cause the weary to rest, Isa. 28:12.
+- shall run, and not be weary, Isa. 40:31 (D&C 89:20).
+- Thou art wearied in the multitude of thy counsels, Isa. 47:13.
+- Thou art wearied in the greatness of thy way, Isa. 57:10.
+- they â¦ weary themselves to commit iniquity, Jer. 9:5.
+- Ye have wearied the Lord with your words, Mal. 2:17.
+
+## New Testament
+
+- lest by her continual coming she weary me, Luke 18:5 (D&C 101:84).
+- not be weary in well doing, Gal. 6:9 (2Â Thes. 3:13; D&C 64:33).
+- lest ye be wearied and faint in your minds, Heb. 12:3.
+
+## Book of Mormon
+
+- to never be weary of good works, Alma 37:34.
+- Nephi had become weary, Hel. 5:4.
+
+## Doctrine and Covenants
+
+- preach this gospel â¦ shall not be weary in mind, D&C 84:80.
+- retire to thy bed early, that ye may not be weary, D&C 88:124.
+- a good house â¦ that the weary traveler may find health and safety, D&C 124:23.
+
+## Pearl of Great Price
+
+- wo is me â¦ I am weary, Moses 7:48.
+

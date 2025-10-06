@@ -1,0 +1,24 @@
+Topic: Correct
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/correct?lang=eng
+
+---
+
+## See Also
+
+Chastening; Correction
+
+---
+
+## Old Testament
+
+- happy is the man whom God correcteth, Job 5:17.
+- thou with rebukes dost correct man for iniquity, Ps. 39:11.
+- whom the Lord loveth he correcteth, Prov. 3:12.
+- Correct thy son, and he shall give thee rest, Prov. 29:17.
+- Thine own wickedness shall correct thee, Jer. 2:19.
+- correct me, but with judgment, Jer. 10:24.
+
+## New Testament
+
+- fathers of our flesh which corrected us, Heb. 12:9.
+

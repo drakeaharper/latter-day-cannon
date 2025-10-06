@@ -1,0 +1,25 @@
+Topic: Type, Typify
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/type?lang=eng
+
+---
+
+## See Also
+
+Jesus Christ, Types of, in Anticipation; Jesus Christ, Types of, in Memory; Symbolism
+
+---
+
+## Book of Mormon
+
+- types, and shadows showed he unto them, Mosiah 3:15.
+- type and a shadow of things which are to come, Mosiah 13:10 (13:31).
+- it being a type of his order, Alma 13:16.
+- law of Moses was a type of his coming, Alma 25:15.
+- type was raised up in the wilderness, Alma 33:19.
+- is there not a type in this thing, Alma 37:45.
+- for which things there has been a type, Ether 13:6.
+
+## Pearl of Great Price
+
+- this end hath the law of Moses â¦ the typifying of him, 2Â Ne. 11:4.
+

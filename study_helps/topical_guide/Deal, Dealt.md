@@ -1,0 +1,17 @@
+Topic: Deal, Dealt
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/deal?lang=eng
+
+---
+
+## Old Testament
+
+- let us deal wisely with them, Ex. 1:10.
+- deal kindly and truly with thee, Josh. 2:14.
+- treacherous dealer dealeth treacherously, Isa. 21:2 (24:16).
+- Is it not to deal thy bread to the hungry, Isa. 58:7.
+- from the prophet even unto the priest every one dealeth falsely, Jer. 6:13 (8:10).
+
+## New Testament
+
+- hath dealt to every man the measure of faith, Rom. 12:3.
+

@@ -1,0 +1,70 @@
+Topic: Mourning, Mourn
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/mourning?lang=eng
+
+---
+
+## See Also
+
+Despair; Grief; Lamentation; Sorrow; Weep
+
+---
+
+## Old Testament
+
+- go down into the grave â¦ mourning, Gen. 37:35.
+- Moses told these sayings â¦ and the people mourned greatly, Num. 14:39.
+- days of â¦ mourning for Moses were ended, Deut. 34:8.
+- those which mourn may be exalted, Job 5:11.
+- wicked beareth rule, the people mourn, Prov. 29:2.
+- time to mourn, Eccl. 3:4.
+- better to go to the house of mourning, Eccl. 7:2.
+- The earth mourneth and fadeth away, Isa. 24:4.
+- sorrow and mourning shall flee away, Isa. 51:11.
+- days of thy mourning shall be ended, Isa. 60:20.
+- to comfort all that mourn, Isa. 61:2.
+- I will turn their mourning into joy, Jer. 31:13.
+- mourning, every one for his iniquity, Ezek. 7:16.
+- priests, the Lordâs ministers, mourn, Joel 1:9.
+- In that day shall there be a great mourning, Zech. 12:11.
+
+## New Testament
+
+- great mourning, Rachel weeping for her children, Matt. 2:18.
+- Blessed are they that mourn, Matt. 5:4 (3Â Ne. 12:4; D&C 101:14).
+- Can the children of the bridechamber mourn, Matt. 9:15.
+- tribes of the earth mourn, Matt. 24:30 (JSâM 1:36).
+- Woe unto you that laugh now! for ye shall mourn, Luke 6:25.
+- we have mourned to you, and ye have not wept, Luke 7:32.
+- let your laughter be turned to mourning, James 4:9.
+- merchants of the earth shall â¦ mourn, Rev. 18:11.
+- See also Lev. 19:28; Isa. 22:4; Jer. 9:1; Lam. 3:48; Ezek. 7:11; 2Â Cor. 5:4; James 5:1; Morm. 6:16; D&C 42:45.
+
+## Book of Mormon
+
+- we did mourn out our days, Jacob 7:26.
+- how great reason we have to mourn, Mosiah 7:23.
+- willing to mourn with those that mourn, Mosiah 18:9.
+- great mourning and lamentation among the people, Mosiah 21:9 (Alma 28:4).
+- days of fasting, and mourning, and prayer, Alma 30:2.
+- great mourning for the wickedness of the people, Hel. 7:11.
+- because of my mourning and lamentation, Hel. 7:15.
+- to mourn and to fast, at the burial, Hel. 9:10.
+- saw their lamentation and their mourning, Morm. 2:12.
+- prophets mourned and withdrew, Ether 11:13.
+- Fools mock, but they shall mourn, Ether 12:26.
+- his soul mourned and refused to be comforted, Ether 15:3.
+
+## Doctrine and Covenants
+
+- Lord shall utter his voice, and â¦ the earth shall mourn, D&C 45:49.
+- inhabitants of the earth shall mourn, D&C 87:6.
+- your fastings and your mourning, D&C 95:7.
+- let Zion rejoice, while all the wicked shall mourn, D&C 97:21.
+- when the wicked rule the people mourn, D&C 98:9.
+- day of desolation, of weeping, of mourning, D&C 112:24.
+
+## Pearl of Great Price
+
+- Adam and his wife mourned before the Lord, Moses 5:27.
+- when Enoch heard the earth mourn, he wept, Moses 7:49.
+

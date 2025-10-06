@@ -1,0 +1,15 @@
+Topic: Athirst
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/athirst?lang=eng
+
+---
+
+## Old Testament
+
+- he was sore athirst, and called on the Lord, Judg. 15:18.
+
+## New Testament
+
+- Lord, when saw we thee â¦ athirst, Matt. 25:44.
+- give unto him that is athirst of the fountain, Rev. 21:6.
+- let him that is athirst come, Rev. 22:17.
+

@@ -1,0 +1,94 @@
+Topic: Vision
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/vision?lang=eng
+
+---
+
+## See Also
+
+Dream; God, Privilege of Seeing; Revelation
+
+---
+
+## Old Testament
+
+- word of the Lord came â¦ in a vision, Gen. 15:1.
+- God spake â¦ in the visions of the night, Gen. 46:2.
+- Lord will make myself known unto him in a vision, Num. 12:6.
+- saw the vision of the Almighty, Num. 24:4.
+- thoughts from the visions of the night, Job 4:13.
+- thou â¦ terrifiest me through visions, Job 7:14.
+- In a dream, in a vision of the night, Job 33:15 (2Â Ne. 27:3).
+- thou spakest in vision to thy holy one, Ps. 89:19.
+- no vision, the people perish, Prov. 29:18.
+- vision of Isaiah, Isa. 1:1.
+- burden of the valley of vision, Isa. 22:1.
+- they err in vision, Isa. 28:7.
+- vision of all is become unto you as the words of a book, Isa. 29:11.
+- word of the Lord â¦ saying â¦ what seest thou, Jer. 1:11.
+- they prophesy â¦ a false vision, Jer. 14:14.
+- they speak a vision of their own heart, Jer. 23:16.
+- her prophets also find no vision, Lam. 2:9.
+- I saw visions of God, Ezek. 1:1.
+- then shall they seek a vision of the prophet, Ezek. 7:26.
+- spirit â¦ brought me in the visions of God to Jerusalem, Ezek. 8:3.
+- spirit â¦ brought me in a vision â¦ into Chaldea, Ezek. 11:24.
+- days are prolonged, and every vision faileth, Ezek. 12:22.
+- Have ye not seen a vain vision, Ezek. 13:7.
+- In the visions of God brought he me into â¦ Israel, Ezek. 40:2.
+- visions were like the vision that I saw by the river, Ezek. 43:3.
+- Daniel had understanding in all visions, Dan. 1:17.
+- secret revealed unto Daniel in a night vision, Dan. 2:19.
+- I saw in my vision by night, Dan. 7:2.
+- vision appeared unto me â¦ Daniel, Dan. 8:1.
+- vision of the evening and the morning â¦ is true, Dan. 8:26.
+- Seventy weeks are determined â¦ to seal up the vision, Dan. 9:24.
+- Daniel alone saw the vision, Dan. 10:7.
+- I have multiplied visions, Hosea 12:10.
+- vision of Obadiah, Obad. 1:1.
+- ye shall not have a vision, Micah 3:6.
+- book of the vision of Nahum, Nahum 1:1.
+- Write the vision, and make it plain upon tables, Hab. 2:2.
+- prophets shall be ashamed â¦ of his vision, Zech. 13:4.
+
+## New Testament
+
+- young men shall see visions, Joel 2:28 (Acts 2:17).
+- Tell the vision to no man, Matt. 17:9.
+- they perceived that he had seen a vision, Luke 1:22.
+- they had also seen a vision of angels, Luke 24:23.
+- saw â¦ Jesus standing on the right hand of God, Acts 7:55.
+- to him said the Lord in a vision, Ananias, Acts 9:10.
+- He saw in a vision, Acts 10:3.
+- in a trance I saw a vision, Acts 11:5.
+- he â¦ thought he saw a vision, Acts 12:9.
+- vision appeared to Paul in the night, Acts 16:9 (18:9).
+- the night following the Lord stood by him, Acts 23:11.
+- I was not disobedient unto the heavenly vision, Acts 26:19.
+- stood by me this night the angel of God, Acts 27:23.
+- I saw the horses in the vision, Rev. 9:17.
+- See also Acts 22:6.
+
+## Book of Mormon
+
+- man whom an angel said in a vision, Alma 8:20.
+- on account of a remarkable vision of her father, Alma 19:16.
+- I have seen an angel face to face, Alma 38:7.
+
+## Doctrine and Covenants
+
+- with whom we conversed in the heavenly vision, D&C 76:14.
+- Lord, show it by vision unto many, D&C 76:47.
+- we bear recordâfor we saw and heard, D&C 76:50.
+- end of the vision â¦ of the terrestrial, D&C 76:80.
+- we saw the glory of the telestial, D&C 76:81.
+- After this vision closed, the heavens were again opened, D&C 110:11.
+- I beheld the celestial kingdom, D&C 137:1.
+- vision of the redemption of the dead, D&C 138:60.
+
+## Pearl of Great Price
+
+- saw God face to face, and he talked with him, Moses 1:2.
+- Moses â¦ beheld the earth, Moses 1:27.
+- Enoch beheld â¦ all the nations of the earth, Moses 7:23.
+- filled me with the vision of the Almighty, Abr. 1:15.
+

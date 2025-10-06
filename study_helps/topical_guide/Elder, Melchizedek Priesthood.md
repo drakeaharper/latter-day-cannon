@@ -1,0 +1,59 @@
+Topic: Elder, Melchizedek Priesthood
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/elder-melchizedek-priesthood?lang=eng
+
+---
+
+## See Also
+
+Church Organization; Priesthood, Melchizedek
+
+---
+
+## Old Testament
+
+- Go, and gather the elders of Israel, Ex. 3:16.
+- went up Moses â¦ and seventy of the elders, Ex. 24:9.
+- Lord â¦ took of the spirit that was upon him, and gave it unto the seventy elders, Num. 11:25.
+- Moses wrote â¦ unto all the elders of Israel, Deut. 31:9.
+
+## New Testament
+
+- sent it to the elders by the hands of Barnabas, Acts 11:30.
+- had ordained them elders in every church, Acts 14:23.
+- apostles and elders came together, Acts 15:6.
+- called the elders of the church, Acts 20:17.
+- ordain elders in every city, Titus 1:5.
+- sick among you? let him call for the elders, James 5:14.
+- I saw four and twenty elders sitting, Rev. 4:4.
+
+## Book of Mormon
+
+- consecrated to be â¦ elders over the church, Alma 4:7.
+- ordained priests and elders, by laying on his hands, Alma 6:1.
+- disciples, who were called the elders of the church, Moro. 3:1.
+- manner of their elders and priests administering, Moro. 4:1.
+- condemn them before the elders, Moro. 6:7.
+
+## Doctrine and Covenants
+
+- Joseph Smith â¦ the first elder of this church, D&C 20:2.
+- elders of the church â¦ bear witness to the words, D&C 20:16.
+- An apostle is an elder, D&C 20:38.
+- Every elder â¦ is to be ordained according to the gifts, D&C 20:60.
+- elders â¦ to meet in conference once in three months, D&C 20:61 (20:81).
+- children â¦ bring them unto the elders â¦ bless them, D&C 20:70.
+- elders, priests and teachers of this church shall teach, D&C 42:12.
+- elders of the church, two or more, shall be called, D&C 42:44.
+- elders â¦ to conduct all meetings â¦ by the Holy Spirit, D&C 46:2.
+- elders â¦ shall render an account of their stewardship, D&C 72:5.
+- high priests should travel, and also the elders, D&C 84:111 (124:137).
+- until mine elders are endowed with power, D&C 105:11.
+- first elders â¦ should receive their endowment, D&C 105:33.
+- office of an elder comes under the priesthood, D&C 107:7.
+- high priest and elder are to administer, D&C 107:12.
+- must needs be presiding elders, D&C 107:60.
+- duty of the president over the office of elders, D&C 107:89.
+- Send forth the elders of my church unto the nations, D&C 133:8.
+- faithful elders â¦ preaching â¦ in the great world of the spirits, D&C 138:57.
+- See also D&C 41:2; 42:1; 43:1; 50:1; 64:1; 68:7â12.
+

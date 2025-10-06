@@ -1,0 +1,45 @@
+Topic: Measure
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/measure?lang=eng
+
+---
+
+## See Also
+
+Weight
+
+---
+
+## Old Testament
+
+- shalt not have in thine house divers measures, Deut. 25:14.
+- Lord, make me to know â¦ the measure of my days, Ps. 39:4.
+- saith the Lord; If heaven above can be measured, Jer. 31:37.
+- line of flax in his hand, and a measuring reed, Ezek. 40:3.
+
+## New Testament
+
+- with what measure ye mete, it shall be measured to you, Matt. 7:2 (Mark 4:24; Luke 6:38; 3Â Ne. 14:2).
+- Fill ye up then the measure of your fathers, Matt. 23:32.
+- good measure, pressed down, and shaken together, Luke 6:38.
+- God giveth not the Spirit by measure unto him, John 3:34.
+- hath dealt to every man the measure of faith, Rom. 12:3.
+- measure of the stature of the fulness of Christ, Eph. 4:13.
+- measure the temple of God, Rev. 11:1.
+- golden reed to measure the city, Rev. 21:15.
+
+## Book of Mormon
+
+- neither did they measure after the manner of the Jews, Alma 11:4.
+- time only is measured unto men, Alma 40:8.
+
+## Doctrine and Covenants
+
+- measure to every man according to the measure, D&C 1:10.
+- that it might be filled with the measure of man, D&C 49:17.
+- it filleth the measure of its creation, D&C 88:25.
+- meted out as a just measure, D&C 98:24.
+
+## Pearl of Great Price
+
+- I will bless thee above measure, Abr. 2:9.
+

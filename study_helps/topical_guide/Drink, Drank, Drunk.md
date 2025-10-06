@@ -1,0 +1,60 @@
+Topic: Drink, Drank, Drunk
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/drink?lang=eng
+
+---
+
+## Old Testament
+
+- he drank of the wine, and was drunken, Gen. 9:21.
+- they could not drink of the waters of Marah, Ex. 15:23.
+- separate himself from wine and strong drink, Num. 6:3.
+- neither have ye drunk wine or strong drink, Deut. 29:6.
+- one that boweth down upon his knees to drink, Judg. 7:5.
+- make them drink of the river of thy pleasures, Ps. 36:8.
+- hast made us to drink the wine of astonishment, Ps. 60:3.
+- Wine is a mocker, strong drink is raging, Prov. 20:1.
+- kings to drink wine; nor for princes strong drink, Prov. 31:4.
+- strong drink unto him that is ready to perish, Prov. 31:6.
+- nothing better for a man, than â¦ eat and drink, Eccl. 2:24.
+- that they may follow strong drink, Isa. 5:11 (2Â Ne. 15:11).
+- Woe unto them that are mighty to drink wine, Isa. 5:22 (2Â Ne. 15:22).
+- let us eat and drink; for to morrow, Isa. 22:13 (1Â Cor. 15:32).
+- strong drink shall be bitter to them that drink it, Isa. 24:9.
+- We will drink no wine, Jer. 35:6.
+- Thou shalt drink also water by measure, Ezek. 4:11.
+- They drank wine, and praised the gods of gold, Dan. 5:4.
+- drink the wine of the condemned, Amos 2:8.
+- prophesy unto thee of wine and of strong drink, Micah 2:11.
+
+## New Testament
+
+- Do not drink wine nor strong drink, Lev. 10:9 (Judg. 13:4; Luke 1:15).
+- thirsty, give him water to drink, Prov. 25:21 (Rom. 12:20).
+- shall eat, or what ye shall drink, Matt. 6:25 (Luke 12:29; 3Â Ne. 13:25).
+- give to drink unto one of these little ones, Matt. 10:42 (Mark 9:41).
+- John came neither eating nor drinking, Matt. 11:18 (Luke 7:33).
+- to drink of the cup that I shall drink, Matt. 20:22 (Mark 10:38).
+- were eating and drinking, marrying, Matt. 24:38 (Luke 17:27; JSâM 1:42).
+- I was thirsty, and ye gave me drink, Matt. 25:35.
+- saying, Drink ye all of it, Matt. 26:27 (Mark 14:23).
+- may not pass away from me, except I drink it, Matt. 26:42.
+- They gave him vinegar to drink, Matt. 27:34 (Mark 15:23).
+- I will drink no more of the fruit of the vine, Mark 14:25 (Luke 22:18).
+- drink any deadly thing, it shall not hurt them, Mark 16:18.
+- eating and drinking such things as they give, Luke 10:7.
+- Jesus saith unto her, Give me to drink, John 4:7.
+- my blood is drink indeed, John 6:55.
+- any man thirst, let him come unto me, and drink, John 7:37.
+- my Father hath given me, shall I not drink it, John 18:11.
+- kingdom of God is not meat and drink, Rom. 14:17.
+- made all nations drink of the wine, Rev. 14:8.
+
+## Book of Mormon
+
+- men drink damnation to their own souls except they humble themselves, Mosiah 3:18.
+
+## Doctrine and Covenants
+
+- I will drink of the fruit of the vine with you, D&C 27:5.
+- drinketh wine or strong drink â¦ not good, D&C 89:5.
+

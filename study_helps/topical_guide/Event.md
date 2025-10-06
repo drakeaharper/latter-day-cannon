@@ -1,0 +1,10 @@
+Topic: Event
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/event?lang=eng
+
+---
+
+## Old Testament
+
+- one event happeneth to them all, Eccl. 2:14.
+- one event to the righteous, and to the wicked, Eccl. 9:2.
+

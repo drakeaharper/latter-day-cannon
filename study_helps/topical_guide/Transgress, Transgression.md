@@ -1,0 +1,77 @@
+Topic: Transgress, Transgression
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/transgress?lang=eng
+
+---
+
+## See Also
+
+Excommunication; Iniquity; Offense; Sin; Trespass; Wickedness
+
+---
+
+## Old Testament
+
+- she took of the fruit thereof, and did eat, Gen. 3:6.
+- he will not pardon your transgressions, Ex. 23:21.
+- an atonement â¦ because of their transgressions, Lev. 16:16.
+- If ye transgress, I will scatter you, Neh. 1:8.
+- shall be innocent from the great transgression, Ps. 19:13.
+- Blessed is he whose transgression is forgiven, Ps. 32:1.
+- I will confess my transgressions, Ps. 32:5.
+- will I visit their transgression with the rod, Ps. 89:32.
+- wicked is snared by the transgression of his lips, Prov. 12:13 (29:6).
+- his glory to pass over a transgression, Prov. 19:11.
+- they have transgressed the laws, Isa. 24:5.
+- I, am he that blotteth out thy transgressions, Isa. 43:25 (44:22).
+- thy teachers have transgressed against me, Isa. 43:27.
+- he was wounded for our transgressions, Isa. 53:5 (Mosiah 14:5).
+- for the transgression of my people was he stricken, Isa. 53:8 (Mosiah 14:8).
+- shew my people their transgression, Isa. 58:1.
+- pastors also transgressed against me, Jer. 2:8.
+- All his transgressions that he hath committed, Ezek. 18:22.
+- Repent, and turn yourselves from all your transgressions, Ezek. 18:30.
+- according to their transgressions have I done unto them, Ezek. 39:24.
+- all Israel have transgressed thy law, Dan. 9:11.
+- shall I give my firstborn for my transgression, Micah 6:7.
+
+## New Testament
+
+- by the letter and circumcision dost transgress, Rom. 2:27.
+- where no law is, there is no transgression, Rom. 4:15.
+- not sinned after the similitude of Adamâs transgression, Rom. 5:14.
+- the law? It was added because of transgressions, Gal. 3:19.
+- by means of death â¦ redemption of the transgressions, Heb. 9:15.
+
+## Book of Mormon
+
+- their transgressions will I bring down with sorrow, Enos 1:10.
+- never shall be blotted out, except it be through transgression, Mosiah 1:12.
+- people of the Lord should fall into transgression, Mosiah 1:13 (Alma 9:23; 10:19).
+- if ye should transgress â¦ ye do withdraw yourselves from the Spirit, Mosiah 2:36.
+- having â¦ taken upon himself â¦ their transgressions, Mosiah 15:9.
+- church â¦ nothing shall overthrow it, save it is the transgression of my people, Mosiah 27:13.
+- fall into sins and transgressions, Alma 9:19.
+- gave commandments unto men, they having first transgressed the first commandments, Alma 12:31.
+- enlightened â¦ fallen away into sin and transgression, Alma 24:30.
+- inequality of man is because of sin and transgression, Alma 28:13.
+- he that only believeth â¦ and falleth into transgression, Alma 32:19.
+- Christ shall â¦ take upon him the transgressions of his people, Alma 34:8.
+- until we bring it upon us by our own transgressions, Alma 46:18.
+
+## Doctrine and Covenants
+
+- how oft you have transgressed the commandments, D&C 3:6.
+- by the transgression of these holy laws man became sensual, D&C 20:20.
+- he partook of the forbidden fruit and transgressed, D&C 29:40.
+- been afflicted, in consequence of their transgressions, D&C 101:2.
+- covenants being broken through transgression, D&C 104:52.
+- were it not for the transgressions of my people, D&C 105:2.
+- inasmuch as a President of the High Priesthood shall transgress, D&C 107:82.
+- those who cry transgression â¦ are the servants of sin, D&C 121:17.
+- in transgression, having rejected the prophets, D&C 138:32.
+- after they have paid the penalty of their transgressions, D&C 138:59.
+
+## Pearl of Great Price
+
+- because of my transgression my eyes are opened, Moses 5:10.
+

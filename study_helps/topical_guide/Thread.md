@@ -1,0 +1,11 @@
+Topic: Thread
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/thread?lang=eng
+
+---
+
+## Old Testament
+
+- I will not take from a thread even to a shoelatchet, Gen. 14:23.
+- midwife took and bound upon his hand a scarlet thread, Gen. 38:28 (38:30).
+- bind this line of scarlet thread in the window, Josh. 2:18.
+

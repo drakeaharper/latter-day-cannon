@@ -1,0 +1,21 @@
+Topic: Summer
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/summer?lang=eng
+
+---
+
+## Old Testament
+
+- While the earth remaineth â¦ summer and winter â¦ shall not cease, Gen. 8:22.
+- thou hast made summer and winter, Ps. 74:17.
+- Provideth her meat in the summer, Prov. 6:8.
+- He that gathereth in summer is a wise son, Prov. 10:5.
+- summer is ended, and we are not saved, Jer. 8:20 (D&C 56:16).
+
+## New Testament
+
+- know that summer is nigh, Matt. 24:32 (Mark 13:28; Luke 21:30; D&C 35:16; 45:37; JSâM 1:38).
+
+## Doctrine and Covenants
+
+- I am calm as a summerâs morning, D&C 135:4.
+

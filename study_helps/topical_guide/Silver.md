@@ -1,0 +1,36 @@
+Topic: Silver
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/silver?lang=eng
+
+---
+
+## Old Testament
+
+- put my cup, the silver cup, in the sackâs mouth, Gen. 44:2.
+- borrowed of the Egyptians jewels of silver, Ex. 12:35.
+- words of the Lord are pure words: as silver tried in a furnace, Ps. 12:6.
+- thou hast tried us, as silver is tried, Ps. 66:10.
+- He brought them forth also with silver and gold, Ps. 105:37.
+- tongue of the just is as choice silver, Prov. 10:20.
+- understanding rather to be chosen than silver, Prov. 16:16.
+- fining pot is for silver, Prov. 17:3.
+- He that loveth silver shall not be satisfied with silver, Eccl. 5:10.
+- Thy silver is become dross, Isa. 1:22.
+- they sold the righteous for silver, Amos 2:6.
+- The silver is mine, Hag. 2:8.
+
+## New Testament
+
+- my price thirty pieces of silver, Zech. 11:12 (Matt. 26:15; 27:9).
+- chief priests took the silver pieces, Matt. 27:6.
+- woman having ten pieces of silver, Luke 15:8.
+- Peter said, Silver and gold have I none, Acts 3:6.
+- silversmith, which made silver shrines, Acts 19:24.
+
+## Book of Mormon
+
+- abundance of â¦ silver, Alma 1:29 (Hel. 6:9; Ether 9:17).
+
+## Doctrine and Covenants
+
+- he shall sit as a refiner and purifier of silver, D&C 128:24.
+

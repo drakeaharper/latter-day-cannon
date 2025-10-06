@@ -1,0 +1,46 @@
+Topic: Nigh
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/nigh?lang=eng
+
+---
+
+## See Also
+
+Near
+
+---
+
+## Old Testament
+
+- not come nigh the vessels of the sanctuary, Num. 18:3.
+- Lord is nigh unto them that are of a broken heart, Ps. 34:18.
+- Lord is nigh unto all them that call upon him, Ps. 145:18.
+- day of the Lord cometh â¦ nigh at hand, Joel 2:1.
+
+## New Testament
+
+- people draweth nigh unto me with their mouth, Matt. 15:8.
+- your redemption draweth nigh, Luke 21:28.
+- ye â¦ are made nigh by the blood of Christ, Eph. 2:13.
+- hope â¦ by the which we draw nigh unto God, Heb. 7:19.
+- Draw nigh to God, and he will draw nigh to you, James 4:8.
+- coming of the Lord draweth nigh, James 5:8.
+
+## Book of Mormon
+
+- the end draweth nigh, Jacob 5:47.
+- repenting nigh unto death, Mosiah 27:28.
+- kingdom of heaven is nigh at hand, Alma 9:25.
+- day of salvation draweth nigh, Alma 13:21.
+
+## Doctrine and Covenants
+
+- prepare ye â¦ for the Lord is nigh, D&C 1:12.
+- hour is nigh â¦ when the earth is ripe, D&C 29:9.
+- great day of the Lord is nigh at hand, D&C 43:17.
+- summer is now nigh at hand, D&C 45:37 (JSâM 1:38).
+- hour of his coming is nigh, D&C 133:17.
+
+## Pearl of Great Price
+
+- until thou come nigh unto Kolob, Abr. 3:9.
+

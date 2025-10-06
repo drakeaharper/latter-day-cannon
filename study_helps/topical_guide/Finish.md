@@ -1,0 +1,39 @@
+Topic: Finish
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/finish?lang=eng
+
+---
+
+## See Also
+
+End
+
+---
+
+## Old Testament
+
+- heavens and the earth were finished, Gen. 2:1 (Moses 3:1â2; Abr. 5:1).
+- God hath numbered thy kingdom, and finished it, Dan. 5:26.
+- Seventy weeks â¦ to finish the transgression, Dan. 9:24.
+
+## New Testament
+
+- counteth the cost, whether he have sufficient to finish it, Luke 14:28.
+- works which the Father hath given me to finish, John 5:36.
+- I have finished the work which thou gavest me, John 17:4.
+- It is finished, John 19:30.
+- that I might finish my course with joy, Acts 20:24.
+- works were finished from the foundation of the world, Heb. 4:3.
+- sin â¦ finished, bringeth forth death, James 1:15.
+- mystery of God should be finished, Rev. 10:7.
+- not again until the thousand years were finished, Rev. 20:5.
+
+## Book of Mormon
+
+- Alma said â¦ our work is not finished, Alma 14:13.
+
+## Doctrine and Covenants
+
+- finished the will of him whose I am, D&C 19:2 (76:85).
+- he finished his work, and sanctified it, D&C 77:12.
+- angel, saying: It is finished, D&C 88:106.
+

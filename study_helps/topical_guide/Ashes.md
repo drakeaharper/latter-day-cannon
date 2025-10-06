@@ -1,0 +1,27 @@
+Topic: Ashes
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/ashes?lang=eng
+
+---
+
+## See Also
+
+Dust
+
+---
+
+## Old Testament
+
+- speak unto the Lord, which am but dust and ashes, Gen. 18:27.
+- shall gather up the ashes of the heifer, Num. 19:9.
+- I have eaten ashes like bread, Ps. 102:9.
+- He feedeth on ashes, Isa. 44:20.
+
+## New Testament
+
+- repented long ago in sackcloth and ashes, Matt. 11:21.
+- ashes of an heifer sprinkling the unclean, Heb. 9:13.
+
+## Book of Mormon
+
+- except they repent in sackcloth and ashes, Mosiah 11:25.
+

@@ -1,0 +1,10 @@
+Topic: Reel
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/reel?lang=eng
+
+---
+
+## Old Testament
+
+- They reel to and fro, Ps. 107:27.
+- earth shall reel to and fro like a drunkard, Isa. 24:20 (D&C 45:48; 49:23; 88:87).
+

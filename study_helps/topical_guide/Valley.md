@@ -1,0 +1,31 @@
+Topic: Valley
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/valley?lang=eng
+
+---
+
+## Old Testament
+
+- elders â¦ shall bring down the heifer unto a rough valley, Deut. 21:4.
+- though I walk through the valley of the shadow of death, Ps. 23:4.
+- burden of the valley of vision, Isa. 22:1.
+- shall no more be called Tophet â¦ but the valley of slaughter, Jer. 7:32 (19:6).
+- take witnesses â¦ in the cities of the valley, Jer. 32:44.
+- valley which was full of bones, Ezek. 37:1.
+- bring them down into the valley of Jehoshaphat, Joel 3:2 (3:12).
+- multitudes in the valley of decision, Joel 3:14.
+- there shall be a very great valley, Zech. 14:4.
+- ye shall flee to the valley of the mountains, Zech. 14:5.
+
+## New Testament
+
+- Every valley shall be exalted, Isa. 40:4 (Luke 3:5; D&C 49:23; 109:74).
+
+## Book of Mormon
+
+- valleys which shall become mountains, Hel. 14:23.
+
+## Doctrine and Covenants
+
+- Adam â¦ called â¦ the residue of his posterity who were righteous, into the valley of Adam-ondi-Ahman, D&C 107:53.
+- voice â¦ shall break down the mountains, and the valleys shall not be found, D&C 133:22.
+

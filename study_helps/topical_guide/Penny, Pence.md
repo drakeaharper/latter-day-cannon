@@ -1,0 +1,15 @@
+Topic: Penny, Pence
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/penny?lang=eng
+
+---
+
+## New Testament
+
+- one of his fellowservants, which owed him an hundred pence, Matt. 18:28.
+- agreed with the labourers for a penny a day, Matt. 20:2.
+- they brought unto him a penny, Matt. 22:19.
+- bring me a penny, Mark 12:15 (Luke 20:24).
+- one owed five hundred pence, and the other fifty, Luke 7:41.
+- he took out two pence, Luke 10:35.
+- measure of wheat for a penny, Rev. 6:6.
+

@@ -1,0 +1,20 @@
+Topic: Hang
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/hang?lang=eng
+
+---
+
+## Old Testament
+
+- he hanged the chief baker, Gen. 40:22.
+- king â¦ hanged on a tree, Josh. 8:29.
+- king said, Hang him thereon, Esth. 7:9.
+
+## New Testament
+
+- that is hanged is accursed of God, Deut. 21:23 (Gal. 3:13).
+- better for him that a millstone were hanged about his neck, Matt. 18:6 (Mark 9:42; Luke 17:2; D&C 121:22).
+- On these two commandments hang all the law, Matt. 22:40.
+- departed, and went and hanged himself, Matt. 27:5.
+- Jesus, whom ye slew and hanged on a tree, Acts 5:30 (10:39).
+- lift up the hands which hang down, Heb. 12:12 (D&C 81:5).
+

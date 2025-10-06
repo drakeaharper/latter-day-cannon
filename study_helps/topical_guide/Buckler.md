@@ -1,0 +1,23 @@
+Topic: Buckler
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/buckler?lang=eng
+
+---
+
+## See Also
+
+Shield
+
+---
+
+## Old Testament
+
+- he is a buckler to all them that trust, 2Â Sam. 22:31 (Ps. 18:30).
+- my buckler, and the horn of my salvation, Ps. 18:2.
+- truth shall be thy shield and buckler, Ps. 91:4.
+- he is a buckler to them that walk uprightly, Prov. 2:7.
+- lift up the buckler against thee, Ezek. 26:8.
+
+## Doctrine and Covenants
+
+- I will be their shield and their buckler, D&C 35:14.
+

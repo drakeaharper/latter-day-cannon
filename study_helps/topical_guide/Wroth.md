@@ -1,0 +1,27 @@
+Topic: Wroth
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/wroth?lang=eng
+
+---
+
+## See Also
+
+Anger
+
+---
+
+## Old Testament
+
+- Cain was very wroth, Gen. 4:5 (Moses 5:21).
+- Moses was wroth with them, Ex. 16:20.
+- one man sin, and wilt thou be wroth with all, Num. 16:22.
+- Lord was wroth with me for your sakes, Deut. 3:26.
+- Lord heard this, and was wroth, Ps. 78:21.
+- I was wroth with my people, Isa. 47:6.
+- I would not be wroth with thee, Isa. 54:9 (3Â Ne. 22:9).
+- neither will I be always wroth, Isa. 57:16.
+
+## New Testament
+
+- his lord was wroth, and delivered him to the tormentors, Matt. 18:34.
+- when the king heard thereof, he was wroth, Matt. 22:7.
+

@@ -1,0 +1,15 @@
+Topic: Grain
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/grain?lang=eng
+
+---
+
+## New Testament
+
+- kingdom of heaven is like to a grain of mustard, Matt. 13:31 (Mark 4:31; Luke 13:19).
+- faith as a grain of mustard seed, Matt. 17:20 (Luke 17:6).
+
+## Doctrine and Covenants
+
+- All grain is ordained for the use of man, D&C 89:14.
+- See also D&C 136:9.
+

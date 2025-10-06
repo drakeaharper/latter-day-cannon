@@ -1,0 +1,22 @@
+Topic: Controversy
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/controversy?lang=eng
+
+---
+
+## See Also
+
+Disputations
+
+---
+
+## Old Testament
+
+- matters of controversy within thy gates, Deut. 17:8.
+- both the men, between whom the controversy is, Deut. 19:17.
+- by their word shall every controversy â¦ be tried, Deut. 21:5.
+- If there be a controversy between men, Deut. 25:1.
+- Lord hath a controversy with the nations, Jer. 25:31.
+- in controversy they shall stand in judgment, Ezek. 44:24.
+- Lord hath a controversy with the inhabitants, Hosea 4:1.
+- Lord hath also a controversy with Judah, Hosea 12:2.
+

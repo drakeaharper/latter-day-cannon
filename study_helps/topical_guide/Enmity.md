@@ -1,0 +1,27 @@
+Topic: Enmity
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/enmity?lang=eng
+
+---
+
+## See Also
+
+Hate
+
+---
+
+## Old Testament
+
+- put enmity between thee and the woman, Gen. 3:15 (Moses 4:21).
+- in enmity smite him with his hand, Num. 35:21.
+
+## New Testament
+
+- Pilate and Herod â¦ before they were at enmity, Luke 23:12.
+- carnal mind is enmity against God, Rom. 8:7.
+- Having abolished in his flesh the enmity, Eph. 2:15.
+- friendship of the world is enmity with God, James 4:4.
+
+## Doctrine and Covenants
+
+- enmity of beasts, yea, the enmity of all flesh, D&C 101:26.
+

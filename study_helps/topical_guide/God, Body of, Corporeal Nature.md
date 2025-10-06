@@ -1,0 +1,57 @@
+Topic: God, Body of, Corporeal Nature
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/god-body-of-corporeal-nature?lang=eng
+
+---
+
+## See Also
+
+Man, a Spirit Child of Heavenly Father; Man, Physical Creation of
+
+---
+
+## Old Testament
+
+- God created man in his own image, Gen. 1:27 (Moses 2:27).
+- God created man, in the likeness of God made he him, Gen. 5:1.
+- in the image of God made he man, Gen. 9:6.
+- Lord went his way, as soon as he had left communing, Gen. 18:33.
+- I have seen God face to face, Gen. 32:30.
+- they saw the God of Israel: and there was under his feet, Ex. 24:10.
+- written with the finger of God, Ex. 31:18 (Deut. 9:10).
+- Lord spake unto Moses face to face, Ex. 33:11.
+- thou shalt see my back parts: but my face shall not be seen, Ex. 33:23.
+- With him will I speak mouth to mouth, Num. 12:8.
+
+## New Testament
+
+- a voice from heaven, saying, This is my beloved Son, Matt. 3:17.
+- every word that proceedeth out of the mouth of God, Matt. 4:4.
+- a voice out of the cloud, Matt. 17:5.
+- for a spirit hath not flesh and bones, as ye see me have, Luke 24:39.
+- he that hath seen me hath seen the Father, John 14:9.
+- the Son of man standing on the right hand of God, Acts 7:56.
+- predestinate to be conformed to the image of his Son, Rom. 8:29.
+- Who is the image of the invisible God, Col. 1:15.
+- the express image of his person, Heb. 1:3.
+- men, which are made after the similitude of God, James 3:9.
+- they shall see his face, Rev. 22:4.
+- See also Gen. 33:10; Deut. 4:28; Acts 17:29; Col. 3:10.
+
+## Book of Mormon
+
+- image after which man was created, Mosiah 7:27 (Ether 3:15).
+
+## Doctrine and Covenants
+
+- he created man, male and female, after his own image, D&C 20:18.
+- His eyes were as a flame of fire, D&C 110:3.
+- Savior shall appear â¦ see that he is a man like ourselves, D&C 130:1.
+- Father has a body of flesh and bones, D&C 130:22.
+
+## Pearl of Great Price
+
+- Thou art after the similitude of mine Only Begotten, Moses 1:16.
+- In the image of his own body â¦ created he them, Moses 6:9.
+- Abraham, talked with the Lord, face to face, Abr. 3:11.
+- Gods went down to organize man in their own image, Abr. 4:27.
+

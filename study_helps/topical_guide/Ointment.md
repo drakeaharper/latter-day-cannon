@@ -1,0 +1,17 @@
+Topic: Ointment
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/ointment?lang=eng
+
+---
+
+## Old Testament
+
+- oil of holy ointment, an ointment compound, Ex. 30:25.
+- It is like the precious ointment upon the head, Ps. 133:2.
+- let thy head lack no ointment, Eccl. 9:8.
+
+## New Testament
+
+- woman having an alabaster box of â¦ ointment, Matt. 26:7 (Mark 14:3; Luke 7:37; John 12:3).
+- they returned, and prepared spices and ointments, Luke 23:56.
+- Mary which anointed the Lord with ointment, John 11:2.
+

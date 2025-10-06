@@ -1,0 +1,19 @@
+Topic: Estate
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/estate?lang=eng
+
+---
+
+## Old Testament
+
+- concerning the estate of the sons of men, Eccl. 3:18.
+- shall return to your former estate, Ezek. 16:55.
+
+## New Testament
+
+- angels which kept not their first estate, Jude 1:6.
+
+## Pearl of Great Price
+
+- keep their first estate shall be added upon, Abr. 3:26.
+- angry, and kept not his first estate, Abr. 3:28.
+

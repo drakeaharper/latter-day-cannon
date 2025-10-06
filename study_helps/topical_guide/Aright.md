@@ -1,0 +1,11 @@
+Topic: Aright
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/aright?lang=eng
+
+---
+
+## Old Testament
+
+- a generation that set not their heart aright, Ps. 78:8.
+- tongue of the wise useth knowledge aright, Prov. 15:2.
+- hearkened and heard, but they spake not aright, Jer. 8:6.
+

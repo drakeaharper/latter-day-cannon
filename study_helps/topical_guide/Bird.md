@@ -1,0 +1,23 @@
+Topic: Bird
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/bird?lang=eng
+
+---
+
+## See Also
+
+Fowl
+
+---
+
+## Old Testament
+
+- every fowl after his kind, every bird of every sort, Gen. 7:14.
+- Of all clean birds ye shall eat, Deut. 14:11.
+- soul is escaped as a bird out of the snare, Ps. 124:7.
+- Deliver thyself â¦ as a bird from the hand of the fowler, Prov. 6:5.
+
+## New Testament
+
+- birds of the air have nests, Matt. 8:20 (Luke 9:58).
+- that the birds of the air come and lodge, Matt. 13:32.
+

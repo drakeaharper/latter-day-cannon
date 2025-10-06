@@ -1,0 +1,52 @@
+Topic: Sleep, Slept
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/sleep?lang=eng
+
+---
+
+## See Also
+
+Death; Health; Idleness; Laziness; Slumber
+
+---
+
+## Old Testament
+
+- God caused a deep sleep to fall upon Adam, Gen. 2:21 (Moses 3:21; Abr. 5:15).
+- deep sleep fell upon Abram, Gen. 15:12.
+- he that keepeth Israel shall neither slumber nor sleep, Ps. 121:4.
+- to sit up late â¦ for so he giveth his beloved sleep, Ps. 127:2.
+- How long wilt thou sleep, O sluggard, Prov. 6:9.
+- Love not sleep, lest thou come to poverty, Prov. 20:13.
+- Yet a little sleep, a little slumber, Prov. 24:33.
+- sleep of a labouring man is sweet, Eccl. 5:12.
+- poured out upon you the spirit of deep sleep, Isa. 29:10 (2Â Ne. 27:5).
+- sleep a perpetual sleep, and not wake, Jer. 51:39 (51:57).
+- them that sleep in the dust of the earth shall awake, Dan. 12:2.
+
+## New Testament
+
+- maid is not dead, but sleepeth, Matt. 9:24 (Mark 5:39; Luke 8:52).
+- While the bridegroom tarried, they all â¦ slept, Matt. 25:5 (25:1â13).
+- cometh unto the disciples, and findeth them asleep, Matt. 26:40.
+- many bodies of the saints which slept arose, Matt. 27:52.
+- Lest coming suddenly he find you sleeping, Mark 13:36.
+- Why sleep ye? rise and pray, Luke 22:46.
+- Lazarus sleepeth, John 11:11.
+- it is high time to awake out of sleep, Rom. 13:11.
+
+## Book of Mormon
+
+- he awakened them out of a deep sleep, Alma 5:7.
+- not dead, but he sleepeth in God, Alma 19:8.
+- Lord â¦ watch over you in your sleep, Alma 37:37.
+- redemption from an endless sleep, Morm. 9:13.
+
+## Doctrine and Covenants
+
+- sinners stay and sleep until I shall call, D&C 43:18.
+- saints that have slept shall come forth, D&C 45:45.
+- they shall not sleep in the dust, D&C 63:51.
+- they who have slept in their graves shall come forth, D&C 88:97.
+- cease to sleep longer than is needful, D&C 88:124.
+- when he dies he shall not sleep, D&C 101:31.
+

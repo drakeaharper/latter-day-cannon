@@ -1,0 +1,50 @@
+Topic: Sanctuary
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/sanctuary?lang=eng
+
+---
+
+## See Also
+
+Tabernacle; Temple
+
+---
+
+## Old Testament
+
+- in the Sanctuary â¦ which thy hands have established, Ex. 15:17.
+- let them make me a sanctuary, Ex. 25:8.
+- Ye shall â¦ reverence my sanctuary, Lev. 19:30 (26:2).
+- Send thee help from the sanctuary, Ps. 20:2.
+- I went into the sanctuary of God, Ps. 73:17.
+- he built his sanctuary like high palaces, Ps. 78:69.
+- Lift up your hands in the sanctuary, Ps. 134:2.
+- Praise God in his sanctuary, Ps. 150:1.
+- he shall be for a sanctuary, Isa. 8:14 (2Â Ne. 18:14).
+- to beautify the place of my sanctuary, Isa. 60:13.
+- adversaries have trodden down thy sanctuary, Isa. 63:18.
+- strangers are come into the sanctuaries of the Lordâs house, Jer. 51:51.
+- will I be to them as a little sanctuary, Ezek. 11:16.
+- I will profane my sanctuary, Ezek. 24:21.
+- I will â¦ set my sanctuary in the midst of them, Ezek. 37:26.
+- ye have brought into my sanctuary strangers, Ezek. 44:7.
+- they shall be ministers in my sanctuary, Ezek. 44:11.
+- it shall be the sanctuary and the most holy place, Ezek. 45:3.
+- then shall the sanctuary be cleansed, Dan. 8:14.
+- cause thy face to shine upon thy sanctuary, Dan. 9:17.
+- people â¦ that shall come shall destroy â¦ the sanctuary, Dan. 9:26.
+- they shall pollute the sanctuary of strength, Dan. 11:31.
+
+## New Testament
+
+- A minister of the sanctuary, and of the true tabernacle, Heb. 8:2.
+- had also â¦ a worldly sanctuary, Heb. 9:1.
+
+## Book of Mormon
+
+- assemble themselves together at their sanctuaries to worship God, Alma 15:17 (21:6; Hel. 3:9).
+- place of the New Jerusalem â¦ and the holy sanctuary of the Lord, Ether 13:3.
+
+## Doctrine and Covenants
+
+- school of the prophets, that it may become a sanctuary, D&C 88:137.
+

@@ -1,0 +1,15 @@
+Topic: Flight
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/flight?lang=eng
+
+---
+
+## Old Testament
+
+- hundred of you shall put ten thousand to flight, Lev. 26:8 (Deut. 32:30; D&C 133:58).
+- nor go by flight: for the Lord will go before, Isa. 52:12 (3Â Ne. 20:42; 21:29).
+- flight shall perish from the swift, Amos 2:14.
+
+## New Testament
+
+- flight be not in the winter, Matt. 24:20 (Mark 13:18; JSâM 1:17).
+

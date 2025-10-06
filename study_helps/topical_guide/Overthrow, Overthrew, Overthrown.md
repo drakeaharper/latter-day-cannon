@@ -1,0 +1,36 @@
+Topic: Overthrow, Overthrew, Overthrown
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/overthrow?lang=eng
+
+---
+
+## Old Testament
+
+- Lord overthrew the Egyptians, Ex. 14:27.
+- thou shalt utterly overthrow them, Ex. 23:24.
+- overthrow them in the wilderness, Ps. 106:26 (1Â Cor. 10:5).
+- overthrew Pharaoh and his host in the Red sea, Ps. 136:15.
+- wicked are overthrown, Prov. 12:7.
+- house of the wicked shall be overthrown, Prov. 14:11.
+- God overthroweth the wicked, Prov. 21:12.
+- when God overthrew Sodom, Isa. 13:19 (Jer. 50:40; Amos 4:11; 2Â Ne. 23:19).
+- cities which the Lord overthrew, Jer. 20:16.
+- I will overthrow the throne of kingdoms, Hag. 2:22.
+
+## New Testament
+
+- Jesus â¦ overthrew the tables of the moneychangers, Matt. 21:12 (Mark 11:15; John 2:15).
+
+## Book of Mormon
+
+- that he might overthrow the doctrine of Christ, Jacob 7:2.
+- nothing shall overthrow it, save it is the transgression, Mosiah 27:13.
+- consequences would lead to the overthrow of their liberty, Alma 50:32.
+- that the law should be altered in a manner to overthrow the free government, Alma 51:5.
+
+## Doctrine and Covenants
+
+- Satan hath sought to deceive you, that he might overthrow you, D&C 50:3.
+- five years, in the which I will not overthrow the wicked, D&C 64:21.
+- this power, to overthrow the kingdom of the Jews, D&C 84:28.
+- preserve it holy, and to overthrow the moneychangers, D&C 117:16.
+

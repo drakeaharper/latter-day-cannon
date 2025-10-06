@@ -1,0 +1,19 @@
+Topic: Tolerable
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/tolerable?lang=eng
+
+---
+
+## New Testament
+
+- It shall be more tolerable for â¦ Sodom and Gomorrha, Matt. 10:15 (Mark 6:11; Luke 10:12).
+- more tolerable for Tyre and Sidon, Matt. 11:22 (Luke 10:14).
+
+## Book of Mormon
+
+- shall be more tolerable for them in the day of judgment, Alma 9:15.
+
+## Doctrine and Covenants
+
+- heathen nations be redeemed â¦ be tolerable for them, D&C 45:54.
+- more tolerable for the heathen, D&C 75:22.
+

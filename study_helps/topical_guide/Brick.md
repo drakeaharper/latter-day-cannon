@@ -1,0 +1,11 @@
+Topic: Brick
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/brick?lang=eng
+
+---
+
+## Old Testament
+
+- let us make brick, Gen. 11:3.
+- with hard bondage, in mortar, and in brick, Ex. 1:14.
+- shall no more give the people straw to make brick, Ex. 5:7.
+

@@ -1,0 +1,14 @@
+Topic: Mirth
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/mirth?lang=eng
+
+---
+
+## Old Testament
+
+- great mirth, because they had understood, Neh. 8:12.
+- end of that mirth is heaviness, Prov. 14:13.
+- I will prove thee with mirth, Eccl. 2:1.
+- heart of fools is in the house of mirth, Eccl. 7:4.
+- mirth of the land is gone, Isa. 24:11.
+- Then will I cause to cease â¦ the voice of mirth, Jer. 7:34 (Hosea 2:11).
+

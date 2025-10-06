@@ -1,0 +1,17 @@
+Topic: Blow
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/blow?lang=eng
+
+---
+
+## Old Testament
+
+- Thou didst blow with thy wind, Ex. 15:10.
+- priests that blew with the trumpets, Josh. 6:9.
+- great trumpet shall be blown, Isa. 27:13.
+- spirit of the Lord bloweth upon it, Isa. 40:7.
+
+## New Testament
+
+- wind bloweth where it listeth, John 3:8.
+- wind should not blow on the earth, Rev. 7:1.
+

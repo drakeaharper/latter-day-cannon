@@ -1,0 +1,40 @@
+Topic: Scatter
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/scatter?lang=eng
+
+---
+
+## See Also
+
+Disperse; Israel, Scattering of
+
+---
+
+## Old Testament
+
+- make us a name, lest we be scattered, Gen. 11:4.
+- I will â¦ scatter them in Israel, Gen. 49:7.
+- Rise up, Lord, and let thine enemies be scattered, Num. 10:35.
+- If ye transgress, I will scatter you, Neh. 1:8.
+- workers of iniquity shall be scattered, Ps. 92:9.
+- wise king scattereth the wicked, Prov. 20:26.
+- although I have scattered them among the countries, Ezek. 11:16.
+- to scatter the power of the holy people, Dan. 12:7.
+- I scattered them with a whirlwind, Zech. 7:14.
+
+## New Testament
+
+- fainted, and were scattered abroad, Matt. 9:36.
+- he that gathereth not with me scattereth, Matt. 12:30 (Luke 11:23).
+- ye shall be scattered, every man to his own, John 16:32.
+- as many as obeyed him, were scattered, Acts 5:36.
+- twelve tribes which are scattered abroad, James 1:1.
+
+## Book of Mormon
+
+- they are as a wild flock which fleeth from the shepherd, and scattereth, Mosiah 8:21.
+
+## Doctrine and Covenants
+
+- I will hold the armies of Israel guiltless in â¦ scattering their watchmen, D&C 105:30.
+- baptisms for the dead, by those who are scattered abroad, are not acceptable, D&C 124:35.
+

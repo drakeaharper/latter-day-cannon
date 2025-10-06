@@ -1,0 +1,36 @@
+Topic: Desolation
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/desolation?lang=eng
+
+---
+
+## See Also
+
+Abomination of Desolation; Destruction; Ruin; Waste
+
+---
+
+## Old Testament
+
+- Joshua burnt Ai, and made it â¦ a desolation, Josh. 8:28.
+- brought into desolation, as in a moment, Ps. 73:19.
+- In that day â¦ there shall be desolation, Isa. 17:9.
+- desolation shall come upon thee suddenly, Isa. 47:11.
+- they shall raise up the former desolations, Isa. 61:4.
+- this house shall become a desolation, Jer. 22:5.
+- Babylon become a desolation among the nations, Jer. 50:23.
+- accomplish seventy years in the desolations, Dan. 9:2.
+- a day of wasteness and desolation, Zeph. 1:15.
+
+## New Testament
+
+- kingdom divided â¦ brought to desolation, Matt. 12:25 (Luke 11:17).
+- the abomination of desolation, Matt. 24:15 (Mark 13:14; JSâM 1:12).
+- desolation thereof is nigh, Luke 21:20.
+
+## Doctrine and Covenants
+
+- when tribulation and desolation are sent forth, D&C 29:8.
+- not anything be shown forth except desolations upon Babylon, D&C 35:11.
+- desolation shall come upon this generation, D&C 45:19.
+- desolation shall come upon the wicked, D&C 63:37.
+

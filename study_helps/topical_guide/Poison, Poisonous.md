@@ -1,0 +1,24 @@
+Topic: Poison, Poisonous
+URL: https://www.churchofjesuschrist.org/study/scriptures/tg/poison?lang=eng
+
+---
+
+## Old Testament
+
+- with the poison of serpents of the dust, Deut. 32:24.
+
+## New Testament
+
+- addersâ poison is under their lips, Ps. 140:3 (Rom. 3:13).
+- it is an unruly evil, full of deadly poison, James 3:8.
+
+## Book of Mormon
+
+- the effect thereof is poison, Mosiah 7:30.
+- not harm them, neither wild beasts nor poisonous serpents, Morm. 8:24 (Ether 9:31).
+
+## Doctrine and Covenants
+
+- Require not miracles, except â¦ against poisonous serpents, D&C 24:13.
+- poison of a serpent shall not have power to harm them, D&C 84:72.
+
