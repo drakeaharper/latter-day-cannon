@@ -52,6 +52,25 @@ python3 scrape_bible_dictionary.py
 ```
 Scrapes all entries from the LDS Bible Dictionary (~1,274 entries).
 
+### Build Scripture Database
+```bash
+python3 build_scripture_database.py
+```
+Creates `docs/scripture-library.db` with all scripture data from markdown files. This is a **separate, read-only** database from the mind map database.
+
+**Output:**
+- 5 collections (OT, NT, BofM, D&C, PGP)
+- 87 books
+- 1,582 chapters
+- 41,995 verses
+- 3,510 Topical Guide topics with 42,477 references
+- 1,274 Bible Dictionary entries
+- Total database size: ~16 MB
+
+**Database Architecture:**
+- `scripture-library.db` - Committed to repo, loaded from file (read-only reference data)
+- `mind-map.db` - Stored in localStorage only (user's personal mind map data, NOT committed)
+
 ## Architecture
 
 ### Core Scraping Flow
@@ -88,6 +107,30 @@ Scraper for LDS Bible Dictionary with these key methods:
 - `discover_entries()`: Scrapes index page to find all entry URLs (~1,274 entries)
 - `extract_entry_content()`: Parses entry page to extract title and full body text
 - `save_entry()`: Formats and writes entry to markdown file
+
+### Scripture Database Builder (build_scripture_database.py)
+Builds SQLite database from all scraped markdown files for web viewer integration:
+- `create_schema()`: Creates scripture tables in `docs/scripture-library.db`
+- `populate_collections()`: Inserts 5 scripture collections
+- `populate_books()`: Discovers and inserts 87 books from directory structure
+- `parse_scripture_file()`: Parses markdown metadata, summary, and verses
+- `populate_chapters_and_verses()`: Inserts all chapters and verses from markdown files
+- `populate_topical_guide()`: Parses and inserts Topical Guide topics and references
+- `populate_bible_dictionary()`: Parses and inserts Bible Dictionary entries
+
+**Database Schema (scripture-library.db):**
+- `scripture_collections`: 5 collections (OT, NT, BofM, D&C, PGP)
+- `scripture_books`: 87 books with collection relationships
+- `scripture_chapters`: 1,582 chapters with summaries
+- `scripture_verses`: 41,995 verses with full text
+- `topical_guide_topics`: 3,510 topics
+- `topical_guide_references`: 42,477 scripture references
+- `bible_dictionary_entries`: 1,274 encyclopedic entries
+
+**Separation of Concerns:**
+- Scripture database (`scripture-library.db`) is committed to repository
+- Mind map database (`mind-map.db`) stays in browser localStorage only
+- No conflicts when users pull updates to scripture data
 
 ## Data Organization
 

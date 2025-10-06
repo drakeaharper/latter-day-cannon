@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture Library - Scripture Study Helper</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/scripture-library.css">
+    <script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/sql-wasm.js"></script>
+</head>
+<body>
+    <header id="app-header">
+        <div class="header-content">
+            <h1 class="logo">Scripture Study Helper</h1>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="mind-map.html" class="nav-link">Mind Map</a>
+                <a href="scripture-library.html" class="nav-link active">Scripture Library</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="scripture-library-page">
+        <!-- Loading State -->
+        <div id="loading-screen" class="loading-screen">
+            <div class="spinner"></div>
+            <p>Loading Scripture Library...</p>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-content" class="main-content" style="display: none;">
+            <!-- Sidebar Navigation -->
+            <aside class="scripture-sidebar">
+                <div class="sidebar-header">
+                    <h2>Browse Scriptures</h2>
+                </div>
+
+                <div class="navigation-controls">
+                    <!-- Collection Selector -->
+                    <div class="nav-section">
+                        <label for="collection-select">Collection</label>
+                        <select id="collection-select" class="nav-select">
+                            <option value="">Select a collection...</option>
+                        </select>
+                    </div>
+
+                    <!-- Book Selector -->
+                    <div class="nav-section">
+                        <label for="book-select">Book</label>
+                        <select id="book-select" class="nav-select" disabled>
+                            <option value="">Select a book...</option>
+                        </select>
+                    </div>
+
+                    <!-- Chapter Selector -->
+                    <div class="nav-section">
+                        <label for="chapter-select">Chapter</label>
+                        <select id="chapter-select" class="nav-select" disabled>
+                            <option value="">Select a chapter...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Search Section -->
+                <div class="search-section">
+                    <h3>Search</h3>
+                    <input
+                        type="text"
+                        id="scripture-search"
+                        class="search-input"
+                        placeholder="Search all scriptures..."
+                    >
+                    <button id="search-btn" class="btn btn-primary">Search</button>
+                </div>
+
+                <!-- Study Helps Links -->
+                <div class="study-helps">
+                    <h3>Study Helps</h3>
+                    <button id="topical-guide-btn" class="study-help-btn">
+                        📚 Topical Guide
+                    </button>
+                    <button id="bible-dict-btn" class="study-help-btn">
+                        📖 Bible Dictionary
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Reading Area -->
+            <section class="scripture-reader">
+                <!-- Welcome Screen -->
+                <div id="welcome-screen" class="welcome-screen">
+                    <div class="welcome-content">
+                        <h2>Welcome to the Scripture Library</h2>
+                        <p>Select a collection, book, and chapter from the sidebar to begin reading.</p>
+                        <div class="quick-stats">
+                            <div class="stat-item">
+                                <span class="stat-value" id="stat-verses">0</span>
+                                <span class="stat-label">Total Verses</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value" id="stat-chapters">0</span>
+                                <span class="stat-label">Chapters</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value" id="stat-books">0</span>
+                                <span class="stat-label">Books</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chapter Reader -->
+                <div id="chapter-reader" class="chapter-reader" style="display: none;">
+                    <div class="chapter-header">
+                        <h2 id="chapter-title"></h2>
+                        <div class="chapter-meta">
+                            <span id="chapter-reference"></span>
+                        </div>
+                    </div>
+
+                    <div id="chapter-summary" class="chapter-summary"></div>
+
+                    <div id="chapter-verses" class="chapter-verses"></div>
+
+                    <div class="chapter-navigation">
+                        <button id="prev-chapter-btn" class="nav-btn">← Previous Chapter</button>
+                        <button id="next-chapter-btn" class="nav-btn">Next Chapter →</button>
+                    </div>
+                </div>
+
+                <!-- Search Results -->
+                <div id="search-results" class="search-results" style="display: none;">
+                    <div class="results-header">
+                        <h2>Search Results</h2>
+                        <button id="clear-search-btn" class="btn btn-secondary">Clear</button>
+                    </div>
+                    <div id="results-list" class="results-list"></div>
+                </div>
+
+                <!-- Topical Guide Browser -->
+                <div id="topical-guide-browser" class="study-help-browser" style="display: none;">
+                    <div class="browser-header">
+                        <h2>Topical Guide</h2>
+                        <button id="close-tg-btn" class="btn btn-secondary">Close</button>
+                    </div>
+                    <div class="browser-search">
+                        <input
+                            type="text"
+                            id="tg-search"
+                            class="search-input"
+                            placeholder="Search topics..."
+                        >
+                    </div>
+                    <div id="tg-topics-list" class="topics-list"></div>
+                    <div id="tg-topic-detail" class="topic-detail" style="display: none;"></div>
+                </div>
+
+                <!-- Bible Dictionary Browser -->
+                <div id="bible-dict-browser" class="study-help-browser" style="display: none;">
+                    <div class="browser-header">
+                        <h2>Bible Dictionary</h2>
+                        <button id="close-bd-btn" class="btn btn-secondary">Close</button>
+                    </div>
+                    <div class="browser-search">
+                        <input
+                            type="text"
+                            id="bd-search"
+                            class="search-input"
+                            placeholder="Search entries..."
+                        >
+                    </div>
+                    <div id="bd-entries-list" class="entries-list"></div>
+                    <div id="bd-entry-detail" class="entry-detail" style="display: none;"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Scripture Study Helper | Built for personal study and research</p>
+    </footer>
+
+    <script src="../js/scripture-library.js"></script>
+</body>
+</html>

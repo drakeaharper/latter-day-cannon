@@ -1,7 +1,8 @@
 // SQLite Database Manager using sql.js
+// Manages mind map database (localStorage) separately from scripture database (file)
 class DatabaseManager {
     constructor() {
-        this.db = null;
+        this.db = null;  // Mind map database (localStorage)
         this.SQL = null;
         this.initialized = false;
     }
@@ -44,21 +45,21 @@ class DatabaseManager {
             });
             console.log('SQL.js initialized');
 
-            // Try to load existing database from localStorage
-            const savedDb = localStorage.getItem('scripture-study-db');
+            // Try to load existing mind map database from localStorage
+            const savedDb = localStorage.getItem('mind-map-db');
 
             if (savedDb) {
-                console.log('Loading existing database from localStorage...');
+                console.log('Loading existing mind map database from localStorage...');
                 // Load existing database
                 const uint8Array = new Uint8Array(JSON.parse(savedDb));
                 this.db = new this.SQL.Database(uint8Array);
-                console.log('Loaded existing database from localStorage');
+                console.log('Loaded existing mind map database from localStorage');
             } else {
-                console.log('Creating new database...');
+                console.log('Creating new mind map database...');
                 // Create new database
                 this.db = new this.SQL.Database();
                 this.createSchema();
-                console.log('Created new database');
+                console.log('Created new mind map database');
             }
 
             this.initialized = true;
@@ -105,7 +106,7 @@ class DatabaseManager {
             const data = this.db.export();
             // Convert to regular array for JSON serialization
             const array = Array.from(data);
-            localStorage.setItem('scripture-study-db', JSON.stringify(array));
+            localStorage.setItem('mind-map-db', JSON.stringify(array));
         } catch (error) {
             console.error('Failed to save database to localStorage:', error);
         }

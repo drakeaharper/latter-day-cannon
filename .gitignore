@@ -16,6 +16,9 @@ notebooklm/
 scriptures/
 study_helps/
 
+# User databases (not committed - localStorage only)
+docs/mind-map.db
+
 # IDE
 .vscode/
 .idea/
