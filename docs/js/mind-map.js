@@ -600,29 +600,48 @@ let mindMap = null;
 
 // Initialize the mind map when page loads
 document.addEventListener('DOMContentLoaded', async () => {
+    // Show loading indicator
+    console.log('Initializing Scripture Study Helper...');
+
     // Initialize database first
     const dbReady = await dbManager.initialize();
     if (!dbReady) {
-        alert('Failed to initialize database. Some features may not work.');
+        console.warn('Database initialization failed. Running in limited mode.');
+        console.warn('Save/Load features will not be available. You can still use Export/Import.');
+        // Don't show alert, just log warning - the app can still work with export/import
+    } else {
+        console.log('Database initialized successfully!');
     }
 
     // Create mind map instance
     mindMap = new MindMap();
 
     // Set up map management event listeners
-    document.getElementById('save-map-btn')?.addEventListener('click', () => {
-        mindMap.saveCurrentMap();
+    document.getElementById('save-map-btn')?.addEventListener('click', async () => {
+        if (!dbManager.initialized) {
+            alert('Database not available. Use Export instead.');
+            return;
+        }
+        await mindMap.saveCurrentMap();
     });
 
-    document.getElementById('save-as-btn')?.addEventListener('click', () => {
-        mindMap.promptSaveAs();
+    document.getElementById('save-as-btn')?.addEventListener('click', async () => {
+        if (!dbManager.initialized) {
+            alert('Database not available. Use Export instead.');
+            return;
+        }
+        await mindMap.promptSaveAs();
     });
 
-    document.getElementById('new-map-btn')?.addEventListener('click', () => {
-        mindMap.newMap();
+    document.getElementById('new-map-btn')?.addEventListener('click', async () => {
+        await mindMap.newMap();
     });
 
     document.getElementById('toggle-map-list-btn')?.addEventListener('click', () => {
+        if (!dbManager.initialized) {
+            alert('Database not available. Saved maps feature requires database initialization.');
+            return;
+        }
         const sidebar = document.getElementById('map-sidebar');
         if (sidebar) {
             sidebar.classList.toggle('hidden');
@@ -632,6 +651,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     });
 
-    // Initial map list refresh
-    mindMap.refreshMapList();
+    // Initial map list refresh (only if DB is ready)
+    if (dbManager.initialized) {
+        mindMap.refreshMapList();
+    }
+
+    console.log('Scripture Study Helper ready!');
 });

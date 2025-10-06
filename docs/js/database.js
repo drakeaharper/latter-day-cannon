@@ -8,26 +8,53 @@ class DatabaseManager {
 
     async initialize() {
         try {
-            // Load sql.js from CDN
-            const initSqlJs = window.initSqlJs;
+            console.log('Starting database initialization...');
+
+            // Wait for sql.js to load if needed
+            let initSqlJs = window.initSqlJs;
 
             if (!initSqlJs) {
-                throw new Error('sql.js not loaded. Make sure the script is included in your HTML.');
+                console.log('Waiting for sql.js to load from CDN...');
+                // Wait for the script to load (up to 10 seconds)
+                await new Promise((resolve, reject) => {
+                    let attempts = 0;
+                    const checkInterval = setInterval(() => {
+                        if (window.initSqlJs) {
+                            console.log('sql.js loaded successfully');
+                            clearInterval(checkInterval);
+                            resolve();
+                        } else if (attempts++ > 100) {
+                            clearInterval(checkInterval);
+                            reject(new Error('sql.js failed to load from CDN after 10 seconds'));
+                        }
+                    }, 100);
+                });
+                initSqlJs = window.initSqlJs;
+            } else {
+                console.log('sql.js already loaded');
             }
 
+            console.log('Initializing SQL.js...');
             this.SQL = await initSqlJs({
-                locateFile: file => `https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/${file}`
+                locateFile: file => {
+                    const url = `https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/${file}`;
+                    console.log(`Loading SQL.js file: ${url}`);
+                    return url;
+                }
             });
+            console.log('SQL.js initialized');
 
             // Try to load existing database from localStorage
             const savedDb = localStorage.getItem('scripture-study-db');
 
             if (savedDb) {
+                console.log('Loading existing database from localStorage...');
                 // Load existing database
                 const uint8Array = new Uint8Array(JSON.parse(savedDb));
                 this.db = new this.SQL.Database(uint8Array);
                 console.log('Loaded existing database from localStorage');
             } else {
+                console.log('Creating new database...');
                 // Create new database
                 this.db = new this.SQL.Database();
                 this.createSchema();
@@ -35,9 +62,12 @@ class DatabaseManager {
             }
 
             this.initialized = true;
+            console.log('Database initialization complete!');
             return true;
         } catch (error) {
             console.error('Failed to initialize database:', error);
+            console.error('Error details:', error.message);
+            console.error('Error stack:', error.stack);
             return false;
         }
     }
