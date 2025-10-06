@@ -1,0 +1,6 @@
+Entry: Damascus
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/damascus?lang=eng
+
+---
+
+An ancient city of Syria, standing on a rich plain on the edge of the desert, well watered by the river Barada, of which the Abana and Pharpar (2Â Kgs. 5:12) are tributaries. It is first mentioned in the Bible as the birthplace of Eliezer, Abrahamâs steward (Gen. 15:2). It was taken by David (2Â Sam. 8:6; 1Â Chr. 18:5â6) (for Syria-damascus read âSyria of Damascusâ) and is frequently mentioned in the subsequent history (1Â Kgs. 11:24; 15:18; 20:34; 2Â Kgs. 8:7, 9; 14:28; 16:9â16; 2Â Chr. 16:2; 28:5, 23; Isa. 7:8; Ezek. 27:18; 47:16â18). It was conquered by Tiglath-pileser and its inhabitants carried captive about 733Â B.C. (2Â Kgs. 16:9; Isa. 8:4; 17:1â3; Jer. 49:23â27; Amos 1:3â5). It was rebuilt and became an important place during the Persian supremacy. Later on it was conquered by the Greeks and afterwards by the Romans. In New Testament times it was connected with the history of Paul (Acts 9:1â27; 22:5â16; 26:12, 20; 2Â Cor. 11:32; Gal. 1:17). It was then part of the dominions of Aretas, an Arabian prince subject to the Roman emperor. It eventually passed, A.D.Â 634, into the hands of Moslem (Muslim) Arabs, and is still a city of many thousands of inhabitants.

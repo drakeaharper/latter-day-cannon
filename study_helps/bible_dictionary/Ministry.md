@@ -1,0 +1,6 @@
+Entry: Ministry
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/ministry?lang=eng
+
+---
+
+The work of the ministry is to do the work of the Lord on the earthâto represent the Lord among the people, preach the gospel, and administer the ordinances thereof. The chosen servants and appointed officers in the Church of Jesus Christ are put on earth by Him to conduct the work necessary for the salvation of mankind. A minister âcalled of God, as was Aaronâ (Heb. 5:4), and endowed with the holy priesthood, represents the Lord when he is performing his official duties and is the Lordâs agent. Therefore, what he does âaccording to the will of the Lord is the Lordâs businessâ (D&C 64:29). The Lord has given apostles, prophets, evangelists, high priests, seventies, elders, bishops, priests, teachers, deacons, helps, and governments âfor the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christâ (the Church), until all have reached the spiritual stature of Christ, the whole body being âfitly joined togetherâ by that which every part supplieth. See 1Â Cor. 12:12â28; Eph. 4:11â16; D&C 20; 107. Other references are Acts 11:30; 14:23; 15:6; 16:4; 20:17, 28; 21:18; Philip. 1:1; 1Â Tim. 3:8â12; James 5:14.

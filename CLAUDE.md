@@ -46,6 +46,12 @@ python3 scrape_topical_guide.py
 ```
 Scrapes all topics from the LDS Topical Guide (~3,512 topics).
 
+### Scrape Bible Dictionary
+```bash
+python3 scrape_bible_dictionary.py
+```
+Scrapes all entries from the LDS Bible Dictionary (~1,274 entries).
+
 ## Architecture
 
 ### Core Scraping Flow
@@ -77,6 +83,12 @@ Scraper for LDS Topical Guide with these key methods:
 - `extract_topic_content()`: Parses topic page to extract title, "See Also" references, and scripture references
 - `save_topic()`: Formats and writes topic to markdown file
 
+### Bible Dictionary Scraper (scrape_bible_dictionary.py)
+Scraper for LDS Bible Dictionary with these key methods:
+- `discover_entries()`: Scrapes index page to find all entry URLs (~1,274 entries)
+- `extract_entry_content()`: Parses entry page to extract title and full body text
+- `save_entry()`: Formats and writes entry to markdown file
+
 ## Data Organization
 
 ### Directory Structure
@@ -89,7 +101,8 @@ scriptures/
 └── pearl-of-great-price/
 
 study_helps/
-└── topical_guide/
+├── topical_guide/
+└── bible_dictionary/
 ```
 
 ### File Naming Convention
@@ -107,6 +120,13 @@ Examples:
 - `Baptism.md`
 - `Baptism, Essential.md`
 - `Abrahamic Covenant.md`
+
+**Bible Dictionary**: `[Entry Name].md`
+
+Examples:
+- `Baptism.md`
+- `Abraham.md`
+- `Acts of the Apostles.md`
 
 ### File Format
 
@@ -150,6 +170,16 @@ URL: [Source URL]
 - [Scripture excerpt], [Citation]
 ```
 
+**Bible Dictionary Files**:
+```
+Entry: [Entry Name]
+URL: [Source URL]
+
+---
+
+[Full encyclopedic text content with paragraph breaks preserved]
+```
+
 ## Key Implementation Details
 
 ### Rate Limiting
@@ -173,6 +203,7 @@ All scrapers log to both console and dedicated log files:
 - `scripture_scraping.log` (all collections)
 - `ot_scraping.log`, `nt_scraping.log`, etc. (individual collections)
 - `topical_guide_scraping.log` (Topical Guide)
+- `bible_dictionary_scraping.log` (Bible Dictionary)
 
 ### Estimated File Counts
 **Scriptures**:
@@ -185,9 +216,10 @@ All scrapers log to both console and dedicated log files:
 
 **Study Helps**:
 - Topical Guide: ~3,512 topics
-- **Study Helps Total: ~3,512 files**
+- Bible Dictionary: ~1,274 entries
+- **Study Helps Total: ~4,786 files**
 
-**Grand Total: ~5,096 files**
+**Grand Total: ~6,370 files**
 
 ## Dependencies
 
@@ -231,6 +263,10 @@ Chapter URL pattern: `/study/scriptures/[collection]/[book]/[chapter]?lang=eng`
 - Index: `/study/scriptures/tg?lang=eng`
 - Topic pattern: `/study/scriptures/tg/[topic-slug]?lang=eng`
 
+**Bible Dictionary URLs**:
+- Index: `/study/scriptures/bd?lang=eng`
+- Entry pattern: `/study/scriptures/bd/[entry-slug]?lang=eng`
+
 ## Planning Documentation
 
 See `planning/` directory for:
@@ -238,3 +274,4 @@ See `planning/` directory for:
 - `output-format-specification.md` - File format specification for scriptures
 - `url-tree-structure.md` - URL patterns and navigation structure for scriptures
 - `topical-guide-scraping-plan.md` - Topical Guide scraper implementation plan
+- `bible-dictionary-scraping-plan.md` - Bible Dictionary scraper implementation plan

@@ -1,0 +1,6 @@
+Entry: Syria
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/syria?lang=eng
+
+---
+
+Originally known as Aram (or âthe highlandsâ), a general name for the country north and northeast of Palestine. The people were of Semitic origin (Gen. 10:22; 22:21) and were descended from the same stock as the Israelites. (See Aram.) At the beginning of the Hebrew monarchy Syria was divided into a number of small kingdoms, such as Damascus (2Â Sam. 8:5â6), Maachah and Geshur (2Â Sam. 15:8; 1Â Chr. 19:6), Beth-Rehob (2Â Sam. 10:6), and Zobah (2Â Sam. 10:6, 8). These kingdoms were as a rule rivals of Israel (2Â Sam. 8:3â6; 1Â Kgs. 11:23â25; 15:18; 20:34; 22; 2Â Kgs. 6:24â7:20; 8:28â29; 10:32â33; 21:17â18; 13:3â7, 25; 14:28). As the Assyrian kingdom grew stronger, Syria grew weaker, and Damascus was destroyed (2Â Kgs. 16:7â9). Under Seleucus Nicator (312Â B.C.) Syria again became a powerful kingdom with Antioch as its capital. Antiochus the Great (223Â B.C.) increased its strength, and Palestine became a Syrian province. Then followed the Maccabean rebellion (see Maccabees). In 66Â B.C. Syria was conquered by Pompey and became a Roman province; as such it is mentioned in the New Testament in Matt. 4:24; Luke 2:2; Acts 15:41; 18:18; 21:3; Gal. 1:21.

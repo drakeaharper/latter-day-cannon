@@ -1,0 +1,6 @@
+Entry: Pharaoh
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/pharaoh?lang=eng
+
+---
+
+(See Egypt.) The title given to the Egyptian kings; its meaning is âGreat House.â Nine or ten different Pharaohs are mentioned in the Old Testament, belonging to several different dynasties. (1) The Pharaoh (probably one of the Hyksos or Shepherd kings) visited by Abram (Gen. 12:15â20). (2) Pharaoh (also one of the Hyksos) and Joseph (Gen. 39â50). (3) The Pharaohs of oppression, SetiÂ â and RamsesÂ â ¡, belonging to the 19th dynasty (Ex. 1; 2); it is generally believed that the Pharaoh of the Exodus was Mer-ne-ptah, but the discovery of the Tell el-Amarna tablets has thrown doubt on this. (4) The Pharaoh whose daughter Solomon married, perhaps Pi-netchem of the 21st dynasty (1Â Kgs. 3:1; 7:8; 9:16, 24). (5) Shishak or Sheshonk, of the 22nd dynasty, who befriended Jeroboam. (6) So (Shabakah) with whom Hoshea makes alliance (2Â Kgs. 17:4). (7) Pharaoh Necho, who defeated Josiah at Megiddo (2Â Kgs. 23:29â35; Jer. 25:19; 46:17, 25; 47:1). (8) Pharaoh Hophra, who sent an army to the assistance of Zedekiah (Jer. 37:5â11; 43:9; Ezek. 17:17; 29:2â3; 30:21â25; 31:2, 18; 32:2, 31â32). See also Abr. 1.

@@ -1,0 +1,6 @@
+Entry: Aaron
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/aaron?lang=eng
+
+---
+
+Son of Amram and Jochebed, of the tribe of Levi (Ex. 6:16â20); elder brother of Moses (Ex. 7:7). He was appointed by the Lord to assist Moses in bringing the children of Israel out of Egypt and to be his spokesman (Ex. 4:10â16, 27â31; 5:1â12:50). He was with Moses until the 40th year of the wanderings. At Sinai he was one of those who accompanied Moses up the mountain and saw the Lord (Ex. 19:24; 24:1, 9â11). When Moses and Joshua were called up into the mount to commune with God, Aaron and Hur were appointed judges during their absence (Ex. 24:14, 18); it was then that Aaron made the golden calf at the peopleâs request (Ex. 32:1â6, 21, 24, 35). On Mount Sinai Moses received directions about the appointment of Aaron and his four sons, Nadab, Abihu, Eleazar, and Ithamar, to a priesthood that is known as the Aaronic Priesthood (Ex. 28:1â4; 29; D&C 84:18, 26â27). On the completion of the tabernacle Moses consecrated them to their office (Lev. 8:9â13). Aaron died on Mount Hor at the age of 123 (Num. 20:22â29; 33:38â39). For additional items see Ex. 16:2â10, 33â34; 18:12.

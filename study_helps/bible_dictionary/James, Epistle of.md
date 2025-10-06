@@ -1,0 +1,6 @@
+Entry: James, Epistle of
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/james-epistle-of?lang=eng
+
+---
+
+The writer is generally thought of as the Lordâs brother (Gal. 1:19), the son of Mary, and is mentioned in Acts 12:17; 15:13; Gal. 2:9. The epistle, which is addressed to the 12 tribes scattered abroad, was probably written from Jerusalem, but the date is not known. It may be one of the earlier epistles of the New Testament. In the epistle are found some clearly stated items about practical religion, including the important advice of 1:5â6 that if one lacks wisdom, he should ask of God for help. This instructive passage inspired Joseph Smith to inquire of the Lord in 1820 as to the true church, and as a consequence the Father and the Son appeared to him and the dispensation of the fulness of times was launched (JSâH 1:9â20). Among other important teachings of James are those that have to do with faith and works (James 2); the need to control the unruly tongue (James 3); an exhortation to patience (James 5); calling the elders for a blessing when sick (5:14â16); and the desirability of being an instrument of conversion in the life of even one other person (5:19â20).

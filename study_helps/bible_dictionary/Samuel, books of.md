@@ -1,0 +1,6 @@
+Entry: Samuel, books of
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/samuel-books-of?lang=eng
+
+---
+
+In the Hebrew Bible these books form one. Our division into two books follows the Greek Bible. The books begin with the birth of Samuel (hence the title) and carry us down nearly to the death of David, a period of about 130Â years. It is uncertain who the author was or when he wrote. In order to compile his narrative he no doubt used various writings that he found already in existence, including the state chronicles (among which were writings by Samuel, Nathan, and Gad, 1Â Sam. 10:25; 1Â Chr. 29:29). In some cases he has combined together two different accounts of the same event and has not always been careful to reconcile the two together (compare the two accounts of Davidâs introduction to Saul, 1Â Sam. 16:14â23 and 17:1â18:5). He also made use of various national and religious poems, which may have been preserved in writing or by oral tradition, such as Hannahâs song (1Â Sam. 2:1â10); Davidâs lament for Abner (2Â Sam. 3:33â34); Davidâs thanksgiving and his last words (2Â Sam. 22; 23:1â7); see also the reference to the Book of Jasher (2Â Sam. 1:18).

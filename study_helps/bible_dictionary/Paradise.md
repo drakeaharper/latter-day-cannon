@@ -1,0 +1,6 @@
+Entry: Paradise
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/paradise?lang=eng
+
+---
+
+A Persian word meaning âa garden.â It is not found in the Old Testament. In the New Testament it occurs in Luke 23:43, 2Â Cor. 12:4, and Rev. 2:7. See also 2Â Ne. 9:13; Alma 40:12, 14; 4Â Ne. 1:14; Moro. 10:34; D&C 77:2, 5; AÂ ofÂ F 1:10. Paradise is that part of the spirit world in which the righteous spirits who have departed from this life await the resurrection of the body. It is a condition of happiness and peace. However, the scriptures are not always consistent in the use of the word, especially in the Bible. For example, when Jesus purportedly said to the thief on the cross, âTo day shalt thou be with me in paradiseâ (Luke 23:43), the Bible rendering is incorrect. The statement would more accurately read, âToday shalt thou be with me in the world of spiritsâ since the thief was not ready for paradise (see HC 5:424â25). Possibly 2Â Cor. 12:4 should also not use âparadiseâ in the sense of meaning the spirit world, as much as meaning the celestial kingdom. The âparadisiacal gloryâ of AÂ ofÂ F 1:10 refers to the glorified millennial state of the earth rather than the spirit world.

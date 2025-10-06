@@ -1,0 +1,6 @@
+Entry: Hosea, or Hoshea
+URL: https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng
+
+---
+
+Son of Beeri, and the only prophet of the northern kingdom who has left written prophecies. He began to prophesy during the latter part of the reign of JeroboamÂ â ¡. He probably died before the accession of Pekah, 736Â B.C., for he makes no allusion to the Syro-Ephraimitic war nor to the deportation of the northern tribes by Tiglath-pileser two years later. He lived during a time of national decline and ruin, the result of the sin of Israel. Hoseaâs fundamental idea is the love of God for His people. In love God redeemed them from Egypt (Hosea 11:1); their history has been but an illustration of His love (11â13); all His chastisements are inflicted in love (2:14; 3); and their restoration shall be due to His love (2:19; 14:4). In contrast with this moral Being, who is Love, Hosea sets Israel, characterized always by want of affection, by treachery and infidelity. Yet he is able to look forward to a final redemption (2:19; 11:12â14:9). The profound thought and pathos of this prophet of the north deeply influenced succeeding writers (see Isa. 40â66; Jer. 2â3; Ezek. 16; 33).
