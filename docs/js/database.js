@@ -90,11 +90,8 @@ class DatabaseManager {
             ON mind_maps(name)
         `);
 
-        // Create full-text search virtual table for searching within maps
-        this.db.run(`
-            CREATE VIRTUAL TABLE IF NOT EXISTS mind_map_search
-            USING fts5(map_id, map_name, content)
-        `);
+        // Note: FTS5 (full-text search) is not available in the standard sql.js build
+        // We'll implement search using JSON functions when needed
 
         console.log('Database schema created');
         this.saveToLocalStorage();
@@ -221,9 +218,6 @@ class DatabaseManager {
         try {
             this.db.run(`DELETE FROM mind_maps WHERE name = ?`, [name]);
 
-            // Remove from search index
-            this.db.run(`DELETE FROM mind_map_search WHERE map_name = ?`, [name]);
-
             this.saveToLocalStorage();
             return true;
         } catch (error) {
@@ -244,13 +238,6 @@ class DatabaseManager {
                 WHERE name = ?
             `, [newName, oldName]);
 
-            // Update search index
-            this.db.run(`
-                UPDATE mind_map_search
-                SET map_name = ?
-                WHERE map_name = ?
-            `, [newName, oldName]);
-
             this.saveToLocalStorage();
             return true;
         } catch (error) {
@@ -260,30 +247,9 @@ class DatabaseManager {
     }
 
     updateSearchIndex(mapName, mapData) {
-        try {
-            // Remove old search entries for this map
-            this.db.run(`DELETE FROM mind_map_search WHERE map_name = ?`, [mapName]);
-
-            // Get map ID
-            const result = this.db.exec(`SELECT id FROM mind_maps WHERE name = ?`, [mapName]);
-            if (result.length === 0 || result[0].values.length === 0) return;
-
-            const mapId = result[0].values[0][0];
-
-            // Build searchable content from nodes
-            const searchContent = mapData.nodes.map(node => {
-                return `${node.title} ${node.description} ${node.type}`;
-            }).join(' ');
-
-            // Insert into search index
-            this.db.run(`
-                INSERT INTO mind_map_search (map_id, map_name, content)
-                VALUES (?, ?, ?)
-            `, [mapId, mapName, searchContent]);
-
-        } catch (error) {
-            console.error('Failed to update search index:', error);
-        }
+        // Search indexing is disabled (FTS5 not available in standard sql.js)
+        // Future: Could implement using JSON functions or separate search table
+        return;
     }
 
     async searchMindMaps(query) {
@@ -292,11 +258,13 @@ class DatabaseManager {
         }
 
         try {
+            // Simple search using LIKE on JSON data (not as efficient as FTS5, but works)
             const result = this.db.exec(`
-                SELECT DISTINCT map_name
-                FROM mind_map_search
-                WHERE content MATCH ?
-            `, [query]);
+                SELECT name
+                FROM mind_maps
+                WHERE data LIKE ?
+                ORDER BY modified_at DESC
+            `, [`%${query}%`]);
 
             if (result.length === 0) {
                 return [];

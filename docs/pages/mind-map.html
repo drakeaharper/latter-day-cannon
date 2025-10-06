@@ -71,7 +71,10 @@
         </div>
 
         <div id="map-sidebar" class="map-sidebar hidden">
-            <h3>Saved Mind Maps</h3>
+            <div class="sidebar-header">
+                <h3>Saved Mind Maps</h3>
+                <button id="close-sidebar-btn" class="close-sidebar-btn">×</button>
+            </div>
             <div id="map-list" class="map-list"></div>
         </div>
 
@@ -116,21 +119,26 @@
         </div>
 
         <div id="info-panel" class="panel">
-            <h3>Instructions</h3>
-            <ul>
-                <li><strong>Add Node:</strong> Click "Add Node" button, then click on canvas</li>
-                <li><strong>Edit Node:</strong> Double-click on any node</li>
-                <li><strong>Move Node:</strong> Drag nodes to reposition</li>
-                <li><strong>Connect Nodes:</strong> Click "Add Connection", then click two nodes</li>
-                <li><strong>Delete:</strong> Select a node and click "Delete" in the editor</li>
-            </ul>
-            <div class="node-type-legend">
-                <h4>Node Types:</h4>
-                <div class="legend-item"><span class="color-box" style="background: #3498db;"></span> Topic</div>
-                <div class="legend-item"><span class="color-box" style="background: #2ecc71;"></span> Scripture</div>
-                <div class="legend-item"><span class="color-box" style="background: #f39c12;"></span> Insight</div>
-                <div class="legend-item"><span class="color-box" style="background: #e74c3c;"></span> Question</div>
-                <div class="legend-item"><span class="color-box" style="background: #9b59b6;"></span> Note</div>
+            <div class="panel-header">
+                <h3>Instructions</h3>
+                <button id="toggle-info-btn" class="toggle-panel-btn">−</button>
+            </div>
+            <div id="info-content" class="panel-content">
+                <ul>
+                    <li><strong>Add Node:</strong> Click "Add Node" button, then click on canvas</li>
+                    <li><strong>Edit Node:</strong> Click on any node to open the editor</li>
+                    <li><strong>Move Node:</strong> Click and drag nodes to reposition</li>
+                    <li><strong>Connect Nodes:</strong> Click "Add Connection", then click two nodes</li>
+                    <li><strong>Delete:</strong> Click a node, then click "Delete" in the editor</li>
+                </ul>
+                <div class="node-type-legend">
+                    <h4>Node Types:</h4>
+                    <div class="legend-item"><span class="color-box" style="background: #3498db;"></span> Topic</div>
+                    <div class="legend-item"><span class="color-box" style="background: #2ecc71;"></span> Scripture</div>
+                    <div class="legend-item"><span class="color-box" style="background: #f39c12;"></span> Insight</div>
+                    <div class="legend-item"><span class="color-box" style="background: #e74c3c;"></span> Question</div>
+                    <div class="legend-item"><span class="color-box" style="background: #9b59b6;"></span> Note</div>
+                </div>
             </div>
         </div>
     </main>

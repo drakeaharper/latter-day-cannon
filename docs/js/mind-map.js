@@ -8,6 +8,8 @@ class MindMap {
         this.connectionStart = null;
         this.draggedNode = null;
         this.dragOffset = { x: 0, y: 0 };
+        this.dragStartPos = null;
+        this.hasDragged = false;
         this.nodeIdCounter = 0;
         this.currentMapName = null;
         this.autoSaveInterval = null;
@@ -140,6 +142,8 @@ class MindMap {
         const clickedNode = this.getNodeAtPosition(x, y);
         if (clickedNode) {
             this.draggedNode = clickedNode;
+            this.dragStartPos = { x, y };
+            this.hasDragged = false;
             this.dragOffset = {
                 x: x - clickedNode.x,
                 y: y - clickedNode.y
@@ -155,6 +159,14 @@ class MindMap {
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
 
+        // Check if mouse has moved (more than 1 pixel)
+        const dx = Math.abs(x - this.dragStartPos.x);
+        const dy = Math.abs(y - this.dragStartPos.y);
+
+        if (dx > 1 || dy > 1) {
+            this.hasDragged = true;
+        }
+
         this.draggedNode.x = x - this.dragOffset.x;
         this.draggedNode.y = y - this.dragOffset.y;
 
@@ -164,8 +176,17 @@ class MindMap {
 
     handleMouseUp(e) {
         if (this.draggedNode) {
-            this.markAsChanged();
+            if (this.hasDragged) {
+                // Node was dragged
+                this.markAsChanged();
+            } else {
+                // Node was clicked without dragging - open editor
+                this.editNode(this.draggedNode);
+            }
+
             this.draggedNode = null;
+            this.dragStartPos = null;
+            this.hasDragged = false;
             this.canvas.style.cursor = 'default';
         }
     }
@@ -233,11 +254,8 @@ class MindMap {
         group.appendChild(shape);
         group.appendChild(text);
 
-        // Double click to edit
-        group.addEventListener('dblclick', (e) => {
-            e.stopPropagation();
-            this.editNode(node);
-        });
+        // Note: Click to edit is now handled in handleMouseUp
+        // No need for double-click listener
 
         this.nodesLayer.appendChild(group);
     }
@@ -648,6 +666,22 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!sidebar.classList.contains('hidden')) {
                 mindMap.refreshMapList();
             }
+        }
+    });
+
+    document.getElementById('close-sidebar-btn')?.addEventListener('click', () => {
+        const sidebar = document.getElementById('map-sidebar');
+        if (sidebar) {
+            sidebar.classList.add('hidden');
+        }
+    });
+
+    document.getElementById('toggle-info-btn')?.addEventListener('click', () => {
+        const content = document.getElementById('info-content');
+        const button = document.getElementById('toggle-info-btn');
+        if (content && button) {
+            content.classList.toggle('collapsed');
+            button.textContent = content.classList.contains('collapsed') ? '+' : '−';
         }
     });
 
