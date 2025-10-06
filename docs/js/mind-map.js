@@ -14,6 +14,7 @@ class MindMap {
         this.currentMapName = null;
         this.autoSaveInterval = null;
         this.hasUnsavedChanges = false;
+        this.originalNodeState = null;
 
         this.canvas = document.getElementById('mind-map-canvas');
         this.nodesLayer = document.getElementById('nodes-layer');
@@ -30,6 +31,7 @@ class MindMap {
 
         this.initializeEventListeners();
         this.startAutoSave();
+        this.initializeBeforeUnload();
     }
 
     initializeEventListeners() {
@@ -79,12 +81,13 @@ class MindMap {
             this.closeNodeEditor();
         });
 
-        // Node type selector for color update
+        // Node type selector for color update (preview only, not saved until Save button)
         document.getElementById('node-type').addEventListener('change', () => {
             if (this.selectedNode) {
                 const newType = document.getElementById('node-type').value;
                 this.selectedNode.type = newType;
                 this.updateNodeDisplay(this.selectedNode);
+                // Don't mark as changed here - only mark when Save is clicked
             }
         });
     }
@@ -241,7 +244,7 @@ class MindMap {
         }
 
         const color = this.nodeTypeColors[node.type] || node.color;
-        shape.classList.add('node-shape', `node-type-${node.type}`);
+        shape.classList.add('node-shape');
         shape.setAttribute('fill', color);
 
         // Text
@@ -344,6 +347,12 @@ class MindMap {
 
     editNode(node) {
         this.selectedNode = node;
+        // Store original state for cancel functionality
+        this.originalNodeState = {
+            title: node.title,
+            description: node.description,
+            type: node.type
+        };
         document.getElementById('node-title').value = node.title;
         document.getElementById('node-description').value = node.description;
         document.getElementById('node-type').value = node.type;
@@ -358,7 +367,9 @@ class MindMap {
         this.selectedNode.type = document.getElementById('node-type').value;
 
         this.updateNodeDisplay(this.selectedNode);
-        this.closeNodeEditor();
+        this.originalNodeState = null; // Clear original state since we're saving
+        this.selectedNode = null;
+        this.nodeEditor.classList.add('hidden');
         this.markAsChanged();
     }
 
@@ -385,7 +396,15 @@ class MindMap {
     }
 
     closeNodeEditor() {
+        // Revert changes if there was an original state (cancel was pressed)
+        if (this.selectedNode && this.originalNodeState) {
+            this.selectedNode.title = this.originalNodeState.title;
+            this.selectedNode.description = this.originalNodeState.description;
+            this.selectedNode.type = this.originalNodeState.type;
+            this.updateNodeDisplay(this.selectedNode);
+        }
         this.selectedNode = null;
+        this.originalNodeState = null;
         this.nodeEditor.classList.add('hidden');
     }
 
@@ -610,6 +629,18 @@ class MindMap {
     truncateText(text, maxLength) {
         if (text.length <= maxLength) return text;
         return text.substring(0, maxLength - 3) + '...';
+    }
+
+    initializeBeforeUnload() {
+        window.addEventListener('beforeunload', (e) => {
+            if (this.hasUnsavedChanges) {
+                // Modern browsers require returnValue to be set
+                e.preventDefault();
+                e.returnValue = '';
+                // Some browsers show this message, others show a generic message
+                return 'You have unsaved changes. Are you sure you want to leave?';
+            }
+        });
     }
 }
 
