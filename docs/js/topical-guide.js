@@ -281,25 +281,31 @@ class TopicalGuideBrowser {
                 throw new Error('Database not initialized');
             }
 
-            const result = this.db.exec(`
+            const stmt = this.db.prepare(`
                 SELECT scripture_text, citation, collection_name
                 FROM topical_guide_references
                 WHERE topic_id = ?
                 ORDER BY sort_order
-            `, [topicId]);
+            `);
+            stmt.bind([topicId]);
 
-            console.log('Query result:', result);
+            const references = [];
+            while (stmt.step()) {
+                const row = stmt.getAsObject();
+                references.push({
+                    excerpt: row.scripture_text,
+                    citation: row.citation,
+                    collection: row.collection_name
+                });
+            }
+            stmt.free();
 
-            if (result.length === 0 || !result[0].values || result[0].values.length === 0) {
+            console.log('Query result:', references);
+
+            if (references.length === 0) {
                 contentDiv.innerHTML = '<p class="no-references">No references found for this topic.</p>';
                 return;
             }
-
-            const references = result[0].values.map(row => ({
-                excerpt: row[0],        // scripture_text
-                citation: row[1],       // citation
-                collection: row[2]      // collection_name
-            }));
 
             // Group by collection
             const grouped = this.groupReferencesByCollection(references);

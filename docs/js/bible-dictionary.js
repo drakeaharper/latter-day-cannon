@@ -274,21 +274,24 @@ class BibleDictionaryBrowser {
 
     async loadEntryContent(entryId, contentDiv) {
         try {
-            const result = this.db.exec(`
-                SELECT entry_name, body_text
+            const stmt = this.db.prepare(`
+                SELECT entry_name, body
                 FROM bible_dictionary_entries
                 WHERE id = ?
-            `, [entryId]);
+            `);
+            stmt.bind([entryId]);
 
-            if (result.length === 0 || !result[0].values || result[0].values.length === 0) {
+            if (!stmt.step()) {
                 contentDiv.innerHTML = '<p class="no-content">No content found for this entry.</p>';
+                stmt.free();
                 return;
             }
 
-            const [entryName, bodyText] = result[0].values[0];
+            const row = stmt.getAsObject();
+            stmt.free();
 
             // Format body text with paragraphs preserved
-            const formattedText = this.formatBodyText(bodyText);
+            const formattedText = this.formatBodyText(row.body);
 
             contentDiv.innerHTML = `<div class="entry-body">${formattedText}</div>`;
         } catch (error) {
