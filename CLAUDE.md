@@ -310,6 +310,50 @@ Chapter URL pattern: `/study/scriptures/[collection]/[book]/[chapter]?lang=eng`
 - Index: `/study/scriptures/bd?lang=eng`
 - Entry pattern: `/study/scriptures/bd/[entry-slug]?lang=eng`
 
+## Local Development
+
+The web application requires a local web server for development due to browser CORS restrictions on `file://` protocol.
+
+**Why a server is needed:**
+- The Scripture Library, Topical Guide, and Bible Dictionary pages use `fetch()` to load `scripture-library.db` (16MB)
+- Browsers block `fetch()` requests on `file://` protocol for security
+- Mind Map works locally because it stores its SQLite database in localStorage (no fetch required)
+- Production (GitHub Pages) works fine because it serves over `https://`
+
+**Start local development server:**
+```bash
+cd docs
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000` in your browser.
+
+**Alternative servers:**
+```bash
+# Node.js
+npx serve
+
+# PHP
+php -S localhost:8000
+```
+
+**Database Architecture:**
+Both the Mind Map and Scripture Library use SQLite databases via sql.js (WebAssembly):
+
+1. **Mind Map Database** (`mind-map.db`)
+   - Created in-memory with sql.js
+   - Exported to Uint8Array and serialized to localStorage
+   - Loaded from localStorage on page load
+   - ✅ Works with `file://` protocol (no fetch needed)
+   - User's personal data, NOT committed to repo
+
+2. **Scripture Library Database** (`scripture-library.db`)
+   - Pre-built 16MB SQLite file in `docs/` directory
+   - Fetched from server and loaded into sql.js
+   - ❌ Requires HTTP/HTTPS (fetch doesn't work with `file://`)
+   - Read-only reference data, committed to repo
+   - Shared by Scripture Library, Topical Guide, and Bible Dictionary
+
 ## Planning Documentation
 
 See `planning/` directory for:
@@ -318,3 +362,4 @@ See `planning/` directory for:
 - `url-tree-structure.md` - URL patterns and navigation structure for scriptures
 - `topical-guide-scraping-plan.md` - Topical Guide scraper implementation plan
 - `bible-dictionary-scraping-plan.md` - Bible Dictionary scraper implementation plan
+- `study-helps-integration-plan.md` - Study Helps landing page integration plan
