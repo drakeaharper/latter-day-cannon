@@ -220,10 +220,23 @@
     stroke-width: 2;
     fill: none;
     marker-end: url(#arrowhead);
+    cursor: pointer;
+    /* Increase hit area without making line visually thicker */
+    stroke-linecap: round;
+}
+
+/* Invisible wider line for easier clicking */
+.connection-line {
+    paint-order: stroke;
+}
+
+.connection-line:hover {
+    stroke: var(--primary-color);
+    stroke-width: 3;
 }
 
 .connection-line.selected {
-    stroke: var(--primary-color);
+    stroke: var(--danger-color);
     stroke-width: 3;
 }
 
@@ -269,7 +282,8 @@
 
 .panel-content {
     max-height: 500px;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     transition: max-height 0.3s ease, opacity 0.3s ease;
 }
 
@@ -287,7 +301,7 @@
 #info-panel {
     bottom: 20px;
     left: 20px;
-    width: 300px;
+    width: 400px;
 }
 
 .panel h3 {
@@ -363,9 +377,10 @@
 }
 
 .legend-item {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    margin-right: 1rem;
     margin-bottom: 0.5rem;
     font-size: 0.85rem;
 }

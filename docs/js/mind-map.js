@@ -4,6 +4,7 @@ class MindMap {
         this.nodes = [];
         this.connections = [];
         this.selectedNode = null;
+        this.selectedConnection = null;
         this.mode = 'select'; // 'select', 'add-node', 'add-connection'
         this.connectionStart = null;
         this.draggedNode = null;
@@ -20,6 +21,9 @@ class MindMap {
         this.panOffset = { x: 0, y: 0 };
         this.isPanning = false;
         this.panStart = null;
+
+        // Keyboard shortcuts
+        this.keysPressed = new Set();
 
         this.canvas = document.getElementById('mind-map-canvas');
         this.nodesLayer = document.getElementById('nodes-layer');
@@ -96,6 +100,35 @@ class MindMap {
                 // Don't mark as changed here - only mark when Save is clicked
             }
         });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => this.handleKeyDown(e));
+        document.addEventListener('keyup', (e) => this.handleKeyUp(e));
+    }
+
+    handleKeyDown(e) {
+        this.keysPressed.add(e.key.toLowerCase());
+        this.updateCursor();
+    }
+
+    handleKeyUp(e) {
+        this.keysPressed.delete(e.key.toLowerCase());
+        this.updateCursor();
+    }
+
+    updateCursor() {
+        // Update cursor based on active keys and mode
+        if (this.keysPressed.has('a')) {
+            this.canvas.style.cursor = 'crosshair';
+        } else if (this.keysPressed.has('c')) {
+            this.canvas.style.cursor = 'pointer';
+        } else if (this.mode === 'add-node') {
+            this.canvas.style.cursor = 'crosshair';
+        } else if (this.mode === 'add-connection') {
+            this.canvas.style.cursor = 'pointer';
+        } else {
+            this.canvas.style.cursor = 'default';
+        }
     }
 
     setMode(mode) {
@@ -127,10 +160,16 @@ class MindMap {
         const x = e.clientX - rect.left - this.panOffset.x;
         const y = e.clientY - rect.top - this.panOffset.y;
 
-        if (this.mode === 'add-node') {
+        // Check for keyboard shortcuts (A + click for add node, C + click for connection)
+        const addNodeShortcut = this.keysPressed.has('a');
+        const addConnectionShortcut = this.keysPressed.has('c');
+
+        if (this.mode === 'add-node' || addNodeShortcut) {
             this.addNode(x, y);
-            this.setMode('select');
-        } else if (this.mode === 'add-connection') {
+            if (!addNodeShortcut) {
+                this.setMode('select');
+            }
+        } else if (this.mode === 'add-connection' || addConnectionShortcut) {
             const clickedNode = this.getNodeAtPosition(x, y);
             if (clickedNode) {
                 if (!this.connectionStart) {
@@ -140,14 +179,17 @@ class MindMap {
                         this.addConnection(this.connectionStart, clickedNode);
                     }
                     this.connectionStart = null;
-                    this.setMode('select');
+                    if (!addConnectionShortcut) {
+                        this.setMode('select');
+                    }
                 }
             }
         }
     }
 
     handleMouseDown(e) {
-        if (this.mode !== 'select') return;
+        // Don't allow dragging if keyboard shortcuts are active
+        if (this.mode !== 'select' || this.keysPressed.has('a') || this.keysPressed.has('c')) return;
 
         const rect = this.canvas.getBoundingClientRect();
         const x = e.clientX - rect.left - this.panOffset.x;
@@ -374,6 +416,12 @@ class MindMap {
         line.setAttribute('x2', toNode.x);
         line.setAttribute('y2', toNode.y);
 
+        // Add click handler for connection deletion
+        line.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.selectConnection(connection);
+        });
+
         this.connectionsLayer.appendChild(line);
     }
 
@@ -443,6 +491,35 @@ class MindMap {
 
         this.nodes = this.nodes.filter(n => n.id !== this.selectedNode.id);
         this.closeNodeEditor();
+        this.markAsChanged();
+    }
+
+    selectConnection(connection) {
+        // Deselect any previously selected connection
+        if (this.selectedConnection) {
+            const prevLine = this.connectionsLayer.querySelector(`[data-connection-id="${this.selectedConnection.id}"]`);
+            if (prevLine) prevLine.classList.remove('selected');
+        }
+
+        this.selectedConnection = connection;
+        const line = this.connectionsLayer.querySelector(`[data-connection-id="${connection.id}"]`);
+        if (line) {
+            line.classList.add('selected');
+        }
+
+        // Delete immediately
+        this.deleteConnection(connection);
+    }
+
+    deleteConnection(connection) {
+        // Remove from array
+        this.connections = this.connections.filter(c => c.id !== connection.id);
+
+        // Remove from DOM
+        const line = this.connectionsLayer.querySelector(`[data-connection-id="${connection.id}"]`);
+        if (line) line.remove();
+
+        this.selectedConnection = null;
         this.markAsChanged();
     }
 
