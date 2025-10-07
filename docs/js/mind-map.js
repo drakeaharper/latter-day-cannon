@@ -16,6 +16,11 @@ class MindMap {
         this.hasUnsavedChanges = false;
         this.originalNodeState = null;
 
+        // Canvas panning
+        this.panOffset = { x: 0, y: 0 };
+        this.isPanning = false;
+        this.panStart = null;
+
         this.canvas = document.getElementById('mind-map-canvas');
         this.nodesLayer = document.getElementById('nodes-layer');
         this.connectionsLayer = document.getElementById('connections-layer');
@@ -65,8 +70,9 @@ class MindMap {
         // Canvas interactions
         this.canvas.addEventListener('click', (e) => this.handleCanvasClick(e));
         this.canvas.addEventListener('mousedown', (e) => this.handleMouseDown(e));
-        this.canvas.addEventListener('mousemove', (e) => this.handleMouseMove(e));
-        this.canvas.addEventListener('mouseup', (e) => this.handleMouseUp(e));
+        // Use document for move/up so dragging works even outside canvas
+        document.addEventListener('mousemove', (e) => this.handleMouseMove(e));
+        document.addEventListener('mouseup', (e) => this.handleMouseUp(e));
 
         // Node editor
         document.getElementById('save-node-btn').addEventListener('click', () => {
@@ -112,9 +118,14 @@ class MindMap {
     }
 
     handleCanvasClick(e) {
+        // Ignore clicks that were part of panning
+        if (this.hasDragged && this.isPanning) {
+            return;
+        }
+
         const rect = this.canvas.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
+        const x = e.clientX - rect.left - this.panOffset.x;
+        const y = e.clientY - rect.top - this.panOffset.y;
 
         if (this.mode === 'add-node') {
             this.addNode(x, y);
@@ -139,42 +150,77 @@ class MindMap {
         if (this.mode !== 'select') return;
 
         const rect = this.canvas.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
+        const x = e.clientX - rect.left - this.panOffset.x;
+        const y = e.clientY - rect.top - this.panOffset.y;
 
         const clickedNode = this.getNodeAtPosition(x, y);
         if (clickedNode) {
+            // Node dragging
             this.draggedNode = clickedNode;
-            this.dragStartPos = { x, y };
+            this.dragStartPos = { x: e.clientX - rect.left, y: e.clientY - rect.top };
             this.hasDragged = false;
             this.dragOffset = {
                 x: x - clickedNode.x,
                 y: y - clickedNode.y
             };
             this.canvas.style.cursor = 'grabbing';
+        } else {
+            // Canvas panning
+            this.isPanning = true;
+            this.panStart = {
+                x: e.clientX - rect.left,
+                y: e.clientY - rect.top
+            };
+            this.hasDragged = false;
+            this.canvas.style.cursor = 'grabbing';
         }
     }
 
     handleMouseMove(e) {
-        if (!this.draggedNode) return;
+        if (!this.draggedNode && !this.isPanning) return;
 
         const rect = this.canvas.getBoundingClientRect();
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
 
-        // Check if mouse has moved (more than 1 pixel)
-        const dx = Math.abs(x - this.dragStartPos.x);
-        const dy = Math.abs(y - this.dragStartPos.y);
+        if (this.draggedNode) {
+            // Node dragging
+            e.preventDefault();
 
-        if (dx > 1 || dy > 1) {
-            this.hasDragged = true;
+            // Check if mouse has moved (more than 1 pixel)
+            const dx = Math.abs(x - this.dragStartPos.x);
+            const dy = Math.abs(y - this.dragStartPos.y);
+
+            if (dx > 1 || dy > 1) {
+                this.hasDragged = true;
+            }
+
+            this.draggedNode.x = x - this.panOffset.x - this.dragOffset.x;
+            this.draggedNode.y = y - this.panOffset.y - this.dragOffset.y;
+
+            this.updateNodeDisplay(this.draggedNode);
+            this.updateConnectionsForNode(this.draggedNode);
+        } else if (this.isPanning) {
+            // Canvas panning
+            e.preventDefault();
+
+            const dx = Math.abs(x - this.panStart.x);
+            const dy = Math.abs(y - this.panStart.y);
+
+            if (dx > 1 || dy > 1) {
+                this.hasDragged = true;
+            }
+
+            const deltaX = x - this.panStart.x;
+            const deltaY = y - this.panStart.y;
+
+            this.panOffset.x += deltaX;
+            this.panOffset.y += deltaY;
+
+            this.panStart = { x, y };
+
+            this.updatePanTransform();
         }
-
-        this.draggedNode.x = x - this.dragOffset.x;
-        this.draggedNode.y = y - this.dragOffset.y;
-
-        this.updateNodeDisplay(this.draggedNode);
-        this.updateConnectionsForNode(this.draggedNode);
     }
 
     handleMouseUp(e) {
@@ -189,6 +235,11 @@ class MindMap {
 
             this.draggedNode = null;
             this.dragStartPos = null;
+            this.hasDragged = false;
+            this.canvas.style.cursor = 'default';
+        } else if (this.isPanning) {
+            this.isPanning = false;
+            this.panStart = null;
             this.hasDragged = false;
             this.canvas.style.cursor = 'default';
         }
@@ -624,6 +675,12 @@ class MindMap {
                 this.saveCurrentMap();
             }
         }, 30000);
+    }
+
+    updatePanTransform() {
+        const transform = `translate(${this.panOffset.x}, ${this.panOffset.y})`;
+        this.nodesLayer.setAttribute('transform', transform);
+        this.connectionsLayer.setAttribute('transform', transform);
     }
 
     truncateText(text, maxLength) {
