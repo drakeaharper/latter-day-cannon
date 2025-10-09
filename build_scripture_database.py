@@ -26,6 +26,7 @@ class ScriptureDatabaseBuilder:
         (3, "Book of Mormon", "BofM", 3),
         (4, "Doctrine and Covenants", "D&C", 4),
         (5, "Pearl of Great Price", "PGP", 5),
+        (6, "Lectures on Faith", "LoF", 6),
     ]
 
     # Directory name to collection ID mapping
@@ -35,6 +36,7 @@ class ScriptureDatabaseBuilder:
         "book-of-mormon": 3,
         "doctrine-and-covenants": 4,
         "pearl-of-great-price": 5,
+        "lectures-on-faith": 6,
     }
 
     def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps'):
