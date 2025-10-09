@@ -183,11 +183,11 @@ class ScriptureDatabaseBuilder:
             if line.strip() == '---':
                 in_summary = not in_summary
                 continue
-            if in_summary:
-                summary.append(line.strip())
-            # Stop at first verse
+            # Stop at first verse (check BEFORE adding to summary)
             if re.match(r'^\d+\s+', line):
                 break
+            if in_summary:
+                summary.append(line.strip())
 
         # Extract verses
         verses = []
