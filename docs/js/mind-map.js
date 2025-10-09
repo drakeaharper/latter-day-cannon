@@ -91,6 +91,21 @@ class MindMap {
             this.closeNodeEditor();
         });
 
+        // Save on Enter key in node editor fields
+        document.getElementById('node-title').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                this.saveNodeEdit();
+            }
+        });
+
+        document.getElementById('node-description').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                this.saveNodeEdit();
+            }
+        });
+
         // Node type selector for color update (preview only, not saved until Save button)
         document.getElementById('node-type').addEventListener('change', () => {
             if (this.selectedNode) {
