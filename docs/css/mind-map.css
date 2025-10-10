@@ -212,6 +212,7 @@
     dominant-baseline: middle;
     pointer-events: none;
     user-select: none;
+    font-weight: 500;
 }
 
 /* Connection Lines */

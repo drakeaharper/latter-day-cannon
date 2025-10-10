@@ -324,10 +324,10 @@ class MindMap {
         group.classList.add('mind-map-node');
         group.setAttribute('data-node-id', node.id);
 
-        // Determine shape
+        // Determine shape - increased size
         let shape;
-        const width = 120;
-        const height = 60;
+        const width = 180;
+        const height = 80;
 
         if (node.shape === 'circle') {
             shape = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
@@ -355,15 +355,11 @@ class MindMap {
         shape.classList.add('node-shape');
         shape.setAttribute('fill', color);
 
-        // Text
-        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        text.classList.add('node-text');
-        text.setAttribute('x', node.x);
-        text.setAttribute('y', node.y);
-        text.textContent = this.truncateText(node.title, 15);
-
+        // Append shape first (background)
         group.appendChild(shape);
-        group.appendChild(text);
+
+        // Text with wrapping (rendered on top)
+        this.renderWrappedText(group, node.title, node.x, node.y, width - 20); // 10px padding on each side
 
         // Note: Click to edit is now handled in handleMouseUp
         // No need for double-click listener
@@ -376,10 +372,9 @@ class MindMap {
         if (!group) return;
 
         const shape = group.querySelector('.node-shape');
-        const text = group.querySelector('.node-text');
 
-        const width = 120;
-        const height = 60;
+        const width = 180;
+        const height = 80;
 
         // Update position based on shape
         if (node.shape === 'circle') {
@@ -394,10 +389,12 @@ class MindMap {
         const color = this.nodeTypeColors[node.type] || node.color;
         shape.setAttribute('fill', color);
 
-        // Update text
-        text.setAttribute('x', node.x);
-        text.setAttribute('y', node.y);
-        text.textContent = this.truncateText(node.title, 15);
+        // Remove old text elements and re-render
+        const oldTexts = group.querySelectorAll('.node-text');
+        oldTexts.forEach(t => t.remove());
+
+        // Re-render text with wrapping
+        this.renderWrappedText(group, node.title, node.x, node.y, width - 20);
     }
 
     addConnection(fromNode, toNode) {
@@ -552,10 +549,25 @@ class MindMap {
     }
 
     getNodeAtPosition(x, y) {
+        const width = 180;
+        const height = 80;
+
         for (let node of this.nodes) {
-            const distance = Math.sqrt(Math.pow(x - node.x, 2) + Math.pow(y - node.y, 2));
-            if (distance < 60) { // Approximate hit area
-                return node;
+            if (node.shape === 'circle') {
+                // Ellipse hit detection
+                const dx = (x - node.x) / (width / 2);
+                const dy = (y - node.y) / (height / 2);
+                if (dx * dx + dy * dy <= 1) {
+                    return node;
+                }
+            } else {
+                // Rectangle hit detection
+                const halfWidth = width / 2;
+                const halfHeight = height / 2;
+                if (x >= node.x - halfWidth && x <= node.x + halfWidth &&
+                    y >= node.y - halfHeight && y <= node.y + halfHeight) {
+                    return node;
+                }
             }
         }
         return null;
@@ -773,6 +785,66 @@ class MindMap {
         const transform = `translate(${this.panOffset.x}, ${this.panOffset.y})`;
         this.nodesLayer.setAttribute('transform', transform);
         this.connectionsLayer.setAttribute('transform', transform);
+    }
+
+    renderWrappedText(group, text, x, y, maxWidth) {
+        const words = text.split(' ');
+        const lines = [];
+        let currentLine = '';
+        const lineHeight = 18; // pixels between lines
+        const fontSize = 14;
+
+        // Create temporary text element to measure width
+        const tempText = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        tempText.setAttribute('font-size', fontSize);
+        tempText.setAttribute('font-family', '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif');
+        tempText.style.visibility = 'hidden';
+        this.nodesLayer.appendChild(tempText); // Append to layer temporarily for measurement
+
+        // Word wrap algorithm
+        for (let word of words) {
+            const testLine = currentLine ? `${currentLine} ${word}` : word;
+            tempText.textContent = testLine;
+            const width = tempText.getComputedTextLength();
+
+            if (width > maxWidth && currentLine !== '') {
+                lines.push(currentLine);
+                currentLine = word;
+            } else {
+                currentLine = testLine;
+            }
+        }
+        if (currentLine) {
+            lines.push(currentLine);
+        }
+
+        // Remove temporary text element
+        tempText.remove();
+
+        // Limit to 3 lines to prevent overflow
+        const maxLines = 3;
+        if (lines.length > maxLines) {
+            lines.length = maxLines;
+            // Add ellipsis to last line if truncated
+            const lastLine = lines[maxLines - 1];
+            if (lastLine.length > 3) {
+                lines[maxLines - 1] = lastLine.substring(0, lastLine.length - 3) + '...';
+            }
+        }
+
+        // Calculate starting Y position to center text vertically
+        const totalHeight = (lines.length - 1) * lineHeight;
+        const startY = y - (totalHeight / 2);
+
+        // Render each line
+        lines.forEach((line, i) => {
+            const textElement = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            textElement.classList.add('node-text');
+            textElement.setAttribute('x', x);
+            textElement.setAttribute('y', startY + (i * lineHeight));
+            textElement.textContent = line;
+            group.appendChild(textElement);
+        });
     }
 
     truncateText(text, maxLength) {
