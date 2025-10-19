@@ -22,6 +22,12 @@ class MindMap {
         this.isPanning = false;
         this.panStart = null;
 
+        // Canvas zooming
+        this.zoomLevel = 1.0;
+        this.minZoom = 0.1;
+        this.maxZoom = 3.0;
+        this.zoomStep = 0.1;
+
         // Keyboard shortcuts
         this.keysPressed = new Set();
 
@@ -74,6 +80,7 @@ class MindMap {
         // Canvas interactions
         this.canvas.addEventListener('click', (e) => this.handleCanvasClick(e));
         this.canvas.addEventListener('mousedown', (e) => this.handleMouseDown(e));
+        this.canvas.addEventListener('wheel', (e) => this.handleWheel(e), { passive: false });
         // Use document for move/up so dragging works even outside canvas
         document.addEventListener('mousemove', (e) => this.handleMouseMove(e));
         document.addEventListener('mouseup', (e) => this.handleMouseUp(e));
@@ -174,8 +181,8 @@ class MindMap {
         }
 
         const rect = this.canvas.getBoundingClientRect();
-        const x = e.clientX - rect.left - this.panOffset.x;
-        const y = e.clientY - rect.top - this.panOffset.y;
+        const x = (e.clientX - rect.left - this.panOffset.x) / this.zoomLevel;
+        const y = (e.clientY - rect.top - this.panOffset.y) / this.zoomLevel;
 
         // Check for keyboard shortcuts
         const addNodeShortcut = this.keysPressed.has('a') || this.keysPressed.has('s') ||
@@ -221,8 +228,8 @@ class MindMap {
             this.keysPressed.has('c')) return;
 
         const rect = this.canvas.getBoundingClientRect();
-        const x = e.clientX - rect.left - this.panOffset.x;
-        const y = e.clientY - rect.top - this.panOffset.y;
+        const x = (e.clientX - rect.left - this.panOffset.x) / this.zoomLevel;
+        const y = (e.clientY - rect.top - this.panOffset.y) / this.zoomLevel;
 
         const clickedNode = this.getNodeAtPosition(x, y);
         if (clickedNode) {
@@ -266,8 +273,8 @@ class MindMap {
                 this.hasDragged = true;
             }
 
-            this.draggedNode.x = x - this.panOffset.x - this.dragOffset.x;
-            this.draggedNode.y = y - this.panOffset.y - this.dragOffset.y;
+            this.draggedNode.x = (x - this.panOffset.x) / this.zoomLevel - this.dragOffset.x;
+            this.draggedNode.y = (y - this.panOffset.y) / this.zoomLevel - this.dragOffset.y;
 
             this.updateNodeDisplay(this.draggedNode);
             this.updateConnectionsForNode(this.draggedNode);
@@ -313,6 +320,69 @@ class MindMap {
             this.panStart = null;
             this.hasDragged = false;
             this.canvas.style.cursor = 'default';
+        }
+    }
+
+    handleWheel(e) {
+        e.preventDefault();
+
+        const rect = this.canvas.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+
+        // Calculate mouse position in world coordinates before zoom
+        const worldXBefore = (mouseX - this.panOffset.x) / this.zoomLevel;
+        const worldYBefore = (mouseY - this.panOffset.y) / this.zoomLevel;
+
+        // Update zoom level
+        const delta = e.deltaY > 0 ? -this.zoomStep : this.zoomStep;
+        const newZoom = Math.max(this.minZoom, Math.min(this.maxZoom, this.zoomLevel + delta));
+
+        if (newZoom !== this.zoomLevel) {
+            this.zoomLevel = newZoom;
+
+            // Calculate mouse position in world coordinates after zoom
+            const worldXAfter = (mouseX - this.panOffset.x) / this.zoomLevel;
+            const worldYAfter = (mouseY - this.panOffset.y) / this.zoomLevel;
+
+            // Adjust pan offset to keep mouse position stable
+            this.panOffset.x += (worldXAfter - worldXBefore) * this.zoomLevel;
+            this.panOffset.y += (worldYAfter - worldYBefore) * this.zoomLevel;
+
+            this.updatePanTransform();
+            this.updateZoomDisplay();
+        }
+    }
+
+    zoomIn() {
+        const newZoom = Math.min(this.maxZoom, this.zoomLevel + this.zoomStep);
+        if (newZoom !== this.zoomLevel) {
+            this.zoomLevel = newZoom;
+            this.updatePanTransform();
+            this.updateZoomDisplay();
+        }
+    }
+
+    zoomOut() {
+        const newZoom = Math.max(this.minZoom, this.zoomLevel - this.zoomStep);
+        if (newZoom !== this.zoomLevel) {
+            this.zoomLevel = newZoom;
+            this.updatePanTransform();
+            this.updateZoomDisplay();
+        }
+    }
+
+    resetZoom() {
+        this.zoomLevel = 1.0;
+        this.panOffset = { x: 0, y: 0 };
+        this.updatePanTransform();
+        this.updateZoomDisplay();
+    }
+
+    updateZoomDisplay() {
+        const displayElement = document.getElementById('zoom-level-display');
+        if (displayElement) {
+            displayElement.textContent = `${Math.round(this.zoomLevel * 100)}%`;
         }
     }
 
@@ -796,7 +866,7 @@ class MindMap {
     }
 
     updatePanTransform() {
-        const transform = `translate(${this.panOffset.x}, ${this.panOffset.y})`;
+        const transform = `translate(${this.panOffset.x}, ${this.panOffset.y}) scale(${this.zoomLevel})`;
         this.nodesLayer.setAttribute('transform', transform);
         this.connectionsLayer.setAttribute('transform', transform);
     }
@@ -949,6 +1019,19 @@ document.addEventListener('DOMContentLoaded', async () => {
             content.classList.toggle('collapsed');
             button.textContent = content.classList.contains('collapsed') ? '+' : '−';
         }
+    });
+
+    // Zoom controls
+    document.getElementById('zoom-in-btn')?.addEventListener('click', () => {
+        mindMap.zoomIn();
+    });
+
+    document.getElementById('zoom-out-btn')?.addEventListener('click', () => {
+        mindMap.zoomOut();
+    });
+
+    document.getElementById('reset-zoom-btn')?.addEventListener('click', () => {
+        mindMap.resetZoom();
     });
 
     // Initial map list refresh (only if DB is ready)

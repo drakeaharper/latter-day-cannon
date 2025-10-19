@@ -60,6 +60,17 @@
     font-size: 1rem;
 }
 
+/* Zoom Controls */
+.zoom-level-display {
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--dark-text);
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+}
+
 /* Map Sidebar */
 .map-sidebar {
     position: absolute;

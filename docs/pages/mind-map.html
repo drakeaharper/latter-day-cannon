@@ -69,6 +69,19 @@
                     <option value="rounded" selected>Rounded</option>
                 </select>
             </div>
+
+            <div class="toolbar-section">
+                <button id="zoom-out-btn" class="btn btn-secondary" title="Zoom Out">
+                    <span>🔍−</span>
+                </button>
+                <span id="zoom-level-display" class="zoom-level-display">100%</span>
+                <button id="zoom-in-btn" class="btn btn-secondary" title="Zoom In">
+                    <span>🔍+</span>
+                </button>
+                <button id="reset-zoom-btn" class="btn btn-secondary" title="Reset Zoom">
+                    <span>⟲</span>
+                </button>
+            </div>
         </div>
 
         <div id="map-sidebar" class="map-sidebar hidden">
@@ -130,6 +143,8 @@
                     <li><strong>Edit Node:</strong> Click on any node to open the editor</li>
                     <li><strong>Move Node:</strong> Click and drag nodes to reposition</li>
                     <li><strong>Pan Canvas:</strong> Click and drag empty space to move the canvas</li>
+                    <li><strong>Zoom:</strong> Use mouse wheel or zoom buttons (🔍+ / 🔍−) to zoom in/out</li>
+                    <li><strong>Reset View:</strong> Click ⟲ to reset zoom and pan to default</li>
                     <li><strong>Connect Nodes:</strong> Click "Add Connection", then click two nodes, or hold <kbd>C</kbd> + click</li>
                     <li><strong>Delete Node:</strong> Click a node, then click "Delete" in the editor</li>
                     <li><strong>Delete Connection:</strong> Click on a connection line</li>
