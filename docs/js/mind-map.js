@@ -133,7 +133,9 @@ class MindMap {
 
     updateCursor() {
         // Update cursor based on active keys and mode
-        if (this.keysPressed.has('a')) {
+        if (this.keysPressed.has('a') || this.keysPressed.has('s') ||
+            this.keysPressed.has('d') || this.keysPressed.has('f') ||
+            this.keysPressed.has('g')) {
             this.canvas.style.cursor = 'crosshair';
         } else if (this.keysPressed.has('c')) {
             this.canvas.style.cursor = 'pointer';
@@ -175,12 +177,22 @@ class MindMap {
         const x = e.clientX - rect.left - this.panOffset.x;
         const y = e.clientY - rect.top - this.panOffset.y;
 
-        // Check for keyboard shortcuts (A + click for add node, C + click for connection)
-        const addNodeShortcut = this.keysPressed.has('a');
+        // Check for keyboard shortcuts
+        const addNodeShortcut = this.keysPressed.has('a') || this.keysPressed.has('s') ||
+                                this.keysPressed.has('d') || this.keysPressed.has('f') ||
+                                this.keysPressed.has('g');
         const addConnectionShortcut = this.keysPressed.has('c');
 
+        // Determine node type based on which key is pressed
+        let nodeType = 'topic'; // default
+        if (this.keysPressed.has('a')) nodeType = 'topic';
+        else if (this.keysPressed.has('s')) nodeType = 'scripture';
+        else if (this.keysPressed.has('d')) nodeType = 'insight';
+        else if (this.keysPressed.has('f')) nodeType = 'question';
+        else if (this.keysPressed.has('g')) nodeType = 'note';
+
         if (this.mode === 'add-node' || addNodeShortcut) {
-            this.addNode(x, y);
+            this.addNode(x, y, nodeType);
             if (!addNodeShortcut) {
                 this.setMode('select');
             }
@@ -204,7 +216,9 @@ class MindMap {
 
     handleMouseDown(e) {
         // Don't allow dragging if keyboard shortcuts are active
-        if (this.mode !== 'select' || this.keysPressed.has('a') || this.keysPressed.has('c')) return;
+        if (this.mode !== 'select' || this.keysPressed.has('a') || this.keysPressed.has('s') ||
+            this.keysPressed.has('d') || this.keysPressed.has('f') || this.keysPressed.has('g') ||
+            this.keysPressed.has('c')) return;
 
         const rect = this.canvas.getBoundingClientRect();
         const x = e.clientX - rect.left - this.panOffset.x;
@@ -302,14 +316,14 @@ class MindMap {
         }
     }
 
-    addNode(x, y) {
+    addNode(x, y, nodeType = 'topic') {
         const node = {
             id: this.nodeIdCounter++,
             x: x,
             y: y,
             title: 'New Node',
             description: '',
-            type: 'topic',
+            type: nodeType,
             shape: document.getElementById('node-shape').value,
             color: document.getElementById('node-color').value
         };
