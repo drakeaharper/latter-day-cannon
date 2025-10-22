@@ -1,0 +1,59 @@
+Year: 2025
+Month: October
+Speaker: By Elder D.Â Todd Christofferson
+Calling: Of the Quorum of the Twelve Apostles
+Title: Look to God and Live
+Session: Saturday Morning Session
+URL: https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng
+
+---
+
+Last June, a terrible accident occurred in the country of Lesotho in southern Africa. A small bus carrying 20 young women of the Maputsoe Branch of the Church and seven of their leaders was headed to the capital city, Maseru, for a gathering of young women from their district. As they traveled the two-lane highway in the morning hours, a car coming in the opposite direction, attempting to pass another vehicle, came into the lane occupied by the bus. There was no space or time to avoid a head-on collision, and within seconds the vehicles hit, rolled off the road, and burst into flames.
+
+In all, 15 people died in the accident, including six young women, two Young Women leaders, and the branch president and his wife. Survivors, family members, and friends have expressed a range of emotions, including moments of anger, depression, and even guilt. Despite these feelings and unanswered questions, they have comforted one another and turned to God through sacred music, the scriptures, and prayer, where they have found solace. Seventeen-year-old survivor Setsoâana Selebeli testified, âJesus Christ loves us and is with us, even though our hearts hurt.â
+
+A young woman and a leader who were hospitalized for burn treatments studied the Book of Mormon together. One said, âLately weâve been reading in Moroni, and Moroni says exactly what Iâve been feeling. â¦ When he speaks, itâs like heâs saying, âYou have to learn these words because they are written for you to help you pass through this.ââ
+
+At a joint funeral service for those who perished, Area Seventy Elder Siyabonga Mkhize counseled, âWe should all turn to the Lord at this time and ask Him to comfort our hearts and â¦ to soothe the pain that we feel.â The Young Women president from the neighboring Leribe Branch, Mampho Makura, urged: âTurn to the Lord, and find the strength to accept His will. Jesus Christ is âthe author and finisher of our faithâ [Hebrews 12:2]. Donât look away, but look to Him.â
+
+Look to Him. Her words echo the counsel of Alma to his son Helaman: âSee that ye look to God and live.â Alma cited the experience of Lehi and his people with the Liahona as a type: âIt is as easy to give heed to the word of Christ, which will point to you a straight course to eternal bliss, as it was for our fathers to give heed to this compass, which would point unto them a straight course to the promised land.â Alma said: âIf they would look they might live. â¦ And if we â¦ look we may live forever.â
+
+On another occasion, Alma cited the example of the brass serpent raised by Moses when the ancient Israelites were afflicted by fiery serpents. The Lord told Moses to make a figure of a serpent and lift it on a pole, with the promise âthat every one that is bitten, when he looketh upon it, shall live.â Alma explained that the brass figure was a type or symbol of Christ, who would be lifted up upon the cross. Many did look and live, but others were, in Almaâs words, âso hardenedâ that they simply would not look and perished.
+
+Alma asked:
+
+âIf ye could be healed by merely casting about your eyes that ye might be healed, would ye not behold quickly, or would ye rather harden your hearts in unbelief, and be slothful, that ye would not cast about your eyes, that ye might perish?
+
+ââ¦ Then cast about your eyes and begin to believe in the Son of God, that he will come to redeem his people, and that he shall suffer and die to atone for their sins; and that he shall rise again from the dead, which shall bring to pass the resurrection, that all men shall stand before him, to be judged at the last and judgment day, according to their works.â
+
+Of course, the counsel âlook to God and liveâ not only has meaning for us in eternity but also makes all the difference in the character and quality of our mortal lives. Remember the words of young Sister Selebeli in Lesotho already mentionedââJesus Christ loves us and is with us, even though our hearts hurt.â
+
+It is in the nature of a fallen worldâwhere the devil rages and where everyone is imperfectâthat there will be disappointments and offenses, suffering and sorrow, failure and loss, persecution and injustice. It is only by looking to God that individuals, families, and even nations can flourish. President RussellÂ M. Nelson taught, âBecause the Savior, through His infinite Atonement, redeemed each of us from weakness, mistakes, and sin, and because He experienced every pain, worry, and burden you have ever had [see Alma 7:11â13], then as you truly repent and seek His help, you can rise above this present precarious world.â
+
+No promise is repeated more often in Book of Mormon scripture than this: âInasmuch as ye shall keep my commandments ye shall prosper in the land; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence.â The lived experience of the Book of Mormon peoples over centuries demonstrates the truth of these words. âProsperâ meant enjoying the guidance and blessings of heaven in their lives. âProsperâ meant achieving levels of economic well-being that enabled them to marry, raise families, and minister to the needs of others. âProsperingâ included the capacity to rise above hardship and trial. Through the grace of Christ, âall things work[ed] together for [their] good,â refined them, and deepened their relationship with Him.
+
+Alma explained that to look to God is to keep His commandments, cry unto Him continually for His support, counsel with Him in all your doings, and let your heart be full of thanks unto Him day and night. Godâs commandments and counsel are found in the scriptures and the words of His servants. The principles and ideals laid out in âThe Family: A Proclamation to the Worldâ are a prime example. Another is the guidance found in the booklet For the Strength of Youth. The Young Men and Young Women theme for this year is âLook unto Christ,â drawn from the Lordâs comforting direction to Joseph Smith and Oliver Cowdery: âLook unto me in every thought; doubt not, fear not.â For the Strength of Youth speaks to several of Godâs most urgent commandments and standards and teaches how to look to the Lord in making good decisions. It is a guide not only for youth but for all of us.
+
+As one very important example, For the Strength of Youth has crucial guidance in the chapter titled âYour Body Is Sacred.â It instructs: âTreat your bodyâand othersâ bodiesâwith respect. As you make decisions about your clothing, hairstyle, and appearance, ask yourself, âAm I honoring my body as a sacred gift from God?ââ
+
+For the Strength of Youth further states: âKeep sex and sexual feelings sacred. They should not be the subject of jokes or entertainment. Outside of marriage between a man and a woman, it is wrong to touch the private, sacred parts of another personâs body even if clothed. In your choices about what you do, look at, read, listen to, think about, post, or text, avoid anything that purposely arouses lustful emotions in others or yourself.â
+
+This calls to mind President Nelsonâs recent admonition:
+
+âFew things will complicate your life more quickly than violating this divine law [of chastity]. For those who have made covenants with God, immorality is one of the quickest ways to lose your testimony.
+
+ââ¦ The power to create life is the one privilege of godhood that Heavenly Father allows His mortal children to exercise. Thus, God set clear guidelines for the use of this living, divine power. Physical intimacy is only for a man and a woman who are married to each other.
+
+âMuch of the world does not believe this, but public opinion is not the arbiter of truth. The Lord has declared that no unchaste person will attain the celestial kingdom. â¦ If you have been unchaste, I plead with you to repent. Come unto Christ and receive His promise of complete forgiveness as you fully repent of your sins [see Isaiah 1:16â18; Doctrine and Covenants 58:42â43].â
+
+Remember that in the Book of Mormon promise, the opposite of prosperity was not povertyâit was being cut off from the presence of the Lord. His presence refers to the influence of His Spirit in oneâs life. All are imbued with the Light of Christ as they come into the world. In addition, some act to be baptized and receive the gift and added light of the Holy Ghost. He brings inspiration and guidance, enhances and refines oneâs native gifts and abilities, and helps to avoid evil influences, poor decisions, and dead ends.
+
+Like you, I know some who once enjoyed the gift of the Holy Ghost but who through failure to keep the commandments of God have lost that blessing. One in particular comes to mind whose membership in the Church had been withdrawn due to transgression. He said that his initial reaction was to feel offended. He felt judged by imperfect leaders. He knew his conduct had been wrong, but he rationalized it by pointing to the faults and failings of others. After a while, he began to feel comfortable in a lifestyle outside the Church without the obligation of callings and expectations of attending worship services and ministering to others.
+
+This continued for some time, but he began to feel ever more keenly the absence of the Holy SpiritâGodâs presenceâin his life. By experience, he knew what it was like to have, day by day, the comfort, guidance, and confidence born of the Spirit, and he missed it. Finally, he did what was needed to repent and qualify once more for baptism of water and of the Spirit.
+
+There seems to be no end to the different sources people look to for meaning, happiness, and help. Most are âlooking beyond the mark.â But we need not be âchildren, tossed to and fro, and carried about with every wind of doctrine [or fashion].â In looking to God, we can find peace in difficulty, and our faith can continue to grow even in times of doubt and spiritual challenge. We can receive strength in the face of opposition and isolation. We can reconcile the ideal with the present reality. Truly, there is no other way than what God Himself has ordained: âLook unto me, and be ye saved, all the ends of the earth: for I am God, and there is none else.â
+
+Looking to God means that He is not just one of our priorities; it means, rather, that He is our one highest priority. I call to mind again that awful crash in Lesotho last June. From her hospital bed, one of the Young Women leaders who survived, who did not believe in God before joining the Church, said that her purpose is now to discover why her life was spared. âConstantly serving God is how I will come to an answer, if I come to an answer,â she stated. âI used to think that I love God, but now I really, really, really, really, really love Him. Now He is the [number-one] priority in my life.â
+
+I bear testimony of the Father, Son, and Holy Ghost, who in perfect unity of word, thought, purpose, and action are the one God, to whom we may look for all good things. I bear testimony of the Atonement of Jesus Christ, whence comes the power to fulfill this wonderful promise: âLook unto me, and endure to the end, and ye shall live; for unto him that endureth to the end will I give eternal life.â In the name of Jesus Christ, amen.

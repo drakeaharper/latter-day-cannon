@@ -122,6 +122,44 @@ CREATE INDEX IF NOT EXISTS idx_bible_dictionary_entries_name
 ON bible_dictionary_entries(entry_name);
 
 -- ============================================================================
+-- GENERAL CONFERENCE
+-- ============================================================================
+
+CREATE TABLE IF NOT EXISTS general_conference_conferences (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    year INTEGER NOT NULL,                 -- 2025
+    month TEXT NOT NULL,                   -- "October" or "April"
+    url TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE (year, month)
+);
+
+CREATE INDEX IF NOT EXISTS idx_general_conference_conferences_year
+ON general_conference_conferences(year DESC, month);
+
+CREATE TABLE IF NOT EXISTS general_conference_talks (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    conference_id INTEGER NOT NULL,
+    speaker_name TEXT NOT NULL,            -- "Gary E. Stevenson"
+    speaker_calling TEXT,                  -- "Of the Quorum of the Twelve Apostles"
+    title TEXT NOT NULL,                   -- "Blessed Are the Peacemakers"
+    session TEXT,                          -- "Saturday Morning Session"
+    talk_id TEXT NOT NULL,                 -- "12stevenson"
+    content TEXT NOT NULL,                 -- Full talk text
+    url TEXT NOT NULL,
+    sort_order INTEGER,                    -- Order within conference
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (conference_id) REFERENCES general_conference_conferences(id),
+    UNIQUE (conference_id, talk_id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_general_conference_talks_conference
+ON general_conference_talks(conference_id, sort_order);
+
+CREATE INDEX IF NOT EXISTS idx_general_conference_talks_speaker
+ON general_conference_talks(speaker_name);
+
+-- ============================================================================
 -- CROSS-REFERENCES (Future Feature)
 -- ============================================================================
 

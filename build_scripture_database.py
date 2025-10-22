@@ -39,15 +39,18 @@ class ScriptureDatabaseBuilder:
         "lectures-on-faith": 6,
     }
 
-    def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps'):
+    def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps', gc_dir='general_conference'):
         self.db_path = Path(db_path)
         self.scriptures_dir = Path(scriptures_dir)
         self.study_helps_dir = Path(study_helps_dir)
+        self.gc_dir = Path(gc_dir)
         self.conn = None
         self.cursor = None
 
         # Cache for book lookups
         self.book_cache = {}
+        # Cache for conference lookups
+        self.conference_cache = {}
 
     def connect(self):
         """Connect to database"""
@@ -396,6 +399,107 @@ class ScriptureDatabaseBuilder:
         self.conn.commit()
         print(f"Inserted {entry_count} dictionary entries")
 
+    def populate_general_conference(self):
+        """Populate General Conference from markdown files"""
+        print("\nPopulating General Conference...")
+
+        if not self.gc_dir.exists():
+            print(f"  General Conference directory not found: {self.gc_dir}")
+            return
+
+        conference_count = 0
+        talk_count = 0
+
+        # Iterate through year directories
+        for year_dir in sorted(self.gc_dir.iterdir(), reverse=True):
+            if not year_dir.is_dir():
+                continue
+
+            year = year_dir.name
+
+            # Iterate through month directories (april, october)
+            for month_dir in sorted(year_dir.iterdir()):
+                if not month_dir.is_dir():
+                    continue
+
+                month_name = month_dir.name.capitalize()  # april -> April
+
+                # Create conference entry
+                conference_url = f"https://www.churchofjesuschrist.org/study/general-conference/{year}/{month_name[:3].lower()}?lang=eng"
+
+                self.cursor.execute("""
+                    INSERT OR IGNORE INTO general_conference_conferences
+                    (year, month, url)
+                    VALUES (?, ?, ?)
+                """, (int(year), month_name, conference_url))
+
+                conference_id = self.cursor.lastrowid
+                if conference_id == 0:
+                    # Conference already exists, get its ID
+                    self.cursor.execute("""
+                        SELECT id FROM general_conference_conferences
+                        WHERE year = ? AND month = ?
+                    """, (int(year), month_name))
+                    result = self.cursor.fetchone()
+                    if result:
+                        conference_id = result[0]
+
+                conference_count += 1
+                print(f"  Processing {month_name} {year}...")
+
+                # Process all talk files in this conference
+                sort_order = 0
+                for md_file in sorted(month_dir.glob('*.md')):
+                    try:
+                        with open(md_file, 'r', encoding='utf-8') as f:
+                            content = f.read()
+
+                        # Extract metadata from header
+                        metadata = {}
+                        for line in content.split('\n')[:20]:
+                            if ':' in line and not line.startswith('---'):
+                                key, value = line.split(':', 1)
+                                metadata[key.strip()] = value.strip()
+
+                        # Extract talk_id from filename
+                        # Filename format: [YYYY-MM][##speakername][Title].md
+                        filename_match = re.match(r'\[.*?\]\[(\d+[a-z-]+)\]\[.*?\]\.md', md_file.name)
+                        talk_id = filename_match.group(1) if filename_match else ''
+
+                        # Extract content (everything after ---)
+                        content_match = re.search(r'---\s*\n\n(.+)$', content, re.DOTALL)
+                        talk_content = content_match.group(1).strip() if content_match else ''
+
+                        # Insert talk
+                        self.cursor.execute("""
+                            INSERT OR REPLACE INTO general_conference_talks
+                            (conference_id, speaker_name, speaker_calling, title, session, talk_id, content, url, sort_order)
+                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        """, (
+                            conference_id,
+                            metadata.get('Speaker', ''),
+                            metadata.get('Calling', ''),
+                            metadata.get('Title', ''),
+                            metadata.get('Session', ''),
+                            talk_id,
+                            talk_content,
+                            metadata.get('URL', ''),
+                            sort_order
+                        ))
+
+                        talk_count += 1
+                        sort_order += 1
+
+                        if talk_count % 50 == 0:
+                            self.conn.commit()
+                            print(f"    Progress: {talk_count} talks")
+
+                    except Exception as e:
+                        print(f"    Error processing {md_file.name}: {e}")
+
+        self.conn.commit()
+        print(f"Inserted {conference_count} conferences with {talk_count} talks")
+
     def build_statistics(self):
         """Print database statistics"""
         print("\n" + "="*60)
@@ -410,6 +514,8 @@ class ScriptureDatabaseBuilder:
             ("Topical Guide Topics", "topical_guide_topics"),
             ("Topical Guide References", "topical_guide_references"),
             ("Bible Dictionary Entries", "bible_dictionary_entries"),
+            ("General Conferences", "general_conference_conferences"),
+            ("General Conference Talks", "general_conference_talks"),
         ]
 
         for label, table in stats:
@@ -442,6 +548,7 @@ class ScriptureDatabaseBuilder:
             self.populate_chapters_and_verses()
             self.populate_topical_guide()
             self.populate_bible_dictionary()
+            self.populate_general_conference()
 
             # Show statistics
             self.build_statistics()

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Conference - Scripture Study Helper</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/general-conference.css">
+    <script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/sql-wasm.js"></script>
+</head>
+<body>
+    <header id="app-header">
+        <div class="header-content">
+            <h1 class="logo">Scripture Study Helper</h1>
+            <nav class="main-nav">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="mind-map.html" class="nav-link">Mind Map</a>
+                <a href="scripture-library.html" class="nav-link">Scripture Library</a>
+                <a href="study-helps.html" class="nav-link">Study Helps</a>
+                <a href="general-conference.html" class="nav-link active">General Conference</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="general-conference-page">
+        <!-- Loading State -->
+        <div id="loading-screen" class="loading-screen">
+            <div class="spinner"></div>
+            <p>Loading General Conference...</p>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-content" class="main-content" style="display: none;">
+            <!-- Sidebar Navigation -->
+            <aside class="gc-sidebar">
+                <div class="sidebar-header">
+                    <h2>Browse Conferences</h2>
+                </div>
+
+                <div class="navigation-controls">
+                    <!-- Conference Selector -->
+                    <div class="nav-section">
+                        <label for="conference-select">Conference</label>
+                        <select id="conference-select" class="nav-select">
+                            <option value="">Select a conference...</option>
+                        </select>
+                    </div>
+
+                    <!-- Talk Selector -->
+                    <div class="nav-section">
+                        <label for="talk-select">Talk</label>
+                        <select id="talk-select" class="nav-select" disabled>
+                            <option value="">Select a talk...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Search Section -->
+                <div class="search-section">
+                    <h3>Search</h3>
+                    <input
+                        type="text"
+                        id="gc-search"
+                        class="search-input"
+                        placeholder="Search conference talks..."
+                    >
+                    <button id="search-btn" class="btn btn-primary">Search</button>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="stats-section">
+                    <h3>Library Stats</h3>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-conferences">0</span>
+                        <span class="stat-label">Conferences</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="stat-talks">0</span>
+                        <span class="stat-label">Total Talks</span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Reading Area -->
+            <section class="gc-reader">
+                <!-- Welcome Screen -->
+                <div id="welcome-screen" class="welcome-screen">
+                    <div class="welcome-content">
+                        <h2>Welcome to General Conference</h2>
+                        <p>Select a conference and talk from the sidebar to begin reading.</p>
+                        <div class="quick-info">
+                            <p>Access talks from General Conference sessions organized by year and month.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Talk Display -->
+                <div id="talk-display" class="talk-display" style="display: none;">
+                    <div class="talk-header">
+                        <div class="talk-meta">
+                            <span class="conference-label" id="talk-conference"></span>
+                            <span class="session-label" id="talk-session"></span>
+                        </div>
+                        <h1 class="talk-title" id="talk-title"></h1>
+                        <div class="speaker-info">
+                            <p class="speaker-name" id="speaker-name"></p>
+                            <p class="speaker-calling" id="speaker-calling"></p>
+                        </div>
+                    </div>
+
+                    <div class="talk-content" id="talk-content">
+                        <!-- Talk content will be inserted here -->
+                    </div>
+
+                    <div class="talk-footer">
+                        <a id="source-link" href="#" target="_blank" class="source-link">
+                            View on ChurchofJesusChrist.org →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Talk List View -->
+                <div id="talk-list-view" class="talk-list-view" style="display: none;">
+                    <div class="list-header">
+                        <h2 id="conference-title"></h2>
+                        <div class="list-actions">
+                            <button id="clear-read-status-btn" class="btn btn-secondary">
+                                Clear Read Status for This Conference
+                            </button>
+                        </div>
+                    </div>
+                    <div class="talks-grid" id="talks-grid">
+                        <!-- Talk cards will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Search Results -->
+                <div id="search-results" class="search-results" style="display: none;">
+                    <div class="results-header">
+                        <h2>Search Results</h2>
+                        <p class="results-count" id="results-count"></p>
+                    </div>
+                    <div class="results-list" id="results-list">
+                        <!-- Results will be inserted here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Error State -->
+        <div id="error-screen" class="error-screen" style="display: none;">
+            <div class="error-content">
+                <h2>⚠️ Error Loading Database</h2>
+                <p id="error-message"></p>
+                <p class="error-help">
+                    Make sure you're running a local server. You can start one with:
+                    <code>python3 -m http.server 8000</code>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Scripture Study Helper | Built for personal study and research</p>
+    </footer>
+
+    <script src="../js/general-conference.js"></script>
+</body>
+</html>
