@@ -29,7 +29,7 @@ async function loadDatabase() {
             locateFile: file => `https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/${file}`
         });
 
-        const response = await fetch('../scripture-library.db');
+        const response = await fetch('../followhim.db');
         if (!response.ok) {
             throw new Error('Failed to load database. Make sure you are running a local server.');
         }
@@ -37,7 +37,7 @@ async function loadDatabase() {
         const buffer = await response.arrayBuffer();
         db = new SQL.Database(new Uint8Array(buffer));
 
-        console.log('Database loaded successfully');
+        console.log('Follow Him database loaded successfully');
     } catch (error) {
         console.error('Database loading error:', error);
         throw error;

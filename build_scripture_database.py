@@ -39,14 +39,17 @@ class ScriptureDatabaseBuilder:
         "lectures-on-faith": 6,
     }
 
-    def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps', gc_dir='general_conference', followhim_dir='followhim'):
+    def __init__(self, db_path='docs/scripture-library.db', followhim_db_path='docs/followhim.db', scriptures_dir='scriptures', study_helps_dir='study_helps', gc_dir='general_conference', followhim_dir='followhim'):
         self.db_path = Path(db_path)
+        self.followhim_db_path = Path(followhim_db_path)
         self.scriptures_dir = Path(scriptures_dir)
         self.study_helps_dir = Path(study_helps_dir)
         self.gc_dir = Path(gc_dir)
         self.followhim_dir = Path(followhim_dir)
         self.conn = None
         self.cursor = None
+        self.followhim_conn = None
+        self.followhim_cursor = None
 
         # Cache for book lookups
         self.book_cache = {}
@@ -62,12 +65,26 @@ class ScriptureDatabaseBuilder:
         self.cursor = self.conn.cursor()
         print("Connected successfully")
 
+    def connect_followhim(self):
+        """Connect to Follow Him database"""
+        print(f"Connecting to Follow Him database: {self.followhim_db_path}")
+        self.followhim_conn = sqlite3.connect(self.followhim_db_path)
+        self.followhim_cursor = self.followhim_conn.cursor()
+        print("Connected successfully")
+
     def close(self):
         """Close database connection"""
         if self.conn:
             self.conn.commit()
             self.conn.close()
             print("Database connection closed")
+
+    def close_followhim(self):
+        """Close Follow Him database connection"""
+        if self.followhim_conn:
+            self.followhim_conn.commit()
+            self.followhim_conn.close()
+            print("Follow Him database connection closed")
 
     def create_schema(self):
         """Create scripture tables"""
@@ -104,6 +121,43 @@ class ScriptureDatabaseBuilder:
 
         self.conn.commit()
         print("Schema created successfully")
+        return True
+
+    def create_followhim_schema(self):
+        """Create Follow Him database tables"""
+        print("\nCreating Follow Him schema...")
+
+        schema_file = Path('schema/followhim_schema.sql')
+        if not schema_file.exists():
+            print(f"Error: Schema file not found: {schema_file}")
+            return False
+
+        with open(schema_file, 'r') as f:
+            schema_sql = f.read()
+
+        # Remove comment lines first
+        lines = []
+        for line in schema_sql.split('\n'):
+            stripped = line.strip()
+            # Keep lines that aren't pure comments
+            if not stripped.startswith('--'):
+                lines.append(line)
+
+        clean_sql = '\n'.join(lines)
+
+        # Execute each statement separately (split on semicolon + newline)
+        statements = re.split(r';\s*\n', clean_sql)
+        for statement in statements:
+            statement = statement.strip()
+            if statement:
+                try:
+                    self.followhim_cursor.execute(statement)
+                except sqlite3.Error as e:
+                    print(f"Warning: {e}")
+                    print(f"Statement: {statement[:100]}...")
+
+        self.followhim_conn.commit()
+        print("Follow Him schema created successfully")
         return True
 
     def populate_collections(self):
@@ -539,7 +593,7 @@ class ScriptureDatabaseBuilder:
         }
 
     def populate_followhim(self):
-        """Populate Follow Him podcast from markdown files"""
+        """Populate Follow Him podcast from markdown files into separate database"""
         print("\nPopulating Follow Him Podcast...")
 
         if not self.followhim_dir.exists():
@@ -578,20 +632,20 @@ class ScriptureDatabaseBuilder:
                 scripture_focus = series_name.replace('-', ' ').title()
                 display_name = scripture_focus
 
-            # Create series entry
-            self.cursor.execute("""
+            # Create series entry in Follow Him database
+            self.followhim_cursor.execute("""
                 INSERT OR IGNORE INTO followhim_series
                 (name, year, scripture_focus, sort_order)
                 VALUES (?, ?, ?, ?)
             """, (display_name, year, scripture_focus, series_count + 1))
 
-            series_id = self.cursor.lastrowid
+            series_id = self.followhim_cursor.lastrowid
             if series_id == 0:
                 # Series already exists, get its ID
-                self.cursor.execute("""
+                self.followhim_cursor.execute("""
                     SELECT id FROM followhim_series WHERE name = ?
                 """, (display_name,))
-                result = self.cursor.fetchone()
+                result = self.followhim_cursor.fetchone()
                 if result:
                     series_id = result[0]
 
@@ -611,21 +665,21 @@ class ScriptureDatabaseBuilder:
 
                     # Create episode if it doesn't exist
                     if data['episode'] not in episodes_created:
-                        self.cursor.execute("""
+                        self.followhim_cursor.execute("""
                             INSERT OR IGNORE INTO followhim_episodes
                             (series_id, episode_number, title, scripture_reference, sort_order)
                             VALUES (?, ?, ?, ?, ?)
                         """, (series_id, data['episode'], data['topic'],
                               data['topic'], data['episode']))
 
-                        episode_id = self.cursor.lastrowid
+                        episode_id = self.followhim_cursor.lastrowid
                         if episode_id == 0:
                             # Episode already exists, get its ID
-                            self.cursor.execute("""
+                            self.followhim_cursor.execute("""
                                 SELECT id FROM followhim_episodes
                                 WHERE series_id = ? AND episode_number = ?
                             """, (series_id, data['episode']))
-                            result = self.cursor.fetchone()
+                            result = self.followhim_cursor.fetchone()
                             if result:
                                 episode_id = result[0]
 
@@ -638,7 +692,7 @@ class ScriptureDatabaseBuilder:
                     part_sort = {'Part 1': 1, 'Part 2': 2, 'Favorites': 3}.get(data['part'], 0)
 
                     # Insert part
-                    self.cursor.execute("""
+                    self.followhim_cursor.execute("""
                         INSERT OR REPLACE INTO followhim_parts
                         (episode_id, part_type, title, guest, content, url, sort_order)
                         VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -655,22 +709,22 @@ class ScriptureDatabaseBuilder:
                     part_count += 1
 
                     if part_count % 50 == 0:
-                        self.conn.commit()
+                        self.followhim_conn.commit()
                         print(f"    Progress: {episode_count} episodes, {part_count} parts")
 
                 except Exception as e:
                     print(f"    Error processing {md_file.name}: {e}")
 
-        self.conn.commit()
+        self.followhim_conn.commit()
         print(f"Inserted {series_count} series with {episode_count} episodes and {part_count} parts")
 
     def build_statistics(self):
         """Print database statistics"""
         print("\n" + "="*60)
-        print("DATABASE STATISTICS")
+        print("SCRIPTURE DATABASE STATISTICS")
         print("="*60)
 
-        stats = [
+        scripture_stats = [
             ("Collections", "scripture_collections"),
             ("Books", "scripture_books"),
             ("Chapters", "scripture_chapters"),
@@ -680,14 +734,28 @@ class ScriptureDatabaseBuilder:
             ("Bible Dictionary Entries", "bible_dictionary_entries"),
             ("General Conferences", "general_conference_conferences"),
             ("General Conference Talks", "general_conference_talks"),
+        ]
+
+        for label, table in scripture_stats:
+            self.cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            count = self.cursor.fetchone()[0]
+            print(f"{label:.<40} {count:>8,}")
+
+        print("="*60)
+
+        print("\n" + "="*60)
+        print("FOLLOW HIM DATABASE STATISTICS")
+        print("="*60)
+
+        followhim_stats = [
             ("Follow Him Series", "followhim_series"),
             ("Follow Him Episodes", "followhim_episodes"),
             ("Follow Him Parts", "followhim_parts"),
         ]
 
-        for label, table in stats:
-            self.cursor.execute(f"SELECT COUNT(*) FROM {table}")
-            count = self.cursor.fetchone()[0]
+        for label, table in followhim_stats:
+            self.followhim_cursor.execute(f"SELECT COUNT(*) FROM {table}")
+            count = self.followhim_cursor.fetchone()[0]
             print(f"{label:.<40} {count:>8,}")
 
         print("="*60)
@@ -699,29 +767,39 @@ class ScriptureDatabaseBuilder:
         print("="*60)
 
         try:
+            # Connect to both databases
             self.connect()
+            self.connect_followhim()
 
             # Create database if it doesn't exist
             if not self.db_path.exists():
                 print(f"Creating new scripture database: {self.db_path}")
+            if not self.followhim_db_path.exists():
+                print(f"Creating new Follow Him database: {self.followhim_db_path}")
 
-            # Create schema
+            # Create schemas
             if not self.create_schema():
                 return False
+            if not self.create_followhim_schema():
+                return False
 
-            # Populate data
+            # Populate scripture data
             self.populate_collections()
             self.populate_books()
             self.populate_chapters_and_verses()
             self.populate_topical_guide()
             self.populate_bible_dictionary()
             self.populate_general_conference()
+
+            # Populate Follow Him data (into separate database)
             self.populate_followhim()
 
             # Show statistics
             self.build_statistics()
 
-            print("\n✓ Scripture database build complete!")
+            print("\n✓ Database build complete!")
+            print(f"  Scripture library: {self.db_path}")
+            print(f"  Follow Him: {self.followhim_db_path}")
             return True
 
         except Exception as e:
@@ -732,6 +810,7 @@ class ScriptureDatabaseBuilder:
 
         finally:
             self.close()
+            self.close_followhim()
 
 
 def main():
