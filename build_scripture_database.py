@@ -39,11 +39,12 @@ class ScriptureDatabaseBuilder:
         "lectures-on-faith": 6,
     }
 
-    def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps', gc_dir='general_conference'):
+    def __init__(self, db_path='docs/scripture-library.db', scriptures_dir='scriptures', study_helps_dir='study_helps', gc_dir='general_conference', followhim_dir='followhim'):
         self.db_path = Path(db_path)
         self.scriptures_dir = Path(scriptures_dir)
         self.study_helps_dir = Path(study_helps_dir)
         self.gc_dir = Path(gc_dir)
+        self.followhim_dir = Path(followhim_dir)
         self.conn = None
         self.cursor = None
 
@@ -51,6 +52,8 @@ class ScriptureDatabaseBuilder:
         self.book_cache = {}
         # Cache for conference lookups
         self.conference_cache = {}
+        # Cache for episode lookups
+        self.episode_cache = {}
 
     def connect(self):
         """Connect to database"""
@@ -500,6 +503,167 @@ class ScriptureDatabaseBuilder:
         self.conn.commit()
         print(f"Inserted {conference_count} conferences with {talk_count} talks")
 
+    def parse_followhim_file(self, filepath):
+        """Parse a Follow Him markdown file
+
+        Returns:
+            dict with keys: episode, topic, part, guest, title, url, content
+        """
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Parse metadata header
+        metadata = {}
+        lines = content.split('\n')
+        for line in lines[:10]:
+            if ':' in line and not line.startswith('---') and not line.startswith('#'):
+                key, value = line.split(':', 1)
+                metadata[key.strip()] = value.strip()
+
+        # Extract content (everything after ---)
+        content_match = re.search(r'---\s*\n\n(.+)$', content, re.DOTALL)
+        body = content_match.group(1).strip() if content_match else ''
+
+        # Extract title from the body (first # heading)
+        title_match = re.search(r'^#\s+(.+)$', body, re.MULTILINE)
+        full_title = title_match.group(1).strip() if title_match else metadata.get('Topic', '')
+
+        return {
+            'episode': int(metadata.get('Episode', '0')),
+            'topic': metadata.get('Topic', ''),
+            'part': metadata.get('Part', ''),
+            'guest': metadata.get('Guest', ''),
+            'title': full_title,
+            'url': metadata.get('URL', ''),
+            'content': body
+        }
+
+    def populate_followhim(self):
+        """Populate Follow Him podcast from markdown files"""
+        print("\nPopulating Follow Him Podcast...")
+
+        if not self.followhim_dir.exists():
+            print(f"  Follow Him directory not found: {self.followhim_dir}")
+            return
+
+        series_count = 0
+        episode_count = 0
+        part_count = 0
+
+        # Iterate through series directories
+        for series_dir in sorted(self.followhim_dir.iterdir()):
+            if not series_dir.is_dir():
+                continue
+
+            series_name = series_dir.name  # e.g., "doctrine-and-covenants-2025"
+
+            # Parse series info from directory name
+            year_match = re.search(r'(\d{4})', series_name)
+            year = int(year_match.group(1)) if year_match else 2025
+
+            # Determine scripture focus
+            if 'doctrine' in series_name.lower():
+                scripture_focus = 'Doctrine and Covenants'
+                display_name = f'Doctrine and Covenants {year}'
+            elif 'book-of-mormon' in series_name.lower():
+                scripture_focus = 'Book of Mormon'
+                display_name = f'Book of Mormon {year}'
+            elif 'new-testament' in series_name.lower():
+                scripture_focus = 'New Testament'
+                display_name = f'New Testament {year}'
+            elif 'old-testament' in series_name.lower():
+                scripture_focus = 'Old Testament'
+                display_name = f'Old Testament {year}'
+            else:
+                scripture_focus = series_name.replace('-', ' ').title()
+                display_name = scripture_focus
+
+            # Create series entry
+            self.cursor.execute("""
+                INSERT OR IGNORE INTO followhim_series
+                (name, year, scripture_focus, sort_order)
+                VALUES (?, ?, ?, ?)
+            """, (display_name, year, scripture_focus, series_count + 1))
+
+            series_id = self.cursor.lastrowid
+            if series_id == 0:
+                # Series already exists, get its ID
+                self.cursor.execute("""
+                    SELECT id FROM followhim_series WHERE name = ?
+                """, (display_name,))
+                result = self.cursor.fetchone()
+                if result:
+                    series_id = result[0]
+
+            series_count += 1
+            print(f"  Processing {display_name}...")
+
+            # Track episodes we've created
+            episodes_created = {}
+
+            # Process all part files in this series
+            for md_file in sorted(series_dir.glob('*.md')):
+                try:
+                    data = self.parse_followhim_file(md_file)
+
+                    if data['episode'] == 0:
+                        continue
+
+                    # Create episode if it doesn't exist
+                    if data['episode'] not in episodes_created:
+                        self.cursor.execute("""
+                            INSERT OR IGNORE INTO followhim_episodes
+                            (series_id, episode_number, title, scripture_reference, sort_order)
+                            VALUES (?, ?, ?, ?, ?)
+                        """, (series_id, data['episode'], data['topic'],
+                              data['topic'], data['episode']))
+
+                        episode_id = self.cursor.lastrowid
+                        if episode_id == 0:
+                            # Episode already exists, get its ID
+                            self.cursor.execute("""
+                                SELECT id FROM followhim_episodes
+                                WHERE series_id = ? AND episode_number = ?
+                            """, (series_id, data['episode']))
+                            result = self.cursor.fetchone()
+                            if result:
+                                episode_id = result[0]
+
+                        episodes_created[data['episode']] = episode_id
+                        episode_count += 1
+
+                    episode_id = episodes_created[data['episode']]
+
+                    # Determine sort order for part type
+                    part_sort = {'Part 1': 1, 'Part 2': 2, 'Favorites': 3}.get(data['part'], 0)
+
+                    # Insert part
+                    self.cursor.execute("""
+                        INSERT OR REPLACE INTO followhim_parts
+                        (episode_id, part_type, title, guest, content, url, sort_order)
+                        VALUES (?, ?, ?, ?, ?, ?, ?)
+                    """, (
+                        episode_id,
+                        data['part'],
+                        data['title'],
+                        data['guest'],
+                        data['content'],
+                        data['url'],
+                        part_sort
+                    ))
+
+                    part_count += 1
+
+                    if part_count % 50 == 0:
+                        self.conn.commit()
+                        print(f"    Progress: {episode_count} episodes, {part_count} parts")
+
+                except Exception as e:
+                    print(f"    Error processing {md_file.name}: {e}")
+
+        self.conn.commit()
+        print(f"Inserted {series_count} series with {episode_count} episodes and {part_count} parts")
+
     def build_statistics(self):
         """Print database statistics"""
         print("\n" + "="*60)
@@ -516,6 +680,9 @@ class ScriptureDatabaseBuilder:
             ("Bible Dictionary Entries", "bible_dictionary_entries"),
             ("General Conferences", "general_conference_conferences"),
             ("General Conference Talks", "general_conference_talks"),
+            ("Follow Him Series", "followhim_series"),
+            ("Follow Him Episodes", "followhim_episodes"),
+            ("Follow Him Parts", "followhim_parts"),
         ]
 
         for label, table in stats:
@@ -549,6 +716,7 @@ class ScriptureDatabaseBuilder:
             self.populate_topical_guide()
             self.populate_bible_dictionary()
             self.populate_general_conference()
+            self.populate_followhim()
 
             # Show statistics
             self.build_statistics()
