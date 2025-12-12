@@ -12,6 +12,11 @@
     <header id="app-header">
         <div class="header-content">
             <h1 class="logo">Scripture Study Helper</h1>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav class="main-nav">
                 <a href="../index.html" class="nav-link">Home</a>
                 <a href="mind-map.html" class="nav-link">Mind Map</a>
@@ -21,7 +26,34 @@
                 <a href="followhim.html" class="nav-link">Follow Him</a>
             </nav>
         </div>
+        <div class="nav-overlay"></div>
     </header>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            const navOverlay = document.querySelector('.nav-overlay');
+
+            function toggleMenu() {
+                menuToggle.classList.toggle('active');
+                mainNav.classList.toggle('active');
+                navOverlay.classList.toggle('active');
+                document.body.style.overflow = mainNav.classList.contains('active') ? 'hidden' : '';
+            }
+
+            menuToggle.addEventListener('click', toggleMenu);
+            navOverlay.addEventListener('click', toggleMenu);
+
+            mainNav.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (mainNav.classList.contains('active')) {
+                        toggleMenu();
+                    }
+                });
+            });
+        });
+    </script>
 
     <main class="topical-guide-page">
         <!-- Loading State -->
