@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Download and parse PDF show notes for D&C 2021 Episodes 17-20
+Properly extracts transcript content and splits into Part 1 and Part 2
 """
 
 import requests
@@ -34,7 +35,6 @@ def download_pdf(url, filepath):
     response.raise_for_status()
     with open(filepath, 'wb') as f:
         f.write(response.content)
-    print(f"Saved to: {filepath}")
     return filepath
 
 
@@ -47,78 +47,80 @@ def extract_text_from_pdf(filepath):
     return text
 
 
-def split_into_parts(text, episode_num):
+def find_transcript_start(text):
+    """Find where the actual transcript begins (first 'Hank Smith:' line)"""
+    match = re.search(r'Hank Smith:\s*\d{2}:\d{2}', text)
+    if match:
+        return match.start()
+    # Fallback: look for just "Hank Smith:"
+    match = re.search(r'Hank Smith:', text)
+    if match:
+        return match.start()
+    return 0
+
+
+def split_transcript(transcript):
     """
-    Try to split transcript into Part 1, Part 2, and Favorites
-    based on common patterns in the transcripts
+    Split transcript into Part 1 and Part 2
+    Look for markers like "Welcome to part two" or "join us for part two"
     """
-    # Common patterns that might indicate part boundaries
-    part1_markers = [
-        r'Part\s*1',
-        r'PART\s*ONE',
-        r'Part\s*One',
+    # Find Part 2 boundary
+    part2_patterns = [
+        r'Welcome to [Pp]art [Tt]wo',
+        r'Welcome to [Pp]art 2',
+        r'Welcome to [Pp]art II',
+        r'join us for [Pp]art [Tt]wo',
+        r'join us for [Pp]art 2',
     ]
 
-    part2_markers = [
-        r'Part\s*2',
-        r'PART\s*TWO',
-        r'Part\s*Two',
-    ]
-
-    favorites_markers = [
-        r'Favorites',
-        r'FAVORITES',
-        r'followHIM\s+Favorites',
-    ]
-
-    # Try to find part boundaries
-    part1_text = text
-    part2_text = ""
-    favorites_text = ""
-
-    # Look for Part 2 marker
-    for marker in part2_markers:
-        match = re.search(marker, text, re.IGNORECASE)
+    part2_start = None
+    for pattern in part2_patterns:
+        match = re.search(pattern, transcript)
         if match:
-            split_pos = match.start()
-            part1_text = text[:split_pos].strip()
-            remaining = text[split_pos:].strip()
-
-            # Look for Favorites marker in remaining text
-            for fav_marker in favorites_markers:
-                fav_match = re.search(fav_marker, remaining, re.IGNORECASE)
-                if fav_match:
-                    fav_pos = fav_match.start()
-                    part2_text = remaining[:fav_pos].strip()
-                    favorites_text = remaining[fav_pos:].strip()
-                    break
+            # Find the start of the line containing this match
+            # Go back to find "Hank Smith:" before this
+            search_start = max(0, match.start() - 500)
+            pre_text = transcript[search_start:match.start()]
+            hank_match = re.search(r'Hank Smith:\s*\d{2}:\d{2}[^\n]*$', pre_text)
+            if hank_match:
+                part2_start = search_start + hank_match.start()
             else:
-                part2_text = remaining
+                part2_start = match.start()
             break
 
-    # If no clear split, just use the whole text as Part 1
-    if not part2_text:
-        # Try splitting roughly by thirds if text is long enough
-        lines = text.split('\n')
-        if len(lines) > 100:
-            third = len(lines) // 3
-            part1_text = '\n'.join(lines[:third])
-            part2_text = '\n'.join(lines[third:2*third])
-            favorites_text = '\n'.join(lines[2*third:])
+    if part2_start and part2_start > 10000:  # Make sure Part 1 has substantial content
+        part1 = transcript[:part2_start].strip()
+        part2 = transcript[part2_start:].strip()
+    else:
+        # No clear split found - divide roughly in half
+        midpoint = len(transcript) // 2
+        # Try to find a good break point near the middle
+        search_range = transcript[midpoint-5000:midpoint+5000]
+        break_match = re.search(r'\n\s*\n', search_range)
+        if break_match:
+            actual_midpoint = midpoint - 5000 + break_match.end()
+            part1 = transcript[:actual_midpoint].strip()
+            part2 = transcript[actual_midpoint:].strip()
         else:
-            part1_text = text
-            part2_text = text  # Use same content if can't split
-            favorites_text = ""
+            part1 = transcript[:midpoint].strip()
+            part2 = transcript[midpoint:].strip()
 
-    return part1_text, part2_text, favorites_text
+    return part1, part2
+
+
+def extract_show_notes(text):
+    """Extract show notes section (before transcript)"""
+    transcript_start = find_transcript_start(text)
+    if transcript_start > 0:
+        return text[:transcript_start].strip()
+    return ""
 
 
 def clean_text(text):
     """Clean extracted PDF text"""
-    # Remove excessive whitespace
+    # Remove excessive whitespace but preserve paragraph breaks
     text = re.sub(r'\n{3,}', '\n\n', text)
     text = re.sub(r' {2,}', ' ', text)
-    # Fix common PDF extraction issues
     text = text.replace('\x00', '')
     return text.strip()
 
@@ -142,43 +144,56 @@ def save_markdown(episode_num, topic, guest, part_type, content, url):
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(md_content)
 
-    print(f"Saved: {filename}")
+    print(f"Saved: {filename} ({len(content):,} chars)")
     return filepath
 
 
 def process_episode(episode_num, topic, guest, pdf_url):
     """Download PDF and create markdown files for an episode"""
-    print(f"\n{'='*50}")
+    print(f"\n{'='*60}")
     print(f"Processing Episode {episode_num}: {topic}")
-    print(f"{'='*50}")
+    print(f"{'='*60}")
 
     # Download PDF to temp location
     temp_pdf = Path(f"/tmp/episode_{episode_num}.pdf")
     download_pdf(pdf_url, temp_pdf)
 
     # Extract text
-    text = extract_text_from_pdf(temp_pdf)
-    text = clean_text(text)
+    full_text = extract_text_from_pdf(temp_pdf)
+    full_text = clean_text(full_text)
+    print(f"Extracted {len(full_text):,} characters from PDF")
 
-    print(f"Extracted {len(text)} characters from PDF")
+    # Find transcript start
+    transcript_start = find_transcript_start(full_text)
+    print(f"Transcript starts at position {transcript_start:,}")
 
-    # Split into parts
-    part1, part2, favorites = split_into_parts(text, episode_num)
+    # Extract show notes and transcript
+    show_notes = full_text[:transcript_start].strip() if transcript_start > 0 else ""
+    transcript = full_text[transcript_start:].strip()
+
+    print(f"Show notes: {len(show_notes):,} chars")
+    print(f"Transcript: {len(transcript):,} chars")
+
+    # Split transcript into Part 1 and Part 2
+    part1_transcript, part2_transcript = split_transcript(transcript)
+    print(f"Part 1: {len(part1_transcript):,} chars")
+    print(f"Part 2: {len(part2_transcript):,} chars")
 
     # Save markdown files
-    save_markdown(episode_num, topic, guest, "Part 1", part1, pdf_url)
-    save_markdown(episode_num, topic, guest, "Part 2", part2, pdf_url)
-    if favorites:
-        save_markdown(episode_num, topic, guest, "Favorites", favorites, pdf_url)
+    save_markdown(episode_num, topic, guest, "Part 1", part1_transcript, pdf_url)
+    save_markdown(episode_num, topic, guest, "Part 2", part2_transcript, pdf_url)
+
+    # Save show notes as "Favorites" (since that's typically supplementary content)
+    if show_notes:
+        save_markdown(episode_num, topic, guest, "Favorites", show_notes, pdf_url)
     else:
-        # Create a minimal favorites file
+        # Create minimal favorites
         save_markdown(episode_num, topic, guest, "Favorites",
-                     f"Favorites segment for Episode {episode_num}: {topic}\n\nSee Part 1 and Part 2 for full transcript.",
+                     f"Show notes and references for Episode {episode_num}: {topic}\n\nSee Part 1 and Part 2 for full transcript.",
                      pdf_url)
 
     # Clean up temp file
     temp_pdf.unlink()
-
     print(f"Episode {episode_num} complete!")
 
 
@@ -190,10 +205,12 @@ def main():
             process_episode(episode_num, topic, guest, pdf_url)
         except Exception as e:
             print(f"Error processing episode {episode_num}: {e}")
+            import traceback
+            traceback.print_exc()
 
-    print("\n" + "="*50)
+    print("\n" + "="*60)
     print("All episodes processed!")
-    print("="*50)
+    print("="*60)
 
 
 if __name__ == "__main__":

@@ -8,977 +8,902 @@ URL: https://followhim.co/wp-content/uploads/2025/04/17-Doctrine-Covenants-41-44
 
 # Episode 17: D&C 41-44 - Part 2
 
-Part 2:
-Why did the Lord repeat the Ten Commandments in theseSections? Have we beencommanded to keep the Law of Consecration, just asthese Saints in Ohio? John and Hankcontinue with Dr. Gardner to teach about work, love,consecration, grief, humor, temple worship,and testimony. Her testimony is brilliant, vigorous,and persuasive. Learn why Dr. Gardner lovesthe Lord and His Gospel.
-Timecode:
-Part 1 ○ 00:00Introduction to the Podcast○ 00:59 Introduction of Dr. Barbara Morgan Gardner○ 04:30 Come, Follow MeSection 41 is the First Givenin Ohio○ 05:33The Saints are Being Asked to Move to the Ohio○ 06:07Parley P. Pratt Joins the Church○ 09:21Introduction to Polly and Joseph Knight○ 10:25They are Told They Would Be Endowed With Power○ 14:19The Amount of Theology That Comes From OhioWould Stun a HarvardTheologian○ 16:22They Receive Gradually As To Prepare for theTemple○ 17:37Edward Partridge is Tarred and Feathered○ 20:29Hank Wants Everyone to Appreciate Edward Partridge○ 21:22Lydia Partridge’s Many Contributions and Sacrifices○ 24:06Men and Women Equally Yoked Accomplish Great Things○ 24:43They Begin Section 42--and How It Applies toUs○ 28:12John Shares Why We Can Never Get Rid of Teachingthe Gospel to OneAnother○ 30:00Even John Bytheway Has Trouble Getting His Studentsto Class○ 31:33Dr. Gardner Shares a Personal Story About Not Being Prepared to BeTaught○ 35:34We Don’t Teach Lessons, We Teach Students○ 38:04We Often Don’t Know What Resonates With OurStudents--Be Patient○ 41:24John Shares About Pleasing the Lord and Not Trying to Please anAudience○ 42:54The Lord Has a Sense of Humor○ 44:43The Ten Commandments in This Section○ 49:15Ill Speaking of One Another○ 52:09Love is a Choice○ 53:00End of Part I
-Part 2 ○ 00:00Welcome to Part II○ 00:10Dr. Gardner Discusses How the Lord is PreparingHis People for a TempleThrough Covenants, Especially the Law of Consecration○ 04:04Students Questions the Difference Between Communismand The Law ofConsecration (They Probably Mean Socialism)○ 05:55Brigham Young Tells Them to Call A Doctor and Add Priesthood Blessings○ 06:34Elder Holland Says Get a Doctor, A Therapist, and Take Your Medication○ 08:40John Shares Story of Charlene Well’s Ancestor and Having to Pray andPush the Pioneer Wagon○ 09:56Quote From President Nelson About Love and Grief○ 12:16Joseph F. Smith Mourning the Loss of His DaughterIsn’t a Lack of Faith○ 14:27No Dumb Questions. Create Atmosphere Where All Questions Can BeAsked○ 15:09Sheri Dew’s Talk “Worth the Wrestle” is Essential to Our Day○ 17:35Elder Bednar Goes to the Temple to Gain BetterQuestions○ 18:01The Lord is Teaching His Bishop How to HelpHis Members Repent○ 19:04The Lord Dismisses Everyone to Privately DiscussAdultery with TheWoman Caught in Adultery--Bishops Work Carefully andRespectfully○ 23:26The Saints Learn Who Receives Revelation forthe Church: They areLearning How the Lord Works With His People (Hint:Order)○ 32:02The Lord Comes Quickly or Suddenly○ 37:07The Lord Has His People Gather and Learn toLove One Another BecauseDifficult Times are Coming○ 38:36Why Dr. Gardner Gains from her Membership inthe Church○ 44:53End of Part II
-Sources:
-2021.Josephsmithpapers.Org.https://www.josephsmithpapers.org/doc/introduction-to-documents-volume-2-july-1831-january-1833.
-Andersen, Neil. 2021. "A Compensatory Spiritual PowerFor The Righteous | BYU Speeches".BYU Speeches.https://speeches.byu.edu/talks/neil-l-andersen/a-compensatory-spiritual-power-for-the-righteous/.
-"Because Of Him | Comeuntochrist". 2021.https://www.churchofjesuschrist.org/comeuntochrist/believe/jesus/because-of-him.
-"Chapter 39: Relief Society: Divine Organization OfWomen". 2021.Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/manual/teachings-joseph-smith/chapter-39?lang=eng.
-Clark, Kim. 2021. "The Lord's Pattern - BYU Speeches".BYU Speeches.https://speeches.byu.edu/talks/kim-b-clark/the-lords-pattern/.
-Dew, Sheri. 2021. "Revelation For The Church, RevelationFor Our Lives".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2018/04/revelation-for-the-church-revelation-for-our-lives?lang=eng.
-Gardner, Barbara Morgan. 2021. "Connecting DaughtersOf God With His Priesthood Power".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/liahona/2019/03/connecting-daughters-of-god-with-his-priesthood-power?lang=eng.
-Gardner, Barbara Morgan. 2021. "The Priesthood PowerOf Women By Barbara MorganGardner: In The Temple, Church, And Family - DeseretBook".Deseretbook.Com.https://deseretbook.com/p/priesthood-power-of-women?queryID=0b3fce0f89b83c60b5dd4670fc022fd7&variant_id=170500-hardcover.
-Grow, Matthew J. 2021. "The Extraordinary Life OfParley P. Pratt".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/ensign/2007/04/the-extraordinary-life-of-parley-p-pratt?lang=eng.
-Harper, Stephen. 2021. "The United Order | Latter–DaySaints Channel".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/inspiration/latter-day-saints-channel/listen/series/past-impressions-audio/the-united-order-episode-21?lang=eng.
-"History, 1838–1856, Volume A-1 [23 December 1805–30 August 1834], Page 327". 2021.Josephsmithpapers.Org.https://www.josephsmithpapers.org/paper-summary/history-1838-1856-volume-a-1-23-december-1805-30-august-1834/333.
-Holland, Jeffrey R. 2021. "“A Teacher Come From God”".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/1998/04/a-teacher-come-from-god?lang=eng.
-Holland, Jeffrey R. 2021. "Cast Not Away ThereforeYour Confidence".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/liahona/2000/06/cast-not-away-therefore-your-confidence?lang=eng.
-Holland, Jeffrey R. 2021. "Like A Broken Vessel".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2013/10/like-a-broken-vessel?lang=eng.
-Holland, Jeffrey R. 2021. "Teaching And Learning InThe Church".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/ensign/2007/06/teaching-and-learning-in-the-church?lang=eng.
-Jessee, Dean. 2021. "‘Steadfastness And Patient Endurance’:The Legacy Of Edward Partridge".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/ensign/1979/06/steadfastness-and-patient-endurance-the-legacy-of-edward-partridge?lang=eng.
-"Lydia Lyman - Pioneer Overland Travel". 2021.History.Churchofjesuschrist.Org.https://history.churchofjesuschrist.org/overlandtravel/pioneers/42523/lydia-lyman.
-Madsen, Truman. 2021. "Joseph Smith Lecture 2: Joseph’S Personality And Character | BYUSpeeches".BYU Speeches.https://speeches.byu.edu/talks/truman-g-madsen/joseph-smiths-personality-and-character/.
-Nelson, Russell M. 2021. "Doors Of Death".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/1992/04/doors-of-death?lang=eng.
-Nelson, Russell M. 2021. "Go Forward In Faith".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2020/04/57nelson?lang=eng.
-Nelson, Russell M. 2021. "Opening The Heavens ForHelp".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2020/04/37nelson?lang=eng.
-Oaks, Dallin H. 2021. "Healing The Sick".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2010/04/healing-the-sick?lang=eng.
-Oaks, Dallin. 2021. "Devotional: Revelation | DallinH. Oaks - BYU Speeches".BYU Speeches.https://speeches.byu.edu/talks/dallin-h-oaks/revelation/.
-"Question: Was The United Order Simply A Form Of Communism?- FAIR". 2021.Fairlatterdaysaints.Org.https://www.fairlatterdaysaints.org/answers/Question:_Was_the_United_Order_simply_a_form_of_communism%3F.
-Robinson, Stephen E., and Dean Garrett. 2021.Amazon.Com.https://www.amazon.com/Commentary-Doctrine-Covenants-Stephen-Robinson/dp/1606411195.
-Romney, Marion. 2021. "Socialism And The United Order- Marion G. Romney - BYUSpeeches".BYU Speeches.https://speeches.byu.edu/talks/marion-g-romney/socialism-united-order/.
-Stevenson, Gary E. 2021. "Spiritual Eclipse".Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/study/general-conference/2017/10/spiritual-eclipse?lang=eng.
-"The Other Prodigal Son | Latter–Day Saints Channel".2021.Churchofjesuschrist.Org.https://www.churchofjesuschrist.org/inspiration/latter-day-saints-channel/watch/series/mormon-messages/the-other-prodigal-son?lang=eng.
-"The Prophet Arrives In Kirtland". 2021.Church News.https://www.thechurchnews.com/archives/1989-02-18/the-prophet-arrives-in-kirtland-151903.
-Biographical Information:
-Barbara thoroughly enjoys teaching religion at BYU.She is teaching the Doctrine andCovenants, The Eternal Family, and Teachings of theLiving Prophets. Her research interestsfocus primarily on women in religious leadership,international education (most specifically LatinAmerica), and religious pedagogy. She is the authorof the bookThe Priesthood Power ofWomen in the Temple, Church, and Family. Barbara receivedher PhD in instructional
-
-psychology. Her master's degree is in educational leadership and foundations with an emphasisin international education development. She completedpostdoctoral work at Harvard University.She served as institute director in Boston, whichincluded her assignment as the chaplain atboth Harvard and MIT. She continues to serve as thechaplain-at-large in higher education forthe LDS Church. She also serves on the BYU InterfaithOutreach Council. Before teaching atBYU, she worked as a seminary and institute teacheras well as a researcher for the ChurchEducational System. She was born and raised in Salem,Oregon; served a Spanish-speakingmission in the Los Angeles Temple visitors’ center; and resides in Highland, Utah. Barbara ismarried to Dustin Gardner, and they are the parentsof two children. She enjoys her wonderfulfamily, learning, teaching, traveling, people, thegreat outdoors, and life!
-www.doctrineandcovenantscentral.org
-Fair Use Notice
-TheFollow Him Podcast with Hank Smith and John Bythewaymay make use of copyrightedmaterial, the use of which has not always been specificallyauthorized by the copyright holder.This constitutes a “fair use” and any such copyrightedmaterial as provided for in section 107 ofthe US Copyright Law. In accordance with Title 17U.S.C. Section 107, the material on thispodcast is offered publicly and without profit, tothe public uses or the internet for comment andnonprofit educational and informational purposes.Copyright Disclaimer under Section 107 ofthe Copyright Act of 1976, allowance is made for fair use” for purposes such as criticism,comment, news reporting, teaching, scholarship, andresearch. In such cases, fair use ispermitted.
-No copyright(s) is/are claimed.
-The content is broadcasted for study, research, andeducational purposes.The broadcaster gains no profit from broadcasted content.This falls under “Fair Use”guidelines:www.copyright.gov/fls/fl102.html.
-Note:
-TheFollow Him Podcast with Hank Smith and John Bythewayis not affiliated with The Churchof Jesus Christ of Latter-day Saints nor Brigham YoungUniversity. The opinions expressed onepisodes represent the views of the guest and podcastersalone. While the ideas presentedmay vary from traditional understandings or teachings,they in no way reflect criticism of TheChurch of Jesus Christ of Latter-day leaders, policies,or practices.
- 
- 
- 
-Hank Smith: 00:01 Welcome to followHIM, a weekly podcast, dedicated to helping 
-individuals and families with their Come Follow Me study. I'm 
-Hank Smith. 
-John Bytheway: 00:09 And I'm John Bytheway. 
-Hank Smith: 00:10 We love to learn. 
-John Bytheway: 00:11 We love to laugh. 
-Hank Smith: 00:13 We want to learn and laugh with you as together, we 
-followHIM. My friends, welcome to another episode of 
-followHIM. My name is Hank Smith. I am here with my 
-illustrious co-host John Bytheway. Welcome John. 
-John Bytheway: 00:28 Always excited to hear which adjective I am today. 
-Hank Smith: 00:31 Yes. Illustrious. 
-John Bytheway: 00:31 And I have to look it up. 
-Hank Smith: 00:35 Hey, we just want to remind everyone that you can rate and 
-review our podcast. We would love it if you would do that. And 
-you can follow us on social media, find us on Instagram and 
-Facebook. John, we have the incredible opportunity each week 
-to meet with a great mind in the church. And we have that 
-opportunity again this week. Tell us who's here with us. 
-John Bytheway: 00:59 Oh, we are here today with, Barbara Morgan Gardner. Barbara 
-thoroughly enjoys teaching religion at BYU. She's teaching the 
-Doctrine and Covenants, The Eternal Family, and The Teachings 
-of Living Prophets. Her research interest focus primarily on 
-women in religious leadership, international education, most 
-specifically Latin America, and religious pedagogy. That's 
-another word, Hank, maybe you could define for us, pedagogy. 
-Hank Smith: 01:23 Yes. 
-John Bytheway: 01:23 I think it's about bicycling. She's the author of the book, The 
-Priesthood Power of Women: In the Temple, Church, and 
+Hank Smith: 00:02 Welcome to part two of this week's podcast. Barb, we've got 
+teaching. We've got repentance. What's next? 
+Dr. Barbara Gar...: 00:10 Besides the fact that he's talking about the poor and the needy 
+are always going to be among us, and he's talking about the 
+storehouse verse 34. Verse 35 he's talking about the purpose of 
+purchasing the lands and why they're doing it. But I want to 
+make the point that again law of consecration. I love the 
+temple. So, verse 36, that my covenant people... So, why are 
+they being commanded to live the law of consecration? Why 
+are they going to be eventually commanded to move to New 
+Jerusalem? He gives the answer in verse 36 that my covenant 
+people may be gathered in one in that day when I shall come to 
+my temple, and this I do for the salvation of my people. 
+Dr. Barbara Gar...: 00:41 I love that President Nelson, this is not a direct quote, but he 
+said, "It's much harder to build a covenant, a temple people, 
+than it is to build a temple," that kind of idea and the Lord is 
+trying to build a temple people. And the law of consecration is 
+one of the best ways, hands down, to help people sacrifice their 
+wants, their selfish ideas and ideologies and everything else for 
+the betterment of people and become the kind of people that 
+Christ is who sacrificed all things. 
+Dr. Barbara Gar...: 01:08 The law of consecration is critical that we understand that it's 
+agency at its finest. No one's being forced to live the law of 
+consecration. People have the opportunity to choose if they do 
+or don't want to live it, and what they are going to give in so 
+living. And so, the law of consecration is really a people. The 
+Lord is cleansing the people as it says in verse 41, cleanliness 
+before me. And then, verse 40, thou shalt not be proud in thy 
+heart. 
+Dr. Barbara Gar...: 01:30 He's helping the people to become humble. He's helping them 
+to care about each other. He's helping them to be prepared to 
+enter the temple, make those covenants that are going to be 
+required, and that are going to be required of all of us who 
+desire to become like God. That's the law of consecration. It's 
 
  
  
-Family. Barbara received her PhD in Instructional Psychology. 
-Her master's degree is in Educational Leadership and 
-Foundations with an emphasis on International Education 
-Development. She completed post-doctoral work at Harvard 
-university. She served as Institute director in Boston, which 
-included her assignment as, I love this, the chaplain at both 
-Harvard and MIT. 
-Hank Smith: 01:54 Wow. 
-John Bytheway: 01:54 She continues to serve as the chaplain-at-large in higher 
-education for the LDS Church. She also serves on the BYU 
-Interfaith Outreach Council. Before teaching at BYU, she worked 
-as a seminary and institute teacher, as well as a researcher for 
-the church educational system. She was born and raised in 
-Salem, Oregon, served a Spanish speaking mission in the Los 
-Angeles Temple Visitor's Center, and resides in Highland, Utah. 
-John Bytheway: 02:19 Barbara is married to Dustin Gardner, where they are the 
-parents of two children. She enjoys her wonderful family, 
-learning, teaching, traveling, people, the great outdoors and 
-life. And I was excited to meet her, Hank, because her chapter... 
-For those of you watching in video, look at the bookmarks in 
-this war of women's conference in 2017. Her talk called, Why 
-Do You Stay, is so good and so I've marked it all up. And so I was 
-excited to meet her. I wanted to tell her that was a great talk. 
-I've read it again and again. And I'm going to, with your 
-permission, photocopy it and give it to my students. 
-Dr. Barbara Gar...: 02:57 Feel free. It's meant for them. 
-Hank Smith: 03:00 Hey, Barbara. Welcome to followHIM. 
-Dr. Barbara Gar...: 03:02 Thank you. It's nice to be here and following Him with you. 
-Hank Smith: 03:06 I've known Barb for quite a long time. It feels like, at least Barb, 
-probably, I don't know, 15, 16 years maybe, back when you 
-were a seminary teacher. I was a brand new teacher, I think you 
-had pretty brand new teacher. And they always used Barb as 
-the example. They always said, "This is what we want." And 
-they'd show videos. 
-Dr. Barbara Gar...: 03:26 This is the one woman for women. 
-Hank Smith: 03:27 Yeah. That's true. That's true. 
+critical to the history of the church. More importantly, it's 
+critical to the exaltation of all of us. 
+Hank Smith: 01:50 I wonder to you and I, we think, "Oh, temples, law of 
+consecration, of course. I wonder how new this is, temple, 
+right? We're going to have the temple? 
+John Bytheway: 02:01 What do you do in a temple? 
+Hank Smith: 02:03 Yeah. What do you do? 
+Dr. Barbara Gar...: 02:05 They didn’t know. Clearly, they didn't know what was going on 
+with the temple. The Lord knew. But they think were getting 
+excited because the Lord gives them little hints here and there. 
+I'll [inaudible 00:02:12] with power. He gives them little bits and 
+pieces that there was no way they had any idea when you look 
+through this what the Lord was going to give them. But, boy, 
+does he help prepare them to get there. 
+John Bytheway: 02:23 This is such an interesting point to me because I'm trying to 
+think of the existing churches of the day. Did anyone use that 
+name temple? Was the only temple that we knew about the 
+temple in Jerusalem? And now, all of a sudden the Lord keeps 
+using this idea of building a temple. And what are we going to 
+do there? Would you say that's pretty unique to our faith, this 
+idea of temples? 
+Dr. Barbara Gar...: 02:51 Yeah. Maybe. I don't know exactly how unique. I know we have 
+the Jewish faith that has the temples that they're believing in. 
+Other Christian churches will recognize... Any Judeo-Christian 
+church is going to recognize temple. This emphasis on the 
+temple and the purpose of the temple is different. The 
+restoration of the priesthood blessings that are going to be 
+associated with the temple are clearly different. 
+Dr. Barbara Gar...: 03:11 So, I guess the context of the temple is probably different. 
+Maybe, the emphasis on the temple as we continue on. But 
+other religions would have had an understanding at least of 
+temples. 
+John Bytheway: 03:20 But they didn't know what was coming, didn’t they? 
+Dr. Barbara Gar...: 03:23 No, no. Clearly, they didn't understand what was coming. We're 
+still extremely distinct in the use of temple on that, no question. 
+Hank Smith: 03:28 Barb, the law of consecration is going to be something we talk 
+about continually in the next 40 seconds. 
  
  
-Dr. Barbara Gar...: 03:31 That's the reality. Not really. I wasn't the only woman, but in 
-that area I probably... In the school, I was. 
-Hank Smith: 03:36 You are making frequent trips to South America, because I will 
-text you occasionally and say, "Hey Barb, can you do this or can 
-you do this?" And you'll say, "I would love to, but I'm going to 
-Mexico city this weekend." How often do you fly to South 
-America? 
-Dr. Barbara Gar...: 03:49 With COVID, I don't. 
-Hank Smith: 03:51 Okay, before the- 
-Dr. Barbara Gar...: 03:52 Previous to COVID, two to five times a year, depending on the 
-situation. South America, for different conferences, for 
-students, members of the church, they have young adult 
-conferences down there that I'm a part of, helping with that. 
-And then doing research down in Mexico and hopefully helping 
-out with the needs of the citizens in that part of the 
-hemisphere. Wonderful, wonderful members of the church 
-there. 
-Hank Smith: 04:11 Barb, you do just so much good. As John was reading your bio, I 
-thought, "How can she be this young? She's done all this." It 
-reminds me of Joseph Smith. So much done in such a young age. 
-Dr. Barbara Gar...: 04:26 That's hilarious. Thanks to both of you. I'll right back at you. I 
-appreciate the love. 
-Hank Smith: 04:30 We are very excited to have you. So let's jump into the Come 
-Follow Me lesson for this week. It's Sections 41 through 44. Let's 
-start with 41 and 42. These, I think Barb, you can correct me if 
-I'm wrong, but I think these are the first sections given in Ohio. 
-Can you give us a little background here? What brought Joseph 
-Smith and the church to Ohio? And what have these first few 
-weeks been like? 
-Dr. Barbara Gar...: 04:54 I love that they got to Ohio. In Section 38, It's one of my... I get 
-so giddy about these sections because I love anything to do with 
-the temple. And in these sections, we see the Lord, previous to 
-this, telling the saints, Section 36, "I'm going to be building my 
-temple." And then you get to section 38, and he basically 
-explains. Not very often in our life does the Lord actually say, 
-"I'm going to tell you why I'm sending you to Ohio." But he 
-does, he tells us why. "You're going to the Ohio so that you can 
-be endowed with power and so I can give to you my law." 
-Which to me is just temple, temple, temple, temple, and its 
+Dr. Barbara Gar...: 03:35 Yeah. This is merely an introduction. Right. 
+Hank Smith: 03:37 Yeah. It's just an introduction. But how do you help your 
+students understand the difference between, hey, what's yours 
+is mine now versus what the law of consecration is really about. 
+Do you have students that ask you those type of questions like 
+before Joseph Smith shows up in Kirtland, they're trying to live 
+this law. And the idea is I can just walk up to you, and, hey, I like 
+that watch, right? [crosstalk 00:03:59]. 
+Dr. Barbara Gar...: 03:58 But there's stories of people doing that, I mean, legitimate 
+church history stories. Yeah. 
+Hank Smith: 04:02 And that's not what the Lord has in mind. 
+John Bytheway: 04:04 And then, the guy took it and sold it, right? 
+Dr. Barbara Gar...: 04:06 Exactly. [crosstalk 00:04:07] 
+Hank Smith: 04:07 To a pawnshop. 
+Dr. Barbara Gar...: 04:10 It's so funny. The question I get more from my students is 
+what's the difference between the law of consecration and 
+communism or socialism. That's typically the question I get 
+regarding the law of consecration, and why were people forced 
+into it which is why we talked about agency. Another question I 
+often get is why don't we live it anymore. That's one's a tricky 
+question because we may not live it according as it is here 
+publicly in this way where everybody was giving this, and we 
+had a storehouse in that exact manner. 
+Dr. Barbara Gar...: 04:37 But as President Hinckley says, "The law of sacrifice and law of 
+consecration were not done away with and are still in effect." I 
+used to ask my dad, "Why you didn't live the law of 
+consecration?" And I'll never forget his answer. It was just 
+simply, "I don't know. Why aren't you?" I was like, "Okay." 
+Hank Smith: 04:55 Okay. Thanks, dad. 
+Dr. Barbara Gar...: 04:56 Everybody else is. Apparently, I didn't pick that ball up. 
+Hank Smith: 04:59 Because I want to keep my watch. That's why. 
+Dr. Barbara Gar...: 05:01 Exactly. So, yeah. Hank, I mean people could be asking like... It's 
+all a matter of as they said at the time they lived in association 
+called the family in Ohio in those early years. Although people 
+as a group joined. Not every individual was given their agency if 
  
  
-power and authority and its exaltation, eternal life, salvation of 
-souls, it's salvation, all coming to a forefront. 
-Dr. Barbara Gar...: 05:33 So, not only has the Lord told them that, now they're saying, 
-"Okay, we're coming." And it feels like these saints have given 
-up so much already in trying to get themselves to Ohio, and 
-translating everything else that's going on. Now they have 
-arrived. Emma was pregnant third trimester with twins, no idea 
-how she was handling that. That would be extremely difficult. 
-The saints had already given up, as I said. The willingness to give 
-up land, money, property, etc, etc, etc. They are now there and 
-a lot is going to be expected of them. I'm confident more than 
-they realize. 
-Hank Smith: 06:07 Yeah. I wonder if those new converts in Ohio had any idea that 
-as they get baptized, they're going to become the headquarters 
-of the church. Joseph Smith is in New York, the beginnings of 
-the church are in New York. All of a sudden here comes Parley 
-Pratt, a member of their congregation back through, baptizes 
-what, a hundred and something of them. What did Susan tell us 
-last week, John? Baptized I think 120 or something. 
-Dr. Barbara Gar...: 06:35 [crosstalk 00:06:35]. Yeah. 
-John Bytheway: 06:35 Yeah. It was like you said, practically doubled the membership 
-of the church at once. 
-Dr. Barbara Gar...: 06:35 Yeah. It's true. 
-Hank Smith: 06:39 And then all of a sudden, Hey, guess what? You're not only the 
-new members of the church, you now are the headquarters of 
-the church because Joseph Smith is coming to you. 
-Dr. Barbara Gar...: 06:47 I almost wonder how many people we know that aren't 
-baptized in Ohio. At this early, obviously we're not talking about 
-the Whitmers and Oliver Cowdery, but these major names are 
-going to start coming forward, John Murdock. Major leaders of 
-the church are going to be baptized here. This is a substantial 
-membership of the church right here. 
-Hank Smith: 07:04 It feels to me that this group of Ohio converts have been 
-prepared for this moment with Sydney's teaching before as a 
-Campbell light, was he a Baptist minister? As all this is coming, it 
-just feels like this group is prepared and here comes, all you got 
-to do is add the missing ingredient, which is Joseph Smith and 
-the members from New York, and things are going to work out 
+a family joined. But in law of consecration still individuals are 
+given that responsibility. But it's also a matter of sacrifice and 
+willingness. In the law of consecration, people weren't told to 
+take things. 
+Hank Smith: 05:27 It was all giving. 
+Dr. Barbara Gar...: 05:28 It was all sacrificing and giving, and there's a lot more law of 
+consecration that'll come up in the sections in the future. But 
+we're talking about needs, wants, and what wanting really 
+means and lacking of things. There's a lot more that we could 
+talk about. 
+Dr. Barbara Gar...: 05:38 I think the biggest thing for law of consecration is agency, 
+stewardship, sacrificing for the greater purpose of others in the 
+Lord coming unto Christ as it is today. No difference. 
+Hank Smith: 05:49 It looks different than it did then. But the law of consecration is 
+still very much in effect. 
+Dr. Barbara Gar...: 05:55 The elders of the church were talking about living together in 
+love, and we've kind of already talked about relationships 
+between people and speaking highly of each other. We have the 
+law of healing and death, and I love these. This is really 43 to 52. 
+I love where Brigham Young says, "There are too many people 
+who are saying don't call a doctor. Just heal me." And Brigham 
+Young basically kind of summarizing says, "Are you kidding 
+me?" If we have a doctor, call a doctor. 
+Dr. Barbara Gar...: 06:20 If we're in the middle of a mountain somewhere, we have 
+nobody to help us, yes, then, we will perform a priesthood 
+blessing, and the Lord will bless us according to our faith and 
+according to his will. But if there's a doctor in town, go to the 
+doctor. And it's the same thing I think as Elder Holland is talking 
+about mental illness. 
+Dr. Barbara Gar...: 06:34 I take this personally because I have many of my family 
+members who struggled desperately with mental illnesses. And 
+one of the things Elder Holland says is, "Find a good counselor. 
+Talk to your priesthood leader or authority and also take 
+medication." So, I think is interesting 43 to 52 the Lord is saying, 
+"Use the help that you can help. Be healed where you can be 
+healed." But also have the faith to be healed or the faith not to 
+be healed according to the Lord's desire. To me, those are some 
+significant teachings just in those verses by themselves. 
  
  
-well. So they moved in the middle of winter, and I can't imagine 
-that's a great trip. 
-Dr. Barbara Gar...: 07:36 Especially from New York to Ohio. 
-Hank Smith: 07:38 Yeah. From New York to Ohio, in the middle of winter. I think 
-Joseph Smith travels by sleigh. 
-Dr. Barbara Gar...: 07:45 I think it's important to understand that these members of the 
-church were trying to find truth, that when the missionaries 
-that you're talking about, Parley P. Pratt, Albert, when these 
-missionaries came there, they were searching for truth. They 
-were trying to understand God's will for them. These were 
-people that were already in the process of sacrificing. Many of 
-them have already considered themselves a family. They were 
-living, not the law of consecration, but they were sharing a lot 
-of things already together as well, as well as those who were 
-coming from New York. 
-Dr. Barbara Gar...: 08:08 So we do have a group of people that seemingly have a humble 
-heart. Like you said, they're prepared to have the gospel, but 
-they're also prepared to be selfless, they're prepared to change 
-their ways, they're prepared to involve other people. We're 
-going to have major struggles with that as well. Some of it is a 
-little bit too fanatic, and we're going to find some major 
-spiritualism that's going on that is not necessarily in line with 
-the way God would have his church be. But it seems that their 
-motivation and their intention was to do the will of God. And 
-God's going to use them for those purposes. 
-Dr. Barbara Gar...: 08:37 So I think that there's a reason, like you said, they were 
-prepared. There's a substantial group of people here who truly 
-are trying to do the best thing. And I think we see that right at 
-the beginning. We see the Lord in Section 41 is just saying, 
-harken and hear. And I think that they were ready to do that. I 
-think that they were ready to harken, they were ready to hear, 
-they were ready to be obedient to the Lord at this point. 
-Hank Smith: 08:54 I love way we're doing this here, because it seems to me that 
-you have this group of saints in Ohio that are prepared and 
-ready. You have this group of saints in New York who are 
-sacrificing so much to move. And they're going to come 
-together and it's going to be a powerful group when those two 
-groups come together. It just feels like good things are going to 
-happen. Yes, there's going to be struggles, but it feels like, 
-Wow, you're going to have a lot of power there in this little 
-town. 
+Hank Smith: 07:03 What is that in verse 43? But believe shall be nourished with all 
+tenderness, with herbs, mild food. To me, use what's available 
+to you to get healed. And today, it would probably be, yeah, we 
+would add to that doctors, medications, study? 
+John Bytheway: 07:19 What is the verse shall we not make use of the things which the 
+Lord hath provided? I love that because that says, "Look, there 
+are even medications there. Look at what the Lord has 
+provided." Don’t just, "No, we'll just go get a healing blessing." 
+And most healing blessings that I've been a witness to I have 
+heard the counsel coming listen to the doctor. See what he says 
+as well and exercise your faith, type of a thing. 
+Hank Smith: 07:46 That's Alma 60 verse 21, John. 
+John Bytheway: 07:48 We read. [crosstalk 00:07:50] It's Pahoran and Moroni [crosstalk 
+00:07:53] back and forth, right? 
+Hank Smith: 07:53 He says, "Do you suppose that the Lord will still deliver us while 
+we sit upon our thrones, and do not make use of the means 
+which the Lord has provided for us? Very good. It's almost like 
+you do this for a living, John. You're pretty good. 
+Dr. Barbara Gar...: 08:08 I'd love this in connection with that almost as similar wording as 
+Moroni. If we are sick and ask the Lord to heal us and do all for 
+us that is necessary to be done according to my understanding 
+of the gospel of salvation, I might as well ask the Lord to cause 
+my wheat and corn to grow without my plowing the ground and 
+casting in the seed. It appears inconsistent to me... It appears 
+consistent to me to apply every remedy that comes within the 
+range of my knowledge and to ask my father in heaven in the 
+name of Jesus Christ to sanctify that application to the healing 
+of my body. 
+Hank Smith: 08:36 Nice. 
+Dr. Barbara Gar...: 08:36 I just love that. Brigham Young, he's such a practical person. 
+John Bytheway: 08:41 I heard Sharlene Wells Hawkes tell a story about one of her 
+ancestors that their wagon was stuck or something, and they 
+didn't know what to do. And somebody said, "Well let's pray," 
+and her ancestor said, "I prayed this morning. Let's get out and 
+push." 
+Dr. Barbara Gar...: 08:55 Yeah. That's great. As opposed to my ancestor who was walking 
+across the plains, and she says she wasn't going any farther. So, 
+her husband took her and dumped her right in the middle of the 
  
  
-Dr. Barbara Gar...: 09:21 Yeah. I just think specifically Joseph Knight, Polly Knight, coming 
-from New York, their willingness to sacrifice, the whole group 
-that comes with them and the callings that the Lord is going to 
-give them. You have shortly after this, we have our first Bishop 
-being called, Edward Partridge. He's only been a member for 
-two months, and he's the Bishop. No handbook of instruction, 
-but... The Lord has high expectations for these people. But I 
-think he can for a reason. I think that they are prepared like you 
-said. There's going to be a lot that's going to be required here. 
-Hank Smith: 09:46 John, you've been to Kirtland as I have. Barb, I know you have. 
-There's just a power that is in that little area. They got the 
-Temple up on the hill, and then if you go down to the Visitor's 
-Center where the Whitney Store is. And there is just, I don't 
-know, to me it's something that's blossomed. I don't think I 
-understood much as a young seminary teacher, how important 
-Kirtland is to the history of the church, because I guess we focus 
-on Nauvoo and in New York, and maybe we lose a little bit of 
-Kirtland. But, I don't know, There's a power and a spirit there 
-that just connects me with these early saints. 
-John Bytheway: 10:25 Well, I like what Barbara said, going back to Section 38, go to 
-Ohio because I have something there for you. You're going to be 
-endowed with power and you're going to get the law. And then 
-they finally did get there and here it comes in these sections. 
-And I'm looking at, in the Come Follow Me manual, the first 
-paragraph for this particular group of sections. I love this 
-question, how do you unify a quickly expanding body of 
-believers, especially when they are bringing with them doctrines 
-and practices from their previous faiths? And that's, I think what 
-Barbara was saying just there. They're all coming here and 
-they're devout, they want to know what to do. And now they're 
-here. Maybe this is a good time to jump into the content of 
-these sections. What's the Lord's message in Section 41? 
-Hank Smith: 11:12 Yeah. 
-Dr. Barbara Gar...: 11:12 John, I'm going to jump in there as well as we're doing this, 
-since we are talking about at the beginning. Hank, you were 
-saying, "What's going on in Ohio?" I pause for a moment 
-because there are 65 revelations that are now sections of 
-Doctrine and Covenants, that take place in Ohio. We're talking 
-the vision, section 76. We're we're talking the Word of Wisdom. 
-We're talking major sources of revelation where the Lord is 
-actually going to be revealing extremely important doctrine 
-over a long period time. We're doing 41 to 44 today, but Holy 
-cow, section 45, too. The Lord is just pounding people in the 
-Ohio area with these major revelations. So we're saying, what's 
+river and said, "Well, you have a choice. One way or the other, 
+you're going to get wet. So, you better start walking." 
+Hank Smith: 09:08 Oh my goodness. 
+Dr. Barbara Gar...: 09:10 These stories. I don't think mine were quite as faithful as 
+Sharlene Wells' family. Hey, can I share with you one of my 
+other favorite scriptures in this part? 
+Hank Smith: 09:17 Please. 
+Dr. Barbara Gar...: 09:17 Verse 45. This is personal to me and many who have lost loved 
+ones. I love it. Thou shalt live together in love in as much as 
+thou shalt weep for the loss of them that die and more 
+especially for those that have not hoped of a glorious 
+resurrection. This idea, I mean, I lost my father just a couple of 
+months ago. I know, Hank, you've lost your father recently. 
+John, I'm not sure about your situation. 
+John Bytheway: 09:42 My mother in December. 
+Hank Smith: 09:44 Yeah, just a couple of months ago. 
+Dr. Barbara Gar...: 09:45 All of us within the last three months have lost... Four months, I 
+guess mine was in November. But I've lost people that we love 
+dearly, and I love that it's the law to weep for the loss of them 
+that die. President Nelson, this is one of my favorite quotes on 
+death. He says, "Irrespective of age, we mourn for those loved 
+and lost. Mourning is one of the deepest expressions of pure 
+love. It's a natural response and complete accord with divine 
+commandment. Thou shalt live together in love in so much that 
+thou shalt weep for the loss of them that die." 
+Dr. Barbara Gar...: 10:15 Elder Holland has this statement where he says, "Tears are the 
+price we pay for love." I mourn deeply at the loss of my father 
+and at the loss of my mother, and my husband at the loss of his 
+mother and father, and we are eternal beings, and there's a 
+reason I think that we mourn. We miss people. We love each 
+other, and I'm grateful. I'm grateful to be blessed with the kind 
+of love that allows me to weep, and I'm grateful for the love 
+others have that allows them to weep. 
+John Bytheway: 10:41 And the Lord's saying, "Don't avoid that. Don't try to isolate 
+yourself and avoid that." Love people and live together in love. 
+And yeah, you will weep. But internal perspective helps that, 
+doesn't it? And I was thinking Mosiah 18. Here's Alma, the 
+elder, the waters of Mormons saying, "Are you willing to come 
  
  
-going on in Ohio? Well, the foundation of the church. Yes, it's 
-New York, but the major revelations, the major doctrinal points 
-are going to be happening. The Lord is going to reveal these to 
-these people for the next few years. This is extremely 
-significant. 
-John Bytheway: 12:05 So, Karl Anderson is, is saying, "Amen, right now." 
-Dr. Barbara Gar...: 12:09 Yeah. [crosstalk 00:12:10] 
-Hank Smith: 12:10 We've mentioned him a couple of times. We had to invite Karl 
-on so he can tell Kirtland when the little bit more. He loves to 
-do it. To me, I think if we lose the significance Barb, if we think 
-of these sections as old, Oh, yeah. Oh, yeah. A word of wisdom 
-of course. I've known that my whole life. Or section 76, the 
-Three Degrees of Glory. I've known that my whole life. If you 
-lose the fact that this was brand new, every one of these was 
-brand new, you're going to lose how exciting and also mind-
-blowing it probably was to live in Kirtland over the next eight 
-years. 
-Dr. Barbara Gar...: 12:45 I love to read the Doctrine and Covenants with the church 
-history in mind, of course. It's hard to read it without the 
-context sometimes. But I feel like because I'm reading this and I 
-come to these sections, it's almost as the saints are saying, "Oh 
-my goodness." I can not imagine the giddiness when they get 
-there and they realize what is really going on. We're building 
-the Kirtland Temple, we're going to receive the keys of Elijah. 
-Families are going to be sealed for eternity. We're going to be 
-able to do missionary work. We're bringing back the exhaltation 
-of eternal life. We're talking about people on both sides of the 
-veil. It's mind boggling in reality. Every time I just keep saying 
-this, but as I go through the Doctrine and Covenants, starting in 
-section 41 with this, and what's going to be revealed for the 
-next few years, it would blow any person's mind away if they 
-actually understood what was happening here. 
-Hank Smith: 13:29 Yeah. 
-Dr. Barbara Gar...: 13:30 And me included. And I understand and I seriously sometimes I 
-read this throughout my scriptures and say, "This is too much, 
-this is crazy." This is amazing. It is. And you said, John, get into 
-the scriptures, I think one of the first things in there, verse two, 
-it says in there, assemble yourselves together to agree upon my 
-word. Just like the Lord is saying, "Okay, go to Ohio." You're not 
-going to have a big discussion on what is right and what is not 
-right, the Lord is going to just tell you what's right. The Lord is 
-going to give you my law. 
+into the fold of God be called his people? Are you willing to 
+mourn with those that mourn?" It's part of being a member of 
+the church even is that, together, we mourn with one another. 
+Dr. Barbara Gar...: 11:10 You're talking before, John, about joy and about the happiness. 
+You can be a joyful person and still mourn deeply. And Christ 
+was the perfect example of that. I think that's something as 
+members of the church, sometimes, we are really good at being 
+happy, and for good reason. We have a great reason to have 
+joy, no question. And as President Nelson says, it's who we are 
+and what we believe in, and it's the direction that we're going in 
+that causes us to have this joy. 
+Dr. Barbara Gar...: 11:34 It's our foundation in Jesus Christ that causes the joy. But it's 
+also our foundation in Jesus Christ that causes us to mourn. It's 
+about love. 
+John Bytheway: 11:42 When Lazarus was dead and when Jesus swept, and he knew 
+exactly what was going to happen. But he wept, and he 
+mourned with them, and we don't mourn... What did Joseph 
+Smith say? But we don't mourn as those without hope. We shall 
+have them again. 
+Hank Smith: 11:58 We should also add that you can have faith and still mourn. And 
+sometimes, we think our testimony is I shouldn't be mourning. I 
+know. I have a great testimony of the Lord. But mourning and 
+faith go hand in hand. You can be very faithful and have deep 
+grief for a long time. 
+Dr. Barbara Gar...: 12:16 We're probably going too far on this. One more, Joseph F. 
+Smith, I don't have a direct quote. But I think about his life and 
+the pandemic of his early 1900 years and the millions who died 
+then and losing his own son who was an apostle and many of 
+his own children. I read in his own personal writings one day in 
+one of his journals, he wrote something to the effect of as he 
+lost one of his daughters, he said, "I don't mourn because I am 
+lacking in faith, or I don't mourn because I feel that I will never 
+see her again." He says, "I have no question I will see her again. I 
+mourn because I miss her." I mourn because I love her. That's 
+very healthy. 
+Hank Smith: 12:53 Yeah. That is very [crosstalk 00:12:54]. 
+Dr. Barbara Gar...: 12:54 Great conversation. 
+Hank Smith: 12:58 What's next? This is a long section. It's prolific. Just the content 
+here is rich with theology and law. 
  
  
-Hank Smith: 13:55 And you agree with it. 
-Dr. Barbara Gar...: 13:56 And you're going to have to agree with it. And I actually love 
-that these people want to know the truth, and the Lord is going 
-to give it to them. And they're going to believe it and they're 
-going to act upon it. There's going to be some falling away later. 
-We're going to have the Kirtland Safety Society. We're going to 
-have major problems that are going to happen financially, 
-religiously with some of these members of the church. But 
-there's no question at this time, that the Lord is giving his law 
-and it is coming from God. These people believe the prophet. 
-Hank Smith: 14:19 Yeah. Yeah. Verse three, and by the prayer of faith, you shall 
-receive my law. I think we talked about this last week with 
-Susan, but it's almost as if the Lord in New York around 
-December, puts the restoration on hold. He says, "Now you're 
-ready to move." And once they are all there, he's like, "Okay, 
-game on. Let's floods you now with more revelation." Barb, as 
-you were saying that with Kirtland, the theology that comes out 
-of Kirtland is just you're right. Even Harvard theologians today 
-would just be blown away by this firmer, unfolding theology 
-week after week after week. I just think if we can grasp that, it's 
-much bigger than maybe we understand as we just look at the 
-black and white here on the page. 
-Dr. Barbara Gar...: 15:09 Even just the reality that we have before with Hyrum page, 
-earlier in the Doctrine and Covenants, where the saints are 
-being told, Joseph is my prophet, and he is going to be your 
-profit on the earth. But then you see in verse four, I will be your 
-ruler when I come. He's setting up the kingdom of God on the 
-earth that has not been understood at that point. Yes, Joseph is 
-here, he is my profit. I'm going to teach you the gospel and then 
-I expect you to live it. And this is the law. And if you do, you will 
-be endowed with power from on high. You'll be allowed have 
-the blessings of the temple and that's all coming. But I am going 
-to prepare you to be a temple people, and I'm going to prepare 
-you to build a temple. The Lord just lays it all out here. 
-Hank Smith: 15:47 He mentions in verse three, you will receive my law. Says it 
-again in verse four, see that my law is kept. He says it again in 
-verse five, he that receiveth my law and do with it the same as 
-my disciple. So are we talking about Section 42 there, or even 
-more than Section 42? When I see the Lord talking about, my 
-law, and then Section 42, the heading talks about, the law 
-would be given in Ohio. I think the saints of that day, they saw 
-section 42 as the law., but in your mind, do you see it as even 
-more than Section 42? 
+John Bytheway: 13:12 I just look at 61 because I was thinking about this. Look, how the 
+Lord was just... Well, I want a revelation about this. Okay. Well, 
+this guy wants revelation. Okay. Well, this guy wants revelation. 
+Okay. And he's just not saying, "Don't bother me." He's saying if 
+you shall ask, thou shalt receive revelation upon revelation, 
+knowledge upon knowledge that thou mayest know the 
+mysteries and peaceable things that which bringeth joy which 
+we're just talking about, that which bringeth life eternal. I put 
+an exclamation point by that verse. I thought that's another ask-
+and-you-shall-receive-type verse. 
+Dr. Barbara Gar...: 13:45 Amen. That's a President Nelson at its finest lately calling us to 
+seek revelation. 
+John Bytheway: 13:50 To hear him. 
+Dr. Barbara Gar...: 13:51 Yeah. These are also good parenting scriptures for me at least as 
+I have my children and also as a daughter by, I think, of one 
+specific instance where my mom asked me a question and my 
+mother passed away from brain cancer. And so, at the end of 
+her life, she was asking a lot of questions that weren't making a 
+lot of sense. 
+Dr. Barbara Gar...: 14:08 And I remember again a lot of negativity in my life, negativity 
+meaning I made some very stupid comments in my life clearly. 
+But I remember saying to my mom, "Mom, you've asked that 
+question so many times." And it was one of those stupid 
+moments. I just look back at what I would give for my mom to 
+ask a question again, that I could actually give an answer to. 
+Dr. Barbara Gar...: 14:29 But I remember in the moment I said that to my mom, the very 
+simple rebuke, and you haven't from the Lord. Like, "Really? 
+Really?" You're actually telling your mother right now not to ask 
+a question she knows the answer to. I mean how many times. 
+And I love what John said, I mean revelation upon revelation, 
+and that I'll [inaudible 00:14:53] God wants to speak, and he is 
+speaking. And as a parent, I also need to be careful that I'm not 
+shutting people down or as a teacher that I'm allowing great 
+questions, and I'm creating the atmosphere of where questions 
+can be asked and especially that I'm creating the atmosphere 
+where questions can be asked of the Lord. 
+John Bytheway: 15:09 A great contribution that Sister Sherry do made was that 
+questions are good, and she started that talk up at Rick's about 
+have you engaged in the wrestle? And then, oh heck, bring all 
+your questions. Absolutely. Bring all your questions and wrestle 
+with them. Now, we don't say in the gospel, "Don't have 
+questions." We say, "Ask." And here's the Lord saying, "If you 
  
  
-Dr. Barbara Gar...: 16:22 Yeah. Anytime the Lord is teaching, we as a people, we 
-understand as members of the church that it's a line upon line, 
-precept upon precept, revelation process with the Lord. This is 
-significant. And these are significant laws that the members of 
-the church are receiving, but this is the beginning of his law. 
-That the temple hasn't been dedicated yet. There are more laws 
-to come. And the laws will continue to come until Christ comes 
-again and on beyond that. Laws will continue as time progresses 
-because doctrines are unchangeable, we understand that. But 
-laws will continue as the people progress. 
-Hank Smith: 16:53 Before we get into the law. Section 42, the Lord mentions 
-Edward Partridge by name. And you just mentioned him, about 
-being a Bishop of the church. From my studies, Edward's a great 
-guy. He's just a really great guy. 
-Dr. Barbara Gar...: 17:08 Yes. I'll give you a few things on Edward that I love. First of all, 
-verse 11 I think speaks volumes. When the Lord says, for he is 
-likened to Nathaniel of old and whom there is no guile. I would 
-love for the Lord to use that phrase with me personally. So I 
-think that that's one of the things right off the bat that we 
-understand about him. He shares a story about himself and 
-when he was going through some major persecution, and tarred 
-and feathered and everything, and he made the following 
-statement, is his own journal. 
-Dr. Barbara Gar...: 17:37 He says, "I was taken from my house by the mob, who escorted 
-me about a half a mile to the courthouse on the public square 
-and independence." So this is happening in Missouri later. "And 
-then in there, I was stripped of my hat, my coat, my vest and 
-daubed with tar, from head to foot, and then had a quantity of 
-feathers put upon me. And all this because I would not agree to 
-leave the County, and my home where I had lived for two years. 
-I bore my abuse with so much resignation and meekness, that it 
-appeared to astound the multitude who permitted me to retire 
-in silence, many looking very solemn, their sympathies, having 
-been touched. And as to myself, I was so filled with the spirit 
-and love of God, that I had no hatred towards my prosecutors 
-or anyone else." 
-Dr. Barbara Gar...: 18:18 To me, that's the kind of person I want to be. If you think about 
-Edward Partridge, he's the first Bishop of the church for a 
-reason. In a sense as a Bishop, he's receiving for the first time 
-how he should be acting as a Bishop. He has no idea. Because of 
-his humility, I believe he's able to say, "Joseph, if you really do 
-believe this is a revelation for me, I will accept." I believe every 
-Bishop who has a good heart is taking that, but there's 
-something special about Edward Partridge, to say right off the 
+ask, you'll receive." That's pretty straightforward. I wish the 
+timing were on my terms sometimes. 
+Dr. Barbara Gar...: 15:38 Definitely. And I think that's important especially in our day and 
+age. We have a lot of young adults who sometimes, I think, that 
+they think or not just them, many people, many of us may think 
+that if we ask too many questions at some point, we might find 
+that the church isn't true. Nothing could be more opposite than 
+that. The problem is when we don't ask enough questions, 
+when we stop too early from finding the answers in my entire 
+life, I have never yet, and I have asked many, many questions. 
+Dr. Barbara Gar...: 16:07 In fact, I have a book where I keep my questions, and I just keep 
+adding and adding legitimately do. And most of my research 
+that I do comes because of my questions. I want to find 
+answers, and I have yet to find something that if I studied it all 
+the way through that has in any way, shape or form caused me 
+to have any desire to leave the church, there are times when 
+I've asked a question, and I haven't gone far enough. 
+Dr. Barbara Gar...: 16:32 And I've thought, "What in the world am I believing?" But if I 
+keep going, the Lord satisfies the question with a very solid 
+answer even if it's the spirit confirming to me that I don't 
+understand, but it's still true. The Lord will confirm through 
+revelation. We can't be afraid to ask questions as members of 
+the church. 
+John Bytheway: 16:51 Absolutely. 
+Dr. Barbara Gar...: 16:51 That's the principle of the gospel. 
+John Bytheway: 16:53 Yeah. Keep asking. 
+Hank Smith: 16:55 I think implied in the verse is it's going to take time because he 
+doesn't just say, "You'll receive a revelation." He's saying, "You'll 
+receive revelation upon revelation." He probably could keep 
+going upon revelation. So, be patient in this process as I lay this 
+out for you. 
+John Bytheway: 17:12 I like to tell my students that sometimes you think your 
+question will be met with an answer. But what if the Lord 
+instead says, "I'm going to give you an experience, and it'll take 
+six months. And then, you'll find your answer." And you trust 
+him to answer your question through an experience that might 
+take months or years. And for me, that's how some of my 
+answers have come through an experience that took a while. 
  
  
-bat, "I'm a member of the church for two months, and I'm 
-willing to do anything the Lord wants, and I'm willing to be 
-persecuted at any length and feel the spirit and forgive all 
-[crosstalk 00:18:54]." That just takes a whole different level of 
-humanity in my book. 
-Hank Smith: 18:57 John, I've been friends with you for a while. I remember when 
-you were called as Bishop. I remember when you were released 
-as Bishop. And, it was hard. I know it was hard to be Bishop. We 
-have bishops listening. Can you imagine being the first one. 
-John Bytheway: 19:10 After two months. Yeah. 
-Hank Smith: 19:12 Yeah. What's going through your mind as a Bishop? And get us 
-into the mind of Edward Partridge here. Just how did you feel? 
-John Bytheway: 19:18 I think I remember reading or watching a movie somewhere, 
-where Edward Partridge actually said, "I don't know if I have a 
-Bishop in me." Does that sound right? 
-Dr. Barbara Gar...: 19:28 Yeah. Yeah. 
-John Bytheway: 19:29 Yeah. And that's how I felt. For me, I at least knew there was 
-such a thing as the handbook of instructions, and having grown 
-up in the church, I knew what bishops did. Before I sat down on 
-the chair in the Bishop's office, I had somebody in front of me 
-asking me for help with the big problem, before I sat down. And 
-he wanted to call the old Bishop, "Could you come in here for a 
-minute and help me out here?" What's he going through? And I 
-like what Barbara said, it's one thing to say, we think he's a 
-great guy. Here's the Lord saying he is like Nathaniel. He is a 
-man in whom there is no guile. And what a compliment? And 
-then backing that up with his experience and independence. I 
-remember that story because you can find that place in 
-Independence. I think they put something in the sidewalk there, 
-about where that happened. And I think that's not me. I 
-probably would have been swinging my arms and fighting back 
-or something. 
-Hank Smith: 20:29 Yeah. One of my major goals this year was to, at least for our 
-listeners, was to come to a greater love for Edward Partridge. 
-When you stand at his graveside there, you can see his 
-headstone in Nauvoo dies young, right Barb? He dies- 
-Dr. Barbara Gar...: 20:46 Yeah. He does. I can't remember his age, but he does die young. 
+Dr. Barbara Gar...: 17:35 Elder Bednar actually has a statement where he says, "He goes 
+to the temple looking for better questions to ask." And then, he 
+goes, "Home to study and try to live according so that he can 
+find answers." But I find it fascinating that, for him, the temple 
+is a place to find good questions. Kind of a difference. And, 
+sometimes, we perceive the temple as. 
+Hank Smith: 17:52 Barb, I'm seeing the end of the tunnel here. What are you 
+teaching here as we get towards the very end of this one, 92 
+verses? 
+Dr. Barbara Gar...: 18:01 Wow. Are we already there? So, we I just see that verse 74, 
+again, this is the second revelation. So, it's important to 
+recognize that this was the first up to verse 72. And then, we 
+see this the second revelation. So, we have a little repeat about 
+adultery and covenant keeping, and things of that nature. And 
+then, the Lord specifically is dealing with the law of dealing with 
+transgressors, those who have sinned and how to go about 
+helping those people come back into the fold. 
+Dr. Barbara Gar...: 18:24 But also, he's trying to teach his bishop how to deal with those 
+who are leaving the church and struggling with law of 
+consecration or not necessarily holding up to the covenants that 
+they have been making with the Lord. And so, we see these 
+verses ending in 92, 93. But if any of you shall offend in secret, 
+he or she shall be rebuked in secret that he or she may have 
+opportunity to confess in secret to him or her whom he or she 
+has offended and to God that the church may not speak 
+reproachfully to him or her. 
+Dr. Barbara Gar...: 18:49 The purpose is let's help people repent. Let's help people get 
+back on their feet. The purpose of all of this is the salvation of 
+souls. Let's not again be communal about it. Let's not talk to the 
+world about it. Let's help individuals come into Christ. 
+John Bytheway: 19:05 Do you know what I love about this? I think about John chapter 
+8, the woman taken in adultery and how Jesus dismissed the 
+crowd before he spoke to her. He spoke to her even as far as we 
+can tell. It wasn't in dispute that something bad had happened. 
+But his respect for her even in that state was such that he 
+dismissed the crowd before he said, "Where are those nine 
+accusers? Hath no man condemn thee?" 
+John Bytheway: 19:32 And I love the respect he had for her that... He didn't say, 
+"Okay. Is this true in front of everybody?" He dismissed them all 
+first, and I've always loved that, that between him and her and 
+the alone, verse 88 and then, verse 92. 
  
  
-Hank Smith: 20:49 Wears out his life basically. I hope that's an omen for bishops. 
-He's not one of the names you automatically think of when you 
-think of, Oh, history of the church, Joseph Smith, Hyrum Smith, 
-Wilford Woodruff, Brigham Young, Emma Smith. A lot of people 
-probably wouldn't list Edward Partridge. But my hope is that 
-some of these secondary characters can become just more 
-known and loved by members of the church. I know you 
-probably do that in your classes, Barb, is trying to bring up some 
-of these saints. 
-Dr. Barbara Gar...: 21:22 Absolutely. One of the things I do in my classes too, and this is 
-the woman in me, I often talk to the students about, if you have 
-Edward Partridge, then you also have a wife, in this case. And 
-what a stalwart saint she must've been. And we don't know a 
-ton about her, but we do know that she continued to live, move 
-to Salt Lake later. I believe she would becomes the mother of 
-one of the general Relief Society president, Zina Huntington, I 
-believe. She is obviously very strongly associated. And if I 
-remember the story correctly, which I'm confident this is the 
-case, I can look this up, but she was the one who actually 
-pushes Edward to understand the gospel and to meet with the 
-prophet Joseph Smith. 
-Dr. Barbara Gar...: 21:57 There's a lot of times when we're teaching, we have these 
-women that are equally yoked with these men, and we don't 
-have their stories often as much. But I just like to remind us as 
-humans, she probably was helping pull off that tar from him. 
-And she was probably very involved in the pain that he was 
-going through, and what a blessing it was for her to have a 
-husband that was guileless. But also, what a blessing for him to 
-have a wife that stood by his side until his death. And yeah, he 
-dies a novel. I believe he was in his mid 40s, 45, 46. 
-Hank Smith: 22:25 Right. Just young. 
-Dr. Barbara Gar...: 22:25 So she went through quite a trial with him as well. But also I 
-think she would say that she was very blessed in her 
-opportunity to be by his side. And I think he would say the 
-same. 
-Hank Smith: 22:35 Yeah. 
-John Bytheway: 22:36 I'm looking at verse nine, I've called my servant Edward 
-Partridge and gave him a commandment. He should be 
-appointed by the voice of the church, be ordained the Bishop 
-under the church. This part, and to leave his merchandise and 
-to spend all his time in the labors of the church. And you just 
-don't do that unless you have your wife there saying, "You can 
+Hank Smith: 19:48 Yeah. Barb, I really liked when you said. This is the Lord to 
+helping his bishop. I just felt my heart just left for Edward 
+Partridge and anybody who has to who... I shouldn't say has to, 
+who has the opportunity to work one-on-one with someone 
+who has made serious mistakes, and I think it's a beautiful thing 
+that the Lord put this in here because he could just say, "I want 
+you all living the commandments. Take care of it." 
+Hank Smith: 20:16 But implied in this is you're going to make some mistakes along 
+the way, and I'm going to create a way to help those who are 
+limping along who have been wounded by sin. 
+John Bytheway: 20:29 And if anybody is willing to come and see the bishop, they are 
+so far down the road because they're willing to come and the 
+Lord's mercy... I love what Elder Neil L. Andersen talked about 
+giving a guy a blessing who was still haunted by actions. And so, 
+yeah, I like looking at that as, hey, Bishop Partridge, this will 
+happen. 
+Dr. Barbara Gar...: 20:52 I heard a friend recently talk about the iron rod and how so 
+often in pictures we depict an iron broad as if it's waste time or 
+holding on and just kind of touching along. And depending on 
+the picture, we have some darkness here, a river there. And he's 
+like, "For me, the iron rod is like high above the sky." And I am 
+holding on for dear life trying to do as Elder Bednar says 
+continually holding. But he's like, "It is taking every piece of 
+muscle I possibly have." 
+Dr. Barbara Gar...: 21:21 But then, I think when you get to that tree of life, and I think 
+that this is where the bishop often is representing the savior or 
+a stake president or someone else that we have people in our 
+lives. In this case, we're talking about the bishop or those who 
+are called to do so. If we're doing so correctly, an individual 
+legitimately is filled with God's love. But for all of us, I mean all 
+of us are sinners and need the savior. And all of us are sinners 
+and need leaders, family members to help us- 
+Hank Smith: 21:47 Implied in this whole thing, it just seems a lot of mercy and a lot 
+of... That the Lord knows that we're going to make mistakes, 
+and that there's going to be a way for this to be dealt with and 
+bringing someone back. I like how you pointed that out in verse 
+92 that the church may not speak reproachfully of him or her. I 
+think that is beautiful. When I was serving on the high council in 
+my stake, I was part of these membership councils, and I 
+remember my very first one going, "Oh, this is scary. Oh, I'm 
+nervous. What's going to happen?" And everyone that I was a 
+part of was so full of love for the individual and for anyone who 
+had been offended by that or hurt by that individual. 
  
  
-do this Edward." And that's tough. I put in my margin, this is like 
-Peter, leave your nets, leave your boat. Lovest thou more than 
-these, come on, follow me, you're going to be fisher of men. 
-And it sounds like Edward to me, same thing. 
-Hank Smith: 23:13 Her name's Lydia, right? 
-Dr. Barbara Gar...: 23:15 Yeah. Yeah, that's right. Yep. 
-Hank Smith: 23:17 Lydia Partridge. Thank you for bringing that up Barb, because 
-behind every leader in the church, there's a spouse who is there 
-supporting and helping. I know John, you relied on your wife 
-when you were Bishop. 
-John Bytheway: 23:31 Could not have done it. And she would have been better than I 
-was. But I could not have done it. When you hear somebody 
-talk about having a calling like that and helping share that 
-burden of all the family life and everything else, really grateful 
-that she could not only be my wife, but a confidant of things 
-that were appropriate and of just the support. So I think I'm 
-glad you said that about Lydia, because I look at verse nine, and 
-I think, you don't do that without a strong Lydia. 
-Hank Smith: 24:06 And Barb, I know you do so much in the church. You've written 
-books, you're a BYU professor. So Dustin I'm sure is a full 
-support. 
-Dr. Barbara Gar...: 24:15 He's a man without guile, if you want to know how I honestly 
-feel. I would say Edward Partridge and Dustin are very similar. 
-Hank Smith: 24:21 Yeah. Oh, that's just beautiful. Anything else about Section 41 
-before we get into Section 42? And I got to be honest, as a kid 
-my parents would have sat down and said, "Let's read our 
-scriptures." And section 42 would have scared me to death. I 
-would thought, "We're never getting out of here." You just keep 
-turning pages. It's like a Jacob 5. This is prolific. 
-Dr. Barbara Gar...: 24:43 First off, it's two revelations that we're receiving here. And we 
-can see that in the Section heading. So you have 1-72 as the first 
-revelation, and then you have 73-93, that's going to be the 
-second revelation. The Lord asks the people to continue to pray 
-for the law. And you see right off the bat, that they did pray for 
-the law and they received the law. They prayed with faith and 
-they received this law. And so clearly they are being obedient. 
-The Lord is trying to create an obedient people and they are. 
-And so the law that we're receiving, there are various laws that 
-are going to be discussed in this section. And we can go through 
+Hank Smith: 22:33 And they were some of the most sacred experiences of my life. 
+And I wasn't a major player here. I'm just on the high council. 
+But I look back on those, and think about those, and think of 
+what I had thought in my head. It was like versus what it was 
+actually like. And the difference is pretty stark. 
+Dr. Barbara Gar...: 22:56 However, in the early days of the church, there were some 
+pretty funny councils that were going on. I can't remember the 
+name that I apologize. I don't have it on top of my head right 
+now. But the first accusation was speaking too loudly in public. 
+And then, you learn more about this later in the doctrine and 
+covenants, and we'll have more specific as to the way in which 
+people are going through these councils and responsibilities of 
+each individual. But there was a lot to learn for the early states 
+too regarding these councils. 
+Hank Smith: 23:26 You speak of the problems with the saints. That kind of leads us 
+to section 43, doesn't it? 
+Dr. Barbara Gar...: 23:30 It sure does. [crosstalk 00:23:33]. 
+Hank Smith: 23:33 They've having some problems. 
+Dr. Barbara Gar...: 23:35 I call it hubble trouble. 
+John Bytheway: 23:37 Oh, that's good. 
+Dr. Barbara Gar...: 23:38 You like that? 
+John Bytheway: 23:39 Yes. 
+Dr. Barbara Gar...: 23:41 It makes me happy to say it. I don't know why. 
+John Bytheway: 23:43 If you don't know about this, you've been in the hubble trouble 
+bubble. 
+Dr. Barbara Gar...: 23:49 That was good. That was good, John. Wow. 
+John Bytheway: 23:52 So, as we approach section 43, there seems to have been a bit 
+of controversy or a question that kind of reminds us a little bit 
+of section 28. So, what was happening here that brought this 
+one about? 
+Dr. Barbara Gar...: 24:03 I love in this section that we hear from this woman. But what I 
+love about section 28 is [inaudible 00:24:09] repentance comes 
+back at least initially. In this section, we have Mrs. Hubble 
+Trouble who doesn't. And so, these early days, again, we talked 
  
  
-whatever we feel is most important. And hopefully those of you 
-on your own can go through what's significant to you as well. 
-Hank Smith: 25:22 When I read Section 42, I thought, how do you, as a dad decide 
-what was for the saints of 1831, and what applies to me? 
-Because some of this is going to be for those saints. It's not 
-going to apply to me. 
-Dr. Barbara Gar...: 25:38 What applies to me is what the spirit typically teaches. For me, 
-sometimes will I say well, this clearly doesn't apply to the saints 
-here, because not everybody could move to Massachusetts. 
-Well, until 2014, When I was asked to move to Massachusetts, 
-and then it applied to me when it came and answered to a 
-prayer. All of a sudden it did apply. I didn't know that it applied, 
-but I think the Lord can often use the white on the scriptures as 
-answers and revelation we receive as we're studying the 
-scriptures. And sometimes he uses the black markings and the 
-words themselves, as application for scriptures. Elder Holland 
-says it's a conduit to the spirit. And as I go through and I look at 
-these different laws, I say most of the time, I think they are 
-applying to us. At least the principles and the doctrines of 
-behind it are applying to us. Sometimes the policies, 
-procedures, historical contexts may be a little bit different, but 
-often they are the same. 
-Dr. Barbara Gar...: 26:22 But principles ans the doctrines, in my opinion, are always 
-applicable to us. It's our responsibility to figure out how they're 
-applicable. But sometimes the spirit will teach us specifically, 
-this is applicable to you and continue on. So the first group of 
-laws is teaching. And so you can say, what are these laws apply 
-to us? While again, I would say principles of teaching are going 
-to apply across the board. These are specific, some of them, to 
-the missionaries who were going out. So you could say, "There's 
-some specific things that are here." Obviously, we're going to be 
-going two by two as missionaries in this section, but we're not 
-going to be doing that necessarily. As in verse six, we're not 
-going to necessarily do that every time we teach the gospel, but 
-we are declaring the word likened to angels of God, if we're 
-doing so with the spirit, because angels speak by the power of 
-the Holy Ghost. 
-Dr. Barbara Gar...: 27:07 So, I think as we understand those principles of the gospel, we 
-can go through with this. I think verse 14, as well has the same 
-idea, the spirit shall be given unto you by the prayer of faith, if 
-you receive unto the spirit, you shall not teach. You can say, as 
-Elder Holland talks about, you shall not teach, meaning you 
-better not teach, or, you shall not teach, meaning you don't 
-have [inaudible 00:27:28] because I'm not worthy. Do I have any 
+earlier about Ohio and some of these struggles. We are at the 
+beginning of the church. 
+Dr. Barbara Gar...: 24:24 The church has only been organized for I mean [inaudible 
+00:24:27] February of 1831. So, I mean yeah. We're talking not 
+even a full year yet. Joseph has just received the revelation in 
+section 28 regarding only one person being in charge and 
+speaking for the church. And so, we're just barely understanding 
+government structure of the church. 
+Dr. Barbara Gar...: 24:40 We did now receive our law which talks about revelation. But it 
+doesn't talk about who receives revelation necessarily. So, 
+that's section 43. There's a reason. People didn't always believe 
+that there was just one prophet speaking on the earth. In fact, 
+that is what separates us from the other churches. And so, Mrs. 
+Hubble believes that she is receiving this revelation. 
+Dr. Barbara Gar...: 24:57 People are believing her, and in the words of John Whitmer, I 
+think in his history that he kept for the church, he said, "She 
+professed to be a prophetess of the Lord and professed to have 
+many revelations and knew the book of Mormon was true, and 
+that she should become a teacher in the Church of Christ," 
+which is the tricky part because she's teaching the book of 
+Mormon, and she's trying to bring people to Christ so it seems. 
+But then- 
+John Bytheway: 25:17 She's a baptized member? 
+Dr. Barbara Gar...: 25:19 I don't know. The answer is I don't know to that question. So, he 
+says "She appeared to be very sanctimonious and deceived 
+some who are not able to detect her in her hypocrisy. Others, 
+however, had the spirit of discernment, and her follies and 
+abominations were manifest." And then, this one from Ezra 
+Booth, I think, is also very telling. I love these little historical 
+eclipses and these about her just because I want to understand 
+what's going on with her. 
+Dr. Barbara Gar...: 25:39 There aren't enough women in the church in the scriptures. And 
+so, it's kind of buggy that again we have this one. But it's great. 
+It's true. Anyways. So, he says, "A female professing to be a 
+prophetess made her appearance in Kirtland and so ingratiated 
+herself into the esteem and favor of some of the elders that 
+they received her as a person commissioned to act a 
+conspicuous part in mormonizing the world." 
+Dr. Barbara Gar...: 26:00 But Smith declared her an imposter, and she returned to the 
+place from when she came. Her visit however made a deep 
  
  
-right to be going to that classroom? Or should I not be teaching 
-this because of the content? There are a lot of ways you could 
-be taking that. But the application and the care for the verse, I 
-think is extremely important. 
-Hank Smith: 27:47 Right. And then verse 12 also, when we're teaching, what am I 
-supposed to teach? The elders, priest, teachers of this church 
-teach the principles of my gospel, which are in the Bible and in 
-the Book of Mormon, which to the fullness of my gospel. So if 
-you're as a teacher, you're going, "I don't know what to teach." 
-Go back to 42:12. 
-Dr. Barbara Gar...: 28:06 Yeah. Amen. Amen. 
-Hank Smith: 28:08 You'll be safe in the principles of the gospel found in the 
-scriptures. 
-John Bytheway: 28:12 I had a state president once tell me, he said, "You know if 
-there's a lot in the church, we could probably get rid of. You 
-could probably get rid of that program, you could probably get 
-rid of that program." He said, "But if you really took the church 
-down to things you could not get rid of, one of the last ones 
-would be, teaching." We could not, the church cannot function 
-without us teaching one another. And so, I like that the Lord put 
-this very first in the law, is the importance of teaching and also 
-teaching by the spirit. 
-Dr. Barbara Gar...: 28:45 I think one of my favorite talks by elder Holland... We're 
-obviously teachers, so this is a topic that we really do focus on, 
-and I think it's extremely important. But one of the things that I 
-love with Elder Holland talks about it, quoting John Taylor is 
-that, we shouldn't be teaching just spiritual Twinkies. 
-Sometimes I think we can try to entertain, or we could try to 
-just skim through things. But God, as President Nelson says, he 
-loves effort. And as members of the church, the Lord desires 
-that we get into these scriptures that we really do study, that 
-we look for what is important in here, that we're not just 
-satisfied with a quote here or there, or a prophetic thing here 
-and there. 
-Dr. Barbara Gar...: 29:22 Sometimes it's nice just little soundbite, but soundbites aren't 
-good enough. If we want to become like Christ, and be those 
-kinds of people, we have to dive into those scriptures and know 
-these principles. And so we need to teach them correctly, so 
-that other people can feast on them as well. 
+impression on the minds of many and the barbed arrow which 
+she left in the hearts of some is not yet eradicated. I don't like 
+the word barbed arrow very much either like my name. But I 
+understand what they're saying here. But just the idea that he 
+says is not yet eradicated. 
+Dr. Barbara Gar...: 26:21 I mean this problem and this philosophy was very difficult to get 
+out. But partially, it's because there was no standard yet that 
+had been set. They're still in the process of understanding. But it 
+was a difficult experience for Joseph the prophet as you can 
+imagine. 
+Hank Smith: 26:37 Verse 3 says there is none other appointed unto you to receive 
+commandments and revelations until he be taken meaning 
+Joseph Smith if he abide in me. So, it seems to me that Joseph 
+Smith and the Lord here are there's a delicate balance between 
+yes, you need to receive revelation, yes you need to go to the 
+Lord for yourself, no you're not going to receive revelation for 
+the church. So, Joseph doesn't want to squash revelation and 
+say, "I'm the only one." 
+Hank Smith: 27:03 But he also doesn't want to make revelations. So, without 
+boundary, that everybody's up in arms. So, it seems, to me, it'd 
+be a delicate and difficult balance. 
+Dr. Barbara Gar...: 27:14 Absolutely, and I think that's also what we're seeing here is this 
+is happening. And Joseph, I think, he doesn't know for sure how 
+he's supposed to respond. And so, this revelation comes as an 
+answer to Joseph's prayer saying, "There's this lady, and she's 
+clearly receiving different revelation than I am. What do I do?" 
+So, he's asking the Lord, "How do I handle this? What is the 
+truth? How do I teach this?" 
+Dr. Barbara Gar...: 27:37 And the Lord is explaining to Joseph for the first time Joseph is 
+now receiving this revelation saying exactly what you just read, 
+Hank. So, the Lord is tutoring Joseph in the process. And as you 
+can imagine, Joseph, I mean I just think, "Wow, that is an 
+extremely heavy piece of responsibility that Joseph has just 
+received to know that he is the one to receive revelation for the 
+church." Others can receive revelation for their own lives as 
+President Oaks talks about the two different lines of revelation. 
+Dr. Barbara Gar...: 28:02 But as far as the one receiving revelation for the church, it's the 
+prophet. And no one will take his place until the Lord appoints 
+that to happen. 
  
  
-John Bytheway: 29:33 We had Steve Harper on the podcast before, and he said, he 
-looked at these verses particularly 12, 13, 14 as checks and 
-balances on teachers. And I like that. So the Lord is going to help 
-or even restrain, You shall not teach. And I put in my margin 
-because I like what you said Barbara, it's meaning, don't teach 
-or meaning, You might be talking, but you won't be teaching. 
-Dr. Barbara Gar...: 29:57 Right. Yeah. 
-John Bytheway: 30:00 And so I put my margin, talking does not equal teaching. And 
-that's how critical the spirit is to that. And then that implies like 
-verse 13, You've got to be observing the covenants in church 
-articles in order to qualify to be teaching by the spirit. 
-Hank Smith: 30:17 One thing that I'd like to do is flip the inverse on this sometimes, 
-because some people say, "I'm not a gifted teacher. I don't have 
-charisma, I can't be funny." And I'll say, go back to verse 14. If 
-you receive the spirit, you shall teach, you'll be okay. 
-John Bytheway: 30:33 That's a good way to- 
-Hank Smith: 30:35 So if you will invest whatever your choices you need to make to 
-get your heart and mind full of the spirit, you'll teach. You'll 
-teach, don't worry about being entertaining. Don't worry about 
-being funny. You don't have to be John Bytheway. In fact, John, I 
-got to tell you- 
-John Bytheway: 30:50 Please don't. 
-Hank Smith: 30:51 John, one time I told the woman who was really struggling with 
-her Sunday school class, I told her something that you told me 
-once when you and I were chatting. And you were like, "I just 
-can't get my Sunday school students to come to class." And I 
-said, "Everyone in the church needs to hear that, that John 
-Bytheway, even has a hard time getting his Sunday school, 14 
-year olds to come to class. 
-John Bytheway: 31:12 Those couches in the foyer are way too comfortable. We need 
-to speak to purchasing about that. All of us here have observed 
-folks without great gifts get up in a testimony, meaning of 
-something and teach with power. We have all seen it. And, we 
-can all say, Amen to, it's about having the spirit. 
-Dr. Barbara Gar...: 31:33 I for sure that this is random, but I have this thing that I keep in 
-my desk, I just pulled out from this conversation. And it's my 
-handwriting in a black pen that says, "Was that the most boring 
-lesson or what? And then the response of my friend, and I 
+Hank Smith: 28:09 Let me share something from there's a four volume 
+commentary by Stephen Robertson and Dean Garrett, both of 
+whom I had classes from, and this on page 35 of volume 2. 
+These protestant churches were very democratic in their 
+structure working from the bottom up. And the new converts 
+were mostly unfamiliar with the idea of a priesthood order 
+working from the top down or a hierarchy of spiritual 
+authorities over the church. 
+Hank Smith: 28:34 Thus, the Lord needed to make clear to the Kirtland saints how 
+he would reveal his will to them in his restored church. I 
+thought that was interesting because this is where they're 
+coming from. 
+Dr. Barbara Gar...: 28:44 Yeah. It's part of that family philosophy. I mean they were they 
+were living this week called the law of consecration. They would 
+say sharing, but it wasn't just sharing of food and clothing. It 
+was sharing of ideas and authority and everybody had a say. So, 
+this is very different than what they were accustomed to at that 
+time. No question. 
+Hank Smith: 29:00 Now, I see the Lord kind of giving the balance between them 
+when he says in verse 5 this shall be a law unto you that you 
+receive not the teachings of any that shall come before you as 
+revelations or commandments. And then, you look at verse 8. 
+He says, "I do want you assembled together instruct each other, 
+edify each other." But this idea of someone coming with you 
+with prophetic revelation commandment, no. Instruct and edify 
+each other. Yes, that'd be a difficult thing to learn as a new 
+member, right, like where's the boundary? 
+Dr. Barbara Gar...: 29:32 Well, yeah, and I think verse seven as well, the Lord is saying to 
+Joseph starting in verse six, "I give unto you that you may not be 
+deceived." And then, how are you not to be deceived? Well, the 
+person that is ordained of me shall come in at the gate and be 
+ordained as I have told you before. They're not going to be a 
+backdoor person. They're not going to be an unknown person 
+all of a sudden who's taking over. It's going to be someone who 
+is legitimately called of God, and that people have understood. 
+Dr. Barbara Gar...: 29:52 He is going to be known as the prophet. And then, verse 8, I just 
+love that. After being known that this is the prophet, the Lord, 
+then requires people to act, and you see that in verse 8 how to 
+act and direct my church, how to act upon the points of my law. 
+So, he's speaking literally to the leader. But also, he's teaching 
+the people you need to be acting. 
  
  
-actually don't even remember who wrote it. It was whoever I 
-was sitting by. I cannot believe that I actually wrote that down 
-and passed it to somebody. It makes me sick at my own 
-stupidity. 
-Hank Smith: 31:56 You were a student in the class? 
-Dr. Barbara Gar...: 31:57 Yes. 
-Hank Smith: 31:58 Okay. 
-Dr. Barbara Gar...: 31:59 How bad is that? And this is the response of my friend that I was 
-sitting next to, "That was one of the best lessons I've ever heard 
-in my entire life. I'm not just saying that, it's a life changer." I 
-missed the boat on that one. I think the teacher, for whatever 
-reason, I wasn't prepared enough to be learning from that 
-teacher, but that teacher nailed it for my friend sitting next to 
-me. 
-John Bytheway: 32:21 I love when... Is it section 50? Why is it ye cannot understand 
-and know, the Lord starts out, that he teaches by the spirit and 
-he that receiveth by the spirit and both are edified and rejoice 
-together. And there's a responsibility for both. And the fact that 
-two people be sitting next to each other and get something 
-different, is not about the teacher. It's about the spirit and the 
-teacher and the listener. And that's a great lesson here. And did 
-I get that right out in section 50? 
-Dr. Barbara Gar...: 32:52 Yeah, it is. And it fits of what you were saying before with this 
-next verse, talking about keeping covenants and keeping the 
-commandments of God. Sometimes we overlook that and say, 
-"Well, that's obvious. You need to be worthy." Well, it's not so 
-obvious sometimes. We, as teachers, as learners, the more we 
-keep our covenants the more we're on the path of the Lord, the 
-more likely we are to feel recognized and understand, and 
-therefore, both are edified together. We'll talk about later in 
-section 88. So, I don't think we can overlook what the Lord is 
-trying to teach, which I think is partially why he goes from there 
-into that moral law. Not to say what the Lord is thinking, but I 
-think it's significant that the Lord is now going to talk about 
-basically the 10 commandments, and the law of chastity and 
-adultery. And all of that comes right after that. In order to really 
-learn, in order to really teach, we have to be worthy 
-participants in God's kingdom. 
-Hank Smith: 33:43 One thing before we move on from this teaching aspect, I know 
-that there are a lot of people listening are teachers. And so I 
+Dr. Barbara Gar...: 30:10 And then, in verse 9, act in holiness before me. This idea that 
+we have a prophet, he speaks and is the responsibility of the 
+prophet to act upon what God has said to him, and it's the 
+responsibility of the members of the church to act upon what 
+the prophet has said for the church. This real need of people to 
+actually do something according to the will of the Lord. 
+Hank Smith: 30:27 I love to see the boundaries being laid out and not to think that 
+they should have known everything. They're figuring it out. It's 
+being laid out in front of them. So, I'm learning to be more 
+charitable towards the saints of the past just because Joseph 
+Smith didn't go to primary. He didn't have young men. He didn’t 
+have- 
+Dr. Barbara Gar...: 30:48 He didn't have the articles of faith. 
+John Bytheway: 30:51 And this bishop didn't have a handbook of instructions, and I 
+did. And I'm still worried about. I asked the Lord, "Oh, boy. Lord, 
+I hope I didn't spend those fast offerings wrong." Oh my 
+goodness. Haunts me to this day. 
+Dr. Barbara Gar...: 31:06 And no [inaudible 00:31:07] president. Nobody was going 
+through the cupboards. Nobody was making assignments. There 
+was no home teaching. I mean this is just so much. We're so at 
+the beginning. And the Lord again, I mean, we see this. But the 
+Lord clearly again as you see this, he's trying to get him to act, 
+purge out the iniquity among the people as we see in verse 11. 
+He continues on, provide for those. And then, verse 14, reserve 
+unto myself a pure people before me. 
+Dr. Barbara Gar...: 31:28 And then, you are not sent to teach. You're not sent forth to be 
+taught but to teach. So, this is a whole another level of 
+responsibility for these very young members of the church. And 
+then, again as we see in verse 16, you're taught from on high 
+sanctify yourselves, and you shall be endowed with power. So, 
+he's again preparing his people for the temple, preparing his 
+people for this experience. I know I keep parking on that. But 
+Ohio, there's a reason for Ohio. 
+John Bytheway: 31:53 That's why he told him to go. 
+Dr. Barbara Gar...: 31:55 Yup. And I love verse 17, the great day of the Lord is at hand. 
+Obviously, they thought that it was coming sooner. But the 
+great day of the Lord is it. 
+John Bytheway: 32:01 Oh, I was laughing about that because... Sorry. But I'm looking 
+back at section 41, verse 4. "And behold, I come quickly," said 
  
  
-want to hear what you too would say, and I'll start. It's easy to 
-get discouraged as a teacher in the church, especially when all 
-your seminary classes on zoom or your Sunday school classes on 
-zoom and everybody's screen is just their name, and you're 
-going, "Am I making any difference here?" I would say two 
-things, you always can't see the difference that you're making 
-just right then. Sometimes you can, sometimes you can see it 
-and it's awesome to see, but other times you don't know till 
-long later that someone was listening, that your student was 
-actually listening even though it didn't seem like they were at 
-the time. 
-Hank Smith: 34:26 And then second, one of the ways that I get full of the spirit is 
-by thinking about the needs of my students. That instead of 
-focusing on, okay, how am I going to impress this class? It's 
-more about, how can I bless this class? So if I'm thinking about, 
-okay, what do their lives like, what problems do they have and 
-how can the material that I am teaching here be relevant to 
-those problems? To me personally, that fills me with the spirit. 
-Because I'm not concerned so much about me and my 
-performance, but I'm concerned about the lives of my students. 
-Hank Smith: 35:04 What would you two say helps you overcome that 
-discouragement sometime in teaching? And then we can move 
-on. But, I don't know, I'm feeling like it can be tough to teach, 
-especially if you don't do it for a living. You're called to teach 
-these teenagers or these primary kids, or even adult Sunday 
-school, and it's, Arh, you feel like you're not getting anywhere. 
-John Bytheway: 35:27 Well, let me answer next because Barbara probably has a better 
-answer than I do. 
-Dr. Barbara Gar...: 35:32 I don't think so. 
-John Bytheway: 35:34 But, I think that one of the really nice little just semantic way of 
-putting it, is you don't teach lessons, you teach students. And 
-that's what you're saying, Hey, can every one of them come 
-there with their own thing. And when we realize our 
-dependence on the spirit to carry words, what is it that elder 
-Bednar says? What you heard me say was for everyone, but 
-what did you hear that I did not say, that was for you. And that's 
-why it comes down to the same thing, if you've got the spirit 
-with you, there's a bit of relaxing you can do to say the spirit is 
-going to help my listeners with whatever they need, even if it's 
-not even the topic of the lesson. And there's the obligation that 
-we feel, is being in a place where the spirit can give life to our 
-words or give them words that we weren't even saying. 
+the Lord 190 years ago. And so, we talked about this in a 
+previous broadcast. But quickly can mean suddenly or in a time 
+you think not. 
+Hank Smith: 32:25 We've covered the first half of 43 here, Barb. What's the last 
+half of 43? 
+Dr. Barbara Gar...: 32:30 Oh, so, here we are talking about preparation for the people to 
+be endowed with power, and I think that really does kind of 
+lead into what we're talking about. So, now the Lord is saying, "I 
+need to prepare you." And then, we're talking about how the 
+Lord is going to get their attention, verses 20 through 25, like I 
+am going to get your attention. You need to repent. I'm going to 
+shout at the trump of God, all of this. 
+Dr. Barbara Gar...: 32:48 And then, he's going to help us to understand his words and his 
+voice is how often have I called upon you by the mouth of my 
+servants and by the ministering of angels and by my own voice 
+and by the voice of thunderings. He's establishing how God uses 
+revelation, how he uses his voice, and he's establishing the 
+prophet as one who is speaking for God which is extremely 
+critical. And then, he leads us into the gathering of Israel which 
+as we know from President Nelson is one of the most important 
+topics of all time that we can [crosstalk 00:33:14] talking about. 
+John Bytheway: 33:13 The greatest words. Yeah. 
+Dr. Barbara Gar...: 33:15 Yeah. The greatest work. So, he's trying to lead us into the 
+gathering of Israel. And then, you see verse 40… Sorry, verse 30, 
+the great millennium. And then, the time where Satan is bound. 
+And then, verse 34, behold, I am Jesus Christ, the savior of the 
+world. Treasure these things up in your hearts, and let the 
+solemnities of eternity rest upon your minds. I just love that so 
+much. Be sober. Keep all my commandments even so, amen. So, 
+he's going to just bring it all in. 
+Hank Smith: 33:38 Two things that impressed me this year with the prophet are 
+these little hints that the Lord drops in these sections, and 
+there's no possible way Joseph Smith knows the next 10 years 
+hold, and you're getting tiny little hints here and there. First 
+with priesthood power, and then, it was, oh, we're going to 
+have a church. Wait. What? A church? Oh and now, we're going 
+to move to Ohio. What is that about Ohio? And then, Barb, as 
+you've been pointing out, I'm preparing you with an 
+endowment of power. 
  
  
-Hank Smith: 36:22 Yeah. That's beautiful. Barb, what do you say? You're such a 
-good teacher. And what do you say to those who are a little 
-discouraged in their teaching? 
-Dr. Barbara Gar...: 36:31 I have so many thoughts, Hank, on this. It's dear to my heart 
-because I do love teaching. And it's not that I love teaching, I 
-love watching people coming to Christ. And it's like, what John 
-says too. It sounds so cliche sometimes, and I know that some 
-people are bothered when I say this, but people will say to me, 
-even now as a professor, "What are you teaching this 
-semester?" And I- 
-Hank Smith: 36:56 Say students. 
-Dr. Barbara Gar...: 36:57 I do. I say students. And it's not just for them, and I'm not trying 
-to be obnoxious, but it's a reminder for me to like, "Yes, I teach 
-Doctrines and Covenants, I teach these, but these are the 
-subjects I teach." But I teach my students hopefully, and 
-sometimes it is really hard. And sometimes as teachers, we can 
-pray and fast and study and not feel like we're going to the 
-classroom prepared to know what to say, but I've come to 
-recognize that as I try my best to do my part, God does take 
-over. 
-Dr. Barbara Gar...: 37:24 And as you were saying, John, the spirit is the teacher. When I 
-am most frustrated with my teaching, it's not when I have had a 
-boring class or anything. When I am most frustrated it's when, 
-as elder Maxwell says, I have become a spiritual eclipse in the 
-lives of my students between God and them. That's when I'm a 
-sage on the stage and I have so much to share, and so many 
-things that I think are important, and I'm just saying it because I 
-think it's important for me. And not even listening to the spirit 
-and not paying attention to my students. That's when I walk 
-away thinking, "I am so bad." But then I get on my knees and I 
-repent, and I say, "Heavenly father, I'm so sorry. Please help me 
-to be a better teacher tomorrow." 
-Dr. Barbara Gar...: 38:04 Because no one's perfect, and I cannot tell you the number of 
-times I have absolutely felt like I have failed in the classroom. 
-And sometimes even in those days where I feel like I failed the 
-most, years later I'll get a letter from a student or something 
-saying, "Thank you so much." But sometimes you just don't, and 
-you just have to know that you're doing your best. No, one's 
-perfect, Christ was, and the Lord will still help those students. 
-We're not the only ones in their path, but boy, we share an 
-important part. We can't overload ourselves sometimes, it goes 
-both ways, I think. 
+Hank Smith: 34:08 The Lord is just moving them along so slowly and gently. And 
+the second thing that's impressed me is that the Lord takes 
+these situations like Miss Hubble and turns it into a revelation 
+about the second coming, the millennium, and the gathering of 
+Israel. 
+Dr. Barbara Gar...: 34:27 Why not? 
+Hank Smith: 34:29 It's not a simple answer to, oh yeah, let's could- 
+John Bytheway: 34:31 That could have been one verse. Don't listen to her. 
+Hank Smith: 34:34 Yeah. And instead, he says, "Okay. Now, that we've addressed 
+that, it almost reminds me of Joseph Smith saying, "Many other 
+things which he said unto me which I cannot write at this time." 
+He's just so generous with, oh, be prepared for the second 
+coming. Be prepared for the gathering of Israel, the great 
+millennium. In verse 30, Satan to be bound. And then, he 
+finishes with such a beautiful like capstone statement, "I am 
+Jesus Christ, the savior of the world," we just talked about. I 
+think it was Mike Wilcox who said Joseph Smith writes with the 
+pen of heaven, and he does. 
+Dr. Barbara Gar...: 35:11 So well said, Hank. I just think we're going to see this later on in 
+the [inaudible 00:35:16]. So, I'm not going to blow it yet. But 
+there are going to be other times in the future where the Lord 
+says, "You think you can write a revelation?" [crosstalk 
+00:35:26] But in this case, it's almost like he's saying, "Okay. 
+Mrs. Hubble, I'll show you a revelation." He kind of puts you in 
+your place. We see that here like, "You think you have a 
+revelation?" I'll use my prophet. 
+Dr. Barbara Gar...: 35:38 And then, you have verse section 45 which is coming is like, "Let 
+me just really give you a revelation." If anybody's wondering 
+about Mrs. Hubble, that you should no longer have need to 
+wonder because this is what revelation looks like for the 
+prophet. And we see that today with President Nelson as well. 
+Hank Smith: 35:56 I think it reminds me of President of Elder Holland saying, "The 
+adversary cannot imitate the real thing." The real thing blows 
+you out of the water. 
+John Bytheway: 36:04 And that leads us to section 44, Barb. We're going to have yet 
+another conference. 
+Dr. Barbara Gar...: 36:10 We sure are. It's the first conference in Ohio but the fourth 
+conference of the church. This is extremely significant. Again, 
  
  
-Hank Smith: 38:34 Yeah. Absolutely. 
-John Bytheway: 38:35 I've walked out of the classroom before thinking that Alma's 
-angel was going to appear and say, "Seek no more to destroy 
-the church of God." I'm like, "I'm trying. I'm trying, it's just that 
-I'm not very good at this." 
-Dr. Barbara Gar...: 38:48 And not only sometimes do we feel like we didn't do well as far 
-as what we were teaching, but there are times when I have left 
-and felt badly for how I responded to a student's question, or a 
-sarcastic comment that I made. And I have to go back to even 
-the next day and say, "Hi guys, I am so sorry." I'm trying to get 
-sarcasm out of my teaching because I feel like it drives people 
-way. But honestly, sarcasm comes very naturally to me and I'm 
-trying to get rid of it. But I don't want to aim it at you, I'll aim it 
-at the wall instead next time. There's a huge difference 
-between humor and sarcasm sometimes like that. I just thinking 
-of times in my life where I just feel like, "Yes, I agree with you, 
-Hank, teaching is extremely difficult, but it's a price worth 
-paying." 
-John Bytheway: 39:29 Can add one more thing? I liked what you said about the 
-Twinkies or the fried froth, as Elder Holland called it. Sometimes 
-I have left teaching... Okay, that totally bombed. But then I can 
-go back and I can say, "What did I teach?" And even if I can just 
-say my content was solid, I was in the scriptures. It gives me a 
-little bit of solace, and I don't really know what happened. But if 
-I did just tell funny stories, then I probably ought to feel like I 
-didn't teach. But if I can go back and say, I had some good 
-content in there, I know I did, I can at least find some peace in 
-that. And maybe I could have done it better. But I was relying on 
-verse 12, The principles of the gospel in the Bible, the Book of 
-Mormon. 
-Dr. Barbara Gar...: 40:17 Absolutely. I was just going to say, this is one of the laws in here 
-too that talks about revelation, not to push us forward to that 
-point, but it's in here as one of the laws. And I think one of the 
-ways that we know that we're teaching and the way that we 
-want to, or in the way that we would like to, is to just simply get 
-on our knees and ask Heavenly Father. Or not even on our 
-knees, just while we're driving and just say, "Heavenly Father, 
-how am I doing? Am I doing okay? Can you guide me here? 
-What can I improve?" Or as Elder Klark says, "What can I do 
-better that I am not doing? Or what can I do that I'm not 
-currently doing? What do I need to stop doing that I'm that I am 
-doing?" And I think we have that conversation with the Lord as 
-well. 
+we're in February of 1831. The church has already been 
+established in New York. But this conference is going to allow 
+for the church to be established now in Ohio. So, Ohio has their 
+own rules, their own regulations, their own laws, government 
+laws. And they are going to be needing to satisfy these laws. 
+And this fourth general conference that we want to call it that 
+way is these elders gathering together, they're going to organize 
+the church according to the laws of Ohio, and that's where 
+we're getting this section 44. 
+Hank Smith: 36:45 Yeah. That's verse 4, according to the laws of man. Anything 
+else in section 44 you want us to know, Barb? I love how he 
+says, "I want you to get called together, and I'll pour out my 
+spirit." 
+John Bytheway: 36:56 Assemble yourselves together. 
+Hank Smith: 36:58 They assemble themselves together. That reminds me of 
+general conference every April and every October. I feel a 
+pouring out of the spirit and increase of the spirit. 
+Dr. Barbara Gar...: 37:07 Yeah. We have about, at this point, we're close to 2000 
+members living now if I remember right, now that we have all 
+this combination coming together. And the Lord is going to 
+really talk to this group about the importance of discipleship as 
+they're now in Ohio. They're going to be some really hard heavy 
+times coming in their way. He's going to talk to them about 
+loving each other and caring about each other, and he has this 
+that your enemies may not have power over you, and he gives 
+them these things that they should be doing to be able to 
+withstand some of these evil forces, and he talks about power 
+in verse four. 
+Dr. Barbara Gar...: 37:40 And then, he also talks about some of these simple things. Keep 
+my law in verse five. And then, verse six, visit the poor and the 
+needy. Administer to their relief that they may be kept until all 
+things may be done according to my law. These are the kinds of 
+things that as you already alluded to that we hear in general 
+conference, that we love each other, that we take care of each 
+other, that we are assembled together, and there are purposes 
+of and power that comes from joining together and gathering. 
+And this is continuing that process of the gathering of Israel. 
+Dr. Barbara Gar...: 38:05 But it's also the gathering of the saints at that time. Again, as 
+Elder Bednar says, "One of the major purposes of gathering is to 
+build these temples. The purpose of temples then is to help us 
+come to Christ, et cetera, et cetera." So, it's just this eternal 
+round that we talk about in the scriptures. 
  
  
-Dr. Barbara Gar...: 40:51 And if you ask me personally about my teaching, I really do 
-believe, I want to teach with an eyes single to the glory of God. 
-And if I am pleasing, God, I'm doing okay. I may make a fool of 
-everything else, and my students may walk away and it may not 
-seem that great. But if I can go to the Lord and say, "I'm doing 
-my best with my eyes single to his glory and trying to help him 
-and people coming to him." I'm okay. Even if I am so boring or 
-whatever it is that I'm doing. 
-Hank Smith: 41:16 Yeah. 
-John Bytheway: 41:16 I was on a plane once going down... Do you remember airplanes 
-we used to get on them and they're really loud, and they take 
-you above the ground. 
-Dr. Barbara Gar...: 41:23 I remember those days. 
-John Bytheway: 41:24 Yeah. 
-Dr. Barbara Gar...: 41:25 Yeah. 
-John Bytheway: 41:25 I think I was on a way to a [timeout 00:41:27] for women in 
-Southern Cal or something. And I was sitting with a rather 
-prominent sister, and I was telling her... It was just, I don't 
-know, what I can say to these wonderful sisters who are coming 
-and everything. And she said, "Well, I asked my dad that once." 
-And her dad was rather prominent. And she said, "Well, don't 
-worry about pleasing them, just please the Lord." 
-Dr. Barbara Gar...: 41:54 Amen. 
-John Bytheway: 41:55 That helped me so much in every class, every teaching. I'm 
-going to try to please the Lord today in teaching students. So, 
-that too is one of my mental note cards. Please the Lord with 
-what you're going to teach today. 
-Dr. Barbara Gar...: 42:11 If we really are trying to receive that revelation of the Lord, the 
-Lord is not going to say, "Are you kidding me right now?" He 
-recognizes our effort as well and he will bless us for it. The Lord, 
-as it says in the book of Mormon, and he'll concentrate our 
-efforts unto us and to others as well. 
-Hank Smith: 42:25 Yeah. 
-John Bytheway: 42:25 I won't do it perfectly but He knows my intent, that I'm trying to 
-please Him and not be a spiritual eclipse. 
+Hank Smith: 38:17 The work rolls forth here in these sections. We're going to keep 
+going, keep on going. 
+John Bytheway: 38:22 Oh, what a treat, Barbara. Thank you so much. 
+Dr. Barbara Gar...: 38:26 Thank you. [crosstalk 00:38:26] It's been so fun. 
+John Bytheway: 38:27 Yeah. Barb, you are a lot of fun. I knew you would be. 
+Dr. Barbara Gar...: 38:31 The scriptures are fun. It's a kick in the pants. Can you go 
+wrong? And these are some fun scriptures here. 
+Hank Smith: 38:36 Yup. This is really fun. 
+John Bytheway: 38:38 Talking with some friends at the [inaudible 00:38:40]. 
+Hank Smith: 38:40 Barb, you're a historian. You're a gospel scholar. You've been 
+teaching the scriptures. You've been teaching church history for 
+over 20 years. So, you don't look it. 
+Dr. Barbara Gar...: 38:49 Thanks, Hand. You either. 
+Hank Smith: 38:49 Yeah. I would love to hear your personal- 
+Dr. Barbara Gar...: 38:52 You either, John. 
+John Bytheway: 38:53 Yeah. You either, John. 
+Hank Smith: 38:55 I would love to hear your personal thoughts, Joseph Smith, the 
+restoration, what it's done for you personally. As John said, you 
+wrote a chapter why we stay. 
+Dr. Barbara Gar...: 39:06 Yeah. That's such a loaded question. I have so many thoughts. 
+I'll just share a short experience. When I was a teenager, I had 
+this horrible dream, and I was running all over downtown 
+Salem, Oregon where I'm trying to find something, and it was so 
+random. I mean I ran into George Washington and Abraham 
+Lincoln and Harriet Beecher. I mean I was running all these 
+historians everywhere into famous actors and basketball 
+players. And finally, I stopped, and I don't even know who I 
+stopped in front of. 
+Dr. Barbara Gar...: 39:34 And somebody just said, "Barb, what are you looking for?" And I 
+just said, "I have to know the truth. I just have to know the 
+truth." I remember that dream so well because I was so 
+intrigued. And as a child, I asked questions. I was raised in a 
  
  
-Hank Smith: 42:31 I love that. I love that. Because I like to tell a good funny story, 
-and I hope the Lord has a sense of humor. 
-John Bytheway: 42:37 Yeah. 
-Dr. Barbara Gar...: 42:38 Oh, he does. 
-John Bytheway: 42:39 I think he does. I think he does. He created us, Hank. He's got to 
-have a sense of humor. 
-Hank Smith: 42:43 Yeah. That's true. And he lets us do this podcast. Now we move 
-on to what looks to me like The 10 Commandments, Barb. 
-Dr. Barbara Gar...: 42:50 Okay. But wait, before we go onto that, can I just say something 
-about the Lord's humor too? 
-Hank Smith: 42:53 Yes. 
-Dr. Barbara Gar...: 42:54 Humor is so important in teaching when we can. And there've 
-been times in my teaching where I have... This sounds a little 
-extreme, but it's almost as if I can feel the spirit laughing right 
-along with us. And I just hope that we recognize. Sometimes in 
-our teaching we do tend to sometimes, because it's a spiritual 
-thing, we try to be serious. There's a difference between a light 
-levity and really mockery or something like that. And this is 
-simple, pleasurable laugh. I do, I'm a firm believer that that God 
-really enjoys humor and has a very good sense of one himself. 
-Hank Smith: 43:29 Thank you. 
-Dr. Barbara Gar...: 43:29 It's fun to teach. It's fun, right? 
-John Bytheway: 43:31 Yeah. I think a Truman Madsen saying, there's a difference 
-between light mindedness and light-heartedness. And he also 
-said that... I think it was Parley P. Pratt that said Joseph Smith 
-instructed and edified and he would have his audience laughing 
-one minute and crying the next. And none whoever heard him 
-or not... What does it say? Affected by his discourse if only 
-they'd give him their ears or something. I think it was Parley P. 
-Pratt that said something like that, while Joseph Smith even had 
-them laughing one minute, crying the next and they were 
-edified if they would just listen. 
-Hank Smith: 44:07 Yeah. You quoted earlier, John, you said the teacher and the 
-student are both edified and rejoice- 
-John Bytheway: 44:13 Rejoice- 
+family where questions were critical. And I'm grateful that my 
+parents allowed that. 
+Dr. Barbara Gar...: 39:56 My dad was a stake president when I was a teenager, and he 
+was a convert to the church. And I remember one day him 
+saying to me after a basketball game... Actually, it was a 
+volleyball game, and he could tell that I was just pretty much 
+distraught, and I started crying, and he was like, "Did you lose?" 
+I was like, "Well, yeah, but we always lose." That wasn't the 
+problem. The problem was I was riding home on the bus with a 
+number of my friends, and they were asking me every question 
+under the sun about the gospel. Why we were baptizing people 
+for the dead? And why the horns? And why Joseph Smith and 
+the book of Mormon? Where are the gold plates and all these 
+questions? 
+Dr. Barbara Gar...: 40:24 And I said to my dad something to the effect of, "I will never go 
+to church again until I know this is true." And I was so scared to 
+say that because I had 11 older siblings, and they were pretty 
+much perfect in my eyes and so were my parents. But I was 
+serious. And my dad just simply said to me, "Well, what are you 
+going to do about it?" 
+Dr. Barbara Gar...: 40:42 Rather than just saying, "No, you're going to church or 
+anything…." And sometimes, that works. Every parent has a 
+different relationship, and it works differently with different 
+kids. But in my case, he did the right thing for me, and I believe 
+he had revelation to ask that question, and it put me on a 
+search for truth through the scriptures and through prayer and 
+asking additional questions. 
+Dr. Barbara Gar...: 41:00 I remember clearly reading and Timothy ever learning and never 
+able to come to the knowledge of the truth, and I remember I 
+had every answer for every question my friends were asking 
+me. And, in fact, it was embarrassing how much I knew 
+intellectually at that age but didn't have a testimony of. And I 
+thought I did. But I recognized quickly I didn't. 
+Dr. Barbara Gar...: 41:18 And during that next few years as a teenager, I just studied 
+everything I could and took things to the Lord over and over and 
+over again into my teachers and to my parents, and I 
+legitimately searched for truth, and I can say I found it. I can say 
+I found it the same way that the revelations are being given in 
+the doctrine and covenants. I found it piece by piece, lined upon 
+line, precept by precept. The Lord made himself known to me at 
+that age. But he continued to make himself known to me, and 
+he's continued to let me struggle. He's continued to let me get 
  
  
-Hank Smith: 44:14 ... together. 
-John Bytheway: 44:14 ... together. 
-Hank Smith: 44:15 That seems to me to be a happy thing, rejoicing. I don't know 
-about either of you, but it seems to be a good feeling in the 
-room. 
-John Bytheway: 44:22 Well, and I find that in these sections. Notice how often they're 
-telling him to go declare my gospel and to do it with joy. And 
-I've seen that and I mark it because I like joy. And I feel like 
-when I study church history, I look at all their hardship and I'm 
-glad that at least, it sounds like they were also having some joy. 
-Hank Smith: 44:43 Barb, let's jump into this next section here, the Lord kind of just 
-reiterate The 10 Commandments, how crucial they are. Walk us 
-through this. 
-Dr. Barbara Gar...: 44:54 I don't know if we necessarily have all the 10 commandments or 
-we don't. First of all, he's talking about some of the gifts, and he 
-who has faith to see shall see, he who have faith to hear shall 
-hear. They are not necessarily The 10 Commandments. But he 
-does start jumping into where we start seeing this moral law. 
-And he's talking about repenting, and he's talking about loving 
-thy wife and cleaving unto her and not committing adultery, not 
-speaking evil of the neighbor. These are some serious moral 
-laws. 
-Dr. Barbara Gar...: 45:21 I love and verse 29, if thou loves me thou shall serve me and 
-keep all of my commandments. Basically these are all these 
-laws, but really when it comes down to it, if you love me, then 
-you will keep these commandments. Clearly, I think there are a 
-lot of us who love the Lord and are not perfect. I don't think 
-that's what he's saying. But he's saying, "If you love me, these 
-things will become more and more natural." 
-Dr. Barbara Gar...: 45:39 But if they're not, we have this law right here. Verse 21. Thou 
-shalt not lie. He that lieth and will not repent shall be cast out. 
-But before that, he's talking about stealing, if they shall not 
-repent. But then we see clearly, you can repent. And I think that 
-that's one of the most important things of these moral laws, 
-especially in our day, is this reality that we can repent. And we 
-are doing our best. Yes, it's extremely important to keep these 
-laws and to be as righteous and pure as we can, but if we do 
-fall, there is the atonement of Jesus Christ, who made this... 
-Christ himself making this possible. And we can repent and 
-come unto him. 
+frustrated. He's continued to guide me in questions, and he's 
+guided me in giving me more questions. 
+Dr. Barbara Gar...: 42:01 But what I have found is as I have studied more and as I have 
+studied the scriptures, as I have pondered deeply, and mostly as 
+I listened to the Lord and spoken with him and counseled with 
+him, he has clearly taught me that these things that I know are 
+true, so much so just as Nephi and other prophets of old and 
+women as well I'm sure, can't keep it inside. I know it's true. 
+That's why I served a mission. That's why I teach the gospel. 
+That's why I continue to study. That's why I continue to love it 
+because the more I study, the deeper I get. 
+Dr. Barbara Gar...: 42:40 I'm nerdy. But I got my latest copy of the Joseph Smith papers, 
+and I ran up to my office and just started sucking it. I just 
+wanted to soak every piece of it because it's true. And the more 
+I read and the more I study, the more the Lord's spirit testifies 
+to me of what I am studying is true. And now, it's built in that 
+confidence, I guess, in me where I want to have more questions, 
+and I want to study more because he continues to prove himself 
+to me over and over and over again to the point where I would 
+say, "This sounds strong, but I do believe this." 
+Dr. Barbara Gar...: 43:14 I may be having this conversation with you, John and Hank. I 
+don't know. But I do know that God lives. That is more true to 
+me and my testimony of Jesus Christ. It's more true to me than 
+what I can see with my eyes and hear with my ears. It's just 
+true. I just know it. What I read confirms it. What I study 
+confirms it. What I think about confirms it. What the spirit 
+teaches me confirms it. It's just it's in me and through me. 
+Hank Smith: 43:41 Yeah. And to us, who you are confirms it. You're a joy to be 
+around. You're a joy to be friends with. John, I've got another 
+episode in the books and every time I think we can't top it, we 
+top it. 
+John Bytheway: 43:54 Yeah, and I think- 
+Dr. Barbara Gar...: 43:55 You guys are good. 
+John Bytheway: 43:56 ... if we were going through one of my biology textbooks, it 
+would just not be this fun. But we get to have these scriptures 
+to go through, and that is part of why this works in spite of us 
+and maybe because of us, but maybe in spite of us. 
+Hank Smith: 44:11 I'm with you there. I'm with you there. We want to thank Dr. 
+Barbara Morgan Gardner for being with us today. You've just 
  
  
-Hank Smith: 46:10 He does mention that quite a few times- 
-Dr. Barbara Gar...: 46:11 I think that's why we're saying this. 
-Hank Smith: 46:12 Yeah. Verse 20. It's about repentance. 23, repentance 24, 25. 
-John Bytheway: 46:17 And repentance is, it's a way of life. It's not a one time I 
-repented and I sinned again, so it's all over. It's a way of life. 
-Come back to the sacrament table again next week. 
-Dr. Barbara Gar...: 46:30 I love this statement but it's a quote by president [Parker 
-00:46:33]. It's one of my
+been a phenomenal guest. Thank you for everyone who took 
+the time to listen. We're grateful for your support. We're 
+grateful and thankful to our producers, Steve and Shannon 
+Sorensen, our production team David Perry, Lisa Spice, and 
+Jamie Nielsen. And we hope you will all join us on our next 
+episode of followHIM.
