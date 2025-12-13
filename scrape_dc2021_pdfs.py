@@ -125,6 +125,70 @@ def clean_text(text):
     return text.strip()
 
 
+def format_transcript(transcript):
+    """
+    Format transcript with proper speaker paragraphs and timestamps.
+
+    Input format: "Hank Smith: 00:01 Welcome to followHIM..."
+    Output format:
+
+    **Hank Smith** [00:01]
+
+    Welcome to followHIM...
+    """
+    # First, join lines that were split mid-sentence (PDF extraction artifact)
+    # Replace single newlines that aren't followed by a speaker pattern
+    lines = transcript.split('\n')
+    joined_lines = []
+    current_line = ""
+
+    # Pattern for speaker lines: "Name: MM:SS" or "Name...: MM:SS"
+    speaker_pattern = re.compile(r'^([A-Z][a-zA-Z\s\.]+?):\s*(\d{1,2}:\d{2})\s*(.*)$')
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if current_line:
+                joined_lines.append(current_line)
+                current_line = ""
+            continue
+
+        # Check if this line starts a new speaker turn
+        if speaker_pattern.match(line):
+            if current_line:
+                joined_lines.append(current_line)
+            current_line = line
+        else:
+            # Continue previous line
+            if current_line:
+                current_line += " " + line
+            else:
+                current_line = line
+
+    if current_line:
+        joined_lines.append(current_line)
+
+    # Now format each speaker turn
+    formatted_parts = []
+    for line in joined_lines:
+        match = speaker_pattern.match(line)
+        if match:
+            speaker = match.group(1).strip()
+            timestamp = match.group(2)
+            text = match.group(3).strip()
+
+            # Clean up speaker name (remove trailing dots from PDF artifacts)
+            speaker = re.sub(r'\.+$', '', speaker).strip()
+
+            # Format as markdown
+            formatted_parts.append(f"**{speaker}** [{timestamp}]\n\n{text}")
+        else:
+            # Not a speaker line, just add as-is
+            formatted_parts.append(line)
+
+    return "\n\n---\n\n".join(formatted_parts)
+
+
 def save_markdown(episode_num, topic, guest, part_type, content, url):
     """Save content as markdown file"""
     safe_topic = re.sub(r'[<>:"/\\|?*;]', '', topic)
@@ -179,9 +243,12 @@ def process_episode(episode_num, topic, guest, pdf_url):
     print(f"Part 1: {len(part1_transcript):,} chars")
     print(f"Part 2: {len(part2_transcript):,} chars")
 
-    # Save markdown files
-    save_markdown(episode_num, topic, guest, "Part 1", part1_transcript, pdf_url)
-    save_markdown(episode_num, topic, guest, "Part 2", part2_transcript, pdf_url)
+    # Format and save markdown files
+    part1_formatted = format_transcript(part1_transcript)
+    part2_formatted = format_transcript(part2_transcript)
+
+    save_markdown(episode_num, topic, guest, "Part 1", part1_formatted, pdf_url)
+    save_markdown(episode_num, topic, guest, "Part 2", part2_formatted, pdf_url)
 
     # Save show notes as "Favorites" (since that's typically supplementary content)
     if show_notes:
