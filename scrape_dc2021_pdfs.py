@@ -127,17 +127,16 @@ def clean_text(text):
 
 def format_transcript(transcript):
     """
-    Format transcript with proper speaker paragraphs and timestamps.
+    Format transcript to match URL-scraped episode format.
 
-    Input format: "Hank Smith: 00:01 Welcome to followHIM..."
-    Output format:
+    Input format (from PDF): "Hank Smith: 00:01 Welcome to followHIM..."
+    Output format: "Hank Smith: 00:00:01 Welcome to followHIM..."
 
-    **Hank Smith** [00:01]
-
-    Welcome to followHIM...
+    - Join lines split mid-sentence by PDF extraction
+    - Convert MM:SS to HH:MM:SS format
+    - Simple paragraphs with blank lines between speakers
     """
     # First, join lines that were split mid-sentence (PDF extraction artifact)
-    # Replace single newlines that aren't followed by a speaker pattern
     lines = transcript.split('\n')
     joined_lines = []
     current_line = ""
@@ -168,7 +167,7 @@ def format_transcript(transcript):
     if current_line:
         joined_lines.append(current_line)
 
-    # Now format each speaker turn
+    # Now format each speaker turn to match URL-scraped format
     formatted_parts = []
     for line in joined_lines:
         match = speaker_pattern.match(line)
@@ -180,13 +179,19 @@ def format_transcript(transcript):
             # Clean up speaker name (remove trailing dots from PDF artifacts)
             speaker = re.sub(r'\.+$', '', speaker).strip()
 
-            # Format as markdown
-            formatted_parts.append(f"**{speaker}** [{timestamp}]\n\n{text}")
+            # Convert MM:SS to HH:MM:SS format
+            if len(timestamp.split(':')) == 2:
+                mins, secs = timestamp.split(':')
+                timestamp = f"00:{mins.zfill(2)}:{secs.zfill(2)}"
+
+            # Format to match URL-scraped style: "Speaker: HH:MM:SS Text"
+            formatted_parts.append(f"{speaker}: {timestamp} {text}")
         else:
             # Not a speaker line, just add as-is
             formatted_parts.append(line)
 
-    return "\n\n---\n\n".join(formatted_parts)
+    # Join with double newlines (blank line between speakers)
+    return "\n\n".join(formatted_parts)
 
 
 def save_markdown(episode_num, topic, guest, part_type, content, url):
