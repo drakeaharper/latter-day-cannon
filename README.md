@@ -59,12 +59,40 @@ python3 create_combined_files.py
 
 ### Using the Web App
 
-Visit the [live demo](https://drakeaharper.github.io/latter-day-cannon/) or run locally:
+Visit the [live demo](https://drakeaharper.github.io/latter-day-cannon/) or run locally (see below).
 
-1. Open `docs/index.html` in a web browser
-2. Navigate to the Mind Map page
-3. Create nodes, connections, and save your study maps
-4. All data persists in your browser's local storage
+## Local Development
+
+The web application requires a local web server for full functionality due to browser CORS restrictions on `file://` protocol.
+
+**Why a server is needed:**
+- Scripture Library, Topical Guide, Bible Dictionary, and Follow Him pages use `fetch()` to load SQLite databases
+- Browsers block `fetch()` requests on `file://` protocol for security
+- Mind Map works without a server (stores data in localStorage)
+
+**Start a local server:**
+
+```bash
+cd docs
+
+# Python (recommended)
+python3 -m http.server 8000
+
+# Node.js
+npx serve
+
+# PHP
+php -S localhost:8000
+```
+
+Then open `http://localhost:8000` in your browser.
+
+**Features available locally:**
+- Mind Map - create nodes, connections, and save study maps (data persists in browser localStorage)
+- Scripture Library - browse all scriptures from the SQLite database
+- Topical Guide - search topics and scripture references
+- Bible Dictionary - browse encyclopedic entries
+- Follow Him - browse podcast transcripts
 
 ## Project Structure
 
