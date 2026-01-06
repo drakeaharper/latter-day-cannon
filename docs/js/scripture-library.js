@@ -124,6 +124,10 @@ class ScriptureLibrary {
             this.clearSearch();
         });
 
+        document.getElementById('clear-context-btn')?.addEventListener('click', () => {
+            this.clearContext();
+        });
+
         // Chapter navigation
         document.getElementById('prev-chapter-btn').addEventListener('click', () => {
             this.navigateChapter(-1);
@@ -523,20 +527,54 @@ class ScriptureLibrary {
         const bookSelect = document.getElementById('book-select');
         const chapterSelect = document.getElementById('chapter-select');
         const contextEl = document.getElementById('search-context');
+        const clearBtn = document.getElementById('clear-context-btn');
 
         let context = 'All scriptures';
+        let hasContext = false;
 
         if (chapterSelect.value) {
             const bookName = bookSelect.options[bookSelect.selectedIndex]?.text || '';
             const chapterName = chapterSelect.options[chapterSelect.selectedIndex]?.text || '';
             context = `${bookName} ${chapterName}`;
+            hasContext = true;
         } else if (bookSelect.value) {
             context = bookSelect.options[bookSelect.selectedIndex]?.text || '';
+            hasContext = true;
         } else if (collectionSelect.value) {
             context = collectionSelect.options[collectionSelect.selectedIndex]?.text || '';
+            hasContext = true;
         }
 
         contextEl.textContent = context;
+        if (clearBtn) {
+            clearBtn.disabled = !hasContext;
+        }
+    }
+
+    clearContext() {
+        // Reset all dropdowns
+        document.getElementById('collection-select').value = '';
+        document.getElementById('book-select').value = '';
+        document.getElementById('book-select').disabled = true;
+        document.getElementById('book-select').innerHTML = '<option value="">Select a book...</option>';
+        document.getElementById('chapter-select').value = '';
+        document.getElementById('chapter-select').disabled = true;
+        document.getElementById('chapter-select').innerHTML = '<option value="">Select a chapter...</option>';
+
+        // Reset internal state
+        this.currentCollection = null;
+        this.currentBook = null;
+        this.currentChapter = null;
+
+        // Update search context label
+        this.updateSearchContext();
+
+        // Show welcome screen
+        document.getElementById('chapter-reader').style.display = 'none';
+        document.getElementById('search-results').style.display = 'none';
+        document.getElementById('topical-guide-browser').style.display = 'none';
+        document.getElementById('bible-dict-browser').style.display = 'none';
+        document.getElementById('welcome-screen').style.display = 'flex';
     }
 
     async showTopicalGuide() {

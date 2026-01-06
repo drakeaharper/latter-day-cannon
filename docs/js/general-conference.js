@@ -593,14 +593,42 @@ async function updateStats() {
 function updateSearchContext() {
     const conferenceSelect = document.getElementById('conference-select');
     const contextEl = document.getElementById('search-context');
+    const clearBtn = document.getElementById('clear-context-btn');
 
     let context = 'All conferences';
+    let hasContext = false;
 
     if (conferenceSelect.value) {
         context = conferenceSelect.options[conferenceSelect.selectedIndex]?.text || '';
+        hasContext = true;
     }
 
     contextEl.textContent = context;
+    if (clearBtn) {
+        clearBtn.disabled = !hasContext;
+    }
+}
+
+// Clear navigation context
+function clearContext() {
+    // Reset dropdowns
+    document.getElementById('conference-select').value = '';
+    document.getElementById('talk-select').value = '';
+    document.getElementById('talk-select').disabled = true;
+    document.getElementById('talk-select').innerHTML = '<option value="">Select a talk...</option>';
+
+    // Reset internal state
+    currentConference = null;
+    currentTalk = null;
+
+    // Update search context label
+    updateSearchContext();
+
+    // Show welcome screen
+    document.getElementById('talk-display').style.display = 'none';
+    document.getElementById('talk-list-view').style.display = 'none';
+    document.getElementById('search-results').style.display = 'none';
+    document.getElementById('welcome-screen').style.display = 'block';
 }
 
 // Setup event listeners
@@ -651,6 +679,9 @@ function setupEventListeners() {
             }
         }
     });
+
+    // Clear context button
+    document.getElementById('clear-context-btn')?.addEventListener('click', clearContext);
 
     // Clear all read status button
     document.getElementById('clear-read-status-btn').addEventListener('click', () => {

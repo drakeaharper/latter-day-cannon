@@ -565,18 +565,52 @@ function updateSearchContext() {
     const seriesSelect = document.getElementById('series-select');
     const episodeSelect = document.getElementById('episode-select');
     const contextEl = document.getElementById('search-context');
+    const clearBtn = document.getElementById('clear-context-btn');
 
     let context = 'All transcripts';
+    let hasContext = false;
 
     if (episodeSelect.value) {
         const seriesName = seriesSelect.options[seriesSelect.selectedIndex]?.text || '';
         const episodeName = episodeSelect.options[episodeSelect.selectedIndex]?.text || '';
         context = `${seriesName} - ${episodeName}`;
+        hasContext = true;
     } else if (seriesSelect.value) {
         context = seriesSelect.options[seriesSelect.selectedIndex]?.text || '';
+        hasContext = true;
     }
 
     contextEl.textContent = context;
+    if (clearBtn) {
+        clearBtn.disabled = !hasContext;
+    }
+}
+
+// Clear navigation context
+function clearContext() {
+    // Reset dropdowns
+    document.getElementById('series-select').value = '';
+    document.getElementById('episode-select').value = '';
+    document.getElementById('episode-select').disabled = true;
+    document.getElementById('episode-select').innerHTML = '<option value="">Select an episode...</option>';
+    document.getElementById('part-select').value = '';
+    document.getElementById('part-select').disabled = true;
+    document.getElementById('part-select').innerHTML = '<option value="">Select a part...</option>';
+
+    // Reset internal state
+    currentSeries = null;
+    currentEpisode = null;
+    currentPart = null;
+    allParts = [];
+
+    // Update search context label
+    updateSearchContext();
+
+    // Show welcome screen
+    document.getElementById('episode-view').style.display = 'none';
+    document.getElementById('transcript-display').style.display = 'none';
+    document.getElementById('search-results').style.display = 'none';
+    document.getElementById('welcome-screen').style.display = 'block';
 }
 
 // Setup event listeners
@@ -649,6 +683,9 @@ function setupEventListeners() {
     document.getElementById('clear-search-btn').addEventListener('click', () => {
         clearSearch();
     });
+
+    // Clear context button
+    document.getElementById('clear-context-btn')?.addEventListener('click', clearContext);
 
     // Part navigation
     document.getElementById('prev-part-btn').addEventListener('click', () => {

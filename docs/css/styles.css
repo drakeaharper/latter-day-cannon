@@ -230,6 +230,14 @@ body {
     font-style: italic;
 }
 
+/* Clear Context Button */
+.clear-context-btn {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
 /* Home Page */
 .home-page {
     max-width: 1200px;
