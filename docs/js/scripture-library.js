@@ -391,9 +391,36 @@ class ScriptureLibrary {
 
     async performSearch() {
         const query = document.getElementById('scripture-search').value.trim();
+        const useRegex = document.getElementById('scripture-regex-toggle').checked;
         if (!query) return;
 
+        // Hide other views
+        document.getElementById('welcome-screen').style.display = 'none';
+        document.getElementById('chapter-reader').style.display = 'none';
+        document.getElementById('topical-guide-browser').style.display = 'none';
+        document.getElementById('bible-dict-browser').style.display = 'none';
+
+        const resultsContainer = document.getElementById('results-list');
+        resultsContainer.innerHTML = '';
+
+        // Validate regex if in regex mode
+        let regex;
+        if (useRegex) {
+            try {
+                regex = new RegExp(query, 'i');
+            } catch (e) {
+                resultsContainer.innerHTML = '<p>Invalid regular expression.</p>';
+                document.getElementById('search-results').style.display = 'block';
+                return;
+            }
+        }
+
         try {
+            // For regex mode, extract literal characters for LIKE pre-filter
+            const likePattern = useRegex
+                ? query.replace(/[\\^$.*+?()[\]{}|]/g, '').substring(0, 20)
+                : query;
+
             // Search verses (using LIKE since FTS5 not available)
             const result = this.db.exec(`
                 SELECT
@@ -410,28 +437,28 @@ class ScriptureLibrary {
                 JOIN scripture_collections c ON c.id = b.collection_id
                 WHERE v.text LIKE ?
                 ORDER BY c.sort_order, b.sort_order, ch.chapter_number, v.verse_number
-                LIMIT 100
-            `, [`%${query}%`]);
+                LIMIT 500
+            `, [`%${likePattern}%`]);
 
-            // Hide other views
-            document.getElementById('welcome-screen').style.display = 'none';
-            document.getElementById('chapter-reader').style.display = 'none';
-            document.getElementById('topical-guide-browser').style.display = 'none';
-            document.getElementById('bible-dict-browser').style.display = 'none';
+            let values = result.length > 0 ? result[0].values : [];
 
-            // Show search results
-            const resultsContainer = document.getElementById('results-list');
-            resultsContainer.innerHTML = '';
+            // If regex mode, filter results with regex
+            if (useRegex && values.length > 0) {
+                values = values.filter(row => regex.test(row[2])); // row[2] is text
+            }
 
-            if (result.length === 0 || result[0].values.length === 0) {
+            // Limit to 100 results for display
+            values = values.slice(0, 100);
+
+            if (values.length === 0) {
                 resultsContainer.innerHTML = '<p>No results found.</p>';
             } else {
-                result[0].values.forEach(([id, verseNum, text, chapterNum, bookName, collectionName, chapterId]) => {
+                values.forEach(([id, verseNum, text, chapterNum, bookName, collectionName, chapterId]) => {
                     const resultDiv = document.createElement('div');
                     resultDiv.className = 'search-result-item';
                     resultDiv.innerHTML = `
                         <div class="result-reference">${bookName} ${chapterNum}:${verseNum}</div>
-                        <div class="result-text">${this.highlightText(text, query)}</div>
+                        <div class="result-text">${this.highlightText(text, query, useRegex)}</div>
                     `;
                     resultDiv.addEventListener('click', () => {
                         this.displayChapter(chapterId);
@@ -446,9 +473,20 @@ class ScriptureLibrary {
         }
     }
 
-    highlightText(text, query) {
-        const regex = new RegExp(`(${query})`, 'gi');
-        return text.replace(regex, '<mark>$1</mark>');
+    highlightText(text, query, useRegex = false) {
+        try {
+            let regex;
+            if (useRegex) {
+                regex = new RegExp(`(${query})`, 'gi');
+            } else {
+                // Escape special regex characters for literal search
+                const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                regex = new RegExp(`(${escaped})`, 'gi');
+            }
+            return text.replace(regex, '<mark>$1</mark>');
+        } catch (e) {
+            return text;
+        }
     }
 
     clearSearch() {

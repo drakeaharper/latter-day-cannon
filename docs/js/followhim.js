@@ -357,8 +357,25 @@ async function searchTranscripts(query) {
         return;
     }
 
+    const useRegex = document.getElementById('fh-regex-toggle').checked;
+
+    // Validate regex if in regex mode
+    let regex;
+    if (useRegex) {
+        try {
+            regex = new RegExp(query, 'i');
+        } catch (e) {
+            displaySearchResults([], query, useRegex, 'Invalid regular expression.');
+            return;
+        }
+    }
+
     try {
-        const searchTerm = `%${query}%`;
+        // For regex mode, extract literal characters for LIKE pre-filter
+        const likePattern = useRegex
+            ? query.replace(/[\\^$.*+?()[\]{}|]/g, '').substring(0, 20)
+            : query;
+        const searchTerm = `%${likePattern}%`;
 
         const results = db.exec(`
             SELECT
@@ -375,41 +392,50 @@ async function searchTranscripts(query) {
             JOIN followhim_series s ON e.series_id = s.id
             WHERE p.content LIKE ? OR p.title LIKE ? OR p.guest LIKE ? OR e.title LIKE ?
             ORDER BY s.year DESC, e.episode_number, p.sort_order
-            LIMIT 50
+            LIMIT 200
         `, [searchTerm, searchTerm, searchTerm, searchTerm]);
 
-        if (results.length === 0 || results[0].values.length === 0) {
-            displaySearchResults([], query);
-            return;
+        let values = results.length > 0 ? results[0].values : [];
+
+        // If regex mode, filter results with regex
+        if (useRegex && values.length > 0) {
+            values = values.filter(([id, partType, title, guest, content, episodeNum, episodeTitle]) =>
+                regex.test(content) || regex.test(title) || regex.test(guest || '') || regex.test(episodeTitle)
+            );
         }
 
-        displaySearchResults(results[0].values, query);
+        // Limit to 50 results
+        values = values.slice(0, 50);
+
+        displaySearchResults(values, query, useRegex);
     } catch (error) {
         console.error('Error searching transcripts:', error);
     }
 }
 
 // Display search results
-function displaySearchResults(results, query) {
+function displaySearchResults(results, query, useRegex = false, errorMsg = null) {
     const resultsCount = document.getElementById('results-count');
     const resultsList = document.getElementById('results-list');
 
     resultsCount.textContent = `Found ${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`;
 
-    if (results.length === 0) {
+    if (errorMsg) {
+        resultsList.innerHTML = `<p>${errorMsg}</p>`;
+    } else if (results.length === 0) {
         resultsList.innerHTML = '<p>No results found. Try different search terms.</p>';
     } else {
         resultsList.innerHTML = results.map(([id, partType, title, guest, content, episodeNum, episodeTitle, seriesName]) => {
             // Create snippet with highlight
-            const snippet = createSnippet(content, query, 200);
+            const snippet = createSnippet(content, query, 200, useRegex);
 
             return `
                 <div class="result-item" onclick="displayTranscript(${id})">
-                    <h3 class="result-title">${highlightText(episodeTitle, query)} - ${partType}</h3>
+                    <h3 class="result-title">${highlightText(episodeTitle, query, useRegex)} - ${partType}</h3>
                     <div class="result-meta">
                         <span class="result-series">${seriesName}</span>
                         <span class="result-episode">Episode ${episodeNum}</span>
-                        ${guest ? `<span class="result-guest">${highlightText(guest, query)}</span>` : ''}
+                        ${guest ? `<span class="result-guest">${highlightText(guest, query, useRegex)}</span>` : ''}
                     </div>
                     <p class="result-snippet">${snippet}</p>
                 </div>
@@ -428,16 +454,30 @@ function displaySearchResults(results, query) {
 }
 
 // Create snippet with context around search term
-function createSnippet(text, query, maxLength) {
+function createSnippet(text, query, maxLength, useRegex = false) {
     if (!text) return '';
 
-    const lowerText = text.toLowerCase();
-    const lowerQuery = query.toLowerCase();
-    const index = lowerText.indexOf(lowerQuery);
+    let index = -1;
+
+    if (useRegex) {
+        try {
+            const regex = new RegExp(query, 'i');
+            const match = text.match(regex);
+            if (match) {
+                index = match.index;
+            }
+        } catch (e) {
+            index = -1;
+        }
+    } else {
+        const lowerText = text.toLowerCase();
+        const lowerQuery = query.toLowerCase();
+        index = lowerText.indexOf(lowerQuery);
+    }
 
     if (index === -1) {
         // Query not found in text, return beginning
-        return highlightText(text.substring(0, maxLength), query) + '...';
+        return highlightText(text.substring(0, maxLength), query, useRegex) + '...';
     }
 
     // Calculate start and end positions for snippet
@@ -449,15 +489,24 @@ function createSnippet(text, query, maxLength) {
     if (start > 0) snippet = '...' + snippet;
     if (end < text.length) snippet = snippet + '...';
 
-    return highlightText(snippet, query);
+    return highlightText(snippet, query, useRegex);
 }
 
 // Highlight query in text
-function highlightText(text, query) {
+function highlightText(text, query, useRegex = false) {
     if (!query) return text;
 
-    const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
-    return text.replace(regex, '<span class="highlight">$1</span>');
+    try {
+        let regex;
+        if (useRegex) {
+            regex = new RegExp(`(${query})`, 'gi');
+        } else {
+            regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+        }
+        return text.replace(regex, '<span class="highlight">$1</span>');
+    } catch (e) {
+        return text;
+    }
 }
 
 // Escape special regex characters

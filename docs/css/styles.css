@@ -145,6 +145,32 @@ body {
     cursor: not-allowed;
 }
 
+/* Regex Toggle */
+.regex-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--light-text);
+    user-select: none;
+}
+
+.regex-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
+.regex-toggle:hover {
+    color: var(--primary-color);
+}
+
+.regex-toggle span {
+    white-space: nowrap;
+}
+
 /* Home Page */
 .home-page {
     max-width: 1200px;
