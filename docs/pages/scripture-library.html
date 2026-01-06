@@ -98,19 +98,24 @@
 
                 <!-- Search Section -->
                 <div class="search-section">
-                    <h3>Search</h3>
+                    <div class="search-header">
+                        <h3>Search</h3>
+                        <span id="search-context" class="search-context">All scriptures</span>
+                    </div>
                     <input
                         type="text"
                         id="scripture-search"
                         class="search-input"
                         placeholder="Search all scriptures..."
                     >
-                    <div id="search-context" class="search-context">Searching in: All scriptures</div>
-                    <button id="search-btn" class="btn btn-primary">Search</button>
-                    <label class="regex-toggle">
-                        <input type="checkbox" id="scripture-regex-toggle">
-                        <span>Regex</span>
-                    </label>
+                    <div class="search-controls">
+                        <button id="search-btn" class="btn btn-primary">Search</button>
+                        <label class="regex-toggle">
+                            <input type="checkbox" id="scripture-regex-toggle">
+                            <span class="toggle-switch"></span>
+                            <span class="toggle-label">Regex</span>
+                        </label>
+                    </div>
                 </div>
 
                 <!-- Study Helps Links -->

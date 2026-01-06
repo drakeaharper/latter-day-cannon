@@ -90,19 +90,24 @@
 
                 <!-- Search Section -->
                 <div class="search-section">
-                    <h3>Search</h3>
+                    <div class="search-header">
+                        <h3>Search</h3>
+                        <span id="search-context" class="search-context">All conferences</span>
+                    </div>
                     <input
                         type="text"
                         id="gc-search"
                         class="search-input"
                         placeholder="Search conference talks..."
                     >
-                    <div id="search-context" class="search-context">Searching in: All conferences</div>
-                    <button id="search-btn" class="btn btn-primary">Search</button>
-                    <label class="regex-toggle">
-                        <input type="checkbox" id="gc-regex-toggle">
-                        <span>Regex</span>
-                    </label>
+                    <div class="search-controls">
+                        <button id="search-btn" class="btn btn-primary">Search</button>
+                        <label class="regex-toggle">
+                            <input type="checkbox" id="gc-regex-toggle">
+                            <span class="toggle-switch"></span>
+                            <span class="toggle-label">Regex</span>
+                        </label>
+                    </div>
                 </div>
 
                 <!-- Quick Stats -->

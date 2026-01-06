@@ -536,7 +536,7 @@ class ScriptureLibrary {
             context = collectionSelect.options[collectionSelect.selectedIndex]?.text || '';
         }
 
-        contextEl.textContent = `Searching in: ${context}`;
+        contextEl.textContent = context;
     }
 
     async showTopicalGuide() {

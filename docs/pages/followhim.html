@@ -98,19 +98,24 @@
 
                 <!-- Search Section -->
                 <div class="search-section">
-                    <h3>Search</h3>
+                    <div class="search-header">
+                        <h3>Search</h3>
+                        <span id="search-context" class="search-context">All transcripts</span>
+                    </div>
                     <input
                         type="text"
                         id="fh-search"
                         class="search-input"
                         placeholder="Search all transcripts..."
                     >
-                    <div id="search-context" class="search-context">Searching in: All transcripts</div>
-                    <button id="search-btn" class="btn btn-primary">Search</button>
-                    <label class="regex-toggle">
-                        <input type="checkbox" id="fh-regex-toggle">
-                        <span>Regex</span>
-                    </label>
+                    <div class="search-controls">
+                        <button id="search-btn" class="btn btn-primary">Search</button>
+                        <label class="regex-toggle">
+                            <input type="checkbox" id="fh-regex-toggle">
+                            <span class="toggle-switch"></span>
+                            <span class="toggle-label">Regex</span>
+                        </label>
+                    </div>
                 </div>
 
                 <!-- Quick Stats -->

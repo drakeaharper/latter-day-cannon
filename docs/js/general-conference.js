@@ -600,7 +600,7 @@ function updateSearchContext() {
         context = conferenceSelect.options[conferenceSelect.selectedIndex]?.text || '';
     }
 
-    contextEl.textContent = `Searching in: ${context}`;
+    contextEl.textContent = context;
 }
 
 // Setup event listeners

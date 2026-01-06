@@ -576,7 +576,7 @@ function updateSearchContext() {
         context = seriesSelect.options[seriesSelect.selectedIndex]?.text || '';
     }
 
-    contextEl.textContent = `Searching in: ${context}`;
+    contextEl.textContent = context;
 }
 
 // Setup event listeners
