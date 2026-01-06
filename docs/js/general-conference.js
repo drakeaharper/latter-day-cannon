@@ -427,6 +427,18 @@ async function searchTalks(query) {
             : query;
         const searchTerm = `%${likePattern}%`;
 
+        // Get context filter from navigation dropdown
+        const conferenceId = document.getElementById('conference-select').value;
+
+        // Build WHERE clause and params based on context
+        let whereClause = 'WHERE (t.title LIKE ? OR t.content LIKE ? OR t.speaker_name LIKE ?)';
+        let params = [searchTerm, searchTerm, searchTerm];
+
+        if (conferenceId) {
+            whereClause += ' AND t.conference_id = ?';
+            params.push(conferenceId);
+        }
+
         const results = db.exec(`
             SELECT
                 t.id,
@@ -437,10 +449,10 @@ async function searchTalks(query) {
                 c.month
             FROM general_conference_talks t
             JOIN general_conference_conferences c ON t.conference_id = c.id
-            WHERE t.title LIKE ? OR t.content LIKE ? OR t.speaker_name LIKE ?
+            ${whereClause}
             ORDER BY c.year DESC, c.month DESC, t.sort_order
             LIMIT 200
-        `, [searchTerm, searchTerm, searchTerm]);
+        `, params);
 
         let values = results.length > 0 ? results[0].values : [];
 
@@ -577,6 +589,20 @@ async function updateStats() {
     }
 }
 
+// Update search context label
+function updateSearchContext() {
+    const conferenceSelect = document.getElementById('conference-select');
+    const contextEl = document.getElementById('search-context');
+
+    let context = 'All conferences';
+
+    if (conferenceSelect.value) {
+        context = conferenceSelect.options[conferenceSelect.selectedIndex]?.text || '';
+    }
+
+    contextEl.textContent = `Searching in: ${context}`;
+}
+
 // Setup event listeners
 function setupEventListeners() {
     // Conference selection
@@ -592,6 +618,7 @@ function setupEventListeners() {
             document.getElementById('talk-list-view').style.display = 'none';
             document.getElementById('welcome-screen').style.display = 'block';
         }
+        updateSearchContext();
     });
 
     // Talk selection

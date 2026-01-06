@@ -96,14 +96,17 @@ class ScriptureLibrary {
         // Navigation selectors
         document.getElementById('collection-select').addEventListener('change', (e) => {
             this.onCollectionChange(e.target.value);
+            this.updateSearchContext();
         });
 
         document.getElementById('book-select').addEventListener('change', (e) => {
             this.onBookChange(e.target.value);
+            this.updateSearchContext();
         });
 
         document.getElementById('chapter-select').addEventListener('change', (e) => {
             this.onChapterChange(e.target.value);
+            this.updateSearchContext();
         });
 
         // Search
@@ -421,6 +424,26 @@ class ScriptureLibrary {
                 ? query.replace(/[\\^$.*+?()[\]{}|]/g, '').substring(0, 20)
                 : query;
 
+            // Get context filter values from navigation dropdowns
+            const collectionId = document.getElementById('collection-select').value;
+            const bookId = document.getElementById('book-select').value;
+            const chapterId = document.getElementById('chapter-select').value;
+
+            // Build WHERE clause and params based on context
+            let whereClause = 'WHERE v.text LIKE ?';
+            let params = [`%${likePattern}%`];
+
+            if (chapterId) {
+                whereClause += ' AND ch.id = ?';
+                params.push(chapterId);
+            } else if (bookId) {
+                whereClause += ' AND b.id = ?';
+                params.push(bookId);
+            } else if (collectionId) {
+                whereClause += ' AND c.id = ?';
+                params.push(collectionId);
+            }
+
             // Search verses (using LIKE since FTS5 not available)
             const result = this.db.exec(`
                 SELECT
@@ -435,10 +458,10 @@ class ScriptureLibrary {
                 JOIN scripture_chapters ch ON ch.id = v.chapter_id
                 JOIN scripture_books b ON b.id = ch.book_id
                 JOIN scripture_collections c ON c.id = b.collection_id
-                WHERE v.text LIKE ?
+                ${whereClause}
                 ORDER BY c.sort_order, b.sort_order, ch.chapter_number, v.verse_number
                 LIMIT 500
-            `, [`%${likePattern}%`]);
+            `, params);
 
             let values = result.length > 0 ? result[0].values : [];
 
@@ -493,6 +516,27 @@ class ScriptureLibrary {
         document.getElementById('scripture-search').value = '';
         document.getElementById('search-results').style.display = 'none';
         document.getElementById('welcome-screen').style.display = 'flex';
+    }
+
+    updateSearchContext() {
+        const collectionSelect = document.getElementById('collection-select');
+        const bookSelect = document.getElementById('book-select');
+        const chapterSelect = document.getElementById('chapter-select');
+        const contextEl = document.getElementById('search-context');
+
+        let context = 'All scriptures';
+
+        if (chapterSelect.value) {
+            const bookName = bookSelect.options[bookSelect.selectedIndex]?.text || '';
+            const chapterName = chapterSelect.options[chapterSelect.selectedIndex]?.text || '';
+            context = `${bookName} ${chapterName}`;
+        } else if (bookSelect.value) {
+            context = bookSelect.options[bookSelect.selectedIndex]?.text || '';
+        } else if (collectionSelect.value) {
+            context = collectionSelect.options[collectionSelect.selectedIndex]?.text || '';
+        }
+
+        contextEl.textContent = `Searching in: ${context}`;
     }
 
     async showTopicalGuide() {

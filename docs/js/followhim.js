@@ -377,6 +377,22 @@ async function searchTranscripts(query) {
             : query;
         const searchTerm = `%${likePattern}%`;
 
+        // Get context filter from navigation dropdowns
+        const seriesId = document.getElementById('series-select').value;
+        const episodeId = document.getElementById('episode-select').value;
+
+        // Build WHERE clause and params based on context
+        let whereClause = 'WHERE (p.content LIKE ? OR p.title LIKE ? OR p.guest LIKE ? OR e.title LIKE ?)';
+        let params = [searchTerm, searchTerm, searchTerm, searchTerm];
+
+        if (episodeId) {
+            whereClause += ' AND e.id = ?';
+            params.push(episodeId);
+        } else if (seriesId) {
+            whereClause += ' AND s.id = ?';
+            params.push(seriesId);
+        }
+
         const results = db.exec(`
             SELECT
                 p.id,
@@ -390,10 +406,10 @@ async function searchTranscripts(query) {
             FROM followhim_parts p
             JOIN followhim_episodes e ON p.episode_id = e.id
             JOIN followhim_series s ON e.series_id = s.id
-            WHERE p.content LIKE ? OR p.title LIKE ? OR p.guest LIKE ? OR e.title LIKE ?
+            ${whereClause}
             ORDER BY s.year DESC, e.episode_number, p.sort_order
             LIMIT 200
-        `, [searchTerm, searchTerm, searchTerm, searchTerm]);
+        `, params);
 
         let values = results.length > 0 ? results[0].values : [];
 
@@ -544,6 +560,25 @@ async function updateStats() {
     }
 }
 
+// Update search context label
+function updateSearchContext() {
+    const seriesSelect = document.getElementById('series-select');
+    const episodeSelect = document.getElementById('episode-select');
+    const contextEl = document.getElementById('search-context');
+
+    let context = 'All transcripts';
+
+    if (episodeSelect.value) {
+        const seriesName = seriesSelect.options[seriesSelect.selectedIndex]?.text || '';
+        const episodeName = episodeSelect.options[episodeSelect.selectedIndex]?.text || '';
+        context = `${seriesName} - ${episodeName}`;
+    } else if (seriesSelect.value) {
+        context = seriesSelect.options[seriesSelect.selectedIndex]?.text || '';
+    }
+
+    contextEl.textContent = `Searching in: ${context}`;
+}
+
 // Setup event listeners
 function setupEventListeners() {
     // Series selection
@@ -562,6 +597,7 @@ function setupEventListeners() {
             document.getElementById('transcript-display').style.display = 'none';
             document.getElementById('welcome-screen').style.display = 'block';
         }
+        updateSearchContext();
     });
 
     // Episode selection
@@ -575,6 +611,7 @@ function setupEventListeners() {
             document.getElementById('part-select').innerHTML = '<option value="">Select a part...</option>';
             allParts = [];
         }
+        updateSearchContext();
     });
 
     // Part selection
