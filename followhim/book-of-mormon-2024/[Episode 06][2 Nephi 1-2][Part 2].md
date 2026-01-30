@@ -1,7 +1,7 @@
 Episode: 6
 Topic: 2 Nephi 1-2
 Part: Part 2
-Guest: Elder Tad Callister
+Guest: Dr. Lili Anderson
 URL: https://followhim.co/show-note/book-of-mormon-episode-06-2-nephi-1-2-part-2/
 
 ---

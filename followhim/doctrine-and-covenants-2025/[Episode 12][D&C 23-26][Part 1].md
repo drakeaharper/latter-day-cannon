@@ -1,7 +1,7 @@
 Episode: 12
 Topic: D&C 23-26
 Part: Part 1
-Guest: Dr. Taunalyn Ford
+Guest: Sister Morgan Pearson
 URL: https://followhim.co/show-note/2-405/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 39
 Topic: Isaiah 40-49
 Part: Part 1
-Guest: Brother Terry Ball
+Guest: Dr. Terry Ball
 URL: https://followhim.co/show-note/2-203/
 
 ---

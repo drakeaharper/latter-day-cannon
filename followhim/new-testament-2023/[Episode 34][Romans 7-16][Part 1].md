@@ -1,7 +1,7 @@
 Episode: 34
 Topic: Romans 7-16
 Part: Part 1
-Guest: Dr. Josh Matson
+Guest: Dr. Joshua Matson
 URL: https://followhim.co/show-note/2-32/
 
 ---

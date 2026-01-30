@@ -1,6 +1,7 @@
 Episode: 7
 Topic: D&C 12-13; Joseph Smith History 1:66-75
 Part: Favorites
+Guest: Dr. Scott Esplin
 URL: https://followhim.co/show-note/3-24/
 
 ---

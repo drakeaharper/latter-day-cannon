@@ -1,6 +1,7 @@
 Episode: 12
 Topic: Matthew 11-12; Luke 11
 Part: Favorites
+Guest: Dr. John Hilton
 URL: https://followhim.co/show-note/new-testament-episode-19-luke-12-17-john-11-favorites/
 
 ---

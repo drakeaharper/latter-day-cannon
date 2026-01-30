@@ -1,7 +1,7 @@
 Episode: 5
 Topic: D&C 6-9
 Part: Part 1
-Guest: Dr. Janiece Johnson
+Guest: Janiece Johnson
 URL: https://followhim.co/show-note/2-247/
 
 ---

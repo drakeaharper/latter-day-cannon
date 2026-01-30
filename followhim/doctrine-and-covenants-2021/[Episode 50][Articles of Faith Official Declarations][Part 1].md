@@ -1,7 +1,7 @@
 Episode: 50
 Topic: Articles of Faith; Official Declarations
 Part: Part 1
-Guest: Brother Ahmad Corbitt
+Guest: Brother Ahmad S. Corbitt
 URL: https://followhim.co/show-note/2-365/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 26
 Topic: Matthew 27; Mark 15; Luke 23; John 19
 Part: Part 1
-Guest: Elder Neal A. Maxwell
+Guest: Jack Welch
 URL: https://followhim.co/show-note/3-6/
 
 ---

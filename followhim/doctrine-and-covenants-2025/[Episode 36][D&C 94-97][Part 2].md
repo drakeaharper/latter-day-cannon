@@ -1,7 +1,7 @@
 Episode: 36
 Topic: D&C 94-97
 Part: Part 2
-Guest: Dr. Shima Baughman
+Guest: Brother Clint Mortensen
 URL: https://followhim.co/show-note/2-475/
 
 ---

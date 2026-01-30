@@ -1,7 +1,7 @@
 Episode: 10
 Topic: D&C 19
 Part: Part 1
-Guest: Elder Kevin Duncan
+Guest: Andy Horton
 URL: https://followhim.co/show-note/2-399/
 
 ---

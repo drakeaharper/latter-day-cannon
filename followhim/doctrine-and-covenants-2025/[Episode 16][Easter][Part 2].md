@@ -1,6 +1,7 @@
 Episode: 16
 Topic: Easter
 Part: Part 2
+Guest: Courtney Rich
 URL: https://followhim.co/show-note/2-416/
 
 ---

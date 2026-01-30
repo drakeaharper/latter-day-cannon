@@ -1,6 +1,7 @@
 Episode: 9
 Topic: Matthew 6-7
 Part: Favorites
+Guest: Dr. Lili Anderson
 URL: https://followhim.co/show-note/new-testament-episode-09-matthew-6-7-favorites/
 
 ---

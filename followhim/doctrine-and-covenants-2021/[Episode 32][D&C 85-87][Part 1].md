@@ -1,7 +1,7 @@
 Episode: 32
 Topic: D&C 85-87
 Part: Part 1
-Guest: Dr. Kenneth L. Alford
+Guest: Dr. Ken Alford
 URL: https://followhim.co/show-note/2-311/
 
 ---

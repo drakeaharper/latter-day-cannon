@@ -1,7 +1,7 @@
 Episode: 29
 Topic: D&C 77-80
 Part: Part 2
-Guest: Dr. Craig K. Ma
+Guest: John Bythway
 URL: https://followhim.co/show-note/2-301/
 
 ---

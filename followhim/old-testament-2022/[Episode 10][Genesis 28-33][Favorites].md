@@ -1,6 +1,7 @@
 Episode: 10
 Topic: Genesis 28-33
 Part: Favorites
+Guest: Dr. Jeffrey Chadwick
 URL: https://followhim.co/show-note/2-114/
 
 ---

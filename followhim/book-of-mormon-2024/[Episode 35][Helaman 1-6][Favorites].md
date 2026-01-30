@@ -1,6 +1,7 @@
 Episode: 35
 Topic: Helaman 1-6
 Part: Favorites
+Guest: Dr. Jenae Nelson
 URL: https://followhim.co/show-note/3-23/
 
 ---

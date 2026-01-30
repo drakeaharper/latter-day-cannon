@@ -1,7 +1,7 @@
 Episode: 2
 Topic: Genesis 1-3; Moses 2-3; Abraham 4-5
 Part: Favorites
-Guest: Dr. Stephan Taeger
+Guest: Amanda Dunn
 URL: https://followhim.co/show-note/3-7/
 
 ---

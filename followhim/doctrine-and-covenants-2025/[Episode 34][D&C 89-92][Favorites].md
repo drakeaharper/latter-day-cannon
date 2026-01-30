@@ -1,7 +1,7 @@
 Episode: 34
 Topic: D&C 89-92
 Part: Favorites
-Guest: Sister Karen Hepworth
+Guest: Karen Hepworth
 URL: https://followhim.co/show-note/2-470/
 
 ---

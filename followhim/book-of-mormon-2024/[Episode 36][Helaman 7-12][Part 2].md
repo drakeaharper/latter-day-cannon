@@ -1,7 +1,7 @@
 Episode: 36
 Topic: Helaman 7-12
 Part: Part 2
-Guest: Dr. Shima Baughman
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/book-of-mormon-episode-36-helaman-7-12-part-2/
 
 ---

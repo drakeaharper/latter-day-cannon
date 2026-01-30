@@ -1,6 +1,7 @@
 Episode: 41
 Topic: Isaiah 58-66
 Part: Favorites
+Guest: Dr. Ross Baron
 URL: https://followhim.co/show-note/2-207/
 
 ---

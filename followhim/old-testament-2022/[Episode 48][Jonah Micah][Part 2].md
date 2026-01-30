@@ -1,7 +1,7 @@
 Episode: 48
 Topic: Jonah; Micah
 Part: Part 2
-Guest: Dr. Josh Sears
+Guest: Dr. Joshua Sears
 URL: https://followhim.co/show-note/2-227/
 
 ---

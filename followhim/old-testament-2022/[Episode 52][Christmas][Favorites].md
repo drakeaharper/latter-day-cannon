@@ -1,6 +1,7 @@
 Episode: 52
 Topic: Christmas
 Part: Favorites
+Guest: Dr. Jeffrey Chadwick
 URL: https://followhim.co/show-note/2-237/
 
 ---

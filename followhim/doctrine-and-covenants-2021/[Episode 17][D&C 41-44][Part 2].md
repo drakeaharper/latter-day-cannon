@@ -1,7 +1,7 @@
 Episode: 17
 Topic: D&C 41-44
 Part: Part 2
-Guest: Dr. Barbara Gardner
+Guest: Dr. Barbara Gar
 URL: https://followhim.co/wp-content/uploads/2025/04/17-Doctrine-Covenants-41-44-Barbara-Gardner-followHIM-Podcast-show-notes-and-transcripts.pdf
 
 ---

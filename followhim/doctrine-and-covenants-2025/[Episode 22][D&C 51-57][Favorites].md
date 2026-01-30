@@ -1,6 +1,7 @@
 Episode: 22
 Topic: D&C 51-57
 Part: Favorites
+Guest: Sister Emily Utt
 URL: https://followhim.co/show-note/2-438/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 7
 Topic: John 2-4
 Part: Part 1
-Guest: Dr. Robert L. Millet
+Guest: Dr. Robert Millet
 URL: https://followhim.co/show-note/new-testament-episode-07-john-2-4-part-1/
 
 ---

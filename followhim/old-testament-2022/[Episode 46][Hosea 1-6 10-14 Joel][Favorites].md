@@ -1,6 +1,7 @@
 Episode: 46
 Topic: Hosea 1-6; 10-14; Joel
 Part: Favorites
+Guest: Dr. Aaron Schade
 URL: https://followhim.co/show-note/2-221/
 
 ---

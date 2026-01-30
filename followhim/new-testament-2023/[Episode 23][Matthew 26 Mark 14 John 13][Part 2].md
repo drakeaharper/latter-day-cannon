@@ -1,7 +1,7 @@
 Episode: 23
 Topic: Matthew 26; Mark 14; John 13
 Part: Part 2
-Guest: Dr. Camille Fronk
+Guest: Dr. Camille Olson
 URL: https://followhim.co/show-note/2-6/
 
 ---

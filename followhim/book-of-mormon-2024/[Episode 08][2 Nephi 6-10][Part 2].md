@@ -1,7 +1,7 @@
 Episode: 8
 Topic: 2 Nephi 6-10
 Part: Part 2
-Guest: Dr. Robert Millett
+Guest: Dr. Robert L. Millet
 URL: https://followhim.co/show-note/book-of-mormon-episode-08-2-nephi-6-10-part-2/
 
 ---

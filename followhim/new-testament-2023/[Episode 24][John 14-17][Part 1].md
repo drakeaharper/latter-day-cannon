@@ -1,7 +1,7 @@
 Episode: 24
 Topic: John 14-17
 Part: Part 1
-Guest: Brother Rob Eaton
+Guest: Robert Eaton
 URL: https://followhim.co/show-note/2-5/
 
 ---

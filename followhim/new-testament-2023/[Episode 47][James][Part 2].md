@@ -1,7 +1,7 @@
 Episode: 47
 Topic: James
 Part: Part 2
-Guest: President Menlo Smith
+Guest: Dr. J.B. Haws
 URL: https://followhim.co/show-note/2-70/
 
 ---

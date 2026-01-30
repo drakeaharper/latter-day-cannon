@@ -1,7 +1,7 @@
 Episode: 39
 Topic: D&C 106-108
 Part: Part 1
-Guest: Dr. Robert L Millet
+Guest: Dr. Robert L. Millet
 URL: https://followhim.co/show-note/2-331/
 
 ---

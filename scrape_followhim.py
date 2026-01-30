@@ -79,6 +79,9 @@ EPISODES = [
     (47, "D&C 133-134", "2-514", "2-513", "2-512"),
     (48, "D&C 135-136", "2-517", "2-516", "2-515"),
     (49, "D&C 137-138", "2-520", "2-518", "2-519"),
+    (50, "Articles of Faith, Official Declaration 1 & 2", "2-522", "2-521", "2-523"),
+    (51, "The Family - A Proclamation to the World", "2-527", "2-526", "2-525"),
+    (52, "Christmas", "2-529", "2-530", "2-528"),
 ]
 
 
@@ -123,6 +126,47 @@ class FollowHimScraper:
         text = text.strip()
         return text
 
+    def extract_guest_from_transcript(self, transcript):
+        """Extract guest name from transcript speaker attributions.
+
+        Looks for patterns like 'Name: XX:XX' and filters out known hosts.
+        """
+        # Known hosts to exclude
+        hosts = {'Hank Smith', 'John Bytheway'}
+
+        # Pattern to match speaker attributions: "Name: XX:XX" at start of line
+        # Handles titles like Dr., Pres., Sister, Brother, Elder, Bishop
+        speaker_pattern = re.compile(
+            r'^((?:Dr\.|Pres\.|President|Sister|Brother|Elder|Bishop)?\s*[A-Z][a-z]+(?:\s+[A-Z]\.?)?\s+[A-Z][a-z]+):\s*\d{1,2}:\d{2}',
+            re.MULTILINE
+        )
+
+        # Find all speakers
+        speakers = set()
+        for match in speaker_pattern.finditer(transcript):
+            speaker = match.group(1).strip()
+            # Normalize "Pres." to full form for display
+            speaker = re.sub(r'^Pres\.\s*', 'President ', speaker)
+            speakers.add(speaker)
+
+        # Remove hosts to find guest
+        guests = speakers - hosts
+
+        if guests:
+            # Return the first guest found (usually only one per episode)
+            return sorted(guests)[0]
+
+        # Fallback: try old pattern for titles without timestamps
+        title_pattern = re.compile(r'(?:Dr\.|Pres\.|President|Sister|Brother|Elder|Bishop)\s+[A-Z][a-z]+(?:\s+[A-Z]\.?)?\s+[A-Z][a-z]+')
+        match = title_pattern.search(transcript)
+        if match:
+            guest = match.group().strip()
+            guest = re.sub(r'^Pres\.\s*', 'President ', guest)
+            if guest not in hosts:
+                return guest
+
+        return None
+
     def extract_show_notes(self, url):
         """Extract content from a show notes page"""
         html = self.fetch_page(url)
@@ -136,10 +180,6 @@ class FollowHimScraper:
         if not title_elem:
             title_elem = soup.find('title')
         title = self.clean_text(title_elem.get_text()) if title_elem else "Unknown Title"
-
-        # Try to extract guest name from the content
-        guest = None
-        guest_pattern = re.compile(r'(?:Dr\.|Brother|Sister|Elder)\s+[A-Z][a-z]+\s+[A-Z][a-z]+')
 
         # Extract main content - look for article or main content area
         content_area = soup.find('article') or soup.find('div', class_='entry-content') or soup.find('main')
@@ -165,14 +205,12 @@ class FollowHimScraper:
         for elem in paragraphs:
             text = self.clean_text(elem.get_text())
             if text and len(text) > 10:  # Skip very short lines
-                # Check for guest name
-                if not guest:
-                    match = guest_pattern.search(text)
-                    if match:
-                        guest = match.group()
                 transcript_lines.append(text)
 
         transcript = '\n\n'.join(transcript_lines)
+
+        # Extract guest from transcript speaker attributions
+        guest = self.extract_guest_from_transcript(transcript)
 
         # Try to extract timestamps if present
         timestamps = re.findall(r'\b(\d{1,2}:\d{2}(?::\d{2})?)\b', transcript)

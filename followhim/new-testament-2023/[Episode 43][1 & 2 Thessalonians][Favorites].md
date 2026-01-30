@@ -1,6 +1,7 @@
 Episode: 43
 Topic: 1 & 2 Thessalonians
 Part: Favorites
+Guest: President Joseph F. Smith
 URL: https://followhim.co/show-note/2-57/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 20
 Topic: D&C 46-48
 Part: Part 1
-Guest: Brother Danny Ricks
+Guest: Professor Danny Ricks
 URL: https://followhim.co/show-note/2-428/
 
 ---

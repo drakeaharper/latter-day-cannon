@@ -1,7 +1,7 @@
 Episode: 37
 Topic: Helaman 13-16
 Part: Part 2
-Guest: Elder Brent H. Nielson
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/book-of-mormon-episode-37-helaman-13-16-part-2/
 
 ---

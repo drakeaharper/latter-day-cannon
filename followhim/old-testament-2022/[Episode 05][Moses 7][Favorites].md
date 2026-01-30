@@ -1,6 +1,7 @@
 Episode: 5
 Topic: Moses 7
 Part: Favorites
+Guest: Dr. Avram Shannon
 URL: https://followhim.co/show-note/2-99/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 30
 Topic: D&C 81-83
 Part: Part 1
+Guest: Dr. Matthew Godfrey
 URL: https://followhim.co/show-note/2-305/
 
 ---

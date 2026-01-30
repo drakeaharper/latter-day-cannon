@@ -1,7 +1,7 @@
 Episode: 35
 Topic: D&C 93
 Part: Part 1
-Guest: Elder Kelly Johnson
+Guest: President Steven Lund
 URL: https://followhim.co/show-note/2-473/
 
 ---

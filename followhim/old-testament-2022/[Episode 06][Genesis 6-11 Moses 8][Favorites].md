@@ -1,6 +1,7 @@
 Episode: 6
 Topic: Genesis 6-11; Moses 8
 Part: Favorites
+Guest: Dr. Krystal Pierce
 URL: https://followhim.co/show-note/2-102/
 
 ---

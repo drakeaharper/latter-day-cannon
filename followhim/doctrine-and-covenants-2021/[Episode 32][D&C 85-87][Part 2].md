@@ -1,7 +1,7 @@
 Episode: 32
 Topic: D&C 85-87
 Part: Part 2
-Guest: President Gordon B. Hinckley
+Guest: Ken Alford
 URL: https://followhim.co/show-note/2-310/
 
 ---

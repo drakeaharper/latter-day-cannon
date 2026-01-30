@@ -1,7 +1,7 @@
 Episode: 50
 Topic: Haggai; Zechariah 1-3; 7-14
 Part: Part 2
-Guest: Dr. Tony Sweat
+Guest: Dr. Anthony Sweat
 URL: https://followhim.co/show-note/3-11/
 
 ---

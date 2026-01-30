@@ -1,6 +1,7 @@
 Episode: 22
 Topic: D&C 58-59
 Part: Favorites
+Guest: Dr. Alex Baugh
 URL: https://followhim.co/show-note/2-279/
 
 ---

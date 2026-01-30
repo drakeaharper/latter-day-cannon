@@ -1,7 +1,7 @@
 Episode: 2
 Topic: 1 Nephi 1-5
 Part: Part 2
-Guest: Dr. John Hilton
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/book-of-mormon-episode-02-1-nephi-1-5-part-2/
 
 ---

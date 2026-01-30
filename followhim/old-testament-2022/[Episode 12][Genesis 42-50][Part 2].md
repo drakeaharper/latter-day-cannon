@@ -1,6 +1,7 @@
 Episode: 12
 Topic: Genesis 42-50
 Part: Part 2
+Guest: Dr. S. Michael Wilcox
 URL: https://followhim.co/show-note/2-121/
 
 ---

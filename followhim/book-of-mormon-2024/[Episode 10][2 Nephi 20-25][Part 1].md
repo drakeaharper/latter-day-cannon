@@ -1,7 +1,7 @@
 Episode: 10
 Topic: 2 Nephi 20-25
 Part: Part 1
-Guest: Dr. Camille Fronk
+Guest: Dr. Camille Olson
 URL: https://followhim.co/show-note/book-of-mormon-episode-10-2-nephi-20-25-part-1/
 
 ---

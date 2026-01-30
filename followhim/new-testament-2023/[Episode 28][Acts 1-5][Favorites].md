@@ -1,6 +1,7 @@
 Episode: 28
 Topic: Acts 1-5
 Part: Favorites
+Guest: Dr. Stephan Taeger
 URL: https://followhim.co/show-note/2-13/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 52
 Topic: Christmas
 Part: Part 1
-Guest: Dr. Jeffrey R. Chadwick
+Guest: Dr. Jeffrey Chadwick
 URL: https://followhim.co/show-note/2-239/
 
 ---

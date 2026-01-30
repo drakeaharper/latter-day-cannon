@@ -1,7 +1,7 @@
 Episode: 46
 Topic: D&C 129-132
 Part: Part 1
-Guest: Sister Brittany Chapman
+Guest: Sister Brittany Nash
 URL: https://followhim.co/show-note/2-510/
 
 ---

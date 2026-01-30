@@ -1,7 +1,7 @@
 Episode: 18
 Topic: Exodus 24; 31-34
 Part: Part 1
-Guest: Elder Jeffrey R. Holland
+Guest: John Hilton
 URL: https://followhim.co/show-note/2-140/
 
 ---

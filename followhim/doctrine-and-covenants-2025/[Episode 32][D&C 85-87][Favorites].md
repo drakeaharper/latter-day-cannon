@@ -1,7 +1,7 @@
 Episode: 32
 Topic: D&C 85-87
 Part: Favorites
-Guest: Dr. Bob Freeman
+Guest: Dr. Robert Freeman
 URL: https://followhim.co/show-note/2-462/
 
 ---

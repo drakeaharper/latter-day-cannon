@@ -1,7 +1,7 @@
 Episode: 42
 Topic: Philippians; Colossians
 Part: Part 2
-Guest: President Russell M. Nelson
+Guest: Lori Denning
 URL: https://followhim.co/show-note/2-55/
 
 ---

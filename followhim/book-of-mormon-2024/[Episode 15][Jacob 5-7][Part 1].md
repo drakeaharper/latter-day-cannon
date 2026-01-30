@@ -1,7 +1,7 @@
 Episode: 15
 Topic: Jacob 5-7
 Part: Part 1
-Guest: Dr. Matt Bowen
+Guest: Dr. Matthew Bowen
 URL: https://followhim.co/show-note/book-of-mormon-episode-15-jacob-5-7-part-1/
 
 ---

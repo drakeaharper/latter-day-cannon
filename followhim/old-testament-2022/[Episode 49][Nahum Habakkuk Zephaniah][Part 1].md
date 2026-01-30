@@ -1,7 +1,7 @@
 Episode: 49
 Topic: Nahum; Habakkuk; Zephaniah
 Part: Part 1
-Guest: Dr. Joshua M. Matson
+Guest: Dr. Joshua Matson
 URL: https://followhim.co/show-note/2-231/
 
 ---

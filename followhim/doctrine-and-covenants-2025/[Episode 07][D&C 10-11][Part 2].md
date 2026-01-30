@@ -1,7 +1,7 @@
 Episode: 7
 Topic: D&C 10-11
 Part: Part 2
-Guest: Brother Brad Wilcox
+Guest: Sister Chelsea Chipman
 URL: https://followhim.co/show-note/2-389/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 11
 Topic: D&C 23-26
 Part: Part 1
-Guest: President Spencer W. Kimball
+Guest: Kerry Muhlestein
 URL: https://followhim.co/show-note/2-259/
 
 ---

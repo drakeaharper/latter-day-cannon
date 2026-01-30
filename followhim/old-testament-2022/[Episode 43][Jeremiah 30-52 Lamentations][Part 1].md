@@ -1,7 +1,7 @@
 Episode: 43
 Topic: Jeremiah 30-52; Lamentations
 Part: Part 1
-Guest: Dr. Michael Wilcox
+Guest: Dr. S. Michael Wilcox
 URL: https://followhim.co/show-note/2-214/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 15
 Topic: D&C 30-36
 Part: Part 2
+Guest: Brother Mark Beecher
 URL: https://followhim.co/show-note/2-413/
 
 ---

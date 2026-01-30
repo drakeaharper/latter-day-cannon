@@ -1,6 +1,7 @@
 Episode: 11
 Topic: Matthew 9-10; Mark 5; Luke 9
 Part: Favorites
+Guest: Dr. Ryan Sharp
 URL: https://followhim.co/show-note/new-testament-episode-11-matthew-9-10-mark-5-luke-9-favorites/
 
 ---

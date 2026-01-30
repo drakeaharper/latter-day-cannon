@@ -1,6 +1,7 @@
 Episode: 21
 Topic: D&C 51-57
 Part: Favorites
+Guest: Dr. Maclane Heward
 URL: https://followhim.co/show-note/2-276/
 
 ---

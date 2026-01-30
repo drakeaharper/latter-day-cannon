@@ -1,7 +1,7 @@
 Episode: 42
 Topic: 3 Nephi 20-26
 Part: Part 2
-Guest: Dr. Ross Barron
+Guest: Dr. Ross Baron
 URL: https://followhim.co/show-note/book-of-mormon-episode-42-3-nephi-20-26-part-2/
 
 ---

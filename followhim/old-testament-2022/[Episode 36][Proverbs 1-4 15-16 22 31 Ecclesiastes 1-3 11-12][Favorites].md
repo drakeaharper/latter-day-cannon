@@ -1,6 +1,7 @@
 Episode: 36
 Topic: Proverbs 1-4; 15-16; 22; 31; Ecclesiastes 1-3; 11-12
 Part: Favorites
+Guest: Dr. Lincoln Blumell
 URL: https://followhim.co/show-note/2-192/
 
 ---

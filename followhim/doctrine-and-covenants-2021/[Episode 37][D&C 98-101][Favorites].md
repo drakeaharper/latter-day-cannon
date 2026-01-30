@@ -1,7 +1,7 @@
 Episode: 37
 Topic: D&C 98-101
 Part: Favorites
-Guest: Dr. Sherilyn Farnes
+Guest: Sherilyn Farnes
 URL: https://followhim.co/show-note/2-324/
 
 ---

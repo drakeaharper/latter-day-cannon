@@ -1,6 +1,7 @@
 Episode: 14
 Topic: D&C 29
 Part: Favorites
+Guest: Brother Eric Richards
 URL: https://followhim.co/show-note/2-409/
 
 ---

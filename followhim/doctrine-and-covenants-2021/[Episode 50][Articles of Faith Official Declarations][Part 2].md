@@ -1,7 +1,7 @@
 Episode: 50
 Topic: Articles of Faith; Official Declarations
 Part: Part 2
-Guest: President Lorenzo Snow
+Guest: Brother Ahmad Corbitt
 URL: https://followhim.co/show-note/2-364/
 
 ---

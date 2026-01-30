@@ -1,6 +1,7 @@
 Episode: 10
 Topic: Matthew 8; Mark 2-4; Luke 7
 Part: Favorites
+Guest: Dr. Joshua Sears
 URL: https://followhim.co/show-note/new-testament-episode-10-matthew-8-mark-2-4-luke-7-favorites/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 43
 Topic: D&C 121-123
 Part: Favorites
-Guest: Dr. Susan Easton
+Guest: Dr. Susan Black
 URL: https://followhim.co/show-note/2-344/
 
 ---

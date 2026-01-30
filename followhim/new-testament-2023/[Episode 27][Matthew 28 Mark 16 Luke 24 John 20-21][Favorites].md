@@ -1,6 +1,7 @@
 Episode: 27
 Topic: Matthew 28; Mark 16; Luke 24; John 20-21
 Part: Favorites
+Guest: Dr. Ross Baron
 URL: https://followhim.co/show-note/2-10/
 
 ---

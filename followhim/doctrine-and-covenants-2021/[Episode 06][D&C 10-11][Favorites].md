@@ -1,6 +1,7 @@
 Episode: 6
 Topic: D&C 10-11
 Part: Favorites
+Guest: Elder Jeffrey R. Holland
 URL: https://followhim.co/show-note/3-23/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 17
 Topic: Exodus 18-20
 Part: Part 1
-Guest: Dr. Dan Belnap
+Guest: Dr. Daniel Belnap
 URL: https://followhim.co/show-note/2-137/
 
 ---

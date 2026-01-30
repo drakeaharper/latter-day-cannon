@@ -1,7 +1,7 @@
 Episode: 43
 Topic: 1 & 2 Thessalonians
 Part: Part 2
-Guest: Brother Tom Wayment
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/2-58/
 
 ---

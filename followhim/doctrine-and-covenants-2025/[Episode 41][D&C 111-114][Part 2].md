@@ -1,7 +1,7 @@
 Episode: 41
 Topic: D&C 111-114
 Part: Part 2
-Guest: Dr. Susan Easton
+Guest: Dr. Susan Black
 URL: https://followhim.co/show-note/2-492/
 
 ---

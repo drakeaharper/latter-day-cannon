@@ -1,7 +1,7 @@
 Episode: 19
 Topic: D&C 46-48
 Part: Part 2
-Guest: Dr. Ronald E. Bartholomew
+Guest: Dr. Ronald E. B
 URL: https://followhim.co/wp-content/uploads/2025/04/19-Doctrine-Covenants-46-48-Ron-Bartholomew-followHIM-Podcast-show-notes-and-transcripts.pdf
 
 ---

@@ -1,7 +1,7 @@
 Episode: 28
 Topic: Acts 1-5
 Part: Part 2
-Guest: Dr. Stephan Taeger
+Guest: Amanda Dunn
 URL: https://followhim.co/show-note/3-7/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 37
 Topic: 1 Corinthians 14-16
 Part: Part 1
-Guest: Dr. Dan Peterson
+Guest: Dr. Daniel Peterson
 URL: https://followhim.co/show-note/2-41/
 
 ---

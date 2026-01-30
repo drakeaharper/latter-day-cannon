@@ -1,7 +1,7 @@
 Episode: 9
 Topic: D&C 18-19
 Part: Favorites
-Guest: Dr. Lisa Olsen
+Guest: Dr. Lisa Tait
 URL: https://followhim.co/show-note/2-257/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 15
 Topic: Exodus 14-17
 Part: Favorites
+Guest: Dr. Matthew L. Bowen
 URL: https://followhim.co/show-note/2-129/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 21
 Topic: Matthew 21-23; Mark 11; Luke 19-20; John 12
 Part: Part 1
-Guest: Dr. Keith J. Wilson
+Guest: Dr. Keith Wilson
 URL: https://followhim.co/show-note/2-524/
 
 ---

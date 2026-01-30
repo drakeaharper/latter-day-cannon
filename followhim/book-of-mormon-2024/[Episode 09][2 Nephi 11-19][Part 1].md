@@ -1,7 +1,7 @@
 Episode: 9
 Topic: 2 Nephi 11-19
 Part: Part 1
-Guest: Dr. Shon Hopkin
+Guest: Dr. Shon D. Hopkin
 URL: https://followhim.co/show-note/book-of-mormon-episode-09-2-nephi-11-19-part-1/
 
 ---

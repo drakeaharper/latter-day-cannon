@@ -1,6 +1,7 @@
 Episode: 2
 Topic: Matthew 1; Luke 1
 Part: Favorites
+Guest: Dr. Gaye Strathearn
 URL: https://followhim.co/show-note/new-testament-episode-02-matthew-1-luke-1-favorites/
 
 ---

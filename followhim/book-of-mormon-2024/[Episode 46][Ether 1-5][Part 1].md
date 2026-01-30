@@ -1,7 +1,7 @@
 Episode: 46
 Topic: Ether 1-5
 Part: Part 1
-Guest: Dr. Krystal Pierce
+Guest: Dr. George Pierce
 URL: https://followhim.co/show-note/book-of-mormon-episode-46-ether-1-5-part-1/
 
 ---

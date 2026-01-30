@@ -1,7 +1,7 @@
 Episode: 31
 Topic: Alma 36-38
 Part: Part 1
-Guest: Prof. Jack Welch
+Guest: Professor Jack Welch
 URL: https://followhim.co/show-note/book-of-mormon-episode-31-alma-36-38-part-1/
 
 ---

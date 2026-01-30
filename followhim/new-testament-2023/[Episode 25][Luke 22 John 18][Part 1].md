@@ -1,7 +1,7 @@
 Episode: 25
 Topic: Luke 22; John 18
 Part: Part 1
-Guest: Dr. Dan Belnap
+Guest: Dr. Daniel Belnap
 URL: https://followhim.co/show-note/7/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 31
 Topic: Alma 36-38
 Part: Favorites
+Guest: Professor Jack Welch
 URL: https://followhim.co/show-note/book-of-mormon-episode-31-alma-36-38-favorites/
 
 ---

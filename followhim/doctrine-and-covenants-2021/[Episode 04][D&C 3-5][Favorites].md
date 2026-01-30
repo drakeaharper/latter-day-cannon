@@ -1,7 +1,7 @@
 Episode: 4
 Topic: D&C 3-5
 Part: Favorites
-Guest: Prof. Danny Ricks
+Guest: Professor Danny Ricks
 URL: https://followhim.co/show-note/3-20/
 
 ---

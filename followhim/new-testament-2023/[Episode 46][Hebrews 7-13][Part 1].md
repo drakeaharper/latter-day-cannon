@@ -1,7 +1,7 @@
 Episode: 46
 Topic: Hebrews 7-13
 Part: Part 1
-Guest: Dr. Matt Grey
+Guest: Dr. Philip Allred
 URL: https://followhim.co/show-note/2-68/
 
 ---

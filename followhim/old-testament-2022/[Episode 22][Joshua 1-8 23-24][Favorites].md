@@ -1,6 +1,7 @@
 Episode: 22
 Topic: Joshua 1-8; 23-24
 Part: Favorites
+Guest: Dr. George Pierce
 URL: https://followhim.co/show-note/2-150/
 
 ---

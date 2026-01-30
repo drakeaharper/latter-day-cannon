@@ -1,7 +1,7 @@
 Episode: 8
 Topic: Genesis 18-23
 Part: Part 1
-Guest: Dr. Daniel C. Peterson
+Guest: Dr. Daniel Peterson
 URL: https://followhim.co/show-note/2-110/
 
 ---

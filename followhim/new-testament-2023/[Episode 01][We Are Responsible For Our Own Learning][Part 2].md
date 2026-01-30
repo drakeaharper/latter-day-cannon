@@ -1,7 +1,7 @@
 Episode: 1
 Topic: We Are Responsible For Our Own Learning
 Part: Part 2
-Guest: President Gordon B. Hinckley
+Guest: Dr. Steven Harper
 URL: https://followhim.co/show-note/new-testament-episode-01-we-are-responsible-for-our-own-learning-part-2/
 
 ---

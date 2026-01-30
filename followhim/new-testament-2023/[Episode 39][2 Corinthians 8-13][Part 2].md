@@ -1,7 +1,7 @@
 Episode: 39
 Topic: 2 Corinthians 8-13
 Part: Part 2
-Guest: Dr. Joseph M. Spencer
+Guest: Dr. Joseph Spencer
 URL: https://followhim.co/show-note/2-46/
 
 ---

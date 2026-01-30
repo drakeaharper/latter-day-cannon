@@ -1,6 +1,7 @@
 Episode: 52
 Topic: Christmas
 Part: Favorites
+Guest: President Meredith
 URL: https://followhim.co/show-note/3-24/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 4
 Topic: 1 Nephi 11-15
 Part: Part 2
-Guest: Dr. Josh Sears
+Guest: Dr. Joshua Sears
 URL: https://followhim.co/show-note/book-of-mormon-episode-04-1-nephi-11-15-part-2/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 3
 Topic: Matthew 2; Luke 2
 Part: Part 1
-Guest: Dr. Bradley R. Wilcox
+Guest: Bradley R. Wilcox
 URL: https://followhim.co/show-note/new-testament-episode-03-matthew-2-luke-2-part-1/
 
 ---

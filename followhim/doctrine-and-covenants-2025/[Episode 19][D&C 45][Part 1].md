@@ -1,6 +1,7 @@
 Episode: 19
 Topic: D&C 45
 Part: Part 1
+Guest: Professor Shima Baughman
 URL: https://followhim.co/show-note/2-426/
 
 ---

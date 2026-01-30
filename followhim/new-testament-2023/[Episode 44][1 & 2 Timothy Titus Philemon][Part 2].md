@@ -1,7 +1,7 @@
 Episode: 44
 Topic: 1 & 2 Timothy; Titus; Philemon
 Part: Part 2
-Guest: Dr. Barbara Morgan
+Guest: Dr. Barbara Gardner
 URL: https://followhim.co/show-note/2-61/
 
 ---

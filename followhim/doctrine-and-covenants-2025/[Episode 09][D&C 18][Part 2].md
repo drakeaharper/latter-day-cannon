@@ -1,7 +1,7 @@
 Episode: 9
 Topic: D&C 18
 Part: Part 2
-Guest: Dr. Steve Harper
+Guest: Dr. Steven Harper
 URL: https://followhim.co/show-note/2-395/
 
 ---

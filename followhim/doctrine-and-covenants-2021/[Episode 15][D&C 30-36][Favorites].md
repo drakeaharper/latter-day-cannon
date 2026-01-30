@@ -1,7 +1,7 @@
 Episode: 15
 Topic: D&C 30-36
 Part: Favorites
-Guest: Dr. Ron Bartholomew
+Guest: Ron Bartholomew
 URL: https://followhim.co/show-note/2-273/
 
 ---

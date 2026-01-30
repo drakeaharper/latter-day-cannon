@@ -1,7 +1,7 @@
 Episode: 9
 Topic: Genesis 24-27
 Part: Part 1
-Guest: Dr. Camille Fronk
+Guest: Dr. Camille Olson
 URL: https://followhim.co/show-note/2-113/
 
 ---

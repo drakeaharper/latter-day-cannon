@@ -1,6 +1,7 @@
 Episode: 17
 Topic: D&C 37-40
 Part: Favorites
+Guest: Dr. Christopher Jones
 URL: https://followhim.co/show-note/2-418/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 41
 Topic: D&C 111-114
 Part: Favorites
-Guest: Dr. Susan Easton
+Guest: Dr. Susan Easton Black
 URL: https://followhim.co/show-note/2-491/
 
 ---

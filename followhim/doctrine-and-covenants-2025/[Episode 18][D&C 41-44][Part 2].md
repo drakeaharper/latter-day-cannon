@@ -1,7 +1,7 @@
 Episode: 18
 Topic: D&C 41-44
 Part: Part 2
-Guest: Dr. Ken Alford
+Guest: Dr. Kenneth Alford
 URL: https://followhim.co/show-note/2-422/
 
 ---

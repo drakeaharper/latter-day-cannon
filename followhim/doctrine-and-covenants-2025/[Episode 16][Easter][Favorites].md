@@ -1,6 +1,7 @@
 Episode: 16
 Topic: Easter
 Part: Favorites
+Guest: Courtney Rich
 URL: https://followhim.co/show-note/2-415/
 
 ---

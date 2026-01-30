@@ -1,7 +1,7 @@
 Episode: 51
 Topic: Malachi
 Part: Part 2
-Guest: Dr. Barbara Morgan
+Guest: Dr. Barbara Gardner
 URL: https://followhim.co/show-note/2-233/
 
 ---

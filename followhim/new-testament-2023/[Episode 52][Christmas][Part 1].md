@@ -1,7 +1,7 @@
 Episode: 52
 Topic: Christmas
 Part: Part 1
-Guest: Sister Joy Jones
+Guest: Sister Joy D. Jones
 URL: https://followhim.co/show-note/2-86/
 
 ---

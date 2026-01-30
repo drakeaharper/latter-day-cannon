@@ -1,7 +1,7 @@
 Episode: 23
 Topic: Judges 2-4; 6-8; 13-16
 Part: Part 1
-Guest: Dr. Dana M. Pike
+Guest: Dr. Dana Pike
 URL: https://followhim.co/show-note/2-155/
 
 ---

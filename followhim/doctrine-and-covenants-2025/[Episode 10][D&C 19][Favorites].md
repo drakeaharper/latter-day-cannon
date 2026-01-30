@@ -1,6 +1,7 @@
 Episode: 10
 Topic: D&C 19
 Part: Favorites
+Guest: Andy Horton
 URL: https://followhim.co/show-note/2-397/
 
 ---

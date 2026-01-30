@@ -1,7 +1,7 @@
 Episode: 24
 Topic: John 14-17
 Part: Part 2
-Guest: Elder Carl B. Cook
+Guest: Alicia Hawks
 URL: https://followhim.co/show-note/3-3/
 
 ---

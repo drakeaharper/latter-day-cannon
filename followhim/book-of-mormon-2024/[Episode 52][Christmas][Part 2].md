@@ -1,7 +1,7 @@
 Episode: 52
 Topic: Christmas
 Part: Part 2
-Guest: Sister Camille Johnson
+Guest: President Meredith
 URL: https://followhim.co/show-note/book-of-mormon-episode-52-christmas-part-2/
 
 ---

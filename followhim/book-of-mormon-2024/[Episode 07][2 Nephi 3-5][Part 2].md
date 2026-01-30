@@ -1,7 +1,7 @@
 Episode: 7
 Topic: 2 Nephi 3-5
 Part: Part 2
-Guest: Dr. Jan Martin
+Guest: Dr. Jan J. Martin
 URL: https://followhim.co/show-note/book-of-mormon-episode-07-2-nephi-3-5-part-2/
 
 ---

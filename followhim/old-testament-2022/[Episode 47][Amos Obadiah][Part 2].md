@@ -1,7 +1,7 @@
 Episode: 47
 Topic: Amos; Obadiah
 Part: Part 2
-Guest: Dr. Ryan Davis
+Guest: Dr. Ryan C. Davis
 URL: https://followhim.co/show-note/2-224/
 
 ---

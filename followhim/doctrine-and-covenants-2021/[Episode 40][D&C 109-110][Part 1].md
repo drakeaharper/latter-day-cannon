@@ -1,7 +1,7 @@
 Episode: 40
 Topic: D&C 109-110
 Part: Part 1
-Guest: Dr. Brent M. Rogers
+Guest: Dr. Brent Rogers
 URL: https://followhim.co/show-note/2-334/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 29
 Topic: D&C 77-80
 Part: Favorites
+Guest: Dr. Craig Manscill
 URL: https://followhim.co/show-note/2-300/
 
 ---

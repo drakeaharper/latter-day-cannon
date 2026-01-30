@@ -1,6 +1,7 @@
 Episode: 7
 Topic: Genesis 12-17; Abraham 1-2
 Part: Favorites
+Guest: Dr. Jennifer Lane
 URL: https://followhim.co/show-note/2-105/
 
 ---

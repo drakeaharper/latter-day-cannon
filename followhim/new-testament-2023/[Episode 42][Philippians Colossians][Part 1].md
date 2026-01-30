@@ -1,7 +1,7 @@
 Episode: 42
 Topic: Philippians; Colossians
 Part: Part 1
-Guest: Dr. Lori Denning
+Guest: Lori Denning
 URL: https://followhim.co/show-note/2-56/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 14
 Topic: Exodus 7-13
 Part: Favorites
+Guest: Dr. Andrew Skinner
 URL: https://followhim.co/show-note/2-126/
 
 ---

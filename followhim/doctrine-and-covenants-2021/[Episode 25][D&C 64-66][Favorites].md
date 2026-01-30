@@ -1,6 +1,7 @@
 Episode: 25
 Topic: D&C 64-66
 Part: Favorites
+Guest: Dr. Gerrit Dirkmaat
 URL: https://followhim.co/show-note/2-288/
 
 ---

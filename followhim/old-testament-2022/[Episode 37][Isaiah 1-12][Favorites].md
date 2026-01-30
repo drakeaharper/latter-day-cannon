@@ -1,6 +1,7 @@
 Episode: 37
 Topic: Isaiah 1-12
 Part: Favorites
+Guest: Dr. Jason Combs
 URL: https://followhim.co/show-note/2-195/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 31
 Topic: Alma 36-38
 Part: Part 2
-Guest: President Boyd K. Packer
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/book-of-mormon-episode-31-alma-36-38-part-2/
 
 ---

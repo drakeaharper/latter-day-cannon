@@ -1,7 +1,7 @@
 Episode: 25
 Topic: 1 Samuel 8-10; 13; 15-18
 Part: Part 1
-Guest: Brother Daniel C. Peterson
+Guest: Dr. Daniel Peterson
 URL: https://followhim.co/show-note/2-161/
 
 ---

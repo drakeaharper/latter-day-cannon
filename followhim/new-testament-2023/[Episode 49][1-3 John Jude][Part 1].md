@@ -1,7 +1,7 @@
 Episode: 49
 Topic: 1-3 John; Jude
 Part: Part 1
-Guest: Dr. Justin Dyer
+Guest: Aislin Dyer
 URL: https://followhim.co/show-note/2-77/
 
 ---

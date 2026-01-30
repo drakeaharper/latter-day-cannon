@@ -1,7 +1,7 @@
 Episode: 16
 Topic: Easter
 Part: Part 1
-Guest: Elder Bruce C. Hafen
+Guest: Elder Hafen
 URL: https://followhim.co/show-note/2-134/
 
 ---

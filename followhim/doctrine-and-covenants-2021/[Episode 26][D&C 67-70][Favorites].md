@@ -1,6 +1,7 @@
 Episode: 26
 Topic: D&C 67-70
 Part: Favorites
+Guest: President Benson Taft
 URL: https://followhim.co/show-note/2-291/
 
 ---

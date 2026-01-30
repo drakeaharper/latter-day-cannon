@@ -1,7 +1,7 @@
 Episode: 38
 Topic: D&C 102-105
 Part: Favorites
-Guest: Dr. Robert Milletet
+Guest: Dr. Robert Millet
 URL: https://followhim.co/show-note/2-329/
 
 ---

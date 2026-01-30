@@ -1,6 +1,7 @@
 Episode: 19
 Topic: Luke 12-17; John 11
 Part: Favorites
+Guest: Dr. Michael Wilcox
 URL: https://followhim.co/show-note/new-testament-episode-19-luke-12-17-john-11-favorites/
 
 ---

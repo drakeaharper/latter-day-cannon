@@ -1,6 +1,7 @@
 Episode: 4
 Topic: Genesis 5; Moses 6
 Part: Favorites
+Guest: Dr. Jenet Erickson
 URL: https://followhim.co/show-note/2-96/
 
 ---

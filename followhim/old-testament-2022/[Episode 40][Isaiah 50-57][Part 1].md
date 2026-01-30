@@ -1,7 +1,7 @@
 Episode: 40
 Topic: Isaiah 50-57
 Part: Part 1
-Guest: Dr. Jennifer Brinkerhoff
+Guest: Dr. Jennifer Platt
 URL: https://followhim.co/show-note/2-206/
 
 ---

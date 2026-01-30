@@ -1,6 +1,7 @@
 Episode: 21
 Topic: Mosiah 18-24
 Part: Favorites
+Guest: Dr. Melissa Inouye
 URL: https://followhim.co/show-note/book-of-mormon-episode-21-mosiah-18-24-favorites/
 
 ---

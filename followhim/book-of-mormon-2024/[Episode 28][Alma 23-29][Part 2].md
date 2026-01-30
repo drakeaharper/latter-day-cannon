@@ -1,7 +1,7 @@
 Episode: 28
 Topic: Alma 23-29
 Part: Part 2
-Guest: Prof. Lori Denning
+Guest: Professor Lori Denning
 URL: https://followhim.co/show-note/book-of-mormon-episode-28-alma-23-29-part-2/
 
 ---

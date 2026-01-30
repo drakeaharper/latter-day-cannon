@@ -1,7 +1,7 @@
 Episode: 51
 Topic: Revelation 6-14
 Part: Part 1
-Guest: Dr. Chris Blythe
+Guest: Dr. Christopher Blythe
 URL: https://followhim.co/show-note/2-83/
 
 ---

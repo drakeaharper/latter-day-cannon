@@ -1,6 +1,7 @@
 Episode: 36
 Topic: Helaman 7-12
 Part: Favorites
+Guest: Professor Shima Baughman
 URL: https://followhim.co/show-note/book-of-mormon-episode-36-helaman-7-12-favorites/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 35
 Topic: D&C 93
 Part: Favorites
+Guest: Casey Griffiths
 URL: https://followhim.co/show-note/2-318/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 40
 Topic: 3 Nephi 12-16
 Part: Part 2
-Guest: Brother Brad R. Wilcox
+Guest: Dr. Bradley R. Wilcox
 URL: https://followhim.co/show-note/book-of-mormon-episode-40-3-nephi-12-16-part-2/
 
 ---

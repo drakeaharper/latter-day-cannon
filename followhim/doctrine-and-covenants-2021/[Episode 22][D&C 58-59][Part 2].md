@@ -1,7 +1,7 @@
 Episode: 22
 Topic: D&C 58-59
 Part: Part 2
-Guest: Brother Truman G. Madsen
+Guest: Alex Baugh
 URL: https://followhim.co/show-note/2-280/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 32
 Topic: D&C 85-87
 Part: Part 2
-Guest: Elder Enzio Busche
+Guest: President Russell M. Nelson
 URL: https://followhim.co/show-note/2-463/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 19
 Topic: D&C 45
 Part: Part 2
-Guest: Sister Patricia Holland
+Guest: Professor Shima Baughman
 URL: https://followhim.co/show-note/2-425/
 
 ---

@@ -1,6 +1,7 @@
 Episode: 38
 Topic: Isaiah 13-35
 Part: Favorites
+Guest: Dr. Kerry Muhlestein
 URL: https://followhim.co/show-note/2-198/
 
 ---

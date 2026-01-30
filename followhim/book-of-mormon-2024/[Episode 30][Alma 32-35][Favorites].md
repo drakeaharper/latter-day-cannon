@@ -1,6 +1,7 @@
 Episode: 30
 Topic: Alma 32-35
 Part: Favorites
+Guest: Dr. S. Michael Wilcox
 URL: https://followhim.co/show-note/book-of-mormon-episode-30-alma-32-35-favorites/
 
 ---

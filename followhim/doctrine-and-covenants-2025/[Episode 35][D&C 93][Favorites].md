@@ -1,6 +1,7 @@
 Episode: 35
 Topic: D&C 93
 Part: Favorites
+Guest: President Steven Lund
 URL: https://followhim.co/show-note/2-471/
 
 ---

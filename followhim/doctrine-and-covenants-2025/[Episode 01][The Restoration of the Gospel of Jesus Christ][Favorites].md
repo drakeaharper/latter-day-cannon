@@ -1,6 +1,7 @@
 Episode: 1
 Topic: The Restoration of the Gospel of Jesus Christ
 Part: Favorites
+Guest: Dr. Tyler Griffin
 URL: https://followhim.co/show-note/2-371/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 18
 Topic: D&C 45
 Part: Part 1
-Guest: Dr. Brent L. Top
+Guest: Dr. Brent L. To
 URL: https://followhim.co/wp-content/uploads/2025/04/18-Doctrine-Covenants-45-Brent-L-Top-followHIM-show-notes-and-transcripts.pdf
 
 ---

@@ -1,6 +1,7 @@
 Episode: 4
 Topic: John 1
 Part: Favorites
+Guest: Dr. Eric Huntsman
 URL: https://followhim.co/show-note/new-testament-episode-04-john-1-favorites/
 
 ---

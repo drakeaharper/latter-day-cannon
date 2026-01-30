@@ -1,7 +1,7 @@
 Episode: 35
 Topic: D&C 93
 Part: Part 2
-Guest: Brother Steven Lund
+Guest: President Steven Lund
 URL: https://followhim.co/show-note/2-472/
 
 ---

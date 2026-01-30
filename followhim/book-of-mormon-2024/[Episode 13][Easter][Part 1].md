@@ -1,7 +1,7 @@
 Episode: 13
 Topic: Easter
 Part: Part 1
-Guest: Sister Reyna Aburto
+Guest: Sister Reyna I. Aburto
 URL: https://followhim.co/show-note/book-of-mormon-episode-13-easter-part-1/
 
 ---

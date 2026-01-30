@@ -1,6 +1,7 @@
 Episode: 27
 Topic: D&C 71-75
 Part: Favorites
+Guest: Dr. Brad Wilcox
 URL: https://followhim.co/show-note/2-294/
 
 ---

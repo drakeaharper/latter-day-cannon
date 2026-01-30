@@ -1,7 +1,7 @@
 Episode: 2
 Topic: D&C 1
 Part: Part 2
-Guest: Elder Ezra Taft
+Guest: Dr. J.B. Haws
 URL: https://followhim.co/show-note/2-374/
 
 ---

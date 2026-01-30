@@ -1,7 +1,7 @@
 Episode: 23
 Topic: D&C 58-59
 Part: Part 1
-Guest: Elder Hollands Cast
+Guest: Sister Whitney Johnson
 URL: https://followhim.co/show-note/doctrine-covenants-episode-23-2025-doctrine-covenants-58-59-part-1/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 49
 Topic: D&C 136-137
 Part: Part 1
-Guest: Dr. Steve Harper
+Guest: Dr. Steven Harper
 URL: https://followhim.co/show-note/2-363/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 2
 Topic: Joseph Smith History 1:1-26
 Part: Favorites
-Guest: Dr. Sherilyn Farnes
+Guest: Sherilyn Farnes
 URL: https://followhim.co/show-note/3-16/
 
 ---

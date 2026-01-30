@@ -1,6 +1,7 @@
 Episode: 23
 Topic: Mosiah 29 - Alma 4
 Part: Favorites
+Guest: Dr. Nate Williams
 URL: https://followhim.co/show-note/book-of-mormon-episode-23-mosiah-29-alma-4-favorites/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 20
 Topic: D&C 46-48
 Part: Part 2
-Guest: Elder Uchtdorf October
+Guest: Professor Danny Ricks
 URL: https://followhim.co/show-note/3-20/
 
 ---

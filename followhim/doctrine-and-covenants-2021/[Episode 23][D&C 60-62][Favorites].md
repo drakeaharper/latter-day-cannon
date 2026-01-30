@@ -1,6 +1,7 @@
 Episode: 23
 Topic: D&C 60-62
 Part: Favorites
+Guest: Dr. Gerrit Dirkmaat
 URL: https://followhim.co/show-note/2-282/
 
 ---

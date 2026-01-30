@@ -1,7 +1,7 @@
 Episode: 38
 Topic: D&C 102-105
 Part: Part 1
-Guest: Dr. Matt Godfrey
+Guest: Dr. Matthew Godfrey
 URL: https://followhim.co/show-note/2-482/
 
 ---

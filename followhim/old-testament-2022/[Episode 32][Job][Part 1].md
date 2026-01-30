@@ -1,7 +1,7 @@
 Episode: 32
 Topic: Job
 Part: Part 1
-Guest: Dr. Adam S. Miller
+Guest: Dr. Adam Miller
 URL: https://followhim.co/show-note/2-182/
 
 ---

@@ -1,7 +1,7 @@
 Episode: 10
 Topic: Genesis 28-33
 Part: Part 1
-Guest: Dr. Jeffrey R. Chadwick
+Guest: Dr. Jeffrey Chadwick
 URL: https://followhim.co/show-note/2-116/
 
 ---

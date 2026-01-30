@@ -1,7 +1,7 @@
 Episode: 44
 Topic: Ezekiel 1-3; 33-34; 36-37; 47
 Part: Part 1
-Guest: Dr. Jan Martin
+Guest: Dr. Jan J. Martin
 URL: https://followhim.co/show-note/2-217/
 
 ---

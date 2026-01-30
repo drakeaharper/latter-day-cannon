@@ -1,6 +1,7 @@
 Episode: 30
 Topic: Acts 10-15
 Part: Favorites
+Guest: Dr. Michael Goodman
 URL: https://followhim.co/show-note/2-18/
 
 ---

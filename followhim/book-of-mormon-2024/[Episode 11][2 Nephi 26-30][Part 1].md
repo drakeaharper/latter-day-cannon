@@ -1,7 +1,7 @@
 Episode: 11
 Topic: 2 Nephi 26-30
 Part: Part 1
-Guest: Dr. Joe Spencer
+Guest: Dr. Joseph Spencer
 URL: https://followhim.co/show-note/book-of-mormon-episode-11-2-nephi-26-30-part-1/
 
 ---

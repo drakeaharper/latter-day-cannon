@@ -1,6 +1,7 @@
 Episode: 2
 Topic: D&C 1
 Part: Part 1
+Guest: Dr. J.B. Haws
 URL: https://followhim.co/show-note/2-375/
 
 ---

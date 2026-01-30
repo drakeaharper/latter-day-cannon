@@ -1,7 +1,7 @@
 Episode: 50
 Topic: Moroni 7-9
 Part: Part 2
-Guest: Dr. Mark D. Ogletree
+Guest: Dr. Mark Ogletree
 URL: https://followhim.co/show-note/book-of-mormon-episode-50-moroni-7-9-part-2/
 
 ---

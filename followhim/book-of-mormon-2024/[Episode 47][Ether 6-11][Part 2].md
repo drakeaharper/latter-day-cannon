@@ -1,7 +1,7 @@
 Episode: 47
 Topic: Ether 6-11
 Part: Part 2
-Guest: President Ezra Taft
+Guest: Dr. B.J. Allen
 URL: https://followhim.co/show-note/book-of-mormon-episode-47-ether-6-11-part-2/
 
 ---

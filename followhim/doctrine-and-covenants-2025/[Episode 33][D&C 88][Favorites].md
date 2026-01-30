@@ -1,6 +1,7 @@
 Episode: 33
 Topic: D&C 88
 Part: Favorites
+Guest: Dr. John Lund
 URL: https://followhim.co/show-note/2-465/
 
 ---

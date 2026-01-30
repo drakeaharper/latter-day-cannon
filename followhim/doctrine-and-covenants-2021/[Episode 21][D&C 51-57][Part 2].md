@@ -1,7 +1,7 @@
 Episode: 21
 Topic: D&C 51-57
 Part: Part 2
-Guest: Dr. Maclane Heward
+Guest: Dr. Maclane Hayward
 URL: https://followhim.co/show-note/2-277/
 
 ---

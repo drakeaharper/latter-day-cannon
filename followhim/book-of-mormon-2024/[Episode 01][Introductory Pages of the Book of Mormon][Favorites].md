@@ -1,6 +1,7 @@
 Episode: 1
 Topic: Introductory Pages of the Book of Mormon
 Part: Favorites
+Guest: Dr. Casey Griffiths
 URL: https://followhim.co/show-note/book-of-mormon-episode-01-introductory-pages-of-the-book-of-mormon-favorites/
 
 ---

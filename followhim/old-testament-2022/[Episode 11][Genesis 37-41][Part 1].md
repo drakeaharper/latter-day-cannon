@@ -1,7 +1,7 @@
 Episode: 11
 Topic: Genesis 37-41
 Part: Part 1
-Guest: Elder Gary Stevenson
+Guest: Lili Anderson
 URL: https://followhim.co/show-note/2-119/
 
 ---

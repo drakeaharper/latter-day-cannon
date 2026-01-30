@@ -1,6 +1,7 @@
 Episode: 42
 Topic: D&C 115-120
 Part: Favorites
+Guest: Dr. Alex Baugh
 URL: https://followhim.co/show-note/2-496/
 
 ---

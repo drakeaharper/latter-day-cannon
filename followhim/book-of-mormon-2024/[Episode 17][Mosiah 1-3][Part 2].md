@@ -1,7 +1,7 @@
 Episode: 17
 Topic: Mosiah 1-3
 Part: Part 2
-Guest: Dr. Jennifer Brinkerhoff
+Guest: Dr. Jennifer Platt
 URL: https://followhim.co/show-note/book-of-mormon-episode-17-mosiah-1-3-part-2/
 
 ---

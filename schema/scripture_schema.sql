@@ -27,7 +27,8 @@ CREATE TABLE IF NOT EXISTS scripture_books (
     abbreviation TEXT,                     -- "Gen"
     sort_order INTEGER NOT NULL,           -- Order within collection
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (collection_id) REFERENCES scripture_collections(id)
+    FOREIGN KEY (collection_id) REFERENCES scripture_collections(id),
+    UNIQUE (collection_id, name)
 );
 
 CREATE INDEX IF NOT EXISTS idx_scripture_books_collection

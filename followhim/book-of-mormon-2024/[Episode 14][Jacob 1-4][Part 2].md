@@ -1,7 +1,7 @@
 Episode: 14
 Topic: Jacob 1-4
 Part: Part 2
-Guest: Dr. Barbara Morgan
+Guest: Dr. Barbara Gardner
 URL: https://followhim.co/show-note/book-of-mormon-episode-14-jacob-1-4-part-2/
 
 ---

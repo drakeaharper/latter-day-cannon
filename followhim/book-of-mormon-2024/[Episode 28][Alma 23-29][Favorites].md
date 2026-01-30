@@ -1,6 +1,7 @@
 Episode: 28
 Topic: Alma 23-29
 Part: Favorites
+Guest: Professor Lori Denning
 URL: https://followhim.co/show-note/book-of-mormon-episode-28-alma-23-29-favorites/
 
 ---

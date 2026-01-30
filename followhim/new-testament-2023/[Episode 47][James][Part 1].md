@@ -1,7 +1,7 @@
 Episode: 47
 Topic: James
 Part: Part 1
-Guest: Elder Bruce R. Mc
+Guest: Dr. J.B. Haws
 URL: https://followhim.co/show-note/2-71/
 
 ---

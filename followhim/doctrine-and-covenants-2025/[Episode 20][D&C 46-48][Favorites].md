@@ -1,6 +1,7 @@
 Episode: 20
 Topic: D&C 46-48
 Part: Favorites
+Guest: Professor Danny Ricks
 URL: https://followhim.co/show-note/2-427/
 
 ---

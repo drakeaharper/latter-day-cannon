@@ -1,7 +1,7 @@
 Episode: 18
 Topic: Mosiah 4-6
 Part: Part 2
-Guest: Dr. Aaron P. Shade
+Guest: Dr. Aaron Schade
 URL: https://followhim.co/show-note/book-of-mormon-episode-18-mosiah-4-6-part-2/
 
 ---

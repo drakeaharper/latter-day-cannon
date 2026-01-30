@@ -1,7 +1,7 @@
 Episode: 45
 Topic: Hebrews 1-6
 Part: Part 1
-Guest: Dr. Matt Grey
+Guest: Dr. Matthew Grey
 URL: https://followhim.co/show-note/2-65/
 
 ---

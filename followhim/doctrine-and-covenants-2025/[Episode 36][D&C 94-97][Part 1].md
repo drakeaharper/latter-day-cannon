@@ -1,6 +1,7 @@
 Episode: 36
 Topic: D&C 94-97
 Part: Part 1
+Guest: Brother Clint Mortensen
 URL: https://followhim.co/show-note/2-476/
 
 ---

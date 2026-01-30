@@ -1,7 +1,7 @@
 Episode: 14
 Topic: Easter
 Part: Part 2
-Guest: Dr. Barbara Morgan
+Guest: Dr. Barbara Gardner
 URL: https://followhim.co/show-note/2-269/
 
 ---

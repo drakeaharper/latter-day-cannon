@@ -1,6 +1,7 @@
 Episode: 25
 Topic: Alma 8-12
 Part: Favorites
+Guest: Dr. Daniel Sharp
 URL: https://followhim.co/show-note/book-of-mormon-episode-25-alma-8-12-favorites/
 
 ---
