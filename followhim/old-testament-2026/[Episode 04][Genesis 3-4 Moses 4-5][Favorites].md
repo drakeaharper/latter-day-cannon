@@ -1,0 +1,27 @@
+Episode: 4
+Topic: Genesis 3-4; Moses 4-5
+Part: Favorites
+Guest: Dr. John Hilton III
+URL: https://followhim.co/show-note/2-537/
+
+---
+
+# Old Testament: EPISODE 4 (2026) - Genesis 3-4; Moses 4-5 - Favorites - followHIM
+
+Old Testament: EPISODE 4 (2026) – Genesis 3-4; Moses 4-5 – Favorites
+
+Hank Smith:                      00:03                   Hey, welcome to followHIM Favorites. This is where John and I share a single story to go with each week’s Come, Follow Me lesson. John, we are in Genesis chapter three and four and Moses four and five this week. It’s the fall of Adam and Eve. I have a story that I think you will like. I’m gonna tell you this story and I want you to compare it to … John, you would say, listen with your spiritual ears. I want you to compare it to the Fall. The fall of Adam and Eve, the fall of man. John, it was October 14th, 1987. An 18-month-old girl, Jessica McClure fell into a well in her aunt’s backyard. John, this little girl is 18 months old. You have grandchildren who are about this stage. She falls into a well that is only eight inches big. Eight inches, John. That pipe. She falls down and the pipe actually opens up. So the eight inch wide pipe opens up to a 14 inch wide pipe. She actually falls John 22 feet.
+
+01:13                   22 feet into a well that is eight inches big down to 14 inches. Now, John, you might even remember this story, but how is she going to get out of there? She cannot get out of there on her own. In fact, not only does she not have the capability, she doesn’t even comprehend what’s happened. John, one of the ways they knew she was alive is they could hear her singing Winnie the Pooh. She’s 22 feet down in a 14 inch pipe. How are you gonna get her out? You can’t go down from on top. You can’t start digging on top. It’ll just all cave in. So engineers and you’ve gotta work fast here, have got to find a way to dig alongside her down and over and to come up underneath her. Does that make sense? Like they’ve got to go below her and come up from below, grab her, and then take her out this way. It took rescue workers 56 hours. 56 hours. But she came out alive.
+
+John Bytheway:               02:33                   Yeah.
+
+Hank Smith:                      02:34                   But only with a broken arm. Now, think about the person who decides that they’re going to go down into that freshly dug hole, 20 feet down. I don’t know if we can comprehend how dangerous that is. You don’t have time to reinforce this. You’ve got to go down. Then not only that, you’ve got to go under. You’ve got to go over and under her. This could collapse at any moment on you. You’ve got to go under, grab her, bring her back out. Think about that story, John, with the fall of Adam and Eve and our own fall. We come to this earth where we’re gonna learn these incredible lessons, but we can’t get ourselves out. Not only can we not get ourselves out, we don’t even really, I don’t think we really comprehend where we are and what position we’re in. There is one who will descend below all things to come here and get us out. And they do, John. They get baby Jessica out. Do you remember this?
+
+John Bytheway:               03:36                   I do. I was, I guess, a teenager. I mean, it was on the news all the time. I loved the effort it took for one toddler little girl. I love that they went to those lengths. The whole world was praying. Oh, yeah. It was on the news twenty four seven. The lengths the Savior would go to come and get us and get us out of a situation we could not get ourselves out of. It’s a good comparison.
+
+Hank Smith:                      04:05                   Such a happy ending. John, listen to this from Elder Jeffrey R. Holland. What a plight. The entire human race in free fall. Every man, woman, and child in it physically tumbling toward permanent death, spiritually plunging toward eternal anguish. Is that what life was meant to be? Is this the grand finale of the human experience? The answer to those questions is an unequivocal and eternal no. With prophets, ancient and modern, I testify that all things have been done in the wisdom of him who knoweth all things. The atonement would achieve complete victory over physical death, unconditionally granting resurrection to every person who’s ever been born or will be born into this world. Mercifully, it would also provide forgiveness for the personal sins of all conditioned upon repentance and obedience to divine commandments. Jesus Christ, the only begotten son of God, suffered, died, and rose from death in order that he could, like lightning in a summer storm, grasp us as we fall, hold us with his might, and through our obedience to his commandments, lift us to eternal life.
+
+John Bytheway:               05:19                   Thank you for reminding me of that. I just loved how the whole world stood still. Watching as they were trying to save Jessica McClure. Yeah, I remember.
+
+Hank Smith:                      05:29                   I think it’s a little bit of a type and shadow of our fall and the Lord coming to get us. Hey, we hope you’ll join us on our full podcast. It’s called followHIM. You can get it wherever you get your podcasts. We’re with Dr. John Hilton III this week. He’s so great they made three of him. He is going to cover these chapters. He’s an expert in every way. We think you’ll love him, and then come back here next week. We’ll do another followHIM Favorite.

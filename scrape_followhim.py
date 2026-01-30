@@ -130,40 +130,50 @@ class FollowHimScraper:
         """Extract guest name from transcript speaker attributions.
 
         Looks for patterns like 'Name: XX:XX' and filters out known hosts.
+        Handles various title formats and name suffixes.
         """
         # Known hosts to exclude
         hosts = {'Hank Smith', 'John Bytheway'}
 
-        # Pattern to match speaker attributions: "Name: XX:XX" at start of line
-        # Handles titles like Dr., Pres., Sister, Brother, Elder, Bishop
+        # Pattern with titles - handles initials like J.B. and suffixes like III, Jr.
         speaker_pattern = re.compile(
-            r'^((?:Dr\.|Pres\.|President|Sister|Brother|Elder|Bishop)?\s*[A-Z][a-z]+(?:\s+[A-Z]\.?)?\s+[A-Z][a-z]+):\s*\d{1,2}:\d{2}',
+            r'^((?:Dr\.|Pres\.|President|Sister|Sis\.|Brother|Bro\.|Elder|Bishop|Prof\.?)\s*'
+            r'(?:[A-Z]\.?[A-Z]?\.?\s+)?'  # Optional initials like J.B.
+            r'[A-Z][a-z]+(?:\s+[A-Z]\.?)?\s*[A-Z]?[a-z]*'
+            r'(?:\s+(?:III|II|IV|Jr\.|Sr\.))?'  # Optional suffix
+            r'):\s*\d{1,2}:\d{2}',
             re.MULTILINE
         )
 
-        # Find all speakers
+        # Simple pattern without title
+        simple_pattern = re.compile(
+            r'^([A-Z][a-z]+(?:\s+[A-Z]\.?)?\s+[A-Z][a-z]+(?:\s+(?:III|II|IV|Jr\.|Sr\.))?):\s*\d{1,2}:\d{2}',
+            re.MULTILINE
+        )
+
         speakers = set()
+
         for match in speaker_pattern.finditer(transcript):
-            speaker = match.group(1).strip()
-            # Normalize "Pres." to full form for display
-            speaker = re.sub(r'^Pres\.\s*', 'President ', speaker)
-            speakers.add(speaker)
+            speakers.add(match.group(1).strip())
+
+        for match in simple_pattern.finditer(transcript):
+            speakers.add(match.group(1).strip())
+
+        # Normalize abbreviations
+        normalized = set()
+        for speaker in speakers:
+            s = speaker
+            s = re.sub(r'^Pres\.\s*', 'President ', s)
+            s = re.sub(r'^Sis\.\s*', 'Sister ', s)
+            s = re.sub(r'^Bro\.\s*', 'Brother ', s)
+            s = re.sub(r'^Prof\.\s*', 'Professor ', s)
+            normalized.add(s.strip())
 
         # Remove hosts to find guest
-        guests = speakers - hosts
+        guests = normalized - hosts
 
         if guests:
-            # Return the first guest found (usually only one per episode)
             return sorted(guests)[0]
-
-        # Fallback: try old pattern for titles without timestamps
-        title_pattern = re.compile(r'(?:Dr\.|Pres\.|President|Sister|Brother|Elder|Bishop)\s+[A-Z][a-z]+(?:\s+[A-Z]\.?)?\s+[A-Z][a-z]+')
-        match = title_pattern.search(transcript)
-        if match:
-            guest = match.group().strip()
-            guest = re.sub(r'^Pres\.\s*', 'President ', guest)
-            if guest not in hosts:
-                return guest
 
         return None
 
