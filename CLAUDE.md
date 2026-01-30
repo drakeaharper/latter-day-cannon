@@ -52,23 +52,41 @@ python3 scrape_bible_dictionary.py
 ```
 Scrapes all entries from the LDS Bible Dictionary (~1,274 entries).
 
+### Scrape Follow Him Podcast
+```bash
+python3 scrape_followhim.py           # D&C 2025
+python3 scrape_followhim_ot2026.py    # Old Testament 2026 + Thoughts to Keep in Mind
+python3 scrape_followhim_bom2024.py   # Book of Mormon 2024
+python3 scrape_followhim_nt2023.py    # New Testament 2023
+python3 scrape_followhim_ot2022.py    # Old Testament 2022
+python3 scrape_followhim_dc2021.py    # D&C 2021
+python3 scrape_followhim_voices.py    # Voices of the Restoration
+```
+Scrapes show notes from the Follow Him podcast (followhim.co). Each scraper has an `EPISODES` list with episode numbers, topics, and URL slugs.
+
 ### Build Scripture Database
 ```bash
 python3 build_scripture_database.py
 ```
 Creates `docs/scripture-library.db` with all scripture data from markdown files. This is a **separate, read-only** database from the mind map database.
 
-**Output:**
-- 5 collections (OT, NT, BofM, D&C, PGP)
-- 87 books
-- 1,582 chapters
-- 41,995 verses
+**Output (scripture-library.db):**
+- 6 collections (OT, NT, BofM, D&C, PGP, Lectures on Faith)
+- 88 books
+- 1,589 chapters
+- 42,351 verses
 - 3,510 Topical Guide topics with 42,477 references
 - 1,274 Bible Dictionary entries
-- Total database size: ~16 MB
+- 2 General Conferences with 69 talks
+
+**Output (followhim.db):**
+- 8 series (D&C 2021, OT 2022, NT 2023, BofM 2024, D&C 2025, OT 2026, Voices of the Restoration, Thoughts to Keep in Mind)
+- 279 episodes
+- 811 parts (Part 1, Part 2, Favorites, or single episodes)
 
 **Database Architecture:**
 - `scripture-library.db` - Committed to repo, loaded from file (read-only reference data)
+- `followhim.db` - Committed to repo, Follow Him podcast show notes
 - `mind-map.db` - Stored in localStorage only (user's personal mind map data, NOT committed)
 
 ## Architecture
@@ -108,6 +126,17 @@ Scraper for LDS Bible Dictionary with these key methods:
 - `extract_entry_content()`: Parses entry page to extract title and full body text
 - `save_entry()`: Formats and writes entry to markdown file
 
+### Follow Him Scrapers (scrape_followhim*.py)
+Scrapers for Follow Him podcast show notes from followhim.co:
+- `EPISODES` list: Contains episode numbers, topics, and URL slugs for Part 1, Part 2, Favorites
+- `extract_show_notes()`: Fetches and parses show note pages
+- `extract_guest_from_transcript()`: Detects guest names from speaker attributions (handles titles like Dr., Pres., Sister, Brother, and suffixes like III, Jr.)
+- `save_show_notes()`: Formats and writes to markdown file
+
+**Regular series** (yearly Come Follow Me): Episodes have Part 1, Part 2, and Favorites files.
+
+**Special series** (Voices of the Restoration, Thoughts to Keep in Mind): Single file per episode, stored in dedicated directories.
+
 ### Scripture Database Builder (build_scripture_database.py)
 Builds SQLite database from all scraped markdown files for web viewer integration:
 - `create_schema()`: Creates scripture tables in `docs/scripture-library.db`
@@ -119,18 +148,26 @@ Builds SQLite database from all scraped markdown files for web viewer integratio
 - `populate_bible_dictionary()`: Parses and inserts Bible Dictionary entries
 
 **Database Schema (scripture-library.db):**
-- `scripture_collections`: 5 collections (OT, NT, BofM, D&C, PGP)
-- `scripture_books`: 87 books with collection relationships
-- `scripture_chapters`: 1,582 chapters with summaries
-- `scripture_verses`: 41,995 verses with full text
+- `scripture_collections`: 6 collections (OT, NT, BofM, D&C, PGP, Lectures on Faith)
+- `scripture_books`: 88 books with collection relationships
+- `scripture_chapters`: 1,589 chapters with summaries
+- `scripture_verses`: 42,351 verses with full text
 - `topical_guide_topics`: 3,510 topics
 - `topical_guide_references`: 42,477 scripture references
 - `bible_dictionary_entries`: 1,274 encyclopedic entries
+- `general_conference_conferences`: Conference metadata
+- `general_conference_talks`: Conference talk content
+
+**Database Schema (followhim.db):**
+- `followhim_series`: 8 series with year and scripture focus
+- `followhim_episodes`: 279 episodes with titles and scripture references
+- `followhim_parts`: 811 parts with guest, content, and URLs
 
 **Separation of Concerns:**
 - Scripture database (`scripture-library.db`) is committed to repository
+- Follow Him database (`followhim.db`) is committed to repository
 - Mind map database (`mind-map.db`) stays in browser localStorage only
-- No conflicts when users pull updates to scripture data
+- No conflicts when users pull updates to reference data
 
 ## Data Organization
 
@@ -146,6 +183,16 @@ scriptures/
 study_helps/
 ├── topical_guide/
 └── bible_dictionary/
+
+followhim/
+├── doctrine-and-covenants-2021/
+├── old-testament-2022/
+├── new-testament-2023/
+├── book-of-mormon-2024/
+├── doctrine-and-covenants-2025/
+├── old-testament-2026/
+├── voices-of-the-restoration/
+└── thoughts-to-keep-in-mind/
 ```
 
 ### File Naming Convention
@@ -170,6 +217,19 @@ Examples:
 - `Baptism.md`
 - `Abraham.md`
 - `Acts of the Apostles.md`
+
+**Follow Him (Regular Episodes)**: `[Episode XX][Topic][Part].md`
+
+Examples:
+- `[Episode 01][Introduction to the Old Testament][Part 1].md`
+- `[Episode 05][Genesis 5 Moses 6][Favorites].md`
+- `[Episode 52][Christmas][Part 2].md`
+
+**Follow Him (Special Series)**: `[Episode XX][Topic].md`
+
+Examples (Voices of the Restoration, Thoughts to Keep in Mind):
+- `[Episode 01][Joseph Smith's Family].md`
+- `[Episode 01][Reading the Old Testament].md`
 
 ### File Format
 
@@ -223,6 +283,37 @@ URL: [Source URL]
 [Full encyclopedic text content with paragraph breaks preserved]
 ```
 
+**Follow Him Files (Regular Episodes)**:
+```
+Episode: 1
+Topic: Introduction to the Old Testament
+Part: Part 1
+Guest: Dr. Joshua Sears
+URL: [Source URL]
+
+---
+
+# [Episode Title]
+
+[Transcript with speaker attributions and timestamps]
+Speaker Name: 00:00 [Text...]
+```
+
+**Follow Him Files (Special Series)**:
+```
+Episode: 1
+Series: Thoughts to Keep in Mind
+Topic: Reading the Old Testament
+Guest: Dr. Ross Baron
+URL: [Source URL]
+
+---
+
+# [Episode Title]
+
+[Transcript with speaker attributions and timestamps]
+```
+
 ## Key Implementation Details
 
 ### Rate Limiting
@@ -262,7 +353,18 @@ All scrapers log to both console and dedicated log files:
 - Bible Dictionary: ~1,274 entries
 - **Study Helps Total: ~4,786 files**
 
-**Grand Total: ~6,370 files**
+**Follow Him Podcast**:
+- D&C 2021: 156 files (52 episodes × 3 parts)
+- Old Testament 2022: 156 files
+- New Testament 2023: 159 files
+- Book of Mormon 2024: 156 files
+- D&C 2025: 156 files
+- Old Testament 2026: 15+ files (ongoing)
+- Voices of the Restoration: 12 files
+- Thoughts to Keep in Mind: 1+ files (ongoing)
+- **Follow Him Total: ~811 files**
+
+**Grand Total: ~7,181 files**
 
 ## Dependencies
 
@@ -309,6 +411,11 @@ Chapter URL pattern: `/study/scriptures/[collection]/[book]/[chapter]?lang=eng`
 **Bible Dictionary URLs**:
 - Index: `/study/scriptures/bd?lang=eng`
 - Entry pattern: `/study/scriptures/bd/[entry-slug]?lang=eng`
+
+**Follow Him URLs** (followhim.co):
+- Episode index: `https://followhim.co/old-testament-2026-episodes-1-10/`
+- Show note pattern: `https://followhim.co/show-note/[slug]/`
+- Slugs are typically numeric like `2-542` or descriptive like `doctrine-covenants-episode-23-2025-...`
 
 ## Local Development
 
