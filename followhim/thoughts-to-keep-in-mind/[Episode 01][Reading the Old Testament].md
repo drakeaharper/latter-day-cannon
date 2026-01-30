@@ -1,6 +1,6 @@
-Episode: 100
-Topic: Thoughts to Keep in Mind - Reading the Old Testament
-Part: Full Episode
+Episode: 1
+Series: Thoughts to Keep in Mind
+Topic: Reading the Old Testament
 Guest: Dr. Ross Baron
 URL: https://followhim.co/show-note/2-534/
 

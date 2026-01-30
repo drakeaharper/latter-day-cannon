@@ -192,17 +192,22 @@ class FollowHimScraper:
             return False
 
     def save_thoughts_episode(self, episode_num, topic, data):
-        """Save Thoughts to Keep in Mind episode as markdown file"""
+        """Save Thoughts to Keep in Mind episode as markdown file (in its own series directory)"""
         if not data:
             return False
 
-        safe_topic = re.sub(r'[<>:"/\\|?*;]', '', topic)
-        filename = f"[Thoughts {episode_num:02d}][{safe_topic}].md"
-        filepath = self.output_dir / filename
+        # Thoughts episodes go in their own directory like Voices of the Restoration
+        thoughts_dir = Path("followhim/thoughts-to-keep-in-mind")
+        thoughts_dir.mkdir(parents=True, exist_ok=True)
 
-        content = f"Episode: Thoughts {episode_num}\n"
+        safe_topic = re.sub(r'[<>:"/\\|?*;]', '', topic)
+        filename = f"[Episode {episode_num:02d}][{safe_topic}].md"
+        filepath = thoughts_dir / filename
+
+        # Format like Voices of the Restoration
+        content = f"Episode: {episode_num}\n"
+        content += f"Series: Thoughts to Keep in Mind\n"
         content += f"Topic: {topic}\n"
-        content += f"Part: Thoughts to Keep in Mind\n"
         if data.get('guest'):
             content += f"Guest: {data['guest']}\n"
         content += f"URL: {data['url']}\n\n"
@@ -214,7 +219,7 @@ class FollowHimScraper:
         try:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)
-            logging.info(f"Saved: {filename}")
+            logging.info(f"Saved: {filename} (Thoughts to Keep in Mind)")
             return True
         except Exception as e:
             logging.error(f"Failed to save {filename}: {e}")
