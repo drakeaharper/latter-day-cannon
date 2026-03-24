@@ -30,6 +30,14 @@ EPISODES = [
     (3, "Genesis 1-2; Moses 2-3; Abraham 4-5", "2-536", "2-535-2", "2-535"),
     (4, "Genesis 3-4; Moses 4-5", "2-539", "2-538", "2-537"),
     (5, "Genesis 5; Moses 6", "2-542", "2-541", "2-540"),
+    (6, "Moses 7", "2-545", "2-543", "2-544"),
+    (7, "Genesis 6-9; Moses 8", "2-548", "2-547", "2-546"),
+    (8, "Genesis 12-17; Abraham 1-2", "old-testament-episode-8-2026-genesis-12-17-abraham-1-2-part-1", "old-testament-episode-8-2026-genesis-12-17-abraham-1-2-part-2", "old-testament-episode-8-2026-genesis-12-17-abraham-1-2-favorites"),
+    (9, "Genesis 18-23", "old-testament-episode-9-2026-genesis-18-23-part-1", "old-testament-episode-9-2026-genesis-18-23-part-2", "old-testament-episode-9-2026-genesis-18-23-favorites"),
+    (10, "Genesis 24-33", "old-testament-episode-10-2026-genesis-24-33-part-1", "old-testament-episode-10-2026-genesis-24-33-part-2", "old-testament-episode-10-2026-genesis-24-33-favorites"),
+    (11, "Genesis 37-41", "old-testament-episode-11-2026-genesis-37-41-part-1", "old-testament-episode-11-2026-genesis-37-41-part-2", "old-testament-episode-11-2026-genesis-37-41-favorites"),
+    (12, "Genesis 42-50", "old-testament-episode-12-2026-genesis-42-50-part-1", "old-testament-episode-12-2026-genesis-42-50-part-2", "old-testament-episode-12-2026-genesis-42-50-favorites"),
+    (13, "Exodus 1-6", "old-testament-episode-13-2026-exodus-1-6-part-1", "old-testament-episode-13-2026-exodus-1-6-part-2", "old-testament-episode-13-2026-exodus-1-6-favorites"),
 ]
 
 # Thoughts to Keep in Mind episodes: (number, topic, slug)

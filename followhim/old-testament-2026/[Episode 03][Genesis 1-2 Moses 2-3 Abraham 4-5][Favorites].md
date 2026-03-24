@@ -1,7 +1,6 @@
 Episode: 3
 Topic: Genesis 1-2; Moses 2-3; Abraham 4-5
 Part: Favorites
-Guest: Dr. Rebekah Call
 URL: https://followhim.co/show-note/2-535/
 
 ---

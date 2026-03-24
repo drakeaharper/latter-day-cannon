@@ -1,7 +1,6 @@
 Episode: 2
 Topic: Moses 1; Abraham 3
 Part: Favorites
-Guest: Dr. Philip Allred
 URL: https://followhim.co/show-note/2-531/
 
 ---

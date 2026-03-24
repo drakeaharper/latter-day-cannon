@@ -1,7 +1,6 @@
 Episode: 1
 Topic: Introduction to the Old Testament
 Part: Favorites
-Guest: Dr. Joshua Sears
 URL: https://followhim.co/show-note/3-29/
 
 ---

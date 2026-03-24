@@ -1,7 +1,6 @@
 Episode: 4
 Topic: Genesis 3-4; Moses 4-5
 Part: Favorites
-Guest: Dr. John Hilton III
 URL: https://followhim.co/show-note/2-537/
 
 ---

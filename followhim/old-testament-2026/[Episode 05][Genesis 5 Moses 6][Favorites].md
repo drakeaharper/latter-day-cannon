@@ -1,7 +1,6 @@
 Episode: 5
 Topic: Genesis 5; Moses 6
 Part: Favorites
-Guest: Dr. Kerry Muhlestein
 URL: https://followhim.co/show-note/2-540/
 
 ---
