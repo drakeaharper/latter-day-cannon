@@ -43,6 +43,8 @@ EPISODES = [
 # Thoughts to Keep in Mind episodes: (number, topic, slug)
 THOUGHTS_EPISODES = [
     (1, "Reading the Old Testament", "2-534"),
+    (2, "The Covenant", "thoughts-to-keep-in-mind-episode-2-the-covenant"),
+    (3, "The House of Israel", "thoughts-to-keep-in-mind-episode-3-the-house-of-israel"),
 ]
 
 
